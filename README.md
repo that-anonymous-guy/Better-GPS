@@ -36,7 +36,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3630342905
 
 What was made by AI (Chatgpt Sol 6.1): 
 
-All the code implementation-adaptation Garmin, tomtom, sygic, copilot themes (only the maps) 
+All the code implementation-adaptation 
+
+Garmin, tomtom, sygic, copilot themes (only the maps) 
 
 3D cameras from the t680 2022 
 
@@ -48,6 +50,7 @@ All the rest has been made by me.
 You can take anything you want. All PSDs will be in the assets. Please do not make any money off this- it is prohibited in my licensing. Tho you could fork this and code it properly if you know what you're doing. And/or just re-use any of my assets, which is precisely why I uploaded this.
 
 Some more of my work:
+
 <img width="506" height="438" alt="kenworth-navplus" src="https://github.com/user-attachments/assets/0b1f659f-70ba-48e8-b81c-b6afdf4a1aa4" />
 
 <img width="448" height="556" alt="phone1" src="https://github.com/user-attachments/assets/fa6a5dd7-4ded-4eb7-ad95-9014e47ae3ae" />
