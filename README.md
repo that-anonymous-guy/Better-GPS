@@ -39,7 +39,7 @@ What was made by AI (Chatgpt Sol 6.1):
 
 All the code implementation-adaptation 
 
-Garmin, tomtom, sygic, copilot themes (only the maps) 
+tomtom, sygic, copilot themes (only the maps) 
 
 3D cameras from the t680 2022 
 
