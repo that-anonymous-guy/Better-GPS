@@ -65,7 +65,6 @@ Some more of my work:
 <img width="1194" height="596" alt="Screenshot 2026-10-27 010209" src="https://github.com/user-attachments/assets/2b2fe1cc-0700-4e19-a940-d98653a6f4d1" />
 <img width="672" height="646" alt="Screenshot 2026-10-27 010101" src="https://github.com/user-attachments/assets/54462fc6-965b-4414-b1b9-c2cadafab367" />
 <img width="892" height="396" alt="Screenshot 2026-10-23 134241" src="https://github.com/user-attachments/assets/47e6033b-b129-4990-944d-c8e976bff83d" />
-<img width="692" height="458" alt="Screenshot 2026-10-22 174435" src="https://github.com/user-attachments/assets/e65df77c-c94b-4415-b07c-2cce5a875fb9" />
 <img width="557" height="439" alt="Screenshot 2026-10-21 011056" src="https://github.com/user-attachments/assets/dc8b391b-a1be-4cf2-a08e-033ca4865851" />
 <img width="358" height="736" alt="Screenshot 2026-10-15 010535" src="https://github.com/user-attachments/assets/227b4489-769b-4a79-ad3a-9d04f6a87c48" />
 <img width="888" height="535" alt="amtrucks 2026-10-23 13-18-59_674" src="https://github.com/user-attachments/assets/eb0f2b7e-1f07-4194-bfcd-0230ebe4545d" />
@@ -73,4 +72,3 @@ Some more of my work:
 <img width="838" height="666" alt="amtrucks 2026-10-21 01-18-00_280" src="https://github.com/user-attachments/assets/bb91e9d3-9492-4501-a318-b1c86cd7012b" />
 <img width="1235" height="772" alt="amtrucks 2026-10-18 16-43-00_213" src="https://github.com/user-attachments/assets/03588e0a-a65b-4826-a9f2-4a1a03ca05c3" />
 <img width="909" height="614" alt="amtrucks 2026-10-18 00-34-56_818" src="https://github.com/user-attachments/assets/ad799e47-8340-4ff8-a456-d8d614b7211e" />
-
