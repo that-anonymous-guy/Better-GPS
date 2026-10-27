@@ -4,7 +4,8 @@
 
 This is an abandoned project.
 
-Basically, it adds a fully functionnal touch screen to any gps and phone and accessory to all displays on trucks, and road trip cars. This also adds custom made overlays, garmin, copilot, tomtom, kenworth, peterbilt, international, ford, you name it, all made by my hand, from scratch, to make it feel more authentic while driving trucks.
+Basically, it adds a fully functionnal navigation system with directions, road names, compass, everything i could think of.
+It adds touch screen to any gps and phone and accessory to all displays on trucks, and road trip cars. This also adds custom made overlays, garmin, copilot, tomtom, kenworth, peterbilt, international, ford, you name it, all made by my hand, from scratch, to make it feel more authentic while driving trucks.
 
 <img width="800" height="253" alt="kenworth-navplus-hd" src="https://github.com/user-attachments/assets/cbeff037-a366-430e-b2d6-35f6b72c1c27" />
 
