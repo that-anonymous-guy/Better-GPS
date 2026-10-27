@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(ATSModDiagnosticFixture LANGUAGES CXX)
+add_executable(ATSModDiagnosticFixture fixture.cpp)
+target_compile_features(ATSModDiagnosticFixture PRIVATE cxx_std_17)
+target_link_libraries(ATSModDiagnosticFixture PRIVATE d3d11 dxgi user32)

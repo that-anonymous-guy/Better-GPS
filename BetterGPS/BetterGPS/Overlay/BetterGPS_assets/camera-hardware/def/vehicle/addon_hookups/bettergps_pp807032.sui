@@ -1,0 +1,23 @@
+accessory_hookup_data : pp807032.bgps.addon_hookup
+{
+    name: "Pana-Pacific PP807032 - Front Camera"
+    price: 250
+    unlock: 0
+    icon: "bettergps/pp807032"
+    model: "/vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmd"
+    suitable_for[]: "bumper"
+    conflict_with[]: "sign.kenworth.t680_2022.f_banner"
+    conflict_with[]: "sign_low.kenworth.t680_2022.f_banner"
+}
+accessory_hookup_data : pp807032low.bgps.addon_hookup
+{
+    // Hidden alias keeps existing saves readable; all cameras use the standard model.
+    name: "Pana-Pacific PP807032 - Front Camera (legacy)"
+    price: 0
+    unlock: 0
+    icon: "bettergps/pp807032"
+    model: "/vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmd"
+    suitable_for[]: "bumper"
+    conflict_with[]: "sign.kenworth.t680_2022.f_banner"
+    conflict_with[]: "sign_low.kenworth.t680_2022.f_banner"
+}

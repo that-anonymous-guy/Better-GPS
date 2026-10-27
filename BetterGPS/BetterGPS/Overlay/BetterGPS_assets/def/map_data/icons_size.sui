@@ -1,0 +1,44 @@
+	player_size[0]: 15.0
+	player_size[1]: 35.0
+	player_size[2]: 120.0
+	player_size[3]: 500.0
+	player_size[4]: 90.0
+	player_size[5]: 350.0
+	player_size[6]: 900.0
+	player_size[7]: 2200.0
+
+	road_size_factor[0]: 1.0
+	road_size_factor[1]: 1.0
+	road_size_factor[2]: 1.5
+	road_size_factor[3]: 3.0
+	road_size_factor[4]: 1.0
+	road_size_factor[5]: 1.5
+	road_size_factor[6]: 4.5
+	road_size_factor[7]: 8.0
+	
+	icon_size[0]: (13.0, 13.0)
+	icon_size[1]: (10.0, 10.0)
+	icon_size[2]: (10.0, 10.0)
+	icon_size[3]: (8.0, 8.0)
+	icon_size[4]: (15.0, 15.0)
+	icon_size[5]: (12.0, 12.0)
+	icon_size[6]: (10.0, 10.0)
+	icon_size[7]: (10.0, 10.0)
+
+	city_icon_size[0]: (13.0, 13.0)
+	city_icon_size[1]: (10.0, 10.0)
+	city_icon_size[2]: (10.0, 10.0)
+	city_icon_size[3]: (8.0, 8.0)
+	city_icon_size[4]: (15.0, 15.0)
+	city_icon_size[5]: (12.0, 12.0)
+	city_icon_size[6]: (10.0, 10.0)
+	city_icon_size[7]: (15.0, 15.0)
+
+	company_icon_size[0]: (32.0, 8.0)
+	company_icon_size[1]: (20.0, 5.0)
+	company_icon_size[2]: (0.0, 0.0)
+	company_icon_size[3]: (0.0, 0.0)
+	company_icon_size[4]: (60.0, 15.0)
+	company_icon_size[5]: (40.0, 10.0)
+	company_icon_size[6]: (16.0, 4.0)
+	company_icon_size[7]: (16.0, 4.0)

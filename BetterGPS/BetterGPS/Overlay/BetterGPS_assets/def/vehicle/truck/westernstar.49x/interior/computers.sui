@@ -1,0 +1,4 @@
+	gps_path:"/ui/gmaps_westernstar49x_gps.sii"
+	dashboard_path:"/ui/dashboard/westernstar_49x.sii"
+	backlight_with_lights: true
+	air_brake_safeguard: true

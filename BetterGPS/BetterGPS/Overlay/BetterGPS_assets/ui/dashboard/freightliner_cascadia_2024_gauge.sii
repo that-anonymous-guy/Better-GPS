@@ -1,0 +1,2617 @@
+SiiNunit
+{
+ui::window : _nameless.209.c5a0 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.bckg_lit
+ my_children[1]: _nameless._.sharedisplay
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display2
+ my_children[5]: _nameless._.display3
+ my_children[6]: _nameless._.display4
+ my_children[7]: _nameless._.display6
+ my_children[8]: _nameless._.display5
+ my_children[9]: _nameless.bgicuc_intro
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.bckg_lit {
+ text: "<img src=/material/ui/white.mat color=FF0F0F0F xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 18
+ my_children[0]: _nameless._.cc
+ my_children[1]: _nameless._.clock
+ my_children[2]: _nameless._.grey.bcg
+ my_children[3]: _nameless._.topicon_bcg2
+ my_children[4]: _nameless._.topicon_bcg3
+ my_children[5]: _nameless._.topicon_bcg4
+ my_children[6]: _nameless._.topicon_bcg5
+ my_children[7]: _nameless._.topicon_bcg6
+ my_children[8]: _nameless._.topicon_bcg1
+ my_children[9]: _nameless._.bcg_bottom
+ my_children[10]: _nameless._.gear
+ my_children[11]: _nameless._.air_warn
+ my_children[12]: _nameless._.cc_ico
+ my_children[13]: _nameless._.cc_mem
+ my_children[14]: _nameless._.top_icons
+ my_children[15]: _nameless._.stop_eng_ico
+ my_children[16]: _nameless._.low_fuel_ico
+ my_children[17]: _nameless._.cc_tolerance
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text_common : _nameless._.cc {
+ value: "55|mph"
+ look_template: txt.cascadia24g.cc
+ text: ""
+ coords_l: 123
+ coords_r: 260
+ coords_t: 231
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.clock {
+ value: "22:05"
+ look_template: txt.cascadia24g.clock
+ text: ""
+ coords_l: 270
+ coords_r: 732
+ coords_t: 62
+ coords_b: -2
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.grey.bcg {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF313131>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 800
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg2 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 121
+ coords_r: 203
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg3 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 214
+ coords_r: 296
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg4 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 308
+ coords_r: 390
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg5 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 401
+ coords_r: 483
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg6 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 496
+ coords_r: 578
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.topicon_bcg1 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.87 right=0.98 top=0.759 bottom=0.874>"
+ coords_l: 28
+ coords_r: 110
+ coords_t: 792
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.bcg_bottom {
+ text: "<img src=/material/ui/white.mat color=FF313131 xscale=stretch yscale=stretch><ret><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=50px height=50px top=0.094 bottom=0.194 right=0.1><ret><align hstyle=right><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=50px height=50px top=0.094 bottom=0.194 left=0.1 right=0></align><ret><offset vshift=30><align hstyle=center><img src=/material/ui/white.mat width=204px yscale=stretch color=FF000000></align><ret><align hstyle=center><img src=/material/ui/white.mat width=170px yscale=stretch color=FF000000></align>"
+ coords_l: 195
+ coords_r: 403
+ coords_t: 112
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: 10
+ look_template: txt.cascadia24g.gear
+ text: ""
+ coords_l: 369
+ coords_r: 583
+ coords_t: 246
+ coords_b: 118
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.air_warn {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.air_warn_ico
+ my_children[1]: _nameless._.blk_fuel
+ coords_l: 303
+ coords_r: 395
+ coords_t: 97
+ coords_b: 0
+ area_l: 303
+ area_r: 395
+ area_t: 97
+ area_b: 0
+ id: 1260
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_warn_ico {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.51 right=0.7 top=0.02 bottom=0.152>"
+ coords_l: 305
+ coords_r: 393
+ coords_t: 84
+ coords_b: 22
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.air_warn
+}
+
+ui::text : _nameless._.blk_fuel {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 303
+ coords_r: 395
+ coords_t: 97
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.air_warn
+}
+
+ui::text : _nameless._.cc_ico {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat left=0.44 right=0.66 top=0.66 bottom=0.85 xscale=stretch yscale=stretch color=FF00FB4E>"
+ coords_l: 0
+ coords_r: 132
+ coords_t: 224
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1240
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_mem {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat left=0.44 right=0.66 top=0.66 bottom=0.85 xscale=stretch yscale=stretch>\r\n"
+ coords_l: 0
+ coords_r: 132
+ coords_t: 224
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1250
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.top_icons {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.17 top=0.9>"
+ coords_l: 21
+ coords_r: 588
+ coords_t: 782
+ coords_b: 712
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.stop_eng_ico {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000><ret><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.8 right=0.97 top=0.03 bottom=0.15>"
+ coords_l: 214
+ coords_r: 301
+ coords_t: 82
+ coords_b: 21
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1420
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_fuel_ico {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.7 right=0.8 top=0.04 bottom=0.14 color=FF15BCFC>"
+ coords_l: 320
+ coords_r: 388
+ coords_t: 88
+ coords_b: 18
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cc_tolerance {
+ value: 5
+ look_template: txt.cascadia24g.cc_tol
+ text: ""
+ coords_l: 255
+ coords_r: 383
+ coords_t: 232
+ coords_b: 104
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1410
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 16
+ my_children[0]: _nameless._.bcg0
+ my_children[1]: _nameless._.0tab2
+ my_children[2]: _nameless._.0tab3
+ my_children[3]: _nameless._.0tab1
+ my_children[4]: _nameless._.title0
+ my_children[5]: _nameless._.compass
+ my_children[6]: _nameless._.topicon_b0
+ my_children[7]: _nameless._.eco_labels
+ my_children[8]: _nameless._.inst_eco_bar
+ my_children[9]: _nameless._.avg_eco_bar
+ my_children[10]: _nameless._.eco_scale
+ my_children[11]: _nameless._.voltage
+ my_children[12]: _nameless._.black_icon_0
+ my_children[13]: _nameless._.mpg1
+ my_children[14]: _nameless._.odometer
+ my_children[15]: _nameless._.temp
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.bcg0 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.0tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.0tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 519
+ coords_b: 477
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.0tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.title0 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Home</font>"
+ coords_l: 24
+ coords_r: 227
+ coords_t: 709
+ coords_b: 581
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.compass {
+ value: SW
+ look_template: txt.cascadia24g.compass
+ text: ""
+ coords_l: 227
+ coords_r: 588
+ coords_t: 399
+ coords_b: 319
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.topicon_b0 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 21
+ coords_r: 116
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.eco_labels {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>0<offset hshift=120>5<offset hshift=100>10<offset hshift=85>15</font>"
+ coords_l: 76
+ coords_r: 566
+ coords_t: 474
+ coords_b: 406
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui_text_bar : _nameless._.inst_eco_bar {
+ vertical: false
+ min_size: 0
+ max_size: 451
+ min_value: 0
+ max_value: 6.377
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.95 right=0.96 top=0.698 bottom=0.722>"
+ coords_l: 90
+ coords_r: 541
+ coords_t: 531
+ coords_b: 498
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui_text_bar : _nameless._.avg_eco_bar {
+ vertical: false
+ min_value: 0
+ max_value: 6.377
+ min_size: 0
+ max_size: 449
+ text: "<align hstyle=right><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat left=0.115 right=0.19 top=0.03 bottom=0.08></align>"
+ coords_l: 105
+ coords_r: 554
+ coords_t: 567
+ coords_b: 534
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.eco_scale {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000><ret><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.222 left=1 bottom=0.254 width=237.5px yscale=stretch><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat left=0.222 bottom=0.254 width=237.5px yscale=stretch><ret><offset vshift=8 hshift=10><img src=/material/ui/white.mat color=FF000000 width=460px height=39px>"
+ coords_l: 78
+ coords_r: 553
+ coords_t: 542
+ coords_b: 463
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.voltage {
+ value: "13.8|@@volt@@"
+ look_template: txt.cascadia24g.voltage
+ text: ""
+ coords_l: 20
+ coords_r: 222
+ coords_t: 399
+ coords_b: 319
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.black_icon_0 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.2 right=0.28 top=0.9 color=FF000000>"
+ coords_l: 42
+ coords_r: 96
+ coords_t: 781
+ coords_b: 713
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.mpg1 {
+ value: "5.4|mpg"
+ look_template: txt.cascadia24g.avg_eco
+ text: ""
+ coords_l: 0
+ coords_r: 589
+ coords_t: 649
+ coords_b: 550
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.odometer {
+ value: "1333568|mi"
+ look_template: txt.cascadia24g.odo
+ text: ""
+ coords_l: 227
+ coords_r: 588
+ coords_t: 315
+ coords_b: 235
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.temp {
+ value: "167|F"
+ look_template: txt.cascadia24g.temp
+ text: ""
+ coords_l: 20
+ coords_r: 222
+ coords_t: 315
+ coords_b: 235
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless._.bcg1
+ my_children[1]: _nameless._.title1
+ my_children[2]: _nameless._.1tab1
+ my_children[3]: _nameless._.1tab3
+ my_children[4]: _nameless._.1tab2
+ my_children[5]: _nameless._.reset_text
+ my_children[6]: _nameless._.trip_dist
+ my_children[7]: _nameless._.trip_block1
+ my_children[8]: _nameless._.ok_icon
+ my_children[9]: _nameless._.black_icon_1
+ my_children[10]: _nameless._.topicon_b1
+ my_children[11]: _nameless._.trip_speed
+ my_children[12]: _nameless._.trip_time
+ my_children[13]: _nameless._.mpg2
+ my_children[14]: _nameless._.shareblock
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 200
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.bcg1 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.title1 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Trip</font>"
+ coords_l: 24
+ coords_r: 227
+ coords_t: 709
+ coords_b: 581
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.1tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.1tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 519
+ coords_b: 477
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.1tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.reset_text {
+ text: "<font face=/font/corporates.font xscale=1.3 yscale=1.3>To Reset<offset hshift=5>-<offset hshift=7>Hold</font>"
+ coords_l: 216
+ coords_r: 599
+ coords_t: 287
+ coords_b: 226
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.trip_dist {
+ value: "7.1|mi"
+ look_template: txt.cascadia24g.trip
+ text: ""
+ coords_l: 88
+ coords_r: 563
+ coords_t: 640
+ coords_b: 560
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.trip_block1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 43
+ coords_r: 600
+ coords_t: 644
+ coords_b: 561
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.ok_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.5 bottom=0.66 left=0.75 right=1>"
+ coords_l: 514
+ coords_r: 594
+ coords_t: 285
+ coords_b: 235
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.black_icon_1 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.2 right=0.28 top=0.9 color=FF000000>"
+ coords_l: 42
+ coords_r: 96
+ coords_t: 781
+ coords_b: 713
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.topicon_b1 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 21
+ coords_r: 116
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.trip_speed {
+ value: "71|mph"
+ look_template: txt.cascadia24g.trip
+ text: ""
+ coords_l: 88
+ coords_r: 563
+ coords_t: 474
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1400
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.trip_time {
+ value: "05:26"
+ look_template: txt.cascadia24g.trip_time
+ text: ""
+ coords_l: 88
+ coords_r: 563
+ coords_t: 391
+ coords_b: 311
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.mpg2 {
+ value: "5.4|mpg"
+ look_template: txt.cascadia24g.trip
+ text: ""
+ coords_l: 88
+ coords_r: 563
+ coords_t: 557
+ coords_b: 477
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.shareblock {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 558
+ coords_b: 234
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.2tab1
+ my_children[1]: _nameless._.2tab2
+ my_children[2]: _nameless._.title2
+ my_children[3]: _nameless._.bcg2
+ my_children[4]: _nameless._.speed
+ my_children[5]: _nameless._.topicon_b2
+ my_children[6]: _nameless._.black_icon_2
+ my_children[7]: _nameless._.temp2
+ my_children[8]: _nameless._.odo2
+ my_children[9]: _nameless._.shareblock2
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 300
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.2tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.2tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.title2 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Speed</font>"
+ coords_l: 24
+ coords_r: 280
+ coords_t: 708
+ coords_b: 580
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.bcg2 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.speed {
+ value: "75|mph"
+ look_template: txt.cascadia24g.bigspeed
+ text: ""
+ coords_l: 30
+ coords_r: 600
+ coords_t: 560
+ coords_b: 313
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.topicon_b2 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 115
+ coords_r: 210
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.black_icon_2 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.9 left=0.33 right=0.42 color=FF000000>"
+ coords_l: 132
+ coords_r: 192
+ coords_t: 781
+ coords_b: 713
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.temp2 {
+ value: "167|F"
+ look_template: txt.cascadia24g.temp
+ text: ""
+ coords_l: 20
+ coords_r: 222
+ coords_t: 313
+ coords_b: 233
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.odo2 {
+ value: "1333568|mi"
+ look_template: txt.cascadia24g.odo
+ text: ""
+ coords_l: 227
+ coords_r: 588
+ coords_t: 313
+ coords_b: 233
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.shareblock2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 634
+ coords_b: 320
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 22
+ my_children[0]: _nameless._.3tab1
+ my_children[1]: _nameless._.3tab2
+ my_children[2]: _nameless._.shareblock3
+ my_children[3]: _nameless._.title3
+ my_children[4]: _nameless._.bcg3
+ my_children[5]: _nameless._.topicon_b3
+ my_children[6]: _nameless._.3tab3
+ my_children[7]: _nameless._.3tab4
+ my_children[8]: _nameless._.3tab5
+ my_children[9]: _nameless._.oil_temp_bcg
+ my_children[10]: _nameless._.turbo_bcg
+ my_children[11]: _nameless._.oil_temp_lab.els
+ my_children[12]: _nameless._.oil_temp_bar
+ my_children[13]: _nameless._.turbo_labels
+ my_children[14]: _nameless._.turbo_bar
+ my_children[15]: _nameless._.air_bar
+ my_children[16]: _nameless._.air_labels
+ my_children[17]: _nameless._.air_bcg
+ my_children[18]: _nameless._.black_icon_3
+ my_children[19]: _nameless._.oil_icon
+ my_children[20]: _nameless._.turbo_icon
+ my_children[21]: _nameless._.air_icon
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 400
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.3tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.3tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.shareblock3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 634
+ coords_b: 236
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.title3 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Gauges</font>"
+ coords_l: 24
+ coords_r: 367
+ coords_t: 708
+ coords_b: 580
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bcg3 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.topicon_b3 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 208
+ coords_r: 303
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.3tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 517
+ coords_b: 475
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.3tab4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 456
+ coords_b: 414
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.3tab5 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 395
+ coords_b: 353
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oil_temp_bcg {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.277 right=0.166>"
+ coords_l: 71
+ coords_r: 141
+ coords_t: 525
+ coords_b: 260
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.turbo_bcg {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.277 right=0.166>"
+ coords_l: 258
+ coords_r: 328
+ coords_t: 525
+ coords_b: 260
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oil_temp_lab.els {
+ text: "<font face=/font/corporates.font xscale=1 yscale=1>300<ret><offset vshift=115>200<ret><offset vshift=235>100</font>"
+ coords_l: 141
+ coords_r: 216
+ coords_t: 530
+ coords_b: 237
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.oil_temp_bar {
+ vertical: true
+ min_size: 0
+ max_size: 248
+ min_value: 37.78
+ max_value: 148.89
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.69 bottom=0.735 left=0.874 right=0.922>"
+ coords_l: 81
+ coords_r: 121
+ coords_t: 517
+ coords_b: 269
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.turbo_labels {
+ text: "<font face=/font/corporates.font xscale=1 yscale=1>80<ret><offset vshift=115>40<ret><offset vshift=235>0</font>"
+ coords_l: 328
+ coords_r: 403
+ coords_t: 530
+ coords_b: 237
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.turbo_bar {
+ vertical: true
+ min_size: 0
+ max_size: 248
+ min_value: 0
+ max_value: 1.6
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.69 bottom=0.735 left=0.874 right=0.922>"
+ coords_l: 267
+ coords_r: 307
+ coords_t: 517
+ coords_b: 269
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.air_bar {
+ vertical: true
+ min_size: 0
+ max_size: 248
+ min_value: 0
+ max_value: 1
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.69 bottom=0.735 left=0.874 right=0.922>"
+ coords_l: 454
+ coords_r: 494
+ coords_t: 517
+ coords_b: 269
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1180
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_labels {
+ text: "<font face=/font/corporates.font xscale=1 yscale=1>100<ret><offset vshift=115>50<ret><offset vshift=235>0</font>"
+ coords_l: 515
+ coords_r: 590
+ coords_t: 530
+ coords_b: 237
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_bcg {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.277 right=0.166>"
+ coords_l: 445
+ coords_r: 515
+ coords_t: 525
+ coords_b: 260
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.black_icon_3 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.9 left=0.46 right=0.58 color=FF000000>"
+ coords_l: 221
+ coords_r: 302
+ coords_t: 782
+ coords_b: 712
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oil_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.3 bottom=0.45 left=0.4 right=0.75>"
+ coords_l: 36
+ coords_r: 201
+ coords_t: 623
+ coords_b: 553
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.turbo_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.81 bottom=0.9 left=0.67 right=0.762>"
+ coords_l: 252
+ coords_r: 357
+ coords_t: 642
+ coords_b: 543
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.67 bottom=0.8 left=0.713 right=0.85>"
+ coords_l: 436
+ coords_r: 536
+ coords_t: 640
+ coords_b: 549
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless._.shareblock4
+ my_children[1]: _nameless._.title7
+ my_children[2]: _nameless._.bcg7
+ my_children[3]: _nameless._.dpf_icon
+ my_children[4]: _nameless._.dpf_text
+ my_children[5]: _nameless._.topicon_b7
+ my_children[6]: _nameless._.black_icon_7
+ my_children[7]: _nameless._.7tab1
+ my_children[8]: _nameless._.7tab2
+ my_children[9]: _nameless._.7tab3
+ my_children[10]: _nameless._.7tab4
+ my_children[11]: _nameless._.7tab5
+ my_children[12]: _nameless._.dpf_bar
+ my_children[13]: _nameless._.ok_icon7
+ my_children[14]: _nameless._.regen_text
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 500
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.shareblock4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 634
+ coords_b: &436a0002
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.title7 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Diesel Particulate Filter</font>"
+ coords_l: 24
+ coords_r: 600
+ coords_t: 708
+ coords_b: 580
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.bcg7 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.dpf_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.08 right=0.215 top=0.17 bottom=0.27>"
+ coords_l: 265
+ coords_r: 359
+ coords_t: 620
+ coords_b: 553
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.dpf_text {
+ text: "<align hstyle=center><font face=/font/corporates.font xscale=1.3 yscale=1.3>Soot Level Good</font></align>"
+ coords_l: 131
+ coords_r: 500
+ coords_t: 488
+ coords_b: 428
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.topicon_b7 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 208
+ coords_r: 303
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.black_icon_7 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.9 left=0.46 right=0.58 color=FF000000>"
+ coords_l: 221
+ coords_r: 302
+ coords_t: 782
+ coords_b: 712
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.7tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.7tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.7tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 517
+ coords_b: 475
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.7tab4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 456
+ coords_b: 414
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.7tab5 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 395
+ coords_b: 353
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.dpf_bar {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=15px height=15px bottom=0.05 right=0.95 left=1><ret><align hstyle=right><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=15px height=15px bottom=0.05 left=0.95></align><ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=15px height=15px top=0.05 bottom=0 left=0.95></align><ret><align hstyle=left vstyle=bottom><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat width=15px height=15px top=0.05 bottom=0 right=0.95 left=1></align><ret><offset hshift=15><img src=/material/ui/white.mat width=435px height=4px color=FF454545><ret><align vstyle=bottom><offset hshift=15><img src=/material/ui/white.mat width=435px height=4px color=FF454545></align><ret><offset vshift=15><img src=/material/ui/white.mat width=4px height=35px color==FF454545><ret><align hstyle=right><offset vshift=15><img src=/material/ui/white.mat width=4px height=35px color==FF454545></align><ret><offset vshift=9 hshift=12><img src=/material/ui/white.mat color=FF00FB4E width=50px height=37px><ret><offset vshift=51 hshift=10><img src=/material/ui/white.mat color=FF454545 width=445px height=20px><ret><offset vshift=51 hshift=4><img src=/material/ui/white.mat color=FF454545 width=7px height=8px><ret><align hstyle=right right=-4><offset vshift=51><img src=/material/ui/white.mat color=FF454545 width=7px height=8px></align>"
+ coords_l: 85
+ coords_r: 549
+ coords_t: 364
+ coords_b: 300
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.ok_icon7 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.5 bottom=0.66 left=0.75 right=1>"
+ coords_l: 514
+ coords_r: 594
+ coords_t: 285
+ coords_b: 235
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.regen_text {
+ text: "<font face=/font/corporates.font xscale=1.3 yscale=1.3>To Start Regen<offset hshift=3>-<offset hshift=8>Press</font>"
+ coords_l: 75
+ coords_r: 599
+ coords_t: 287
+ coords_b: 226
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display6 {
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.shareblock6
+ my_children[1]: _nameless._.bcg6
+ my_children[2]: _nameless._.topicon_b6
+ my_children[3]: _nameless._.6tab1
+ my_children[4]: _nameless._.6tab2
+ my_children[5]: _nameless._.6tab3
+ my_children[6]: _nameless._.black_icon_6
+ my_children[7]: _nameless._.eng_hour_ico
+ my_children[8]: _nameless._.title6
+ my_children[9]: _nameless._.eng_hours
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 700
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.shareblock6 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 634
+ coords_b: &436a0002
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.bcg6 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.topicon_b6 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 301
+ coords_r: 396
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.6tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.6tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.6tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 517
+ coords_b: 475
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.black_icon_6 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.61 right=0.69 top=0.9 color=FF000000>"
+ coords_l: 322
+ coords_r: 376
+ coords_t: 781
+ coords_b: 713
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.eng_hour_ico {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.17 right=0.44 top=0.42 bottom=0.65>"
+ coords_l: 85
+ coords_r: 182
+ coords_t: 628
+ coords_b: 549
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.title6 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Engine</font>"
+ coords_l: 24
+ coords_r: 292
+ coords_t: 708
+ coords_b: 580
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text_common : _nameless._.eng_hours {
+ value: 8
+ look_template: txt.cascadia24g.enghours
+ text: ""
+ coords_l: 88
+ coords_r: 563
+ coords_t: 633
+ coords_b: 553
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1280
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 13
+ my_children[0]: _nameless._.shareblock5
+ my_children[1]: _nameless._.title5
+ my_children[2]: _nameless._.bcg5
+ my_children[3]: _nameless._.topicon_b5
+ my_children[4]: _nameless._.black_icon_5
+ my_children[5]: _nameless._.5tab1
+ my_children[6]: _nameless._.5tab2
+ my_children[7]: _nameless._.5tab3
+ my_children[8]: _nameless._.no_alerts
+ my_children[9]: _nameless._.low_fuel
+ my_children[10]: _nameless._.warn_icon
+ my_children[11]: _nameless._.air_warn_2
+ my_children[12]: _nameless._.damage_warn
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 600
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+
+ui::text : _nameless._.shareblock5 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 31
+ coords_r: 600
+ coords_t: 634
+ coords_b: &436a0002
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.title5 {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Alerts</font>"
+ coords_l: 24
+ coords_r: 227
+ coords_t: 708
+ coords_b: 580
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.bcg5 {
+ text: "<offset hshift=14 vshift=-8><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=14 vshift=193><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 top=0.0762 bottom=0 width=50px height=50px><ret><offset hshift=14 vshift=235><img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat right=0.0762 bottom=0.0762 width=50px height=50px><ret><offset hshift=50 vshift=5><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=50 vshift=200><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px><ret><offset hshift=31 vshift=30><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=175px><ret><offset vshift=270 hshift=31px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=157px><ret><offset vshift=248 hshift=50px><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=30px>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 651
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.topicon_b5 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.23 right=0.376 top=0.255 bottom=0.401>"
+ coords_l: 301
+ coords_r: 396
+ coords_t: 798
+ coords_b: 703
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.black_icon_5 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.61 right=0.69 top=0.9 color=FF000000>"
+ coords_l: 322
+ coords_r: 376
+ coords_t: 781
+ coords_b: 713
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.5tab1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFF7B915>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 639
+ coords_b: 597
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.5tab2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 578
+ coords_b: 536
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.5tab3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 7
+ coords_r: 21
+ coords_t: 517
+ coords_b: 475
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.no_alerts {
+ text: "<font face=/font/corporates.font xscale=1.5 yscale=1.5>Active: 0</font>"
+ coords_l: 207
+ coords_r: 414
+ coords_t: 347
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.low_fuel {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.low_fuel_tex.t
+ my_children[1]: _nameless._.title_block
+ my_children[2]: _nameless._.low_fuel_ico.n
+ my_children[3]: _nameless._.ret_icon3
+ my_children[4]: _nameless._.big_fuel_ico.n
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 1200
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.low_fuel_tex.t {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000><ret><img src=/material/ui/white.mat xscale=stretch height=80px color=FF15BCFC><ret><img src=/material/ui/white.mat width=23px yscale=stretch color=FF15BCFC><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=10px color=FF15BCFC></align><ret><offset hshift=23 vshift=6><align hstyle=center><font face=/font/corporates.font xscale=1.5 yscale=1.5><color value=FF000000>Caution<br><offset vshift=302><color value=FFFFFFFF>Low Fuel</font></align>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 800
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.title_block {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF313131>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 702
+ coords_b: 639
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.low_fuel_ico.n {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.7 right=0.8 top=0.04 bottom=0.14 color=FF15BCFC>"
+ coords_l: 320
+ coords_r: 388
+ coords_t: 88
+ coords_b: 18
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.ret_icon3 {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.66 bottom=0.71 left=0.66 right=0.72>"
+ coords_l: 38
+ coords_r: 113
+ coords_t: 307
+ coords_b: 247
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.big_fuel_ico.n {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.7 right=0.8 top=0.04 bottom=0.14 color=FF15BCFC>"
+ coords_l: 225
+ coords_r: 390
+ coords_t: 636
+ coords_b: 466
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.warn_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch left=0.17 right=0.45 top=0.65 bottom=0.90 color=FFD3D183>"
+ coords_l: 189
+ coords_r: 427
+ coords_t: 588
+ coords_b: 378
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.air_warn_2 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.air_warn_tex.t
+ my_children[1]: _nameless._.air_warn_big
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 1260
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.air_warn_tex.t {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000><ret><img src=/material/ui/white.mat xscale=stretch height=80px color=FF0000E8><ret><img src=/material/ui/white.mat width=23px yscale=stretch color=FF0000E8><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=10px color=FF0000E8></align><ret><offset hshift=23 vshift=6><align hstyle=center><font face=/font/corporates.font xscale=1.4 yscale=1.4><color value=FF000000>Warning<br><offset vshift=282><color value=FFFFFFFF>Brake Air Supply Pressure<br>Low</font></align>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 800
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.air_warn_2
+}
+
+ui::text : _nameless._.air_warn_big {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.04 bottom=0.13 left=0.4 right=0.505>"
+ coords_l: 227
+ coords_r: 396
+ coords_t: 634
+ coords_b: 492
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.air_warn_2
+}
+
+ui::group : _nameless._.damage_warn {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.stop_eng_tex.t
+ my_children[1]: _nameless._.big_eng_icon
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 1420
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.stop_eng_tex.t {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000><ret><img src=/material/ui/white.mat xscale=stretch height=80px color=FF0000E8><ret><img src=/material/ui/white.mat width=23px yscale=stretch color=FF0000E8><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=10px color=FF0000E8></align><ret><offset hshift=23 vshift=6><align hstyle=center><font face=/font/corporates.font xscale=1.5 yscale=1.5><color value=FF000000>Warning<br><offset vshift=302><color value=FFFFFFFF>Stop Engine</font></align>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 800
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage_warn
+}
+
+ui::text : _nameless._.big_eng_icon {
+ text: "<img src=/material/ui/dashboard/freightliner_cascadia_2024_gauge/icons.mat xscale=stretch yscale=stretch top=0.03 bottom=0.15 left=0.22 right=0.385>"
+ coords_l: 203
+ coords_r: 405
+ coords_t: 625
+ coords_b: 481
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage_warn
+}
+
+
+ui::text : _nameless.bgicuc_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/cascadia_icuc_cluster.mat left=0 right=0.986842105263 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 600
+ coords_t: 800
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.209.c5a0
+}
+}

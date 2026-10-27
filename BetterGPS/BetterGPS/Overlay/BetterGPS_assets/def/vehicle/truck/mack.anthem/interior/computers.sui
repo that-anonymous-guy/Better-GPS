@@ -1,0 +1,4 @@
+	gps_path:"/ui/gmaps_mackanthem_gps.sii"
+	dashboard_path:"/ui/dashboard/mack_anthem.sii"
+	backlight_with_lights: true
+	air_brake_safeguard: true

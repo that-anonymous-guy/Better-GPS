@@ -1,0 +1,17 @@
+	camera_limits_min[0]: (-1000000.0, -1000000.0) //left, up
+	camera_limits_min[1]: (-1000000.0, -1000000.0)
+	camera_limits_min[2]: (-1000000.0, -1000000.0)
+	camera_limits_min[3]: (-1000000.0, -1000000.0)
+	camera_limits_min[4]: (-119000.0, -71000.0)
+	camera_limits_min[5]: (-118000.0, -69000.0)
+	camera_limits_min[6]: (-116000.0, -63000.0)
+	camera_limits_min[7]: (-112000.0, -57000.0)
+	
+	camera_limits_max[0]: (1000000.0, 1000000.0) //right, down
+	camera_limits_max[1]: (1000000.0, 1000000.0)
+	camera_limits_max[2]: (1000000.0, 1000000.0)
+	camera_limits_max[3]: (1000000.0, 1000000.0)
+	camera_limits_max[4]: (30000.0, 74000.0)
+	camera_limits_max[5]: (29000.0, 72000.0)
+	camera_limits_max[6]: (27000.0, 66000.0)
+	camera_limits_max[7]: (23000.0, 60000.0)	

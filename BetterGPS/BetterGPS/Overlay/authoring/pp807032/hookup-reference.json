@@ -1,0 +1,38 @@
+{
+  "version": "0.9.0",
+  "system": "registered accessory_hookup_data attached to empty bumper slot_0",
+  "stock_references": [
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/standard.pmg",
+      "slots": [
+        "slot_0",
+        "slot_1",
+        "slot_2",
+        "slot_3"
+      ],
+      "hookups": "empty"
+    },
+    {
+      "path": "/def/vehicle/addon_hookups/sw_knob.sui",
+      "class": "accessory_hookup_data",
+      "model_attribute": "model",
+      "suitable_for_parent_type": "steering_w"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/day_slots1.pmg",
+      "slots": "slot_0 through slot_8",
+      "hookups": "empty"
+    },
+    {
+      "path": "/def/vehicle/addon_hookups/light.sui",
+      "class": "accessory_hookup_data",
+      "model_attribute": "model",
+      "suitable_for_parent_type": "cabflares"
+    }
+  ],
+  "front_unit": "pp807032.bgps.addon_hookup",
+  "front_parent_type": "bumper",
+  "storage": "/def/vehicle/addon_hookup_storage.bettergps.sii",
+  "source_url": "https://modding.scssoft.com/wiki/Documentation/Engine/Units/vehicle_addon_accessory",
+  "game_ui_validation": "pending user test; no PC control"
+}

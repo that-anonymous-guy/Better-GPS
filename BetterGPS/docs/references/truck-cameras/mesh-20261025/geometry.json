@@ -1,0 +1,453 @@
+{
+  "scope": "Selected stock cabins/interiors and camera accessories. No exhaustive variant, upgrade or current player configuration verification.",
+  "models": [
+    {
+      "truck": "freightliner.cascadia2019",
+      "path": "/vehicle/truck/freightliner_cascadia2019/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2019/cabin/dc.pmg",
+      "meshSha256": "7A052B64D8D1BF44FACD4E3866EC9689F1F645902E8B0D1FC9948AA9BDBE04B9"
+    },
+    {
+      "truck": "freightliner.cascadia2019",
+      "path": "/vehicle/truck/freightliner_cascadia2019/interior/external/day_d.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2019/interior/external/day_d.pmg",
+      "meshSha256": "0C07EBDA85BC2AD9FFE589D8DDF983D56A557005D8D537E70F9C571DFFC508E7"
+    },
+    {
+      "truck": "freightliner.cascadia2019",
+      "path": "/vehicle/truck/freightliner_cascadia2019/interior/model/day_d.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2019/interior/model/day_d.pmg",
+      "meshSha256": "2CDDA5631DF299981AB3B3F41D1E4DEEB7680A7417F176B930E18946B17FD2FA"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome_day.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome_day.pmg",
+      "meshSha256": "EDB955183CBA5569495E0B04B66A5DEE0E8232F36C46D94C842BDA415E23401A"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome.pmg",
+      "meshSha256": "07ED541DCF4CF0733AAE24B56D432C6723A4534797593CB68837EF260C20A11A"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only_day.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only_day.pmg",
+      "meshSha256": "EC60A268A8FE1E90B5401459B93273A239DE649797DB9998C729679124C0E6A7"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only.pmg",
+      "meshSha256": "4F1C6C5DAC55AF0E7E88E265CB51F78E0BE400F1DE73BF7123639C5A5F0F2500"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic_day.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic_day.pmg",
+      "meshSha256": "E1D82BC3425CC46078D247C85C8EA7667069A35510B04B66E31D283CD2C9AB39"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic.pmg",
+      "meshSha256": "408ADC187EB70075CFAD29B094D4758E10D379175801A34B7A56E479A1BD365D"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/accessory/s_mirror/camera_only.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/accessory/s_mirror/camera_only.pmg",
+      "meshSha256": "FE97E2C984F83BE650FBBA1F0FCDBC641ECB5483E1010B9EBB7F812EE31AEA46"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/cabin/dc.pmg",
+      "meshSha256": "86813948D8EFE52879940DC8FF58BA0B9ED208B14B575DB0E27CF10CAA96DEFA"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/interior/external/day_d.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/interior/external/day_d.pmg",
+      "meshSha256": "D449D6D518891896D371F57D6F8735887591190744B7A59AFD9162F34818AFD8"
+    },
+    {
+      "truck": "freightliner.cascadia2024",
+      "path": "/vehicle/truck/freightliner_cascadia2024/interior/model/day_d.pmd",
+      "geometry": "/vehicle/truck/freightliner_cascadia2024/interior/model/day_d.pmg",
+      "meshSha256": "7C9F7F9BA5B648F27FE546495BC0FB493AF68259CA8AF28703F57025F519B3C5"
+    },
+    {
+      "truck": "intnational.9900i",
+      "path": "/vehicle/truck/intnational_9900i/cabin/day.pmd",
+      "geometry": "/vehicle/truck/intnational_9900i/cabin/day.pmg",
+      "meshSha256": "9C369EB487516C11A7BCCA5D0DD9E0FE654EDF8C13C690004BC3B45DD6675E88"
+    },
+    {
+      "truck": "intnational.9900i",
+      "path": "/vehicle/truck/intnational_9900i/interior/external/external_day.pmd",
+      "geometry": "/vehicle/truck/intnational_9900i/interior/external/external_day.pmg",
+      "meshSha256": "03F046470C5E4FDBC92D129895495DFF707515C03A3FE246340E49591CB37417"
+    },
+    {
+      "truck": "intnational.9900i",
+      "path": "/vehicle/truck/intnational_9900i/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/intnational_9900i/interior/model/day.pmg",
+      "meshSha256": "69EEFCFA0750DC5BD52CCF4AB1F2ED1C8F8D8D562A80A95BDAA26C60ED0B1668"
+    },
+    {
+      "truck": "intnational.lonestar",
+      "path": "/vehicle/truck/intnational_lonestar/cabin/day.pmd",
+      "geometry": "/vehicle/truck/intnational_lonestar/cabin/day.pmg",
+      "meshSha256": "913CC19568C4A3943CEC595F78BBCDF7AAA2E711AD3F8371F2F8989E01A763B2"
+    },
+    {
+      "truck": "intnational.lonestar",
+      "path": "/vehicle/truck/intnational_lonestar/interior/external/external_day.pmd",
+      "geometry": "/vehicle/truck/intnational_lonestar/interior/external/external_day.pmg",
+      "meshSha256": "61A2DA7FD395976715699BF96475344211E5982BB79FADA74E9D7496E181A969"
+    },
+    {
+      "truck": "intnational.lonestar",
+      "path": "/vehicle/truck/intnational_lonestar/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/intnational_lonestar/interior/model/day.pmg",
+      "meshSha256": "A0A638E1C477B1B13D3DA18BAC92352F0A776A2E98493F6EF8A9D45FE9BF52C2"
+    },
+    {
+      "truck": "intnational.lt",
+      "path": "/vehicle/truck/intnational_lt/cabin/day.pmd",
+      "geometry": "/vehicle/truck/intnational_lt/cabin/day.pmg",
+      "meshSha256": "8CCE33B5278D67F397878B95BE05685C919FCFEB752251450029A04B9699DC5E"
+    },
+    {
+      "truck": "intnational.lt",
+      "path": "/vehicle/truck/intnational_lt/interior/external/external_day.pmd",
+      "geometry": "/vehicle/truck/intnational_lt/interior/external/external_day.pmg",
+      "meshSha256": "FB5C8B5A623857478D127D9B2DF1751E940998E25B19F636158AC0A3AE95B2B7"
+    },
+    {
+      "truck": "intnational.lt",
+      "path": "/vehicle/truck/intnational_lt/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/intnational_lt/interior/model/day.pmg",
+      "meshSha256": "FD89DF2335DD954482E5F494CB104FE48237F102B0121E87CFD1B6BCA09FE578"
+    },
+    {
+      "truck": "kenworth.t680",
+      "path": "/vehicle/truck/kenworth_t680/interior/model.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680/interior/model.pmg",
+      "meshSha256": "7A0AD6F4E8FADFD825E0017728E359B141123CEBCA588507D3F67EBA541B6103"
+    },
+    {
+      "truck": "kenworth.t680",
+      "path": "/vehicle/truck/kenworth_t680/truck.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680/truck.pmg",
+      "meshSha256": "28FC9ED18C648C5D5B7F9FCAC61FAD83AD4DB1601A828BDF288F56B093E97C5C"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmg",
+      "meshSha256": "7EB7F61BC82106E957128D558D3257A1BF9DCB45B08D5BA579140C9374451FC3"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmg",
+      "meshSha256": "5A4F667B7815AE4A92CFA0082ADF6657A368D69F5A43F9E027146A658D763D0C"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome.pmg",
+      "meshSha256": "15B68BD0FADBBF90B9424B6A35C1E85F7B778442DEEDB5636FFD3082BDE22453"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/dc.pmg",
+      "meshSha256": "630DF92507121DCDE1193EAE11EA9A8431D999502385B13D85217DC5CA421F1D"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/day.pmg",
+      "meshSha256": "005B5F2E1A831317C6B66AC9712CF5424505F824DFD81AA47CA6C268690F2527"
+    },
+    {
+      "truck": "kenworth.t680_2022",
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/day.pmg",
+      "meshSha256": "1B8D1C8FD924845D9E795E9A102F528131668C5A959223481B01CE0A698F3974"
+    },
+    {
+      "truck": "kenworth.w900",
+      "path": "/vehicle/truck/kenworth_w900/cabin/duty.pmd",
+      "geometry": "/vehicle/truck/kenworth_w900/cabin/duty.pmg",
+      "meshSha256": "F93432C104F7B2D0974CB786A7888D194C265FAA07D1368310D35BB4A98092A9"
+    },
+    {
+      "truck": "kenworth.w900",
+      "path": "/vehicle/truck/kenworth_w900/interior/external/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_w900/interior/external/day.pmg",
+      "meshSha256": "3CDFDCD7C54EAFA7CFABAE7D88F93BA6B0E35AB0518BBEA4190B8BE7DE9B9303"
+    },
+    {
+      "truck": "kenworth.w900",
+      "path": "/vehicle/truck/kenworth_w900/interior/model/daycab.pmd",
+      "geometry": "/vehicle/truck/kenworth_w900/interior/model/daycab.pmg",
+      "meshSha256": "C66AF5B4B3EB0C7960BCCC655664B7DD5C443B63B240846B7A7423416A7EFE17"
+    },
+    {
+      "truck": "mack.anthem",
+      "path": "/vehicle/truck/mack_anthem/cabin/cabin_dcb.pmd",
+      "geometry": "/vehicle/truck/mack_anthem/cabin/cabin_dcb.pmg",
+      "meshSha256": "5A4EEB97F7B8A80E45658D27DB5C5B32B712EA5CF662A08851F68CCC466B2F18"
+    },
+    {
+      "truck": "mack.anthem",
+      "path": "/vehicle/truck/mack_anthem/interior/external/day_prem_tan.pmd",
+      "geometry": "/vehicle/truck/mack_anthem/interior/external/day_prem_tan.pmg",
+      "meshSha256": "6A2E01F28DA99278B9C963222BBAB3D97B99C22F56685FBB7EC12F08D55BD046"
+    },
+    {
+      "truck": "mack.anthem",
+      "path": "/vehicle/truck/mack_anthem/interior/model/sl48_base.pmd",
+      "geometry": "/vehicle/truck/mack_anthem/interior/model/sl48_base.pmg",
+      "meshSha256": "B14765DFD1EA4819EDA3712F079F3308DF08566EB342A3D3C7421BDF6E1DADAE"
+    },
+    {
+      "truck": "mack.pinnacle",
+      "path": "/vehicle/truck/mack_pinnacle/cabin/cabin_dcb.pmd",
+      "geometry": "/vehicle/truck/mack_pinnacle/cabin/cabin_dcb.pmg",
+      "meshSha256": "1147C355DA6720EF62592943373694EBCA032133444932BF6224C8727EB1A412"
+    },
+    {
+      "truck": "mack.pinnacle",
+      "path": "/vehicle/truck/mack_pinnacle/interior/external/day_prem_tan.pmd",
+      "geometry": "/vehicle/truck/mack_pinnacle/interior/external/day_prem_tan.pmg",
+      "meshSha256": "7B48AE20C52E35E44A04192CF70003B6677DD094DDB4E61FE34479913D7339C0"
+    },
+    {
+      "truck": "mack.pinnacle",
+      "path": "/vehicle/truck/mack_pinnacle/interior/model/sl48_base.pmd",
+      "geometry": "/vehicle/truck/mack_pinnacle/interior/model/sl48_base.pmg",
+      "meshSha256": "94989690B1F2ADAE9C485196F620CA986E157CC4AB8FD9F0F64C1F307AC50441"
+    },
+    {
+      "truck": "peterbilt.389",
+      "path": "/vehicle/truck/peterbilt_389/interior/model.pmd",
+      "geometry": "/vehicle/truck/peterbilt_389/interior/model.pmg",
+      "meshSha256": "2678C8F75958C9EA7D62DEBE7E265CA59E4795DC0080FF8D16F13D805AF00AE7"
+    },
+    {
+      "truck": "peterbilt.389",
+      "path": "/vehicle/truck/peterbilt_389/truck.pmd",
+      "geometry": "/vehicle/truck/peterbilt_389/truck.pmg",
+      "meshSha256": "788A274CF813CF2782BDFFF1990E8D31ADF1E72BC0A96EBBB884D9032F3EEEA1"
+    },
+    {
+      "truck": "peterbilt.579",
+      "path": "/vehicle/truck/peterbilt_579/interior/model.pmd",
+      "geometry": "/vehicle/truck/peterbilt_579/interior/model.pmg",
+      "meshSha256": "D214AD9398C93560372B9E83245105BE7DB8EA80C0B995F9B8B0B334FC903462"
+    },
+    {
+      "truck": "peterbilt.579",
+      "path": "/vehicle/truck/peterbilt_579/truck.pmd",
+      "geometry": "/vehicle/truck/peterbilt_579/truck.pmg",
+      "meshSha256": "1B5A0440AD83C344A90E27B098725E2F87B34DEAF0D7FDB3C51ED72EA1131698"
+    },
+    {
+      "truck": "volvo.vnl",
+      "path": "/vehicle/truck/volvo_vnl/interior/model.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl/interior/model.pmg",
+      "meshSha256": "CEEE835D8B137122C81E4C85A6036BA39A52B20BDF9A397AB3A229FA2AB6C8E9"
+    },
+    {
+      "truck": "volvo.vnl",
+      "path": "/vehicle/truck/volvo_vnl/truck.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl/truck.pmg",
+      "meshSha256": "B3A780345BB2B6E5469A23E49123ECA874E958AD393896DA1839D122DE38E293"
+    },
+    {
+      "truck": "volvo.vnl2018",
+      "path": "/vehicle/truck/volvo_vnl2018/cabin/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2018/cabin/day.pmg",
+      "meshSha256": "988CD1F1E1C96988AA9621ACD80FE9872DC7FB0CD9C9F04A7956B9F9AEA4FD78"
+    },
+    {
+      "truck": "volvo.vnl2018",
+      "path": "/vehicle/truck/volvo_vnl2018/interior/external/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2018/interior/external/day.pmg",
+      "meshSha256": "0DEB2BF76AE7190BB42C6ACB34B2A8AB014142F8333524D88559AAA974FF6F28"
+    },
+    {
+      "truck": "volvo.vnl2018",
+      "path": "/vehicle/truck/volvo_vnl2018/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2018/interior/model/day.pmg",
+      "meshSha256": "CE9D6CA77AA4CDD647C115A29343AC668C0C942D2747952C44CCA019CD530433"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_dc.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_dc.pmg",
+      "meshSha256": "92C7E6FA6CF810C34535DCDC0F1ACB2460492A481B6D063B3BFA4AC209CA820B"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_s.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_s.pmg",
+      "meshSha256": "4715128FF90C0D2A3CD6B5D6E115D5AE5E151E979224AFFBB1FAD2030738A344"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_dc.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_dc.pmg",
+      "meshSha256": "051EE120AB11A63CCD39F273E5010E95EE8395C32699439879E4AF547D5B09A3"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_s.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_s.pmg",
+      "meshSha256": "67D2926CFEBDC2187C091BD4F662BA84E6E0F8992FA2EE25DA69F785BFACA047"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/cabin/dc.pmg",
+      "meshSha256": "B55D357D648B2F7A61B440F4B6B59B3645D361689D37C12749EA8F643051EE0A"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/interior/external/dc.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/interior/external/dc.pmg",
+      "meshSha256": "AB9AC21C17008FF2755001E2F5AD52A11D6273E9B6683B634D184EA8BC74F071"
+    },
+    {
+      "truck": "volvo.vnl2025",
+      "path": "/vehicle/truck/volvo_vnl2025/interior/model/dc.pmd",
+      "geometry": "/vehicle/truck/volvo_vnl2025/interior/model/dc.pmg",
+      "meshSha256": "2D5C5743EEB519EC0127B18D78BF56C0C4FB386F42A569CAC09C9110EC591913"
+    },
+    {
+      "truck": "volvo.vnr_e",
+      "path": "/vehicle/truck/volvo_vnr_e/cabin/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnr_e/cabin/day.pmg",
+      "meshSha256": "EBEFC2F6EC749A5C2BFA0429DE78DE03942A345A2D81C01638115EC3AE252CB2"
+    },
+    {
+      "truck": "volvo.vnr_e",
+      "path": "/vehicle/truck/volvo_vnr_e/interior/external/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnr_e/interior/external/day.pmg",
+      "meshSha256": "8B1364B2978FC319CD571148F5C241C818B60E0A452E792EC224E1AD84EB6B4F"
+    },
+    {
+      "truck": "volvo.vnr_e",
+      "path": "/vehicle/truck/volvo_vnr_e/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/volvo_vnr_e/interior/model/day.pmg",
+      "meshSha256": "E73FCAE37C971105236EF4BABA4C6BCF99EF8B8CB1BB1508857003F8AA7DFEA1"
+    },
+    {
+      "truck": "westernstar.49x",
+      "path": "/vehicle/truck/westernstar_49x/cabin/day.pmd",
+      "geometry": "/vehicle/truck/westernstar_49x/cabin/day.pmg",
+      "meshSha256": "CBD333511172DDF5FCD39C332593682AD70111D60FB9C39EE66FAA1DDAA353F2"
+    },
+    {
+      "truck": "westernstar.49x",
+      "path": "/vehicle/truck/westernstar_49x/interior/external/external_day.pmd",
+      "geometry": "/vehicle/truck/westernstar_49x/interior/external/external_day.pmg",
+      "meshSha256": "480561AF34948D513564B9E480B97927DB09D47D92EF5D46B3C6D884624B7200"
+    },
+    {
+      "truck": "westernstar.49x",
+      "path": "/vehicle/truck/westernstar_49x/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/westernstar_49x/interior/model/day.pmg",
+      "meshSha256": "B1B16041398C8F48121C15C4C99999F4C8B2FB2C948AE24C65B3DE4F3E539275"
+    },
+    {
+      "truck": "westernstar.5700xe",
+      "path": "/vehicle/truck/westernstar_5700xe/cabin/day.pmd",
+      "geometry": "/vehicle/truck/westernstar_5700xe/cabin/day.pmg",
+      "meshSha256": "1266EAA5ADAE97A90F2827C99EC5056BF9F3951E0A4D8A17BD703E57E54A6603"
+    },
+    {
+      "truck": "westernstar.5700xe",
+      "path": "/vehicle/truck/westernstar_5700xe/interior/external/day_exclusive_ext.pmd",
+      "geometry": "/vehicle/truck/westernstar_5700xe/interior/external/day_exclusive_ext.pmg",
+      "meshSha256": "274DF8CFA1158540358C54F7B2903DAE0A7453D50641BB28904DBCC953993010"
+    },
+    {
+      "truck": "westernstar.5700xe",
+      "path": "/vehicle/truck/westernstar_5700xe/interior/model/day_exclusive.pmd",
+      "geometry": "/vehicle/truck/westernstar_5700xe/interior/model/day_exclusive.pmg",
+      "meshSha256": "2A86C0C81F13841F0E8D8DF6E81D6E3E775E769D9F5A5575CE8B34291FB66097"
+    },
+    {
+      "truck": "westernstar.57x",
+      "path": "/vehicle/truck/westernstar_57x/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/westernstar_57x/cabin/dc.pmg",
+      "meshSha256": "06C5BAA01790FBD0F4EE443F19744B7D460FE6EF7393FFED4C0AB389824980DD"
+    },
+    {
+      "truck": "westernstar.57x",
+      "path": "/vehicle/truck/westernstar_57x/interior/external/external_day.pmd",
+      "geometry": "/vehicle/truck/westernstar_57x/interior/external/external_day.pmg",
+      "meshSha256": "4909E322A03F586906986451F1D2D015F94461B0A8C3C0553F7FB0587757DD65"
+    },
+    {
+      "truck": "westernstar.57x",
+      "path": "/vehicle/truck/westernstar_57x/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/westernstar_57x/interior/model/day.pmg",
+      "meshSha256": "4DE4FA5EE9DF34542EA32F3F1482D5678CA623AAF1AD3184DC09D5D9775531C2"
+    }
+  ],
+  "errors": [],
+  "t680CameraLensSurfaces": [
+    {
+      "center": [
+        1.407017188913682,
+        -0.07405801424208809,
+        0.18230675073230967
+      ],
+      "normal": [
+        -0.41646449612203257,
+        0.9086725771374932,
+        0.02952068813778309
+      ],
+      "vertices": 17,
+      "triangles": 16
+    },
+    {
+      "center": [
+        -1.4250170548756917,
+        -0.03756400731702646,
+        0.0799077903230985
+      ],
+      "normal": [
+        0.42997787617698524,
+        0.28024179316134246,
+        -0.8582444659676196
+      ],
+      "vertices": 15,
+      "triangles": 14
+    },
+    {
+      "center": [
+        1.4475479602813721,
+        -0.03756400731702646,
+        0.2353170226017634
+      ],
+      "normal": [
+        -0.2044400902615059,
+        0.28024043194445236,
+        -0.9379070048770582
+      ],
+      "vertices": 15,
+      "triangles": 14
+    }
+  ],
+  "t680Coordinates": "Raw accessory-local PMG coordinates; not complete truck/world mounting coordinates."
+}

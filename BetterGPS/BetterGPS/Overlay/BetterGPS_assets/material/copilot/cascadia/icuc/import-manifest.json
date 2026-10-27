@@ -1,0 +1,50 @@
+{
+  "artwork": [
+    {
+      "path": "cascadia_icuc_cluster_splash.dds",
+      "size": [
+        450,
+        600
+      ],
+      "source_sha256": "3334f05344bf064efcea67fd7ddbe99521407a30cf6ac09c877b89f475db62bb",
+      "sha256": "fbe1a526c41ba46cd73de546ab1d7b64b2842c9f77539d19420f8af27fb0ef9e"
+    },
+    {
+      "path": "zonar_home.dds",
+      "size": [
+        1240,
+        800
+      ],
+      "source_sha256": "9c8880c47eb6f66f7ddc5e16460c7f93898dc222986150cfcb6d86f07c68d48b",
+      "sha256": "03e0e962d86443a948e68dcc44c39de24131ac35616d6325fbbca5bb3fadc51f"
+    },
+    {
+      "path": "zonar_nav.dds",
+      "size": [
+        1240,
+        800
+      ],
+      "source_sha256": "966e53111c965b627c7c5d7776162f31d67d263367bd15311b77dc1c2a619d75",
+      "sha256": "dc570b1c8de455f157aa3490e7019add60b968be9b0eb705b2ba374877caaa25"
+    },
+    {
+      "path": "zonar_notrip.dds",
+      "size": [
+        1240,
+        800
+      ],
+      "source_sha256": "9546396c0aa131d797b2975fa0fae5fa1fd4699699871c9851eac4e7deba0509",
+      "sha256": "dff1c5749114bc7ce1d3f7fded12c17526109eaff49d4c3c9de727897ada83f8"
+    }
+  ],
+  "native": {
+    "ui/dashboard/freightliner_cascadia_2019.sii": "ac1ce6e9fa7d28ee52846c7d836199e2ce71b453ba029598f37ce478bc2c242d",
+    "ui/dashboard/freightliner_cascadia_2024_gauge.sii": "5ba645dd62a36aab59103780795f0da08e28248c11e51437eae11686c6996bf6"
+  },
+  "central_cluster_ui_rect": [
+    0,
+    0,
+    600,
+    800
+  ]
+}

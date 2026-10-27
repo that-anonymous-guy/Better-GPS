@@ -1,0 +1,386 @@
+[
+  {
+    "bumper": "low_chrome_fog",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3417,
+      -0.1539,
+      0.005311197198033333
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3779499989569187,
+        -0.1754419176965952,
+        -0.02136076933979988
+      ],
+      [
+        -0.3054500010430813,
+        -0.1264687075406313,
+        0.0943278805977106
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06517511842910022,
+    "grille_front_z": 0.029152750968933105,
+    "ignored_nonphysical_pieces": [
+      3,
+      6
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": true,
+    "alpha_grille_blocked_samples": 80
+  },
+  {
+    "bumper": "low_chrome_fog_aero",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3417,
+      -0.1539,
+      0.005311197198033333
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3779499989569187,
+        -0.1754419176965952,
+        -0.02136076933979988
+      ],
+      [
+        -0.3054500010430813,
+        -0.1264687075406313,
+        0.0943278805977106
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06517511842910022,
+    "grille_front_z": 0.029152750968933105,
+    "ignored_nonphysical_pieces": [
+      1,
+      4
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": true,
+    "alpha_grille_blocked_samples": 80
+  },
+  {
+    "bumper": "low_paint_fog",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3417,
+      -0.1539,
+      0.005311197198033333
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3779499989569187,
+        -0.1754419176965952,
+        -0.02136076933979988
+      ],
+      [
+        -0.3054500010430813,
+        -0.1264687075406313,
+        0.0943278805977106
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06517511842910022,
+    "grille_front_z": 0.029152750968933105,
+    "ignored_nonphysical_pieces": [
+      3,
+      6
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": true,
+    "alpha_grille_blocked_samples": 80
+  },
+  {
+    "bumper": "low_paint_fog_aero",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3417,
+      -0.1539,
+      0.005311197198033333
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3779499989569187,
+        -0.1754419176965952,
+        -0.02136076933979988
+      ],
+      [
+        -0.3054500010430813,
+        -0.1264687075406313,
+        0.0943278805977106
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06517511842910022,
+    "grille_front_z": 0.029152750968933105,
+    "ignored_nonphysical_pieces": [
+      3,
+      6
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": true,
+    "alpha_grille_blocked_samples": 80
+  },
+  {
+    "bumper": "standard_paint_fog",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3615,
+      -0.1495,
+      0.009550384553074836
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3977499989569187,
+        -0.17104191769659519,
+        -0.017121581984758376
+      ],
+      [
+        -0.32525000104308127,
+        -0.12206870754063129,
+        0.09856706795275211
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06817011842910022,
+    "grille_front_z": 0.03039693832397461,
+    "ignored_nonphysical_pieces": [
+      0,
+      6
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": false,
+    "alpha_grille_blocked_samples": 0
+  },
+  {
+    "bumper": "standard_paint_fog_aero",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3615,
+      -0.1495,
+      0.009550384553074836
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3977499989569187,
+        -0.17104191769659519,
+        -0.017121581984758376
+      ],
+      [
+        -0.32525000104308127,
+        -0.12206870754063129,
+        0.09856706795275211
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06817011842910022,
+    "grille_front_z": 0.03039693832397461,
+    "ignored_nonphysical_pieces": [
+      0,
+      2
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": false,
+    "alpha_grille_blocked_samples": 0
+  },
+  {
+    "bumper": "standard_plastic_fog",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3615,
+      -0.1495,
+      0.009550384553074836
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3977499989569187,
+        -0.17104191769659519,
+        -0.017121581984758376
+      ],
+      [
+        -0.32525000104308127,
+        -0.12206870754063129,
+        0.09856706795275211
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06817011842910022,
+    "grille_front_z": 0.03039693832397461,
+    "ignored_nonphysical_pieces": [
+      0,
+      5
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": false,
+    "alpha_grille_blocked_samples": 0
+  },
+  {
+    "bumper": "standard_plastic_fog_aero",
+    "locator": "slot_0",
+    "position_scs": [
+      -0.3615,
+      -0.1495,
+      0.009550384553074836
+    ],
+    "rotation_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "camera_bounds_scs": [
+      [
+        -0.3977499989569187,
+        -0.17104191769659519,
+        -0.017121581984758376
+      ],
+      [
+        -0.32525000104308127,
+        -0.12206870754063129,
+        0.09856706795275211
+      ]
+    ],
+    "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+    "body_grille_intersections": 0,
+    "strap_grille_intersections": 0,
+    "strap_depth_past_grille_m": 0.06817011842910022,
+    "grille_front_z": 0.03039693832397461,
+    "ignored_nonphysical_pieces": [
+      0,
+      2
+    ],
+    "alpha_grille_holes_checked": false,
+    "side": "vehicle left (-X), beside license plate",
+    "socket_faces": "front (-Z)",
+    "model": "pp807032",
+    "mount_profile": "standard",
+    "flat_section_m": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "accepted_grille_flat_clipping": false,
+    "alpha_grille_blocked_samples": 0
+  }
+]

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TruckLib.Models"><HintPath>$(EngineDir)/TruckLib.Models.dll</HintPath></Reference>
+    <Reference Include="TruckLib.Core"><HintPath>$(EngineDir)/TruckLib.Core.dll</HintPath></Reference>
+    <Reference Include="TruckLib.Sii"><HintPath>$(EngineDir)/TruckLib.Sii.dll</HintPath></Reference>
+    <Reference Include="Sprache"><HintPath>$(EngineDir)/Sprache.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

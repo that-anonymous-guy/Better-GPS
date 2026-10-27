@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "version": "0.13.1",
+  "changed_runtime_files": [
+    "def/vehicle/addon_hookups/bettergps_pp807032.sui",
+    "manifest.sii",
+    "mod_description.txt"
+  ],
+  "unchanged_runtime_files": 48,
+  "definition_matching_matrix": [
+    {
+      "bumper": "low_chrome_fog",
+      "stock_unit": "low_chr_f.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032low.bgps.addon_hookup"
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "stock_unit": "low_chr_f_a.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032low.bgps.addon_hookup"
+    },
+    {
+      "bumper": "low_paint_fog",
+      "stock_unit": "low_pnt_f.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032low.bgps.addon_hookup"
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "stock_unit": "low_pnt_f_a.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032low.bgps.addon_hookup"
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "stock_unit": "std_pnt_f.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032.bgps.addon_hookup"
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "stock_unit": "std_pnt_f_a.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032.bgps.addon_hookup"
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "stock_unit": "std_pla_f.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032.bgps.addon_hookup"
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "stock_unit": "std_pla_f_a.kenworth.t680_2022.bumper",
+      "only_matching_definition": "pp807032.bgps.addon_hookup"
+    }
+  ],
+  "scope": "offline SII/stock-unit comparison; engine UI not exercised",
+  "superseded_by": "0.13.2: restored suitable_for=bumper; user reported 0.13.1 no longer offered the front option"
+}

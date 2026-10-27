@@ -1,0 +1,12 @@
+effect : "eut2.dif.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 0.214041 , 0.214041 , 0.214041 }
+	reflection : 0.000000
+	shininess : 1.000000
+	specular : { 0.000000 , 0.000000 , 0.000000 }
+	texture : "texture_base" {
+		source : "/vehicle/truck/upgrade/bettergps/camera_finish/palette.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+}

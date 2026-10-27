@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "rear_and_side_poses_unchanged": true,
+  "checks": [
+    {
+      "cabin": "dc",
+      "camera": "rear",
+      "wall_penetrations": 0,
+      "equipment_intersections": 0
+    },
+    {
+      "cabin": "s52m",
+      "camera": "rear",
+      "wall_penetrations": 0,
+      "equipment_intersections": 0
+    },
+    {
+      "cabin": "s76h",
+      "camera": "rear",
+      "wall_penetrations": 0,
+      "equipment_intersections": 0
+    },
+    {
+      "cabin": "dc",
+      "camera": "pp804396",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "dc",
+      "camera": "pp804397",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "s52m",
+      "camera": "pp804396",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "s52m",
+      "camera": "pp804397",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "s76h",
+      "camera": "pp804396",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "s76h",
+      "camera": "pp804397",
+      "wall_penetrations": 0,
+      "mirror_intersections": 0
+    },
+    {
+      "cabin": "dc",
+      "side_symmetry_max_error_m": 1.1920928955078125e-07
+    },
+    {
+      "cabin": "s52m",
+      "side_symmetry_max_error_m": 1.1920928955078125e-07
+    },
+    {
+      "cabin": "s76h",
+      "side_symmetry_max_error_m": 1.1920928955078125e-07
+    },
+    {
+      "bumper": "low_chrome_fog",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 80,
+      "low_bumper_flat_clipping_accepted": true,
+      "body_gap_m": 4.7829878894845024e-05,
+      "constant_section_clear": false,
+      "backing_bridge_contact_max_gap_m": 0.000321996560215948,
+      "backing_bridge_3d_grille_max_gap_m": null,
+      "backing_bridge_3d_grille_contact_gap_m": null,
+      "backing_bridge_mesh_present": true
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 80,
+      "low_bumper_flat_clipping_accepted": true,
+      "body_gap_m": 4.7829878894845024e-05,
+      "constant_section_clear": false,
+      "backing_bridge_contact_max_gap_m": 0.000321996560215948,
+      "backing_bridge_3d_grille_max_gap_m": null,
+      "backing_bridge_3d_grille_contact_gap_m": null,
+      "backing_bridge_mesh_present": true
+    },
+    {
+      "bumper": "low_paint_fog",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 80,
+      "low_bumper_flat_clipping_accepted": true,
+      "body_gap_m": 4.7829878894845024e-05,
+      "constant_section_clear": false,
+      "backing_bridge_contact_max_gap_m": 0.000321996560215948,
+      "backing_bridge_3d_grille_max_gap_m": null,
+      "backing_bridge_3d_grille_contact_gap_m": null,
+      "backing_bridge_mesh_present": true
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 80,
+      "low_bumper_flat_clipping_accepted": true,
+      "body_gap_m": 4.7829878894845024e-05,
+      "constant_section_clear": false,
+      "backing_bridge_contact_max_gap_m": 0.000321996560215948,
+      "backing_bridge_3d_grille_max_gap_m": null,
+      "backing_bridge_3d_grille_contact_gap_m": null,
+      "backing_bridge_mesh_present": true
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 0,
+      "low_bumper_flat_clipping_accepted": false,
+      "body_gap_m": 0.00033560016890987754,
+      "constant_section_clear": true,
+      "backing_bridge_contact_max_gap_m": null,
+      "backing_bridge_3d_grille_max_gap_m": 0.0020112239140272145,
+      "backing_bridge_3d_grille_contact_gap_m": 0.0002599292904138517,
+      "backing_bridge_mesh_present": false
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 0,
+      "low_bumper_flat_clipping_accepted": false,
+      "body_gap_m": 0.00033560016890987754,
+      "constant_section_clear": true,
+      "backing_bridge_contact_max_gap_m": null,
+      "backing_bridge_3d_grille_max_gap_m": 0.0020112239140272145,
+      "backing_bridge_3d_grille_contact_gap_m": 0.0002599292904138517,
+      "backing_bridge_mesh_present": false
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 0,
+      "low_bumper_flat_clipping_accepted": false,
+      "body_gap_m": 0.00033560016890987754,
+      "constant_section_clear": true,
+      "backing_bridge_contact_max_gap_m": null,
+      "backing_bridge_3d_grille_max_gap_m": 0.0020112239140272145,
+      "backing_bridge_3d_grille_contact_gap_m": 0.0002599292904138517,
+      "backing_bridge_mesh_present": false
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "model": "pp807032",
+      "body_intersections": 0,
+      "flat_intersections": 0,
+      "alpha_grille_blocked_samples": 0,
+      "low_bumper_flat_clipping_accepted": false,
+      "body_gap_m": 0.00033560016890987754,
+      "constant_section_clear": true,
+      "backing_bridge_contact_max_gap_m": null,
+      "backing_bridge_3d_grille_max_gap_m": 0.0020112239140272145,
+      "backing_bridge_3d_grille_contact_gap_m": 0.0002599292904138517,
+      "backing_bridge_mesh_present": false
+    }
+  ]
+}

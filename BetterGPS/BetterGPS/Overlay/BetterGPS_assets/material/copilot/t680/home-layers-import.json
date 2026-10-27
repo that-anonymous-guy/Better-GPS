@@ -1,0 +1,45 @@
+[
+  {
+    "name": "navplushd_gradient_background.dds",
+    "size": [
+      1324,
+      800
+    ],
+    "source_y": 0,
+    "source_sha256": "3872ee882904164987cffe95426600827b074ecf6297abca062a6f6f09b7ead6",
+    "sha256": "054d02c7394a9f45b939d0ab844ca406efdf695cf950483de5a3597c575925d7"
+  },
+  {
+    "name": "navplushd_homescreen_toplayer.dds",
+    "size": [
+      1244,
+      586
+    ],
+    "source_x": 73,
+    "source_y": 126,
+    "source_sha256": "06c3f1e33752eed2e05bc06bf503d046b369b349d2ffcefbafb1332b7bec2fdc",
+    "sha256": "4bb04eaaa4ca7e3e3b8437c731028e5dee5056d332ddb242ec2b1213860c6b05"
+  },
+  {
+    "name": "navplushd_page_full.dds",
+    "size": [
+      34,
+      34
+    ],
+    "source_x": null,
+    "source_y": 84,
+    "source_sha256": "61756009666536da7d71f9953486eaf4712e6ce7b72d8550d31e6fcc3a616cef",
+    "sha256": "f7fefc7638fed0a54f0b90991cce0da36770cfa7a48dd4a50287422aa73d359c"
+  },
+  {
+    "name": "navplushd_page_empty.dds",
+    "size": [
+      34,
+      34
+    ],
+    "source_x": null,
+    "source_y": 84,
+    "source_sha256": "86b0274e3604a60c969111021a7bde1250905e944b6092d9ef2bf50617ce6a8e",
+    "sha256": "b7a3f5dd2eb1868d97605025b90d29b236cc5ce09a00ec444d2f474736ba01b2"
+  }
+]

@@ -1,0 +1,3379 @@
+{
+  "scope": "all referenced PMD/PMG paths for stock truck kenworth.t680_2022; variants require visibility validation",
+  "exportedModels": 623,
+  "ownTruckModels": 251,
+  "geometryVersions": {
+    "15676d50": 623
+  },
+  "allGeometryHashesVerified": true,
+  "sourceErrors": [
+    "/vehicle/truck/upgrade/interior_decors/toyac/heads_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/smelling_sack_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/wooden_classic_ext.pmd: Unable to find the specified file."
+  ],
+  "texture": "/vehicle/truck/kenworth_t680_2022/cabin_details_difspec.tobj",
+  "uvRegion": [
+    0,
+    0,
+    0.25,
+    0.52
+  ],
+  "atlasUsers": [
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome_int.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint_int.pmd",
+    "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmd",
+    "/vehicle/truck/kenworth_t680_2022/cabin/dc.pmd",
+    "/vehicle/truck/kenworth_t680_2022/cabin/s52m.pmd",
+    "/vehicle/truck/kenworth_t680_2022/cabin/s76h.pmd"
+  ],
+  "lensHits": [
+    {
+      "model": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome_int.pmd",
+      "piece": 5,
+      "triangles": 114,
+      "vertices": 117,
+      "bounds": [
+        [
+          -1.436122179031372,
+          1.4607882499694824
+        ],
+        [
+          -0.07940277457237244,
+          -0.024352114647626877
+        ],
+        [
+          0.07233112305402756,
+          0.2398678958415985
+        ]
+      ]
+    },
+    {
+      "model": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmd",
+      "piece": 3,
+      "triangles": 44,
+      "vertices": 47,
+      "bounds": [
+        [
+          -1.437131404876709,
+          1.4607882499694824
+        ],
+        [
+          -0.07940277457237244,
+          -0.024352114647626877
+        ],
+        [
+          0.07265704870223999,
+          0.2398678958415985
+        ]
+      ]
+    },
+    {
+      "model": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint_int.pmd",
+      "piece": 5,
+      "triangles": 114,
+      "vertices": 117,
+      "bounds": [
+        [
+          -1.436122179031372,
+          1.4607882499694824
+        ],
+        [
+          -0.07940277457237244,
+          -0.024352114647626877
+        ],
+        [
+          0.07233112305402756,
+          0.2398678958415985
+        ]
+      ]
+    },
+    {
+      "model": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmd",
+      "piece": 3,
+      "triangles": 44,
+      "vertices": 47,
+      "bounds": [
+        [
+          -1.437131404876709,
+          1.4607882499694824
+        ],
+        [
+          -0.07940277457237244,
+          -0.024352114647626877
+        ],
+        [
+          0.07265704870223999,
+          0.2398678958415985
+        ]
+      ]
+    }
+  ],
+  "definitionReferencesRead": 1522,
+  "referencedModels": 626,
+  "sharedModels": 372,
+  "headacheRackVariants": 4,
+  "renderedExteriorModels": 180,
+  "glassOnlyModelSkippedInRender": "/vehicle/truck/kenworth_t680_2022/cabin/win_open.pmd",
+  "interiorVariants": [
+    "day",
+    "s52mb",
+    "s52ms",
+    "s76h",
+    "s76hb",
+    "s76hs"
+  ],
+  "models": [
+    {
+      "path": "/vehicle/car/upgrade/interior_decors/toyac/rt_ac_photos.pmd",
+      "geometry": "/vehicle/car/upgrade/interior_decors/toyac/rt_ac_photos.pmg",
+      "meshSha256": "341BC6E77C426492114D93612E2049C5EBECA4D8CBDFE430DB387DA8F4094023"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/badge/cummins.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/badge/cummins.pmg",
+      "meshSha256": "4273F8C4155480C69AB5F5E30A593814123184F0986BB774D3AB5EB65DE8394F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/badge/generic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/badge/generic.pmg",
+      "meshSha256": "94743F0D6783A4506C0DA2D9FA03800CB8C1C268F22CB2B0BDF3555FCBC3AD9E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/badge/none.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/badge/none.pmg",
+      "meshSha256": "B0A7665103624404E85EE1CF9F928B9A1ADA18C1B32199C0976D658C72DB7D22"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/badge/paccar.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/badge/paccar.pmg",
+      "meshSha256": "63E0D7C40D669EBDC1A825AEFBE5D0B461867A363693E53EC84DC5C2D16DB12C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/day_front.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/day_front.pmg",
+      "meshSha256": "FB2900C101ABDB92B957B19C84A21BF02E0ADB9C278A0891291BA72FFC20CE91"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/day.pmg",
+      "meshSha256": "7C74EB93616661707906B60308E31DC8EA686AD16DE96531C0CFA04651BF3BE1"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/s52m_front.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/s52m_front.pmg",
+      "meshSha256": "C1845FA1AF9B35206A3B40AAF1301807B2B812E34423B1044C2A185DC1599BEB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/s76h_front.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/s76h_front.pmg",
+      "meshSha256": "562E9F5801F86FEC2C3164E305D2F9EAFAEB66C329A408757159843F66251BFF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/x21_lights.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/x21_lights.pmg",
+      "meshSha256": "371082D0051C04DC7A7B09C9FCD440483D508EC098506B0193C7718A2C2DF402"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/xmas_lights.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/beacon/xmas_lights.pmg",
+      "meshSha256": "C04C83200D90CA60966DD76D3D10616C27A5C493C8897ACAF9B3F96BC9A5F8CF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bullbar/small.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bullbar/small.pmg",
+      "meshSha256": "0D114A9A19D824CFA31CE5E46FBF986C1F4C2734DA6DA9A73CE32F994C969711"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmg",
+      "meshSha256": "A88C74662382554E1763E1ECA3E9C76E4A57CA6B607C51512EC8EF22C698C66A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmg",
+      "meshSha256": "BD24BA31F5AA9B9229C619DCE11E2F71B945F552478B16F81AE5A0194179206B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmg",
+      "meshSha256": "79F33C1549EAC144A81AA811519CD3ADFA8BEEC81D81D9891770F4705A63BDD8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmg",
+      "meshSha256": "63220047A757069B8F494669CC89C826C50EDA92EF140FF729777790781B8B8F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmg",
+      "meshSha256": "25CCB2B16F7F8E198A832E7835013FDE0EDB9C9FA9DACD3A6E327F097F3CEBB4"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmg",
+      "meshSha256": "E115A1671B6AA27BB49E9A89DB5F2328A45C3F967ADF2925241E169C61B4A59A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmg",
+      "meshSha256": "B2464193EFD0BCFFAE72D1349DAF2AA57D7F4EBCA8308C5E10F5BA44D813A9FB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmg",
+      "meshSha256": "9E9B3BE08C3AA0A3B014AF57EB30BF7999B8780A0799679D7B401DA4BF8F61BB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/day_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/day_standard.pmg",
+      "meshSha256": "196F670DEF4D9564EC533CC1CFDB24F6ED8F25512948C927540C8715DFC6F038"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/s52m_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/s52m_standard.pmg",
+      "meshSha256": "9C14392E5E7B1E48842D886C2A44A27FCEB5E9674550C2C0A959506F059BBAE5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/s76h_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabdefl/s76h_standard.pmg",
+      "meshSha256": "117AF03A984D9B37B1CA913964CA2FAD7AA253857310AAE6FF6E4FE726FE9828"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/day_slots1.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/day_slots1.pmg",
+      "meshSha256": "56DC4A82052FC7D5CD485B1D921A569EE432D4571E2DB76C4446571389B21BE9"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/s86h_led.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/s86h_led.pmg",
+      "meshSha256": "76EB735C834813B950629A51456B6A5ED1C37D5C1F7C098A0E19607C42813F80"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/sleeper_led.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cabflares/sleeper_led.pmg",
+      "meshSha256": "76EB735C834813B950629A51456B6A5ED1C37D5C1F7C098A0E19607C42813F80"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/carpet/kw_rubber_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/carpet/kw_rubber_ext.pmg",
+      "meshSha256": "A6A6021A53F9D821AAC5C28BF939C337ADC0C6FACA7D42B0E660F3DE45FCE31E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/carpet/kw_rubber.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/carpet/kw_rubber.pmg",
+      "meshSha256": "7B172D7A3153D1E92B87E5C03950D8F1C6C6D14214319B23FF3EBEA2435B1B91"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/chs_beacon/x21_lights.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/chs_beacon/x21_lights.pmg",
+      "meshSha256": "6A141C66CBD708FC3AEDBDEB2E22B3B27CB0FDAA9E36DC265F098B2AE5B9E3D2"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/chs_beacon/xmas_lights.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/chs_beacon/xmas_lights.pmg",
+      "meshSha256": "34AD1BFEA1ACAFA388AD314AA3ED73E7C1BB1795AA11AE6C465D523E3ADEFDB5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_gp_els_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_gp_els_ext.pmg",
+      "meshSha256": "21DF594792C68ADCE0E8CC3E5E7A2E503A3FEF1284470D5E33AB13460C8F8578"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_gp_els.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_gp_els.pmg",
+      "meshSha256": "3CBDD4FE29C1B3B43AF54D63111B587D8104887106BF69E9377D0EDD556D22D8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_tn_els_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_tn_els_ext.pmg",
+      "meshSha256": "3259548AD6278714AF9C8BF4A3633D2DA6586F40A5E609A3D7FD6FEDD0F2A4DB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_tn_els.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_tn_els.pmg",
+      "meshSha256": "AB9986D8B43DF40A19F4176374ACB81B549194ECCBEB4E3FFFCFE304BC836394"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_vin_mn_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_vin_mn_ext.pmg",
+      "meshSha256": "61C9B1FE7D291EF7F112BBA33521254C0DEDF67DC7D3C6D4CEA75F9BD6141D8D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_vin_mn.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/dcl_vin_mn.pmg",
+      "meshSha256": "EB11C3A8030903328D1FD547F5A034408F00995857B4607D0104200BA91006DC"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult_100_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult_100_ext.pmg",
+      "meshSha256": "F420B63CA42940A4EC9BB1554545E2F78D0A0F280C000914E01E1D622B7F8A5A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult_100.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult_100.pmg",
+      "meshSha256": "815268C59B6745B62A26AC307ABD2B4BDF7ED76A93FFABBB4EA703C9D1EEC4D7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/gt3_ult.pmg",
+      "meshSha256": "65EA81D70FA9D2412EE8891CA456EF00D51241F143B612292C07E5A6DE8C062E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_gp_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_gp_ext.pmg",
+      "meshSha256": "3259548AD6278714AF9C8BF4A3633D2DA6586F40A5E609A3D7FD6FEDD0F2A4DB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_gp.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_gp.pmg",
+      "meshSha256": "B099212C6560737360B31807CEA00B73301648656356E908508256EF84E9830E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_md_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_md_ext.pmg",
+      "meshSha256": "61C9B1FE7D291EF7F112BBA33521254C0DEDF67DC7D3C6D4CEA75F9BD6141D8D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_md.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_md.pmg",
+      "meshSha256": "7368DB616CAB3F08B7891634D28270A9817C6205EEF6111148B67C2857B52156"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_tn_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_tn_ext.pmg",
+      "meshSha256": "7FF943921D673C7FDF56EF3D4EB8ABF6D8125EC83349A9CAB38AF6DD51BB3C4E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_tn.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/lt_tn.pmg",
+      "meshSha256": "C2C6637164B737A5799EA44F8F8E4684A5D157C505EDE3439023753E65A05CA3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_ext.pmg",
+      "meshSha256": "62C93AE528C43B192E149C9A8D192F0CA25F4C74446B8F6B6E42A41B0C30F839"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_vb_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_vb_ext.pmg",
+      "meshSha256": "21BE1FF0C21929B7A9CA74C4EA983BD42D2A705A6CFB4E271459881C75B1D100"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_vb.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult_vb.pmg",
+      "meshSha256": "0C1141942A3ABE7555C724B0EAEC312DA84713AD0FAC758425A152D9667F8A32"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ult.pmg",
+      "meshSha256": "6F5D30772F1AE6A64227984D832E1A765D9ACC63298AE18C6BC7C2FC6BB723A8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/vin_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/vin_ext.pmg",
+      "meshSha256": "DDA7457D178DEA7090930717E405FE16F26E95C2E22D57C88DF46171082ABBFE"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/vin.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/vin.pmg",
+      "meshSha256": "1ADAAB55C06B96C0940EBB47D9B4FE668FEE22A1561BA918BA0E5E39314C87A0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/cor_def/aero_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/cor_def/aero_paint.pmg",
+      "meshSha256": "ADEE123E585006E2E5213505FF758FFC5F750979B926CE3CEB67E57C86700326"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/doorhndl/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/doorhndl/standard_chrome.pmg",
+      "meshSha256": "622212D68684BA8C644EECF8BCEFF2FC81E0462BBE0FC43304DDCA35DFB2FC00"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/doorstep/long_standard_aluminum.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/doorstep/long_standard_aluminum.pmg",
+      "meshSha256": "A5171A03CEDF4EF48FBA740C9EA5666308F98A5C4FD2800DE813F2DBDB5615D5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/bottom_day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/bottom_day.pmg",
+      "meshSha256": "DD9F40DC0FEC23611FCF9220A879561489874349F86777D3F98A3F4C49C4286D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/bottom.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/bottom.pmg",
+      "meshSha256": "29CB1DDEAB91A8C11C7195076A8AC1B449C54FBFD25520B7D25EAF13D3C8465B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/classic_rear_52in.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/classic_rear_52in.pmg",
+      "meshSha256": "6308300E404F6DBCA14A2D01AFD02462344891CF0E7A5899C142AA28A9167390"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/classic_rear_day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/exhaust/classic_rear_day.pmg",
+      "meshSha256": "0B44409A0699D328C7459DED3EFBC639F0642AF6EB0AAEC07198396D0D25D161"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_banner/sign_low.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_banner/sign_low.pmg",
+      "meshSha256": "4479792A3BE907C77414AD0608D4900BD2F7051617652C823605258B51BB51ED"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_banner/sign.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_banner/sign.pmg",
+      "meshSha256": "C7AB09AA92306C5F21F24AC460CEBC6A49AC44C08B32FEB1FB88585E53759FA7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_fender/aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_fender/aero.pmg",
+      "meshSha256": "BDBA61217809E3BD862AB7A5C952E301C802FC6C0F2C788CC5F660DA52075971"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_intake_chs/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_intake_chs/standard_chrome.pmg",
+      "meshSha256": "ABD4161D02CB592A007B53521F5944BE43FA4C186B4F851D7691C44299B66D91"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_intake_chs/standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_intake_chs/standard_plastic.pmg",
+      "meshSha256": "ABD4161D02CB592A007B53521F5944BE43FA4C186B4F851D7691C44299B66D91"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_light_chs/halogen.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_light_chs/halogen.pmg",
+      "meshSha256": "D76AFBE783EF3CF09F4C292792DFD5041220B6C158C70B74A2B237C8CC6C7909"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_light_chs/led.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_light_chs/led.pmg",
+      "meshSha256": "1BD5FA952F019B7A5E30F7E580029E0401B548304C74991A1E34E0DA053A1094"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_logo/kw.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_logo/kw.pmg",
+      "meshSha256": "81C951CF1096A1E9C264226B7EB0E4D36588593CD2F5BEE2E65316C3512F65CB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/f_turn_light/standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/f_turn_light/standard.pmg",
+      "meshSha256": "9D422F79036D7143ED1CE99796B21E1E7A0894810C9426313F94284C4C7285D0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/long_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/long_standard_chrome.pmg",
+      "meshSha256": "B9D1060E40E4C113808EB5F68A6C984817FA13945D90014815A86B28BD9CAD51"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/long_standard_onyx.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/long_standard_onyx.pmg",
+      "meshSha256": "FDF7E33A1F0E26E0BB5DD4F1CD8059EDE1D98120F93ACEE7FC5ADC4F781B80C0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/short_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/short_standard_chrome.pmg",
+      "meshSha256": "E502EC14623832D164A577E189C327C84C97F4F519CB4032E90ECAE351EF3A50"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/short_standard_onyx.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/short_standard_onyx.pmg",
+      "meshSha256": "1E9E5CC1C5079A7CCF505F9E7BBDC17187AC7CAF158CE997FB64BA0F9122D625"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/standard_chrome.pmg",
+      "meshSha256": "1A6C6964E45BC80EA947C46CDCBB2318051946FF20C23A18CD518ADFB95F56BE"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/filters/standard_onyx.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/filters/standard_onyx.pmg",
+      "meshSha256": "2ADBDC4DC874482B00424D7F0B32B954E3F13281F405CD50870AA7CE36C92C29"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_chrome_int.pmg",
+      "meshSha256": "5C67843684235BA1117ECDB945891C0A273C65814F9586705651C29657AE4DE5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_chrome.pmg",
+      "meshSha256": "35E64F4C9777CD9F32D859376CBCEE5821D290509E38359AA838FD5C56AAD444"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_plastic_int.pmg",
+      "meshSha256": "C814E58BB43A356D0A431E400581389D9DA9A56B749077B267445EADE86F5812"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/long_standard_plastic.pmg",
+      "meshSha256": "38CA5E42073277BD4CC73CEB50FF355A397A3A754DEC94A1C7E5CB3D6C51CC81"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_chrome_int.pmg",
+      "meshSha256": "48A61281B9FA0C7CCAAD09AC219F836372C06F65450259C38D92ADCE8EB3C4F7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_chrome.pmg",
+      "meshSha256": "E8BE68C975FF47E447BE088C546E530A888B8BD1D8D8F5BCD69C79244692E6D2"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_plastic_int.pmg",
+      "meshSha256": "262B456071DB066992C638EBF483A9D87F3898268633981511F1373AC61DAFDD"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/short_standard_plastic.pmg",
+      "meshSha256": "65881784D8F9D566C7417693F6F3621750893C57AB3E1AF3FCCFF09D4729CDCD"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/standard_plastic_int.pmg",
+      "meshSha256": "4AFF1FA27B4CEB067169E9967B5537374A515F68F7A7D6C84B9DCFA4AFABD8D0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fl_mirror/standard_plastic.pmg",
+      "meshSha256": "FAEBFA380A4102FAB9E307A1434C8B0DA77C5EEC9196D5CF6BCBEBB21027352D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_chrome_int.pmg",
+      "meshSha256": "DD1AFEB03BDD492A392A02D3F5CA228493D26A7A2D12C7A1BE5CA05EF6D1BBF1"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_chrome.pmg",
+      "meshSha256": "1EC0DA5D9E063864D09873FCB41147CA3AD4055190B80C356101943B4F4F22A6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_plastic_int.pmg",
+      "meshSha256": "F3C7FEFF0AA0B5F15A9049B2F8432C7B13E23C6EF40B1BDBF22AF2C4595A8C7A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/long_standard_plastic.pmg",
+      "meshSha256": "5E16311599BCB69414A2E9022BB1ABA8CA015066C17A6211EEDFDE774EC4FF97"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_chrome_int.pmg",
+      "meshSha256": "C869397128C1AED6449295090529151D0558083DF00AA2CCCC4F2CD8704E918C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_chrome.pmg",
+      "meshSha256": "DA30A25CC6EE9D49FBB847405976687F4F2B0911402452611502B0C2D335DDB6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_plastic_int.pmg",
+      "meshSha256": "62EDF758BCFA76765B39090364960935F26F96E09D5AC851ED1DB16B36883222"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/short_standard_plastic.pmg",
+      "meshSha256": "A81AB5453926880DD2F5604F7D558C15B18F100EED83621A861979FBAFA6146A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/standard_plastic_int.pmg",
+      "meshSha256": "6D4A7B1D2244D9412D5AE20D510C6FE4C659975EDDF68A833F09BD5DB416647B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/fr_mirror/standard_plastic.pmg",
+      "meshSha256": "6C7402D2C21D822321CAFD29BC81BDEAECAD3FA833058F7BD5B45CF1EF04425E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/grill/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/grill/standard_chrome.pmg",
+      "meshSha256": "DAAD8F7E1C623787A7FF04EADF33D40DEF271358F888A20D518DC6CFC54C1CE1"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/grill/standard_onyx.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/grill/standard_onyx.pmg",
+      "meshSha256": "06B8EDCB5447DCC8D55D486FABDF6FEAC3C21F1345F1D640851B4838BDF043DD"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/hood/long.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/hood/long.pmg",
+      "meshSha256": "16F0074A1281681F28198CF764CE11E4AC6E36D874C179CD4A611ED1B26C2C27"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/hood/short.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/hood/short.pmg",
+      "meshSha256": "2745C429DE5548FE2ECCDCE1EA7D4260C10E63A71317520B8214B7E426E4F718"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/horns/day_slots1.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/horns/day_slots1.pmg",
+      "meshSha256": "9D7A365870752F687B761BCB5DD4D49D7735889C226076E1D5032C474EDBD940"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/horns/s52m_slots1.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/horns/s52m_slots1.pmg",
+      "meshSha256": "70D063075ADF81E35ADF977A4228A40761D76087870AB72DA8C83CBEFFC2484C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/blindspot_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/blindspot_int.pmg",
+      "meshSha256": "4AD905B4366F5D4A270FA0657DE918640905DC1F68BDE98690FE506D97148C2E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/blindspot.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/blindspot.pmg",
+      "meshSha256": "171A229C8F0345E7E9C11CACAC9D5D81C83572CCF37A35F66E851C559B9909D6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror_int.pmg",
+      "meshSha256": "BD51D4A0A2A87F76D88C20DBC25338C03E07B2AD3A2CDD711102F1EF8EA65702"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror.pmg",
+      "meshSha256": "72CC14C1AB35B3AE3E4F721D03C490CCD9029EDA62002C691DD9BDA8CBBD4B7E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/none.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_display/none.pmg",
+      "meshSha256": "B0A7665103624404E85EE1CF9F928B9A1ADA18C1B32199C0976D658C72DB7D22"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_ext.pmg",
+      "meshSha256": "DB27FBA7EB8EA90C72C22C60D4B2E99C9EC96D10FF3CBEFA8496FBEF1A9AA8B7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_sl_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_sl_ext.pmg",
+      "meshSha256": "E6A6849E12D6D8836B93F95BBCF9DD10EDDD9D539BDBEC04893D6710F3318156"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_sl.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed_sl.pmg",
+      "meshSha256": "317146FEBCFEFCCA9207CAF95B963FA8BCE0C31BA4B4C6C963958AA7AC5A5E32"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/brushed.pmg",
+      "meshSha256": "317146FEBCFEFCCA9207CAF95B963FA8BCE0C31BA4B4C6C963958AA7AC5A5E32"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_day_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_day_ext.pmg",
+      "meshSha256": "02A225CFE4CA681FFFA8DF9EFE6A9AE54DC363222C6C1F1B1E98903A04657829"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_day.pmg",
+      "meshSha256": "BC46C8A72F1D9831DE73D610D6BFBDBDF4EB2FE68A054CFABE8CE4ABEF12447B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_sl_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_sl_ext.pmg",
+      "meshSha256": "E6A6849E12D6D8836B93F95BBCF9DD10EDDD9D539BDBEC04893D6710F3318156"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_sl.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/silver_sl.pmg",
+      "meshSha256": "F6717FBD96FBF8BFFEAF8C682D0A12FA149737A628FED19974BFFCC7A40240C5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_day_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_day_ext.pmg",
+      "meshSha256": "02A225CFE4CA681FFFA8DF9EFE6A9AE54DC363222C6C1F1B1E98903A04657829"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_day.pmg",
+      "meshSha256": "B33227F94D1EBC768DEAFFB9DAC9BE89F69A94D82A1C33366F53C984B0AD69CA"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_sl_ext.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_sl_ext.pmg",
+      "meshSha256": "E6A6849E12D6D8836B93F95BBCF9DD10EDDD9D539BDBEC04893D6710F3318156"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_sl.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood_sl.pmg",
+      "meshSha256": "DF3055C7620A92E4154C03580E66787F56C3B2B352287B25C9E20DE8F57F42E5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/int_trim/wood.pmg",
+      "meshSha256": "DF3055C7620A92E4154C03580E66787F56C3B2B352287B25C9E20DE8F57F42E5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome_int.pmg",
+      "meshSha256": "B3A5F2690936EA26C20E881AE7F3C92020308EFC9C687B31F39183018AEC87A7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmg",
+      "meshSha256": "7EB7F61BC82106E957128D558D3257A1BF9DCB45B08D5BA579140C9374451FC3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint_int.pmg",
+      "meshSha256": "A3B51D3B6C48A6E070E46E168683E1F2FA85B5B6DA79FE4065D9A242A133CBB7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmg",
+      "meshSha256": "5A4F667B7815AE4A92CFA0082ADF6657A368D69F5A43F9E027146A658D763D0C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome_int.pmg",
+      "meshSha256": "0E89905525124976840A7E9CA3BC2ED5925FB2187ADA75E92F8AA69808D58055"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_chrome.pmg",
+      "meshSha256": "15B68BD0FADBBF90B9424B6A35C1E85F7B778442DEEDB5636FFD3082BDE22453"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_paint_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_paint_int.pmg",
+      "meshSha256": "5A6C62464AE9D19EB2B78B4B3ABA9AF31DD945AC2588BC2B8E0D09527FE9B872"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mirror/standard_paint.pmg",
+      "meshSha256": "E7D9831A434BE67B8813573387EF8DC3F10D32DC5DDA41649C7685E5535F4BEF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mudflaps/round_kw_white.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mudflaps/round_kw_white.pmg",
+      "meshSha256": "09C0E6DB5502EC0336FFF35C21C772244B4B3D626C05D218DC6556057D5E2899"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mudflaps/round.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mudflaps/round.pmg",
+      "meshSha256": "73C143BE579B5BAA956A5CEC7798633FCE4DB6FF6ACA3ADD50CCC3E705316721"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mudguard/standard_kw_bw.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mudguard/standard_kw_bw.pmg",
+      "meshSha256": "DC8C50E8FCC96649E411E82EBF05306E5442E244CC5D760DE751BE79F3718708"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/mudguard/standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/mudguard/standard.pmg",
+      "meshSha256": "A9CC659E1B1C7984B69F0134CFB23C43FF723D8608FFE51F98AD00AE4B110D23"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_bumper/standard_led_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_bumper/standard_led_aero.pmg",
+      "meshSha256": "E11D256EF8F7B2A08877793B83C01CC0C2F1AD0EF3D3772CE65527301B4BD903"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_bumper/standard_led.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_bumper/standard_led.pmg",
+      "meshSha256": "5D552204F75095A3003ED0AF211D65707D6067DBD74BBD989FCBC0B6CC440422"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/single_aluminum.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/single_aluminum.pmg",
+      "meshSha256": "AB206EA129FAC9F5CCEBBBE43FFAC5622362A36837D3CD4B13234310D5B7F70C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/standard_aluminum.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/standard_aluminum.pmg",
+      "meshSha256": "C664D8D45C4CCBAD27873F4FC4B687EC2FB8BEEA56906F7848DCE259B9760EE7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/triple_aluminum.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_chs_cover/triple_aluminum.pmg",
+      "meshSha256": "CF79BB26E6C90FE3CC40CFBFFA3A8FF09E72950D17E583FDE1234BCF4C3F2DDB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_fender/classic_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_fender/classic_plastic.pmg",
+      "meshSha256": "946F22A38AA6E8EB8D6E5AA442D820B2D62A5B15CAB987F83D625DD3495B2DDB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/r_fender/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/r_fender/standard_chrome.pmg",
+      "meshSha256": "2EA9F59EC2D32A51C301BD057F17DB545EAE0BFE50B043E69AFF1865F29AC6C3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/day_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/day_standard.pmg",
+      "meshSha256": "434D29F4DB1EF6F9A85D97C7CCD512EE43CB48760D8D65537816AB7FF8BDF2A8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/day_standard2.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/day_standard2.pmg",
+      "meshSha256": "E0A0276BB46E006ECAB5FF2437CFC97AB38F74677B94042CD9FA5F917D302989"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/standard_aircon.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/standard_aircon.pmg",
+      "meshSha256": "24388D11CCBAB4856012D21F7FA6B8A33AA2A3BF18CCD26AABF809F8B7A9C1DA"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rear_cab/standard.pmg",
+      "meshSha256": "CDDF8A4AFE00278AB9004FF74D9E246BBE8204FBAB94F36817ABABF08CA9D45C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_double.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_double.pmg",
+      "meshSha256": "82AE2D291169C92E9D50FB0ABD2EF64E23F27D15FE5BE42A6885A500F494907E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_left.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_left.pmg",
+      "meshSha256": "20DC6BD1651F91CC88D76EF5293BCD90B3EE31F571BCB72991365DC44529C590"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_right.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/standard_right.pmg",
+      "meshSha256": "E9EEF713D0FDB5BDE63858E0B69134007577F73EBAC22A78ED02DA31681FE0F5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/tankstep_left.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/rearstep/tankstep_left.pmg",
+      "meshSha256": "D28AF37205787A2EF0DC11EF43D96B5CDD5A499E739D820DD17F9806A13CD7AF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_badge/kw_100.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_badge/kw_100.pmg",
+      "meshSha256": "AFC42FE82658937C74DE425EC250FCA7DADBDB639EF22E02D137CE043CB72986"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/day_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/day_standard.pmg",
+      "meshSha256": "2A276A28C4124FC50D00CAC3CB36F1AEAD974F04F0A843A9EC05F8FCB7EE9CE3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/s52m_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/s52m_standard.pmg",
+      "meshSha256": "81781705A3C97785A383732077F1A36E58B8E55799A6E72E316BABD4427E2BC7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/s76h_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_deflector/s76h_standard.pmg",
+      "meshSha256": "3C2F71E4D555D27DC9B873341C008ED66BE2F4E4FCE850A871D6217046BF3968"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_mirror/standard_plastic_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_mirror/standard_plastic_int.pmg",
+      "meshSha256": "723ACFAE29B905F4FFC7A9112C443A189170490ABCF78EF3B11700A3448B80D8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_mirror/standard_plastic.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_mirror/standard_plastic.pmg",
+      "meshSha256": "D09F8399947B6688B6E6C617F3211F2B74AA81556133032BA33A82D605D9D086"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_vent_paint_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_vent_paint_int.pmg",
+      "meshSha256": "58168C45BB5CB84D1E583BC92C499521CFB54E3DED4EE62A651F233ACA446A9E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_vent_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_vent_paint.pmg",
+      "meshSha256": "25DB2E481D0ACCEE8EE2B1A72978CA529F8EEB9D4A164D8BCBCE8EBA5B70CAD7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_win_div_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_win_div_int.pmg",
+      "meshSha256": "C34BEFD936C634F238F8D972666C4276BB0F45E86181768F51CF4133479AA8D3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_win_div.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s52_win_div.pmg",
+      "meshSha256": "237FA3387FFC1E74828EAC3269E25D4B221C161D7086B0FB4B112E733E14C6E6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_paint.pmg",
+      "meshSha256": "4EAC687843ECF4DBA34D2785AFDB3B0030F3D0E197CDAF3894DEDFD4FEAB13F8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_vent_paint_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_vent_paint_int.pmg",
+      "meshSha256": "9783F45B94AA65246EDA1E75FB06D017AEB192CFDD8C10AC44420115EEA2FDE7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_vent_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_vent_paint.pmg",
+      "meshSha256": "817558753CBA418CB0CBBDB791AE7757B9C10FB7E49B0DEEC877A75850DE49D9"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_win_div_int.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_win_div_int.pmg",
+      "meshSha256": "5FD26FF6AEC592BAB96E31B25CEFD87AE82C72B801C188CB06BC5E80ECB628B6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_win_div.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/s76_win_div.pmg",
+      "meshSha256": "AA690655751A2FAAE369289F953D2A867BB87CB77B41A3D951DACB548012EE55"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/set_cuphold/cup_holder.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/set_cuphold/cup_holder.pmg",
+      "meshSha256": "1DFA1C30C207180C1EBB68DFA475300B6425C4F574DE3B5798702031246DB541"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/day_paint_long.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/day_paint_long.pmg",
+      "meshSha256": "DE450342FBA707836B5DCB6A5ED800915498FDB8A7ADEB34ADCA7EA5E1DEEF12"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/day_paint_short.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/day_paint_short.pmg",
+      "meshSha256": "B3F64EFD6AB1254975A772006B933DE1CAA3B70E60D0FB5149B0B1A461CD1D04"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/long_standard_paint_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/long_standard_paint_aero.pmg",
+      "meshSha256": "7C35C01DB88662C09C2D0C1A88FA08E1313C619787ECD990400C17C069BBB2C9"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/long_standard_paint.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/long_standard_paint.pmg",
+      "meshSha256": "7AA6D9D56E76E9599E1A8FD5FC312937112EE6833B534347D39DB3C67FF8946A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s52_paint_long.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s52_paint_long.pmg",
+      "meshSha256": "22312E42EB76FC7EE600102B40BB6D5F14E4575FB0CF2261F76DF7AFF58CD9D0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s52_paint_short.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s52_paint_short.pmg",
+      "meshSha256": "7C8AFD684F407CD737B9A3B43AC722819FF199BAA6E87B5AC50957C9A63CC29D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s76_paint_long.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s76_paint_long.pmg",
+      "meshSha256": "92DC72ED10B6C88CC42634C64CDBFD361D2930EF7CA82C0035B319841F5E911F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s76_paint_short.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskirt/s76_paint_short.pmg",
+      "meshSha256": "13DA57A39057EE980A90EDFE44EB45CD1FEAF512DE356701C87CD638C964284F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_modern_aero.pmg",
+      "meshSha256": "E9BDF206739C04ACA4577FAFB74B81B5C7EDFC91B01C7477118A81FA2B26DC9F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_modern.pmg",
+      "meshSha256": "DBEE46798694C808578CA849430B4B4F1F7ABFBDBA852C0C0F7BBE8F9B128BDB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_standard_aero.pmg",
+      "meshSha256": "1B3D22C087B8B6432114FCAF180D05F6CDC828398D6381BE79B2FD13A9F08E26"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_long_standard.pmg",
+      "meshSha256": "3E04D6C72CB49F0F0625998E45F257193CB8DA49418719271D11B9CA9F178D01"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_modern_aero.pmg",
+      "meshSha256": "0FDAFA4E7CF3D540988C8484DD36C7EC6BAE00E8820C36AF1DABDECF9A65D641"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_modern.pmg",
+      "meshSha256": "7890746EABD404E7552890F1CC8EE8EBEB4029827B5BA3AF5EF765587A75B9C8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_standard_aero.pmg",
+      "meshSha256": "D44458629256AD86BA814B343967DCF1AE53AB7792F5631ACE1EF13BC357012A"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/day_short_standard.pmg",
+      "meshSha256": "2CE32462D4A90A505B47046FF938D9A46DB741EBDE8E79B9414FDF4C834AE978"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/long_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/long_aero.pmg",
+      "meshSha256": "B86E99DD22ADBA027913774915F5648783244645A50685FD0FAD1BC0EE8A1808"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/long_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/long_standard.pmg",
+      "meshSha256": "E64E50E1BA724A994F2208464348AD00AAE1C308D8618906DA11C4316049B34F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_modern_aero.pmg",
+      "meshSha256": "EFBE8A9677577A10E0F287D64548266FF1D5F28DCA130DF2494D2A867894A8DC"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_modern.pmg",
+      "meshSha256": "05F0018331B349984DBE94D49F7ED6D60111BD80521556FBD16DEA8B181DA16D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_standard_aero.pmg",
+      "meshSha256": "FD0FAB5C625A1FEEA18B6B76B871C8FB2056EE0A6BF38F6A2C861EACF437DF95"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_long_standard.pmg",
+      "meshSha256": "A022BDB70E55F644921B171A8A6B1E2C89600FC8D9EDA711D21D7B4DAA207C7D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_modern_aero.pmg",
+      "meshSha256": "5F8977663344FCDB751FAA0EA50A5A44CA69E6A53A5A93E186EA6E9D850ECA57"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_modern.pmg",
+      "meshSha256": "CBE4DCAF8D55B65558CF78A7ACBEB16992C955EFF1FB98402DC356010F66DA87"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_standard_aero.pmg",
+      "meshSha256": "68134B633A2C91BF9057F43DAA04D5CA539CFADD0A26BF0A9527136AC49FAEA7"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s52_short_standard.pmg",
+      "meshSha256": "5CE4E4B03A7449FA3B247FCCBB786FAD34FC7B0C54CFF74D6279E8C0B140B1C6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_modern_aero.pmg",
+      "meshSha256": "88288F24228492272B898F19D0626CB696FCA3CD558BAD51A0AC431883DAE840"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_modern.pmg",
+      "meshSha256": "493F528C10A0C305E0D0BACFE23F5750095294226A00BB3510D3C738ED22E851"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_standard_aero.pmg",
+      "meshSha256": "A765735E11B380E44DD6EC2F1FAD976AD66719C1C68FD254E8FB87B4AA73D9DE"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_long_standard.pmg",
+      "meshSha256": "5B28B30C773B9E3FFD7E175B84213B5311BA217F560874039E5D51339AFDB2E1"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_modern_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_modern_aero.pmg",
+      "meshSha256": "940CB312E451E893F56605D075932716C41FD92B66B8AD09C31601D976B5F3AA"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_modern.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_modern.pmg",
+      "meshSha256": "F3BC5E5D1B1A740BDA660B6EAB74A42E77D63BF1CC0447F6BDBDEF84BB4727C2"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_standard_aero.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_standard_aero.pmg",
+      "meshSha256": "B66E42C5EBC338FE454E5D304F2107CDE8377F80CF4C392D367578FC5F8D711E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sideskrt_bar/s76_short_standard.pmg",
+      "meshSha256": "E64E50E1BA724A994F2208464348AD00AAE1C308D8618906DA11C4316049B34F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/s52_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/s52_standard_chrome.pmg",
+      "meshSha256": "1209BB571121C86709AE55BC2D1C27AA39188D2F3F56C20A315BC439AC67E7DD"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/s76_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/s76_standard_chrome.pmg",
+      "meshSha256": "177D8E5769B85ED165985C4E87C0C72A5FDD82A6947B1DE5D89593379A82EA4D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/slp_hndl/standard_chrome.pmg",
+      "meshSha256": "E3BFC5790E59810B192A27ED17D5F6557CEA68828FE1B5116C641A7BACE90410"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_100.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_100.pmg",
+      "meshSha256": "6E7D32F7159141266AEF8E2CEE306B5BF2EA4D2C6F2C652CB5C47B44AF1850AC"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_black.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_black.pmg",
+      "meshSha256": "04CB4CB1C86CB4F78E168057CAFC03C7E24C3B16FCEA7AF68FD18A66873A03A1"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_madrona.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_madrona.pmg",
+      "meshSha256": "6E7D32F7159141266AEF8E2CEE306B5BF2EA4D2C6F2C652CB5C47B44AF1850AC"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_tan.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/leather_tan.pmg",
+      "meshSha256": "6E7D32F7159141266AEF8E2CEE306B5BF2EA4D2C6F2C652CB5C47B44AF1850AC"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/standard.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/standard.pmg",
+      "meshSha256": "E7F5329AE9769EF9C5C14299B0979D3AA4421B0694F82287C5CD7024997D0BE5"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/std_100.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/std_100.pmg",
+      "meshSha256": "1FC6D898A2DCD96B28B2A8B61EAB70786F70BCC7E4342F39979660B23A40D6E8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/std.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/steering_w/std.pmg",
+      "meshSha256": "5E28C96DC2DECFDEFF58490A2FCF864E4BB1B4BF32D76BF8846DDB3264447E23"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/day_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/day_standard_chrome.pmg",
+      "meshSha256": "124B0E41B288348D8A5016CFE9682B55BA363CF81F50A3B86545153188EBC6B9"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/sleeper_led_only.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/sleeper_led_only.pmg",
+      "meshSha256": "3DE80B3233EBFDF6A7CC916EFB0817E7DDE148A036A11BCC554757657A89D476"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/sleeper_standard_chrome.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/sunshield/sleeper_standard_chrome.pmg",
+      "meshSha256": "9A81D8F7FBAFE2CE5ED3847283449477610CA889E8EA59F11AB222440179914E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/long_220_aluminum_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/long_220_aluminum_sideskirt.pmg",
+      "meshSha256": "2D222FDEC01470B67A1D9A7B0F2E789C0520F3E3F875D0ED211FFAFFDB37BB00"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/long_260_aluminum_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/long_260_aluminum_sideskirt.pmg",
+      "meshSha256": "B6DE17268508DD4BC8122BEC34C7E4470C7F1014272925E1C1537741479F257C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/mid_200_aluminum_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/mid_200_aluminum_sideskirt.pmg",
+      "meshSha256": "1B58BD72B4D70F1BC17BD9CF260FB123757F7F1378162D29797E1C80BC2220CB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/mid_230_aluminum_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/mid_230_aluminum_sideskirt.pmg",
+      "meshSha256": "B88BD68046E2691A7CBC334964A487FDC5655A074885A6C51D3961EA972C162B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/short_165_aluminum_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/short_165_aluminum_sideskirt.pmg",
+      "meshSha256": "5E6895AB6A7FEC3F206D2C69506C2512DE8D33328F21F89B660A153372BBF6EE"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/tank/short_165_chrome_sideskirt.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/tank/short_165_chrome_sideskirt.pmg",
+      "meshSha256": "7114CEF70C7D74B1A99104088D33497B90EFCEAE1C034E1DC27798BAFBCB210D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/accessory/trlr_cables/stock.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/accessory/trlr_cables/stock.pmg",
+      "meshSha256": "2A64557C6E42557EAF0526FDDF1EFA0E6EF8F990C94DC3590B55C6531F7025D6"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/dc.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/dc.pmg",
+      "meshSha256": "630DF92507121DCDE1193EAE11EA9A8431D999502385B13D85217DC5CA421F1D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/s52m.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/s52m.pmg",
+      "meshSha256": "ED971ADF0A2A34714D3D6A9607746EBEE370298C6E1A455C22895320635CE674"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/s76h.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/s76h.pmg",
+      "meshSha256": "6E46DA919050782F62B88E805DB869BCFC73E058697AB8CFDC2F62ECDEBB24A4"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/win_open.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/win_open.pmg",
+      "meshSha256": "E2F17463B9FE2D2F50A8B89CC4C49235BAA668EC270596BFC6E9A84A9F87E206"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/cabin/wiper.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/cabin/wiper.pmg",
+      "meshSha256": "213F22429DDE58C5082F88C5EC2D0612159FFA7D594A4988D78541E8E280BB4D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/dc_157_4x2.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/dc_157_4x2.pmg",
+      "meshSha256": "D22EF1F8ED489A76592EC9F4FF6182A4F53912E9CF8BA18076655305BA1AEC40"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/dc_163_4x2.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/dc_163_4x2.pmg",
+      "meshSha256": "C0305C4AFBA8CA48FA9B8DAEFE293B8B63A5F2B4D2C38A45D56C6C4DB7C641E3"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/dc_179_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/dc_179_6x4.pmg",
+      "meshSha256": "714ABEFD9578890C94C9632914182313AC8CDCF7B8751EC2E660C901D9DA085C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/dc_185_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/dc_185_6x4.pmg",
+      "meshSha256": "CB3E6EBBBD4953A97CD20CCEC3447CEAF8B9D706849DFBC8A87CA22C7DBD956F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/s52_200_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/s52_200_6x4.pmg",
+      "meshSha256": "1AC033C2D148BCD095F7F6C521AE85F70CAE3ECD78815A64B07AC91B6AAF85BB"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/s52_206_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/s52_206_6x4.pmg",
+      "meshSha256": "26FE8C8B49B2D54EDEDBE107E8C78215B453E0CBC11F31BAA5662D75617FFF50"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/s76_224_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/s76_224_6x4.pmg",
+      "meshSha256": "955C88E040D56D5E2DDDEB1554F25DA97D6FFFF6601ABF6689677482BE70798D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/chassis/s76_230_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/chassis/s76_230_6x4.pmg",
+      "meshSha256": "DE771AFE7E592B9379E9AAC1485346DF93CDDEC989020B53C2E1C9D8D93AE7EE"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/academy_anim/anim.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/academy_anim/anim.pmg",
+      "meshSha256": "356A62AD39862E6DCC2218C3C9766138FA6461B8AF45EE59D85C170B58DC673C"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/anim/anim.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/anim/anim.pmg",
+      "meshSha256": "EDC8A7042539900F3048C403D399162E4D2D35DED0AFD98F4A505C303520CEEF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/day.pmg",
+      "meshSha256": "005B5F2E1A831317C6B66AC9712CF5424505F824DFD81AA47CA6C268690F2527"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s52mb.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s52mb.pmg",
+      "meshSha256": "BBD235A58B81AD1F84B1478CB6C5BED7079FA90AE5BC013EA039503AEE634B92"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s52ms.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s52ms.pmg",
+      "meshSha256": "0C65AADE47A9DD12B807077F3E94D3E8C9D3FAB2411615213508B8DA33F297B8"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s76h.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s76h.pmg",
+      "meshSha256": "CCDA6FE96E1CDC01ED01405B873058079E26E1CD4042780B617EE1F77780DF9D"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hb_d.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hb_d.pmg",
+      "meshSha256": "E90EC0A6EF499C56EEC77EFC70C9F902B9C5AE0EF2FF6B5E8EC36EE40C1A6B24"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hb_v.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hb_v.pmg",
+      "meshSha256": "9AB7C08FF277857EC6232A5C0A9F9DCE688FF7E51B93847ADCA4BF40E53F2800"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hs_d.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hs_d.pmg",
+      "meshSha256": "1A32F58405878BCA92FBAD19883CB1558D902A50FE072321DBA375C96BCDBE49"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hs_v.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/external/s76hs_v.pmg",
+      "meshSha256": "A0D29D7C559B54751E04EA80C131BEBAB7287C6578F41A538781C739D8A65488"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/day.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/day.pmg",
+      "meshSha256": "1B8D1C8FD924845D9E795E9A102F528131668C5A959223481B01CE0A698F3974"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/s52mb.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/s52mb.pmg",
+      "meshSha256": "582E399BB772C9E78BE1EF36DB49366511BB5B53E18EB74AB04BAF9164DFB75B"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/s52ms.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/s52ms.pmg",
+      "meshSha256": "1EA6460C44369B62BE973B6222FC97850DACEF6B5D4FECE95D378C6930C7F9CA"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/s76h.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/s76h.pmg",
+      "meshSha256": "015988689D992DA5ACE5F73243ADFCE4E6BFA4DE712BBD2CD95C7512AEAC46D2"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/s76hb.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/s76hb.pmg",
+      "meshSha256": "DDC3611BD9420B4F3CEC689AD482C1F2611C070AD1807903ABFCFA038A711F26"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/interior/model/s76hs.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/interior/model/s76hs.pmg",
+      "meshSha256": "23423D38149D99061F599E8A707E3B3C15867C113EC34BDE39E6150F32E033E0"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_157_4x2.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_157_4x2.pmg",
+      "meshSha256": "19719C6139C87A9851D3A5EC72CD9690C316ABF4EA233993A3A7B99594F81B1E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_163_4x2.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_163_4x2.pmg",
+      "meshSha256": "19719C6139C87A9851D3A5EC72CD9690C316ABF4EA233993A3A7B99594F81B1E"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_179_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_179_6x4.pmg",
+      "meshSha256": "8CA965D572DFFA072089E9266C703C17531658F7A459ED89CFB8DA3A650DF2AF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_185_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/dc_185_6x4.pmg",
+      "meshSha256": "8CA965D572DFFA072089E9266C703C17531658F7A459ED89CFB8DA3A650DF2AF"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/long.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/long.pmg",
+      "meshSha256": "C126B759C6D8B732F8833147B775125C4F42FB91B3729D3BA597E61E994C7A77"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s52_200_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s52_200_6x4.pmg",
+      "meshSha256": "C4FCD902319D4BBA12171FA9EFAE6DC2A58C8EB0F565EE0185B0879E8A08C311"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s52_206_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s52_206_6x4.pmg",
+      "meshSha256": "C4FCD902319D4BBA12171FA9EFAE6DC2A58C8EB0F565EE0185B0879E8A08C311"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s76_224_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s76_224_6x4.pmg",
+      "meshSha256": "E8A2302ABF3DE5AD7B50865160C4F0BA481AE4756C6F842CB06B0F9C4887062F"
+    },
+    {
+      "path": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s76_230_6x4.pmd",
+      "geometry": "/vehicle/truck/kenworth_t680_2022/ui_shadow/s76_230_6x4.pmg",
+      "meshSha256": "B2D048A49C095BBE8D629A67CC39CBB1A974331012E9C1D8985B29BD0ED61F46"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/codriver_plate/0.pmd",
+      "geometry": "/vehicle/truck/upgrade/codriver_plate/0.pmg",
+      "meshSha256": "B02E170DA99455043590C0ED0553A77F4B2C4F9801EFF17B8F6FF6FF12B0537C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/driver_plate/0_int.pmd",
+      "geometry": "/vehicle/truck/upgrade/driver_plate/0_int.pmg",
+      "meshSha256": "C25842605D98E29CF0E140246D4AE56CF4D1130905BA58F80A06B17BBCAF3BAC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/driver_plate/0.pmd",
+      "geometry": "/vehicle/truck/upgrade/driver_plate/0.pmg",
+      "meshSha256": "4D7CC975B959CED331A026F15028AA27DFF97F4CF1CC6E4B3D3A012C882346FD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/flag/flag_warning_left.pmd",
+      "geometry": "/vehicle/truck/upgrade/flag/flag_warning_left.pmg",
+      "meshSha256": "2A340CFF00A14BA8397E57741DF1F1A2C2D1479E9B40B92CC1314AF2B23D079C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/flag/flag_warning_right.pmd",
+      "geometry": "/vehicle/truck/upgrade/flag/flag_warning_right.pmg",
+      "meshSha256": "0B109F1E9CD7EEF3E430A220FD53D5F68F5DB28EC8F2C19E4A14C83091E7BAF9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_base.pmd",
+      "geometry": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_base.pmg",
+      "meshSha256": "409464BC3352207663F76F118546314331C9E26B5BB87192F8F37A266E5ED863"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_chain.pmd",
+      "geometry": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_chain.pmg",
+      "meshSha256": "22FA1BD66670E16DFA5DB7E74785548294C3143CD733BBE0B72DF3E2861744D6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_nowindow.pmd",
+      "geometry": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_nowindow.pmg",
+      "meshSha256": "B47D5D73D982F8FD92FF086ECF5D2ED42D1FEDAAFF266C33326981A3DDB75AC2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_window.pmd",
+      "geometry": "/vehicle/truck/upgrade/headache_r/kenworth_t680_2022/ha_window.pmg",
+      "meshSha256": "859680E325E9EB1A7339956C5BE4324579FA32E2791324D8C2AC4607F4536ACD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/fishing_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/fishing_ext.pmg",
+      "meshSha256": "5F5786E6EA38D0347E86D55A0C9896A7A69F4BE08985FA7BE284A137DBD7B7F4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/fishing.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/fishing.pmg",
+      "meshSha256": "857C5707BED9A39AA718E22AEB75BF57476ADC1CB60A3B1B2BD778CD6B123971"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/flag_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/flag_ext.pmg",
+      "meshSha256": "209AF5BBAB562284C960B5496E3642D9A9916B01CD1618F126C1F4B76E39C102"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/flag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/flag.pmg",
+      "meshSha256": "13EB6614F5F57229062374E6CE850D0661F38597994CD3AAAF5C97251EE76FDC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/guitar.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/guitar.pmg",
+      "meshSha256": "9D915B6A5FB8F1330DDF6F8BD744C09677B6DCA1C290867231349AD5A18C1881"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/stick_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/stick_ext.pmg",
+      "meshSha256": "EAD33BC1E6A9468E8D3970900BB33334FBDADA2477656D66D6937C2030ED7055"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/bckpanel/stick.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/bckpanel/stick.pmg",
+      "meshSha256": "1D4DF53315CE580A03E0B08B4B50E3B3C55246230179041B3EF4E4B56ACB4EF6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/gps/cellphone_gps_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/gps/cellphone_gps_ext.pmg",
+      "meshSha256": "06E6C9AF6936E18C939A845C20D3FE120C168A17A06560772AE77B8FDE14802F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/gps/cellphone_gps.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/gps/cellphone_gps.pmg",
+      "meshSha256": "86031D8F69A1BB70E51ED9C0CD5D4A0FA91C9FD80DB0EF1B07C6419A319D4EF2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/l_pillow/mo_pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/l_pillow/mo_pillow.pmg",
+      "meshSha256": "847B809BDDF29760DABDF6BE018A2C04E5A1D9456D65AB1C6AAF340B9BEB5B33"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_2022/pillow_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_2022/pillow_ext.pmg",
+      "meshSha256": "B6CA122B3C2E98D3F77909530E8102CA5E46A3184E9C9F0D049541F855ABB174"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_2022/pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_2022/pillow.pmg",
+      "meshSha256": "59854599762114EC7CEE93320E08CDB3CBF8FF0D20B0294B9C64E2736CA5BC77"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_pillow/pillow_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_pillow/pillow_ext.pmg",
+      "meshSha256": "330FA7C2598C7D43CDB45F785841EFBAFF47F622FA0B0E223F2792D9202A1076"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_pillow/pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/l_pillow/xmas_pillow/pillow.pmg",
+      "meshSha256": "C5CFD20F5F32226B7C4AE20597F416BA471E5A115798BCD50B73F6FF1F7DA5E3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyac/air_freshener.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyac/air_freshener.pmg",
+      "meshSha256": "DE8409D5F84F0FB3C29ED32FD48075271940292DD63294BE793095C4A13F0B69"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyac/bee.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyac/bee.pmg",
+      "meshSha256": "F9EB5F1DFFB1E741925FB5539D612203D04BAC5C2A88CCED414AF77EBDE84E3F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyac/heads.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyac/heads.pmg",
+      "meshSha256": "DEA43A5CF24C3C32EAFB0A2074FBEFFBDD77D584893E551FC24C0C2DBF06C020"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyac/smelling_sack.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyac/smelling_sack.pmg",
+      "meshSha256": "1F41FF42611C52BEC2341917663ED48BDE44871B436438F6ACE817CC5AE76BC2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyac/wooden_classic.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyac/wooden_classic.pmg",
+      "meshSha256": "C2F53E0F0AD63E24161AD78E0074199012600D572E67E1A68130D758583F6895"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bbat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bbat.pmg",
+      "meshSha256": "636D4539EEF60600486DE1D22C24E6EBEDE4EE2EE95D484F20096E2C1C00764B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bear_pillow_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bear_pillow_ext.pmg",
+      "meshSha256": "671EEA64D3E4D9010D01226E3B4230E751B785838B0DCB7AF5B64BCFB0B7DEE6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bear_pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bear_pillow.pmg",
+      "meshSha256": "A125A8D5AEBC962FE8416E9247D87DF67A169318BDF38028771ED95A359ED718"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bear.pmg",
+      "meshSha256": "E5974BD3C46AF6CDC040AE478B9D5CD26419D7BB77A1816D66E29935EBCC22D3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/blanket_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/blanket_ext.pmg",
+      "meshSha256": "A12224589FA501BEA3E726FA20FE611CF8D974296DE457CE125BF1A0996AAD6D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/blanket.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/blanket.pmg",
+      "meshSha256": "9E6F30C641E7422B60FE399645376E89EE14F6EF64C00088AD5D262C2A80D721"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_gloves.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_gloves.pmg",
+      "meshSha256": "035AD381B6DE60569C124555B4B310410E4BC03EA1D44519262278BE90038F1B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hcap.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hcap.pmg",
+      "meshSha256": "78073777C6AA27D7DDE70FFCCBEF94258241017A56EE26B003D63926DEF73EBC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hhat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hhat.pmg",
+      "meshSha256": "7301AB17BFD9B973AD4F7D74E7496C75A3628B4233B38C45EE2685581EBA5B6E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hhat2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_hhat2.pmg",
+      "meshSha256": "DA92594D0CCB2384716BC138C87B7BB9027CA5020A547E28CE964D61FB130E16"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_polo1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_polo1.pmg",
+      "meshSha256": "14CC07B0158A2ED0F81482EDCDE77C7FCB9F31FA51D0E069A6D1771656EC5EDA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/bob_vest.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/bob_vest.pmg",
+      "meshSha256": "E737A34B9FD88AF7CD082AC24D5CCAFB25B7D8C8D590CFB67E24C442694E07D2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/da_dachshund_eu.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/da_dachshund_eu.pmg",
+      "meshSha256": "258433867E4F12715937FE437829568DEE4BB1B54FF38FEC435CAB1EE9B36FB3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/da_dachshund.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/da_dachshund.pmg",
+      "meshSha256": "AF2CECBB948B9EF83F63C1DE8F1DB0CAE96B1D180E7D2C8BF8CE0FDB655537B6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/earmuffs.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/earmuffs.pmg",
+      "meshSha256": "7853752245F6701F6F3B94027838BA30A0086B4F6B0C9F98C125010D64B1D41C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/guitar_case.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/guitar_case.pmg",
+      "meshSha256": "058952CB4E886D7796E5AE815FBDAAECE68151599C8A8C6A45C617AC9FAE2D2E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/lion_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/lion_ext.pmg",
+      "meshSha256": "A42CC1FD91F10671F5264038403FAE48F6F8D917CA884160485CA5FC52A4F026"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/lion_pillow_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/lion_pillow_ext.pmg",
+      "meshSha256": "0464A1570AE7C54E5E4B89CA26DFE4E5675D0F83F8D13722B8CF41334D8DF2DB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/lion_pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/lion_pillow.pmg",
+      "meshSha256": "B37895EEA04BB6C769B3E8A7C52B09023F2FE267F0CD4B809837E25571D9B802"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/lion.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/lion.pmg",
+      "meshSha256": "573AC6E3B209F9747B2C03A2405F5887E195013CEDC75A8F3D7C0931FA357887"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/michelin_coat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/michelin_coat.pmg",
+      "meshSha256": "ECAD4FB6AFC730D779186C5B230A634AE21F6AF4BD062340B0E92A5FA4A2F539"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/pillow_goodyear/pillow_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/pillow_goodyear/pillow_goodyear_ext.pmg",
+      "meshSha256": "FDDE9C5049EE91C44EC1268CB5B77E5E1A43F85CD86C3A6D75F1B35D74BFFCE1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/pillow_goodyear/pillow_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/pillow_goodyear/pillow_goodyear.pmg",
+      "meshSha256": "B531224306FCC5A92CF922AA2A48A34BA21D6B119B8A5C8539EC8EEF6F773369"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/pillow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/pillow.pmg",
+      "meshSha256": "D13525589CA2B0F5726CDD5B07C73D2B52D91E76AD5BEF7C86763A932AD18A45"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/pillow2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/pillow2.pmg",
+      "meshSha256": "B527808FF846CD5920C46B53FAFB9BA1717A0933233945227EA094B1EBF39275"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/sleepingbag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/sleepingbag.pmg",
+      "meshSha256": "100BF478AF8B818087A8CC037C72BFD172BBA193E0BA0B2C421FE060BC37BA08"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/texas_reward/tx_amdl_alt.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/texas_reward/tx_amdl_alt.pmg",
+      "meshSha256": "9EADF96B87457A3DEB3C92535EDF490D93BDF136BABBDB68CBD4D9C004CE24F4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/texas_reward/tx_armadillo.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/texas_reward/tx_armadillo.pmg",
+      "meshSha256": "26C6D70594DD052EF6A130A1CA6E9EA995ACDD9A61DB8720121DB867089C9A0F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/truck_bag_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/truck_bag_ext.pmg",
+      "meshSha256": "33A6AF19DB1E8661CC33A82E62FD0D26B7399D49A1F922F9101EB1F0C7A61FE3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/truck_bag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/truck_bag.pmg",
+      "meshSha256": "000171A3FEFA68A73AACE3290F0E903EEBF5C5215AD043E6851EABBD0BC3662C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/val24_heart.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/val24_heart.pmg",
+      "meshSha256": "07E60308C1D84BA8B0270B6D419C05EC4FEF830579E2C56D1722D0FEA80BE414"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/val24_rose.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/val24_rose.pmg",
+      "meshSha256": "2BA5A3C1184AEDD5E5B1CA6993957DDC9121445E894DC4BE32262263A02A8DB4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/val26_blanket_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/val26_blanket_ext.pmg",
+      "meshSha256": "836819B704333F12BB59F0C72900055B25060E670F2427140D9D8BE85559F554"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/val26_blanket.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/val26_blanket.pmg",
+      "meshSha256": "5BC2A87596F6B2203AC712C92B21CE8059A97B41C927F8E481BE87A3E2389AEB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/wyoming_rewards/wyo_dino.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/wyoming_rewards/wyo_dino.pmg",
+      "meshSha256": "7135489960C2ED8ED49EDC7C45E1FBEF0EBEBABEF2301D3DD53A38B357295753"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/x24_chocobox.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/x24_chocobox.pmg",
+      "meshSha256": "DA8296435F8FCE201787E3B621A800F77329506C4AF33B58C82ADD6DA3185256"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/x24_mittens.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/x24_mittens.pmg",
+      "meshSha256": "CDD39447CD74C240D1AFCDF4440F6DA46304B438F1713AA7E1830C1AAAD14BCD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/x25_socks.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/x25_socks.pmg",
+      "meshSha256": "AE11CEE3630D6E5A48CC62A5C88672AB4F6CDEC938DD04A91493F4FD0D75B10E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_2022/blanket_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_2022/blanket_ext.pmg",
+      "meshSha256": "86CE7190595631EB0F30F1FE81E3995E5439227FCDD9284D88A5E7FC1CBDB180"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_2022/blanket.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_2022/blanket.pmg",
+      "meshSha256": "ACC036087D6156A1268778C86427A2FDB582B3FC243AB1C99ED3C322E13D8694"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_blanket/blanket_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_blanket/blanket_ext.pmg",
+      "meshSha256": "E6CD01E0A1F08BDA4A38AF04434C633AE38FB58E3F1D36B3600B49F3B3BB3D07"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_blanket/blanket.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybed/xmas_blanket/blanket.pmg",
+      "meshSha256": "E6CD01E0A1F08BDA4A38AF04434C633AE38FB58E3F1D36B3600B49F3B3BB3D07"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/bottle_sixpack_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/bottle_sixpack_ext.pmg",
+      "meshSha256": "48B898C826136029280532C3F31BFB02B73CE7CFF815CA92F2B37CE7E0E49FC8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/bottle_sixpack.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/bottle_sixpack.pmg",
+      "meshSha256": "E46F2B01F1917A02F234A6A3BD3A4119CD1AB5EFFC3600D2DB777C0B9E08CA01"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_ext.pmg",
+      "meshSha256": "16536EE911B3F3B33A1E7E4168E437EA487AFA342B2A376781EB45169BDA979B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_pack_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_pack_ext.pmg",
+      "meshSha256": "BC087F94AEEDE4635BF7165F73285A41A655E61712D731B90FBB1EA8938F0745"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_pack.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_pack.pmg",
+      "meshSha256": "9D3B841CF26622C78C7359EBC64B65739B8E464E5EDD3BFBAD800EFFE7D0FD32"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_ext.pmg",
+      "meshSha256": "B8C05D1B6AD63F08B61EAC98D0371A87BA8214DD84EE6129D7638CB36D3CAD24"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_seat_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_seat_ext.pmg",
+      "meshSha256": "BABB558773C286AB2F866383B6AE18871729B4C64D69CA47F3998E131FCE0D31"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_seat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack_seat.pmg",
+      "meshSha256": "D027242FB0002E098303DFAE6EC0FE13A9B4A0430911B5AE7441A1B49F4DCC92"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can_sixpack.pmg",
+      "meshSha256": "7215782A8A773C0405DAA4A43CA2DDEDDA9FD32306D0519D80AAFF749E603590"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/can.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/can.pmg",
+      "meshSha256": "D9C172C8966AFD6EE90817BEAC16B9ABFE863C955E4621D296E59A4F75F9C315"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/cardbox_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/cardbox_ext.pmg",
+      "meshSha256": "919D30696B87260CC4841719DF9103F87A955D767B0CA50ACF6F249454D915B5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/cardbox.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/cardbox.pmg",
+      "meshSha256": "0738A4E55832FB6B0A5276F61B102746BE4C3384F1043F6A2E11014ED7681B40"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/carrier_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/carrier_ext.pmg",
+      "meshSha256": "FBBBE2C77076884819058B827C74C8FAB5C24DA999B868691632D0515EAFAB9C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/carrier.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/carrier.pmg",
+      "meshSha256": "2D81B81DE18FDDC6C18B8268094C8ECA52A624E53610EAF7379410E2285EE8DA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/coolbox.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/coolbox.dlc_toys.pmg",
+      "meshSha256": "BBCDFD8D2E9669A7EBD254C27853A32D1437D370B191530579A0A463291E0BDE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/cornflakes_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/cornflakes_ext.pmg",
+      "meshSha256": "C18E5B98F5F5BA2EC1BB6DFCC91D1DEDDCB62E03F67FE27DCEA1DE0836BA1B57"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/cornflakes.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/cornflakes.pmg",
+      "meshSha256": "C18E5B98F5F5BA2EC1BB6DFCC91D1DEDDCB62E03F67FE27DCEA1DE0836BA1B57"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/fireextinguisher_2_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/fireextinguisher_2_ext.pmg",
+      "meshSha256": "1EB8F2B326EE1A119C57B2FA1A87BC0E162E7BC8395E4D958EB48914B3380C84"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/fireextinguisher_2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/fireextinguisher_2.pmg",
+      "meshSha256": "F549C14F2CE6271A834DACC32CCE0EE9C2353F47AB6BC7D6193442A0870A5733"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_box_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_box_ext.pmg",
+      "meshSha256": "1D0FCF8D9A4D889C57A63AECD850F6BA734D7557B342018FE11B0D4802968032"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_box.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_box.pmg",
+      "meshSha256": "1D0FCF8D9A4D889C57A63AECD850F6BA734D7557B342018FE11B0D4802968032"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch_ext.pmg",
+      "meshSha256": "B51A73BC8A4CFAB5B576CA63985EEFC1132FFEE3CB3C14991CC6C8BEC5F4DA88"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/instant_lunch.pmg",
+      "meshSha256": "80C0677FD02FD50DE9C8B3D63C9BC762D074A11CEF1543F34E55C8EA93FC9D57"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/invertor_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/invertor_ext.pmg",
+      "meshSha256": "1C54C18C1F415C61DB2E72AAC3BCD7EC81CE7DDB5249C4A5D5D1EC7916C86D20"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/invertor.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/invertor.pmg",
+      "meshSha256": "B842A1E8F9320FD4660EF40BFFEBEBDAEFCBD34B4D1DA7D67D3DE0A0BF73AA01"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/laundry_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/laundry_ext.pmg",
+      "meshSha256": "04EC89A92DDA2550B4E285AFB18E952AD9761C9C83BFF5A5F8BDAD4F885D3FC8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/laundry.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/laundry.pmg",
+      "meshSha256": "409749C1B14669718D8144B54D8FD310EC3117467E3AF1787B4CAFA9CE473232"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/map_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/map_ext.pmg",
+      "meshSha256": "8BF1806A497E46F1D7C7D910D1E261402DE459A9C16560571937CC6970DDFFA6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/map.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/map.pmg",
+      "meshSha256": "217917AEF3235D64FED106D62D55766DF56FC36206F1CA2056BEFEA557BE721E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/michelin_bag_1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/michelin_bag_1.pmg",
+      "meshSha256": "8043BEF45FAF493E907E2484BF6B6DD41C62181F05942A2CC573EF4F6EA8EED0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/michelin_bag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/michelin_bag.pmg",
+      "meshSha256": "50A39F5ECB90FA12D227BDAB3339A48A045EE6A821A8E7AF630E4DB2DB9FC363"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/notebook.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/notebook.dlc_toys.pmg",
+      "meshSha256": "4C86865AC779D110BA804F293FCA604E26769042AF3567A6041F7E4E36C2F777"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/purse.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/purse.dlc_toys.pmg",
+      "meshSha256": "7D96828E06CA48E3DA7E81E137F307C1B8C8A10C96114568BAFC49B7FD24B209"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/shoes_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/shoes_ext.pmg",
+      "meshSha256": "C03A06C82384794D93C06E6F76B3629BDF23326A8B6D76DE3C76F3320632904B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/shoes.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/shoes.pmg",
+      "meshSha256": "DCA5ADDA45AB5A4C12879D94F4744D91375C15B8A3E71837DBD473868DB7C23E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/sportbag.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/sportbag.dlc_toys.pmg",
+      "meshSha256": "B8621AD5FE017EA6974D2A61BC5C7DB08B4D3C0C2B61CD93A0D3B8448C9F726A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/tablet_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/tablet_ext.pmg",
+      "meshSha256": "A832329AEFA2E95FD54B055936F4722CA1D8ACF242F6F833874D56A5277A4CDD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/tablet.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/tablet.pmg",
+      "meshSha256": "C805BD6391AA0E8D2818757F6D87193C2808FFFE8F0020241CC58164FE765FBE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/triangles_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/triangles_ext.pmg",
+      "meshSha256": "25CBDFB33C2AD8E14A9427E2A5E9A72F0A98AA734EB3B513611BD8B485574FD2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toybig/triangles.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toybig/triangles.pmg",
+      "meshSha256": "B640D573011C8D13848628C9EB1159D632548AA59160CE66D2609C635FE9A4E8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyglass/gps.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyglass/gps.dlc_toys.pmg",
+      "meshSha256": "22DA0E89B05DF5CDADBFE04A5BF25BAFADBBB20B1E27F92EE1EE893C6304703F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/air_freshener_eagle_spc.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/air_freshener_eagle_spc.pmg",
+      "meshSha256": "91E63B5F0D7A5665CCE0AD3605BD21A7846EF91E8846D2975CC226EE24CDC650"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/airfreshener_goodyear/airfreshener_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/airfreshener_goodyear/airfreshener_goodyear.pmg",
+      "meshSha256": "C61CE6C0C07ADF0108356FDA716EA57B9DCC8FB5DDE6B808F5FDDC23ADF0C53E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/airship_goodyear/airship_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/airship_goodyear/airship_goodyear.pmg",
+      "meshSha256": "AADB6D5C5E8297D406C53305111417EF7D66FA9089E5466C417FBFC43EE2B06B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/american_football_ball.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/american_football_ball.pmg",
+      "meshSha256": "07A4BFF214B45738BC7070A4EC3E584919E6C2C601997705C7C9146851ADA9A5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/apollomod_spc.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/apollomod_spc.pmg",
+      "meshSha256": "21D35E304D4C56EFEA61AE51DE25DBFFCB8CAF661FE38EB7AAE14ECA6476F4E3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/astronaut_spc.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/astronaut_spc.pmg",
+      "meshSha256": "B5E58533F8F2E36B87E5A0B27FF47BDF0A12B31E2F26348F9675FE53BE5D2CAF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/baseball_ball.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/baseball_ball.pmg",
+      "meshSha256": "C5AC22D09863E795925A103DC477C6597BB13C10E7402DA19B36AC6774E36EC7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/basketball_ball.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/basketball_ball.pmg",
+      "meshSha256": "7638E1D0752274C77E5A13CDAE97DC6379287984F0C6F7C6800D31896524178B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/bee/bee.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/bee/bee.pmg",
+      "meshSha256": "B1575D1A8F4CC15D2C5E3B270D459FC96B952B75AD8592922C58FF78FDDA237F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/bibendum_hanging_01.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/bibendum_hanging_01.pmg",
+      "meshSha256": "B523FCFADDF3A29DDACA81C93A4AF6D03085A32D18D2FCCF7A410F1A5C685535"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/chainsaw/chainsaw.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/chainsaw/chainsaw.pmg",
+      "meshSha256": "C65BC490B55A65D6DE72A1816C7DEF64B9F3D10E087F1F1A2A56EC625A72CDAD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/colorado_gem.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/colorado_gem.pmg",
+      "meshSha256": "ADF52353C84E493DE40B4EC935E5BC2A0E0B41FA1A640D3C98808B83635E721D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/cube_single.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/cube_single.pmg",
+      "meshSha256": "B54D0FF91A68A146F39CB61431C85910FA90BB869112FB29EF0FA35A92E2AD49"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/cue_ball.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/cue_ball.dlc_toys.pmg",
+      "meshSha256": "2705A5D61660CC5F7421454A87B7A07813ADBBCFFC0B61E2F02233863F6C880A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_blue.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_blue.pmg",
+      "meshSha256": "56CCD03FF3F8EF018E65E06B10E30CD0E17AAB58EE25C6D5C49A0F88E1FC13A8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_gold.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_gold.pmg",
+      "meshSha256": "ECC0E6C9F8C659AFE94A88AEF70CB707C9FA2951679AE0E702AC1B899270A53A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_orng.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/da_cone_orng.pmg",
+      "meshSha256": "316B7AA8913E0B35C21876B30DB60D9E1D64337A95001BC04E48973557D99786"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/dice_pr/dice_pr.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/dice_pr/dice_pr.pmg",
+      "meshSha256": "0297936FC35BCEC9D03E1C9F87FC352FBDD35CBF7B8674E9B44F1812AB117301"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/disco_ball.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/disco_ball.dlc_toys.pmg",
+      "meshSha256": "0FD337A69F39364228AAD3E4D83EF85EA5BD3F7333F6A04973A0197F26477C49"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/dreamcatcher.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/dreamcatcher.pmg",
+      "meshSha256": "417B9D6AEEF4CB2C8986DE10CD7A8A742667B89CEC63388B920D1732A5F3ECFF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/excavator_big_sur/excavator.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/excavator_big_sur/excavator.pmg",
+      "meshSha256": "704548EE94EF058C02621A627DBE5D131B2503A4557CD62452634FBF6FDBDB4A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/falcon_gem/falcon_gem.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/falcon_gem/falcon_gem.pmg",
+      "meshSha256": "598CB13EE3EBBD8FED2F6A51E13C184022E9F91FFF909E58500E6B175574CA66"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.dlc_michelin.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.dlc_michelin.pmg",
+      "meshSha256": "D529D853D4A378CDD328222FC684C5AAAC29559863D0EBA5AA3AD9C8184BE76A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.dlc_toys.pmg",
+      "meshSha256": "D529D853D4A378CDD328222FC684C5AAAC29559863D0EBA5AA3AD9C8184BE76A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.pmg",
+      "meshSha256": "D529D853D4A378CDD328222FC684C5AAAC29559863D0EBA5AA3AD9C8184BE76A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/fragrance_tag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/fragrance_tag.pmg",
+      "meshSha256": "11FFF6BDC0DA543236DE0ED2A87DD9B22C910D560A530964D8198FF4EC8CCE3C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/frst_sign.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/frst_sign.pmg",
+      "meshSha256": "7C8B71BB66088234BF5039D63C0ED75AD03FF11DFE19F46C41B0F20CF8CD7C18"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/gloves_pr/gloves_pr.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/gloves_pr/gloves_pr.pmg",
+      "meshSha256": "CB271C22CA3117E08781335CE64F55C996B9DF06A67666A3682057E2B0E13D85"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/goalkeeper_mask.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/goalkeeper_mask.pmg",
+      "meshSha256": "155F58811CD73D19EA3B605E2A07863866CCB5CCB88C5207FEC8B10B48180411"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/grizzly/grizzly.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/grizzly/grizzly.pmg",
+      "meshSha256": "FFEDB158FB0A66287E8FAD3EBE66B641020653F69217D75546A20BD89669AD84"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/hal25_cat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/hal25_cat.pmg",
+      "meshSha256": "D8484A575B3F975EB1D5EB7918A5819E2D7FA4DAE23687CB6464FD68053E23C1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/hal26_key.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/hal26_key.pmg",
+      "meshSha256": "CE11B8A1F6210BE6E68CDFE359E32AB26C164CCC316F438C9A29B81D1E8C6FC2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/halloween_2022/hang_pumpkin.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/halloween_2022/hang_pumpkin.pmg",
+      "meshSha256": "8A2522DB14E0A593B6CA6B64DF0893753AF44719ED95E329E2FD03AA11FE45B9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/hlwn_spider.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/hlwn_spider.pmg",
+      "meshSha256": "24974CBF31EBBD27644F547231123EBA55C822C31F97AEEC8E43B2694EB9DCAB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/hometrucker/hometrucker.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/hometrucker/hometrucker.pmg",
+      "meshSha256": "5B7396AE51A2DDB7E808C5107ECCD053C577CAC1B5B3B18BBE89C2993F10322C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/hopetrucker/hopetrucker.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/hopetrucker/hopetrucker.pmg",
+      "meshSha256": "4062ABA145CAEDFC54AA0757BF0DC98D300B32D31B5DB15DD2096752645C0DB3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/ia_rose.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/ia_rose.pmg",
+      "meshSha256": "6C5CBFCFFB429FF26C6B82C53E77C5D8FD9EA27BC6187AE861ADED162E0C060E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/idaho_rewards/idaho_freshener.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/idaho_rewards/idaho_freshener.pmg",
+      "meshSha256": "12E01EDE9D821B3A9233CDFDAC99025CB46134F9E0B5D7610E8974761A4D291D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/krone_freshener.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/krone_freshener.pmg",
+      "meshSha256": "4845CCC48C66604980839CC18870210D4ABDC7823F5AB0C04D675C3E319DB4D4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/la_fleur.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/la_fleur.pmg",
+      "meshSha256": "09AD602911EC8B3751E66FB071844D67023419C0DF77F607B0358A1D0CC38B7C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/michelin_fragrance_01.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/michelin_fragrance_01.pmg",
+      "meshSha256": "5A9AD992DA31B9BA6458A0B29D21178D62E0F6C6A2A3631117C468D024ADB8B9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/michelin_fragrance_02.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/michelin_fragrance_02.pmg",
+      "meshSha256": "1D70CE66654C02F6CAB137371B5944FAF6849E49601502183611F595950EDAC3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/mt_bird.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/mt_bird.pmg",
+      "meshSha256": "9BEC4DCB11D2945747AB8781F809921C870B72643EFAB0E6316A6F5FBCD33950"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/mt_goat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/mt_goat.pmg",
+      "meshSha256": "7C1402D5EFA24ED611C337DC327ADA8EC379551F4B5512AE0E6DCD8C90A438D1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/ne_mammoth.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/ne_mammoth.pmg",
+      "meshSha256": "AB29488E14C0937ED34491FA83A4ABE6D44274D4075861449417D94AEBCB3E78"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/ne_turtle.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/ne_turtle.pmg",
+      "meshSha256": "D59F98B602A2D1AB7846D3FEBF38CAEAADD4EF34FC7E541820B9D812079C49DB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/plush_donut.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/plush_donut.pmg",
+      "meshSha256": "0C170792469907CC24CE17B55AE9501666002A79DEA0BC2B66ECD858F2B53ACD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/ribbon/ribbon.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/ribbon/ribbon.pmg",
+      "meshSha256": "E59FCB35B7A270653ED5A17CFD68632EC39B36D91E8C19F84DA7DDDAC3B94104"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/sd_tops.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/sd_tops.pmg",
+      "meshSha256": "2CA0A56F73EA9638D1E0BAB5565FD624DFAF1E0AB5CE741414BA497B31346575"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/skull_chrome.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/skull_chrome.dlc_toys.pmg",
+      "meshSha256": "B732401B541B0A6AF9A2A056F62276761E044AA9F4DB50B98E7B8566A5C34884"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/skull.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/skull.dlc_toys.pmg",
+      "meshSha256": "88CB95E8247634CB337767BCC140C8B0DA51C281971ED4DA9D55F70C3C71769F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/snowman/snowman.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/snowman/snowman.pmg",
+      "meshSha256": "AB928AFC1511C9A1294FB7C0B6C9337AD15B5CD50BA39637401BC62145AD1EFF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/soccer_ball.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/soccer_ball.pmg",
+      "meshSha256": "D48C065AB71294E6577D8FE4251163543199949DD092A05C1DF409074C23D37E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/spiral/spiral.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/spiral/spiral.pmg",
+      "meshSha256": "8CB3BBC12D011C34015AA411218B40858C22E34CF3359F34EE182BA4290B266F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/star/star.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/star/star.pmg",
+      "meshSha256": "09DFC1C9BFDA808B0EBC32E2DC59314214A10218B20292725695CDB98B02C8F5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/teddybear/teddy.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/teddybear/teddy.pmg",
+      "meshSha256": "4B6A01514E4F73C8D5638A03809B6985177E2E6C2AE9120E3BF741802CEBA715"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/texas_reward/tx_longhorn.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/texas_reward/tx_longhorn.pmg",
+      "meshSha256": "4AD260FEC58EB6E82615D7FCB6373AF770FF0661B640B5FA44CC92A1E93AF445"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/thrustmaster/tm_wheel.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/thrustmaster/tm_wheel.pmg",
+      "meshSha256": "82B069546C3A3BCB80F051FB9E136C19D77E17C9226B136EB17C0326F11F9463"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/val25_dice1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/val25_dice1.pmg",
+      "meshSha256": "0BD4979B61860E45D1046F2225A2DBE683E3BC80027E782DDBBA063E8447A4E2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/val25_dice2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/val25_dice2.pmg",
+      "meshSha256": "973B7E94F9E7D3D19A9507B3B9CA84313FDDE31DE01726F198C20FF1AAA3126E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/valentine_2023/cupid.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/valentine_2023/cupid.pmg",
+      "meshSha256": "1EB0C91ECA84975639C7E5B8A16855EC7278D0EDF59B501B3AD8A7D7BB8A016D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/wyoming_rewards/wyo_bison.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/wyoming_rewards/wyo_bison.pmg",
+      "meshSha256": "93327062DA2937B53AAD772C3F685A1D3F9B3986C24C2FA4ACA489F49D26B3FA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/x24_bells.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/x24_bells.pmg",
+      "meshSha256": "7FFBFD21E80696D5D34A7CA5D7BFF529C105C1A73A408F0C80A4BEFCD747CD38"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/x25_ropeway.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/x25_ropeway.pmg",
+      "meshSha256": "62BF077B808BE7886E1DF790E1FB66B566EF627F3E14E0D75C43C33E1ADDD77C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_2022/x22_dove.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_2022/x22_dove.pmg",
+      "meshSha256": "2E817DABE56C53AC3B205CF2DA36017BA23B5702B6351FC70150714D4AD9F4E7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_ball/xmas_ball.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_ball/xmas_ball.pmg",
+      "meshSha256": "DCE172B39030476167A63B74C39C2A4E1155CC077EF2F804889438E138F4DB33"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_sock/xmas_sock.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_sock/xmas_sock.pmg",
+      "meshSha256": "F2D71F886C1BBFF00F166031E141EAF97BD98AB58B388E28AAD8C2E3DE4DC64A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_1.pmg",
+      "meshSha256": "56D195E9449E5C8887316D91B9CFB3648778003615B156156F6B2740AD2E5DBA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_2.pmg",
+      "meshSha256": "9D8EED036ECD226A18E6FAD4E29CFB251E31F268A2E81861093D95AB138A0493"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_3.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_3.pmg",
+      "meshSha256": "50269871A5BA3BCB79A544DAD18EBE8A8E96CAED449D53B75913906409C764DD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_4.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_4.pmg",
+      "meshSha256": "892B854682DA41454BE1D8E227869940EF24945ADD6239B432B47919C5A3031C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_5.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_5.pmg",
+      "meshSha256": "C639DF6B45DEACA42D3C81DEAFFCB4D875842D0A05678738F10897C7864BAA62"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_6.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_6.pmg",
+      "meshSha256": "2559D17D438747CAFA108D1627230765D3625B9F4E15788F3F596BABF56F77AD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_7.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_7.pmg",
+      "meshSha256": "D6CD43D5EA7094314F4A5062751E7C1AC7BD7310E2CB6823B7B8DF961373AA38"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_8.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_stars/xmas_star_8.pmg",
+      "meshSha256": "F5320F58801FA7D204310A78B0F27F984A85D393B2DC90A473EA17FFF1D69FD7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_glass.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_glass.pmg",
+      "meshSha256": "802E8E0EC121B2BE18701CB7AF3BF91F24FE564D2FA64D329EFD9B6752C510F9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_gold.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_gold.pmg",
+      "meshSha256": "14314FD9FE185E5B6EAE867AD7AB5C1707CC77382013031C924D50B90971619C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_leather.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_leather.pmg",
+      "meshSha256": "154B780BB0A898B1FDF798DA8A6BAB88ED7BF5F2A7CB484AEFB4753547E71E2F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_magic.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_magic.pmg",
+      "meshSha256": "1D5D0812CD00438813D645E5E676857332DCD63BFF8BB523D8C300601CEAE8E7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_orange.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_orange.pmg",
+      "meshSha256": "34024E94B2018635E72D862A8CC3E9D022C9DCBFEDADAACF3777113AF7971FD2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_plywood.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_plywood.pmg",
+      "meshSha256": "4DCB8A2D90394456547897490A608DA357FA9B0A006A271CF7120EC48678B936"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_rainbow.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_rainbow.pmg",
+      "meshSha256": "8B98E30A0A9FB475E7CCAD7C4E6CCD6593B5EB825DAE9DDB61BC317262273639"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_silver.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree_progress/prg_silver.pmg",
+      "meshSha256": "B439D0DCA5406B0A1DC726FA3AF22EE578854AB9A89120A58A0D145978B57639"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree/xmas_tree.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_tree/xmas_tree.pmg",
+      "meshSha256": "9EE97A65AE4385B7DB7A9038F73053A76DD6AC418ADB19AE07D45994AF5B56D2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ar_fawn.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ar_fawn.pmg",
+      "meshSha256": "CBF1737F5CE78001D0100F742DF8D2299DDA0CCEAE8EA3D6591822473C2296AF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/bag_goodyear/bag_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/bag_goodyear/bag_goodyear.pmg",
+      "meshSha256": "210A6D3A781193E67FBAEDADEBA20F4F657B82093CA9E290D026B1A26B0608D2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/bag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/bag.pmg",
+      "meshSha256": "9525E63A145A22B857DABD2BD0E5E600E1047AFCF118B13849F4F567B1FDAADD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/book.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/book.pmg",
+      "meshSha256": "2C32219A061A23B72BC1F106CFAF0B0D49436CF9AD729D6F34A105DFCBC493FD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/costs.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/costs.pmg",
+      "meshSha256": "87E625A83B3B04B976DBCCC19BFAD0D8A597BBCE0866B91F8B03007979E04C4F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/delivery.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/delivery.pmg",
+      "meshSha256": "E1D44EFE176D2D41D168B50DD0A7324335A382DA98186A7B7A88733C1ED1600D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/expenses.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/expenses.pmg",
+      "meshSha256": "A4969EFD287E9ED7587E49F1F992C4D7FBCFD8B8119F4EB3208D11A4FD6457AB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/farming_hat_toy/hat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/farming_hat_toy/hat.pmg",
+      "meshSha256": "E2DCC826695690D7F2D9B89E42C8E87CE7C0BA8BA1114747FE592B518ADD5A0F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/gamebox.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/gamebox.pmg",
+      "meshSha256": "F25EE7D5D19371D8EB0C3AC83E707FBD6628E9BC5062631F534749A629A09D90"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/hal26_grimoire.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/hal26_grimoire.pmg",
+      "meshSha256": "B5491B78C63B53AB34445A041B7D0BA4B8AA7D0782080AE098F0E98C37E30FFA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/hlwn_cat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/hlwn_cat.pmg",
+      "meshSha256": "8E16A1341D80BE27922752BCF8AF849F0BD0B96052ECEB414B9FE9D14F2E8213"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ia_pig.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ia_pig.pmg",
+      "meshSha256": "A194271B9DBA8AC4A4F6D63FE6298D5BB2BFC171727861C8DDE7066913BB7066"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ia_pig1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ia_pig1.pmg",
+      "meshSha256": "EDF871445EC00E410DBC4AD07A7D99213E7B4D4744985FA54873E114019F7E08"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag.pmg",
+      "meshSha256": "002E9FB544945B1EE5C20E3E6278FF3280F393F424511C6770A2F20BF2071351"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag1.pmg",
+      "meshSha256": "1DA6DD9EDE46EE82548184E4C3BED8D87B069BF2CCBBC2FEC65CE123797111E9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag3.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_bag3.pmg",
+      "meshSha256": "26B03F1DDD2F2B47BDA0A7FE36316ADB8768F112E5AFF1C88E9DF0A5E1E6912D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_hat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_hat.pmg",
+      "meshSha256": "2089C4E49E3514D15287E891854BA76211674D6B1BB1CB368D01CF87A71310A9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_hat3.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_hat3.pmg",
+      "meshSha256": "F55442F6D397B3905C8A316A4F1D55D090542213CE8866E2F6AC7672716937EF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_mug.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_mug.pmg",
+      "meshSha256": "9A9BB38C692FEBA75CAD2D680BDB852AFC25543555A59032324586AAC3B947C3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_notebook.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_notebook.pmg",
+      "meshSha256": "4E4D7D0E392452FB047A2D6114E1440B9E7D24CB48CB52D926E5401E75E47C3F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_plush.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_plush.pmg",
+      "meshSha256": "2005E8CD3A985F3EC43B4C43113628A9184802D6EBC882D98BE3FCDD89C49894"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_thermos1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_thermos1.pmg",
+      "meshSha256": "4A410E211DCDA632FB7B0CE19B9F2BD5D73C659829648FF4D1C9AEDF7DDBDB3B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/krone_cap.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/krone_cap.pmg",
+      "meshSha256": "845C189C6E9E856F9221A364B34E6A0CFD468FA1450836C66CEA784607821EF0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sala.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sala.pmg",
+      "meshSha256": "31BA358B6E0B2B798DB0972EAFA947D4ECD3B0DBFD1DEDDFFF1DD07F1463DAD9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sala1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sala1.pmg",
+      "meshSha256": "168AA62F9A3AC5BCCE991CEA5B8F231FD3814967E8B7EACBE166064B206C660D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sunflwr.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ks_sunflwr.pmg",
+      "meshSha256": "33EFB19DC3BE28CA118D1FBFB729E62EE60CACC1AA1D467D3B0E6020E2D4C319"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/la_bear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/la_bear.pmg",
+      "meshSha256": "681664E37F1EFA07AFBD57771FA9A9193937506C1D11313FE510C4AC54422C69"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/la_bear1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/la_bear1.pmg",
+      "meshSha256": "E614B5B5F4ABC048CA489B1218B6CC129852DFBF9ED07006FDB1B400418C0733"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/launchbox.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/launchbox.pmg",
+      "meshSha256": "BF4505B4FDB24CD24555556FC7D73D8427167E3ACC28D2D862FAAD3B9CA787F5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/lbox_farm/lbox_farm_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/lbox_farm/lbox_farm_ext.pmg",
+      "meshSha256": "45985A5258756F619C4591375116E7F9FAEED67AEFF3E00446172371C80BCBEF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/lbox_farm/lbox_farm.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/lbox_farm/lbox_farm.pmg",
+      "meshSha256": "4E10707D8569C1764AB4EC0B863B0F80BE151D6D9326BA127868B1BAF3EBA2EE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/magazines.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/magazines.pmg",
+      "meshSha256": "67D73E3082E135AF77A1662269DC005017849BEDA3538CFEE5A355509B67D269"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/magazines2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/magazines2.pmg",
+      "meshSha256": "E0CD785587D435BDF5C57E8A609A0E00E5323055722D4084C325F303E321F0C2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_bottle_2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_bottle_2.pmg",
+      "meshSha256": "62FE8CCDB736020A365CD7A22C281B98DCDEE2982DEB093756959415758C8B2F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_bottle.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_bottle.pmg",
+      "meshSha256": "21D30C9A09AC0E9C6CD83A8B8F27BA930F270960E2A23A1D936CEFFDA7EF50F6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_gloves_bed.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_gloves_bed.pmg",
+      "meshSha256": "DD81B3298E684E8C45F895650D1CD19044175B23BC1FA1AA8DAE4B6F43E0C57F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_gloves.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/michelin_gloves.pmg",
+      "meshSha256": "CC85607B51A9514FFFD155898BE972CAC680EC68F26044D717736BEBD67A6FC2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/mo_frog.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/mo_frog.pmg",
+      "meshSha256": "831F7F8EF3461790804F42246F4A8807EF05C720D8CC0713599867D1975B449E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/mo_frog1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/mo_frog1.pmg",
+      "meshSha256": "526F895EDC695609B4238BB0EFFD4518D1C3CB1AF2B9EAE86424A47A1639FCFE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ok_bee.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ok_bee.pmg",
+      "meshSha256": "EA4F2428B882DAD87FF19767F8E9A83FB26038F5CF4633594A24CB6BB7C45DE8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/ok_btrfly.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/ok_btrfly.pmg",
+      "meshSha256": "5D540E0365E693560903549009B10F67A40203655486EFB3ADAEA2755D700B53"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/papertowel.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/papertowel.pmg",
+      "meshSha256": "F185701EC798EF41F6C3C9CBBC7D464A5AB5ACC3AA459083D86DB7F9CB8FE36B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/plush_tractor/at.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/plush_tractor/at.pmg",
+      "meshSha256": "4510E67F212DD1100CE75DDFF5CBFEB2124BD451C033D2C77A45C160644DAB82"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/sd_pheasant3.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/sd_pheasant3.pmg",
+      "meshSha256": "192B009CB6D177686CD2A3B383F7209E044BDCCE040016D23A3A2D51E845F0B1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/sd_pheasant4.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/sd_pheasant4.pmg",
+      "meshSha256": "B80D72AE878680DF1A129AD44D166A7C5371021A046FAF748A2A382958DCDB8E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers_cvr.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers_cvr.pmg",
+      "meshSha256": "9316C37811CCD39F1D1E8E06DE18823767956F1C421DBDD11F8E54B3C603032C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers_ext.pmg",
+      "meshSha256": "18BC814B053C535F7F8DF5AE847469FDF348DF48A00A35ED5D5259FE97BA72CD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/stack_of_burgers.pmg",
+      "meshSha256": "768CBDFC973B499F6A6461BCD10835639526CE4EC50BAE443BE7B962E8F20298"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/val26_cap.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/val26_cap.pmg",
+      "meshSha256": "D5ED7D9285D1316365D0659533BB59F0EF5D0B27C27753AC57369A466B867AB0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/valentine_2023/chocobox_b.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/valentine_2023/chocobox_b.pmg",
+      "meshSha256": "A974AD9DCD336FA55F6BA87CB63203B664F4CA24F9D9F2A3CD0542D8AC026382"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/valentine_2023/chocobox.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/valentine_2023/chocobox.pmg",
+      "meshSha256": "3544C73371FE70947CD1F830CB581982B7E29D4B6AFAD3B0E1D96871ECA74529"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toyseat/xmas_present/xmas_present.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toyseat/xmas_present/xmas_present.pmg",
+      "meshSha256": "C0D9AF6FBC35EFCFB83B8F617C100299CD8273F96DA6E233538EF892B884F92B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog_a.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog_a.dlc_toys.pmg",
+      "meshSha256": "4136910CC36F3F8548A2846B2FDD5897341961A35141DC30E47F9AE719B5BE0A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog_b.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog_b.dlc_toys.pmg",
+      "meshSha256": "AF872E80F363DC12F8B2665993A098136402679A35A7C2F9B324BD8C6AC827EE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog2_a.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog2_a.dlc_toys.pmg",
+      "meshSha256": "AA206E94B15AD4D6764410FB1D1B40528807640135C1F4CF6B95A9270F6F821F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog2_b.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bhead_dog2_b.dlc_toys.pmg",
+      "meshSha256": "3CF956E9882E7BC7F12C86232A6327460020844911EACA42EEF1822E30EC099B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bibendum_base.dlc_michelin.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bibendum_base.dlc_michelin.pmg",
+      "meshSha256": "D49124853085099B3F431863E7D52402007261F5C6DF6C411EC277EFC5184240"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/bibendum_head.dlc_michelin.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/bibendum_head.dlc_michelin.pmg",
+      "meshSha256": "990B5E51DAFDF2A45BB7F020E6811ED07C1DF11E9A6EF3770F2A648FA7B9628D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/burger_cover.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/burger_cover.pmg",
+      "meshSha256": "777C94AB74BBE9EBC90960B338B2BE66B3FFF3E5A89D22129383980EA6AFEA75"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/burger_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/burger_ext.pmg",
+      "meshSha256": "6D9D9AECFB55FB4DD2242000894E8BB7C4CEBD43B8F85AA04098AC636668DA77"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/burger.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/burger.pmg",
+      "meshSha256": "4E9246B4DAD0844740990894CA633A8DFE04DC43F43C17105CEE6FC887A0E3AA"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/can_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/can_ext.pmg",
+      "meshSha256": "970124BC5011877EE441A27FFA9AE6B7289FC386920AF3E69687E47A2BE32884"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/can.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/can.pmg",
+      "meshSha256": "072E4EB7490FEB4E43345803F07F2085E11E00E5314EBFA0F99DCAA4374320FE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap_ext.pmg",
+      "meshSha256": "BFE0909D630A7BBE79C1F1460A32B41A419F4363F0561E464722283022F97459"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap_goodyear/cap_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap_goodyear/cap_goodyear.pmg",
+      "meshSha256": "C1D49D4F5609978B363520B2B5FC58AA2B571CF68485546A61C6347FA38974B0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap_kw.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap_kw.pmg",
+      "meshSha256": "3E1F89D11FE6462DC3D8EF989F7E638454F12BC6378FFCE9B98E47312A38C74A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap_trucker_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap_trucker_ext.pmg",
+      "meshSha256": "FB07D4E2125B491B26E1ADB1F119A5DFD8F2CF56C53EF92E6A505EEACA97D790"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap_trucker.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap_trucker.pmg",
+      "meshSha256": "A81CEA1C6A122F68B67280531075DD7DC28347B273A2BE5AE4D9271DF8BD0134"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cap.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cap.pmg",
+      "meshSha256": "BEF8FBA71266C87710A8081132F0D6E6DB82A04EF3BA3FDB09AAC224DD7DDB0B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cellphone_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cellphone_ext.pmg",
+      "meshSha256": "EA1996994305BA6B167B831131209D073FE3FC603263923A5560D9F85D1C84DB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cellphone.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cellphone.pmg",
+      "meshSha256": "4BFA35A5EE1E8B5FFC5377CF5E7C2A50D3F310DE3A0F47B97F1A0394CF607ECD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/chewing_gum_set1_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/chewing_gum_set1_ext.pmg",
+      "meshSha256": "4474CEB4AB7387270EE629B1515459BB11E1F8421264B59D5F9700A77C1249A4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/chewing_gum_set1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/chewing_gum_set1.pmg",
+      "meshSha256": "35B83C637EFB74C183345DAB6C942538DA49F87A5C803AB114828353259CA8E1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/compass_base.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/compass_base.dlc_toys.pmg",
+      "meshSha256": "BE775DECBBCEA04F4E4B93193B47F23E6EEFCEB777A6611C7FC902E49796E088"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_black_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_black_ext.pmg",
+      "meshSha256": "3174CAB28E4B31EC7A5A39A6F378209CE6FDA24D5D996381CF58EB5C99B8C3AC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_black.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_black.pmg",
+      "meshSha256": "3174CAB28E4B31EC7A5A39A6F378209CE6FDA24D5D996381CF58EB5C99B8C3AC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats_ext.pmg",
+      "meshSha256": "3DCBB49FACE9413E9C4DE6B275DE24284F75D407C68FEE8BFB21412E5408A7E5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_ats.pmg",
+      "meshSha256": "3DCBB49FACE9413E9C4DE6B275DE24284F75D407C68FEE8BFB21412E5408A7E5"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_goodyear/cup_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_goodyear/cup_goodyear_ext.pmg",
+      "meshSha256": "524A0503D2C1CA3DF4B2614472747753B695753AB56B7606619522695992181B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup_goodyear/cup_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup_goodyear/cup_goodyear.pmg",
+      "meshSha256": "FA2012A84960C13C5A8517F7C3E78DE47540F65AB3C972E039D09E976070AB74"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/cup.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/cup.dlc_toys.pmg",
+      "meshSha256": "602A32A22CB20993BCB555007E85F4BFE829BD8E4140E547BF714D8CBF1A0F00"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_ghost1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_ghost1.pmg",
+      "meshSha256": "95CD780C9290455895B06EB4889B53D99B51D720D6DEE1BF9B98866EE14846A8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_ghost3.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_ghost3.pmg",
+      "meshSha256": "A1D35290A042F2CEAC2AEA060F843B4090D68384F0918F835375C941D12C95EC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_hands1.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hal24_hands1.pmg",
+      "meshSha256": "73BAB43BA6F87617E612DA2469441F9A80FC04CAF94C060B61F1F027E7A152E1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hal25_eye_bs.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hal25_eye_bs.pmg",
+      "meshSha256": "3B7D22394AEAE584CC23D118971FEC0188C13EF7D9826C8CA6EE3AC9CDED2F14"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hal26_lantern.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hal26_lantern.pmg",
+      "meshSha256": "9BE783031CB9DBE306085D4E3100B007A20CECFD995D090DE134B471893BDA10"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/halloween_2022/hang_bat2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/halloween_2022/hang_bat2.pmg",
+      "meshSha256": "FDDE8A21B7B1BDEEFBDF291978B79F186D48FC0BCCA3A287F64F5D9766F607B7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/halloween_2022/hang_tree2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/halloween_2022/hang_tree2.pmg",
+      "meshSha256": "17691C76C9411F1A617A35F09630A2D00A0371D86E2578DAD0F5FBC7B4C9746B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hat_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hat_ext.pmg",
+      "meshSha256": "5FDDF3652123E034DBC3F0805B12915568A66E371DE3D9673D823FFF25E3C277"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hat.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hat.pmg",
+      "meshSha256": "93DA53D14D3E2168C30C1C7B3CB918C7932935F24407AEF6A9AE794F67676745"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hat2_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hat2_ext.pmg",
+      "meshSha256": "F0D64877B75921E01B68FED0FCEDA58D90BF4FD5C0E8E67A290E37D565210BEB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hat2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hat2.pmg",
+      "meshSha256": "A7F64FC2496456A79A83274B69A822CD02F614575AA9129E8578DA89DCDD8058"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hulladoll_base.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hulladoll_base.dlc_toys.pmg",
+      "meshSha256": "7158D4977DD3FC16F3D7094FA08A11FC979D43FC21D45623D1ECE4397D139BB8"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/hulladoll_top.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/hulladoll_top.dlc_toys.pmg",
+      "meshSha256": "0D009D9BC968275782A50D44223EED89092E3D2A40D65DA923D95A6B5D9003F3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/idaho_rewards/idaho_crisp_bowl_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/idaho_rewards/idaho_crisp_bowl_ext.pmg",
+      "meshSha256": "25238A514F8A843D11904EC503602E27233D9888DD8229B1D8CD349FEE747554"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/idaho_rewards/idaho_crisp_bowl.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/idaho_rewards/idaho_crisp_bowl.pmg",
+      "meshSha256": "BBC1027F5C3DAF82A9D7DB484FA56A0EF81C84A5210329C50D474DCC2D51B6DC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/krone_glasses.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/krone_glasses.pmg",
+      "meshSha256": "8B81D3E97B1D73A5AAE200BA7E098432D68DDD1A21512E5BC2005ECE24332643"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/krone_mug.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/krone_mug.pmg",
+      "meshSha256": "0AB60413906D93A53325A388E2853F02F12C9B1C171E29AFDC14268F3FC385DC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/krone_plush.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/krone_plush.pmg",
+      "meshSha256": "A83C8B024FAD5282A0B3E0432AA9764971F06D1089B06B995CA6C9DFED32E6F0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_cup_2.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_cup_2.pmg",
+      "meshSha256": "6AD3EE7BB331EB00AFB12A115235B74D0CA1A4556FDC8A5ED0412AABBADE9B52"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_cup.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_cup.pmg",
+      "meshSha256": "E2F0E9C56630E35F4A4FBB7C32EB3DA80D7B445C5FCFF789A3E6C1297E41A3D1"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_glasses.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_glasses.pmg",
+      "meshSha256": "24101BE11C5CBF36475F2173D1C5913AED9F2575A6C00E416C37B4238C149696"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_notebook.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/michelin_notebook.pmg",
+      "meshSha256": "8817FDA7FE4DAE64462E20C3472342F707ECC00AC20B149020840F24E72B8263"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mint_box_goodyear/mint_box_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mint_box_goodyear/mint_box_goodyear_ext.pmg",
+      "meshSha256": "2927EFF4A52FFA45CE7A518AFE5A80322A805821649120B7EE2626C78250A668"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mint_box_goodyear/mint_box_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mint_box_goodyear/mint_box_goodyear.pmg",
+      "meshSha256": "A46C0EDA725D7B2A60159A46A243754E422ECBEDA2AE9D49921310AEF4153F48"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mints_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mints_ext.pmg",
+      "meshSha256": "86B1C8DA33C18D0BAC3F0AC83D45443BB332EF898DC048C75ED5B1E20889E50D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mints.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mints.pmg",
+      "meshSha256": "17C14558AFC36F630518599A24A9EABAF9D4BC8CD38152886B5B08E04EA57708"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mo_mule.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mo_mule.pmg",
+      "meshSha256": "D2325EC6C9C93C7B6BFB2B0B36DCA53911EA2C53446B346422D44049C84255D3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/money_box_goodyear/money_box_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/money_box_goodyear/money_box_goodyear_ext.pmg",
+      "meshSha256": "C6B44CBBF1EDEEF121BC13F4F33DFB28C1198A4E11D70F25AC6F60BD88AC3AB0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/money_box_goodyear/money_box_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/money_box_goodyear/money_box_goodyear.pmg",
+      "meshSha256": "5D5C30F499B7CDB1AEBB8379B1ACD133C5CE2DBAB02284F3DF7C478644E5EE68"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mug_goodyear/mug_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mug_goodyear/mug_goodyear_ext.pmg",
+      "meshSha256": "5428FFD8FCD4BC469EA4AA94D9FB0090227CDE787ED51457D4B878F793564E6B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/mug_goodyear/mug_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/mug_goodyear/mug_goodyear.pmg",
+      "meshSha256": "3B58B71C280999FF0F30E4EB3612B81030DB4DE0751F7EC9710D0C89E192BA82"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/notebook_goodyear/notebook_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/notebook_goodyear/notebook_goodyear_ext.pmg",
+      "meshSha256": "F5C4366ADE5B4DDB90E56492DC2F1EFEE1E7D86CA85FC6E18DF15029382F1AB4"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/notebook_goodyear/notebook_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/notebook_goodyear/notebook_goodyear.pmg",
+      "meshSha256": "01CCEECA28B0E348BAE50B9738539641FEE1E6F4E6618602FCCA85C194691AE6"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/owl_mug.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/owl_mug.pmg",
+      "meshSha256": "C2BD7CA79355361F0DE2F3935D69C839B9355B9981C16549983A0FE9B54D5FF0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/pilot_sunglasses_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/pilot_sunglasses_ext.pmg",
+      "meshSha256": "52169781FD2FB59741F1D5292B3C881991B1ACB47AAD43BDF843030CE8A45EE0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/pilot_sunglasses.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/pilot_sunglasses.pmg",
+      "meshSha256": "5BA7D4FFEFD614680245300FC91BEDF0F2F253D64AF1A0996DD17D836EDD1505"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/sport_sunglasses_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/sport_sunglasses_ext.pmg",
+      "meshSha256": "15A7ECD48595DB88EE771B68E1D560FB3634863B5892AA12CA146749EA377DB2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/sport_sunglasses.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/sport_sunglasses.pmg",
+      "meshSha256": "CB0D60C363B1CB833D717CD9B9D3022DD7E1DE520C33ECE9E2C47280D65A07E7"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/thrustmaster/tm_pedal.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/thrustmaster/tm_pedal.pmg",
+      "meshSha256": "0ACF78A9F7869E4DC8A5A6C827D9F9904C9797C2D5726B77E67AC359A2702A4B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/val25_heart.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/val25_heart.pmg",
+      "meshSha256": "573BA374D5B2665BFAC2E336D7217A7BB49091C9340F2F656DED5D16DAEB33E3"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/wallet_goodyear/wallet_goodyear_ext.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/wallet_goodyear/wallet_goodyear_ext.pmg",
+      "meshSha256": "800E528259FE7A038EFA6A8B85B9FC6556577E0C80D3030FED6347A966D3318F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/wallet_goodyear/wallet_goodyear.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/wallet_goodyear/wallet_goodyear.pmg",
+      "meshSha256": "53E59AF23416B261F44600EE3DA44A2DA5562E57E12045A4310FD8AF87A5A63E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/wallet.dlc_toys.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/wallet.dlc_toys.pmg",
+      "meshSha256": "CE11698A6949ED6F68BE866D01951112292D0B680CD78148714D79AABF7E4DCF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x23_choco.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x23_choco.pmg",
+      "meshSha256": "4A748BEB7DF8BD6C71A27E966EC44572B3B715734B0F516DDFE3B380EAD7C87E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x23_sled.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x23_sled.pmg",
+      "meshSha256": "7C4B2F1165692E14367CAD2DBC3BFCD184E160657A9736C72AACBB5558B1D880"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x23_star.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x23_star.pmg",
+      "meshSha256": "01F4D15BBF177922152331F1BECFF9804F2F8EA717A1FA496C70D2C94FAB41BD"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x23_sweater.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x23_sweater.pmg",
+      "meshSha256": "3CE4C7E826986C3578565D6452461B8F65F2D9163C8AF5A0B4D874981E56EFF0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x23_tree.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x23_tree.pmg",
+      "meshSha256": "5429D350BC5BBC646D3D2D677CA35CFF1AB489AA554B2D482DE0AF52BF0FF195"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x24_deer.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x24_deer.pmg",
+      "meshSha256": "193B1269815F52E4239C502DC70AD1CA9B342FF296FF18979CECD7E0CDF77149"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x24_stamps.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x24_stamps.pmg",
+      "meshSha256": "507B4889F726DE9CF9FE8B848DF7F372AA1D698AE4407CD6233CA53C3E98E060"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x25_deer.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x25_deer.pmg",
+      "meshSha256": "D3ECDADBFDC478A4573EB464FD8BAE1E82EB06FF15B4F5890DA8A4034B2B11D2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x25_gnome.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x25_gnome.pmg",
+      "meshSha256": "175BACA4B1ADF06E977F34E8D7C8B54498AAAA7E214F7652F727F7F62D40333D"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/x25_mug.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/x25_mug.pmg",
+      "meshSha256": "730BD421DD320C1A74C20D2050B06EBECCC13AA7B321AA5A69FE7CFAEE1B3DD9"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_car.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_car.pmg",
+      "meshSha256": "71FAFBBA4EA16A02597B75AFA7C8B0AAC140656EDA788A9DDC4472497471684F"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_horse_sh.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_horse_sh.pmg",
+      "meshSha256": "81777F8FB2451F6217D4CA658CBCF77AE670B79ED08CF91A66C1E506AF4E0346"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_horse.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_horse.pmg",
+      "meshSha256": "8BA40187E1133BC998250E0819835FD58282C51CF6A690B81A35944A26E5E629"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_mouse.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_mouse.pmg",
+      "meshSha256": "343D42069EB368ED3C1696748F5F22102C74ECB5649E48898A64E6837F782F44"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_robot.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_robot.pmg",
+      "meshSha256": "2BDF212F6E97B2998D0DE312638B3E8B31D564763476BFD1211F735EDB093F26"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_soldier.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_soldier.pmg",
+      "meshSha256": "1DA1CAF4942C8DB435814C4DFCC079356A4C17505F95362715A9A3A8FB4B0F80"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_teddy.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_teddy.pmg",
+      "meshSha256": "93EA2FE843B11009D35CE6AD0894472C3FBE71CC52BA42902AD9865A549E1117"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_train.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2021/x21_train.pmg",
+      "meshSha256": "00E67AE769BE1DE075CD2608B27086936E4709E0F6004B4B95AF6B19334F0F16"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2022/x22_candle.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_2022/x22_candle.pmg",
+      "meshSha256": "099E182F5B36917560A3FDCB17330D247D59713F7C29B3465CF3E35E016F77FC"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_cup/xmas_cup.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_cup/xmas_cup.pmg",
+      "meshSha256": "0011FEBAA62C204D2079F305DE9FFCBBEA18C3D7F845534180DC5DC313894E3E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_owl/xmas_owl.pmd",
+      "geometry": "/vehicle/truck/upgrade/interior_decors/toystand/xmas_owl/xmas_owl.pmg",
+      "meshSha256": "B96B657D57AB9469E4B16C6FD6920E89634B63F94BFB401D0CDDAB939946D085"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/firestarter.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/firestarter.pmg",
+      "meshSha256": "A44B05214264601A7804515D5C063A8A3EA3617557A21C43FCA8099A033279BF"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/ace.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/ace.pmg",
+      "meshSha256": "9C9668A18D945BCEF0027EB56A03057C3197EE51F9F4752BC6319BB633E385F0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/burl_carbon.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/burl_carbon.pmg",
+      "meshSha256": "D8BA557054231265CD1E93AC967608105376B5CA3FBC454A1A5AE042AEA5AB3B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/burl.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/burl.pmg",
+      "meshSha256": "55ADB1E8D25908CC21AB64CCEEB38204B0B8F6FF427D792C322B7766054C0FDB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic_carbon.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic_carbon.pmg",
+      "meshSha256": "AD37E4B1DC46D25E8806809B3CF38CCA8ACBC64CAFDDE21072E20427D30CAE3E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic_combo.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic_combo.pmg",
+      "meshSha256": "6DAAB0C464002733AE30517721C4B6BEE573FC403529DD15FCE03721A093C722"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic_leather.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic_leather.pmg",
+      "meshSha256": "0BD0EAFE88B352772B26451C203466192DD43734D3E9296096F7EC1DDB4B8477"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic_poly.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic_poly.pmg",
+      "meshSha256": "01B9D5466DAEE03E0F5AC383398FF7F9F0DFF319723C17529AB1FDCD64C37E84"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic_skull.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic_skull.pmg",
+      "meshSha256": "3F0070A1BDAD3BB7134E894F65935C0A6F7C36481953A842EDBBABD6286B776B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/classic.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/classic.pmg",
+      "meshSha256": "8EB163D241F941B42037E48BD224568A087A5EED4F6DD7FB5F3A788D9ED61654"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/colts.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/colts.pmg",
+      "meshSha256": "FF6338E474626D7E4208D52EC11081128BD4189D8473F45D044DA2428767A47B"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/eagle.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/eagle.pmg",
+      "meshSha256": "0609969ABC3F70840427EDCF86971B71913D5965F669DC79E47C930132C95219"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/excalibur.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/excalibur.pmg",
+      "meshSha256": "E6451E15E4CEBCCCC04CD6B4BA70FBA8E0812FF5CA2A344BF14F63E690620C6A"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/flames.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/flames.pmg",
+      "meshSha256": "FAADDE6474FCEC7C89D791FD98D9BB1BE6394CDB7392CCBA68C3FFCE7B07BAF0"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/flight.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/flight.pmg",
+      "meshSha256": "7EE7C735C8AAFCDED4EF07701ED6C40495E3DFB5DFBC9BBDE85A4588C9B05028"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/genesis.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/genesis.pmg",
+      "meshSha256": "FFCB5F0BC5EF81D37B811FFF41A6053F7C5F58A87EB41D473ADE4CF16070E34C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/girl.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/girl.pmg",
+      "meshSha256": "5321B965505E0D5339DE58D2D6057234C65673DC96722E6710B84F406CD9BA29"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/milestone.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/milestone.pmg",
+      "meshSha256": "150B61EE6DE41098E1A17D2F4B55BC3F4850142427DBF47EECB1BF3D507C3FF2"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/overland.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/overland.pmg",
+      "meshSha256": "3E46C65A6C55DB6908AF9B957D5381C718BE498955FDFB62F324DA31FA646695"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/pinion_leather.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/pinion_leather.pmg",
+      "meshSha256": "0D7A7462C62CB08B1C9781497C04D75638B1831A019A56128E9439B891E57935"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/pinion_maho.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/pinion_maho.pmg",
+      "meshSha256": "3815D574EC81827A446AC0777CB4DC6265416602F1E0FBE9D8EEA35C23FAC06E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/pinion_poly.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/pinion_poly.pmg",
+      "meshSha256": "841B14804C74CB0F6685F7F9AA46347261EB4E24B503B70C4078C3F3386F3841"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/pinion.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/pinion.pmg",
+      "meshSha256": "7ADF2BAEE85B11B39ED9CA8B9FFAC4C7A136E7F9FD1AD795F3D621EE9E3D7992"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/racer.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/racer.pmg",
+      "meshSha256": "29B6582A2E0F81C23E15B9D91F3F589606C16A1699047819E9AF96A8712556BB"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/retro.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/retro.pmg",
+      "meshSha256": "C8B4AA5B4E7CC81359599BEB9791B5EF28C382A05ADF2EFB8930C96C68BE8337"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/riveted_sport.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/riveted_sport.pmg",
+      "meshSha256": "A323E2E284DE06849F09F987D327EBB19391E31B328F6A27D1BC56DA3A1B642C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/sky_black.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/sky_black.pmg",
+      "meshSha256": "98467A82E136C7156003892FC5B917FCA7E118A2F0E672D1CC11A4766815B401"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/traveler_paint.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/traveler_paint.pmg",
+      "meshSha256": "202629BCC7B3E744DAAB88B46F57B83DC4362E44D0AA0B84440432C7709ECC2E"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/traveler_wood.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/traveler_wood.pmg",
+      "meshSha256": "C80E4FF9F58ED64EB8BC605DE767D0592B03397514757004DB0BA1C9F4C27DDE"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/sci/viper_red.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/sci/viper_red.pmg",
+      "meshSha256": "0A8E5E7C59044B66AD4B71E48C2B0945A9FA876E7957667A3F47E074F0867A9C"
+    },
+    {
+      "path": "/vehicle/truck/upgrade/steering_w/valentine.pmd",
+      "geometry": "/vehicle/truck/upgrade/steering_w/valentine.pmg",
+      "meshSha256": "8B97C964BE02D72F824B50C6B162D49F7C874D69A3E1D6D215B9AF63CFE20874"
+    }
+  ],
+  "textureBaseMaps": [
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_dcl_gp_els.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_dcl_tn_els.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_dcl_vin_mn.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_gt3_ult_100.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_lt_gp.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_lt_md.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_lt_tn.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_ult.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_ult_vb.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/codrv_seat/ext_seat_vin.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/mirror/cam_mirrors_ui.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/ext_s_panel_vent_vantage.tobj",
+    "/vehicle/truck/kenworth_t680_2022/accessory/s_panel/ext_s_panel_window.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ao_shared.tobj",
+    "/vehicle/truck/kenworth_t680_2022/beacon_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/bumper_grid_difopa.tobj",
+    "/vehicle/truck/kenworth_t680_2022/cabin_details_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/cabin_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/decals_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/details.tobj",
+    "/vehicle/truck/kenworth_t680_2022/details_rubber_01.tobj",
+    "/vehicle/truck/kenworth_t680_2022/doorstep01_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/engine_badge.tobj",
+    "/vehicle/truck/kenworth_t680_2022/exhaust_dots_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/filters_difopa.tobj",
+    "/vehicle/truck/kenworth_t680_2022/floor_dif.tobj",
+    "/vehicle/truck/kenworth_t680_2022/frontgrill_chrome_difopa.tobj",
+    "/vehicle/truck/kenworth_t680_2022/fueltank_dif.tobj",
+    "/vehicle/truck/kenworth_t680_2022/grid_dif.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/anni100_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/bedpattern01_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/bedside_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/blanket_blue.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/blanket_brown.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/brushed_aluminium_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/color.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/curtain_fabric_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/curtain_fabric_dark_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/curtain_fabric_grey_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/curtain_fabricblack_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/decals_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/details_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/ext_carpet_rubber_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/ext_int_trim_brushed_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/ext_int_trim_silver_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/ext_int_trim_wood_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/ext_s76h_100y_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_day_gr_v.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl52mb_gr_v.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl52ms_gr_v.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl76hb_gr_d.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl76hb_gr_v.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl76hs_gr_d.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/external/ext_sl76hs_gr_v.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/fabric_net_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/gp_elsmore_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/int_trim_brushed.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_beige_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_black_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_brown_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_gray_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_pegasus_black_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leather_red_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leatherdiamond_beige_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leatherdiamond_black100_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leatherdiamond_black_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leatherdiamond_gray_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/leatherdiamond_orange_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/lights_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/logo2_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/logo4_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/logo5_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/logo_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/medtan_elsmore_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/midnight_graffiti_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/midnight_lapis_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_base_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_beige_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_black_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_grey_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_leather.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_smooth.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/plastic_smooth_grey.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/roof_fabric_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/roof_fabric_grey_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/rubberpattern01_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/rubberpattern02_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/seatbelt_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/seatfabricfelt_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/seatpattern01_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/seatspatterndots_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/sensor_color.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/stitches02_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/stitches_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/stwheelstitches_brown_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/stwheelstitches_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/stwheelstitches_red_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/swheel_leather_black_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/velvet100_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/velvet_orange_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/vinyl_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/warnings_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/interior/wood_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/jost5thwhl_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/kenworth_logo_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lamps_blinker_led_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lamps_cab_led_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lamps_front_halogen_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lamps_front_led_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lamps_working_led_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/lights_r_dif.tobj",
+    "/vehicle/truck/kenworth_t680_2022/mudflaps_round_tiny.tobj",
+    "/vehicle/truck/kenworth_t680_2022/mudflaps_white_kw.tobj",
+    "/vehicle/truck/kenworth_t680_2022/radiator_difspec.tobj",
+    "/vehicle/truck/kenworth_t680_2022/rivets_difopa.tobj",
+    "/vehicle/truck/kenworth_t680_2022/s_badge_kw100y_c.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_dc_157_4x2.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_dc_163_4x2.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_dc_179_6x4.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_dc_185_6x4.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_l.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_s52_200_6x4.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_s52_206_6x4.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_s76_224_6x4.tobj",
+    "/vehicle/truck/kenworth_t680_2022/ui_shadow_s76_230_6x4.tobj"
+  ],
+  "methodLimit": "All PMG hashes checked; known photographic lens UV usage traced. 180 exterior models visually rendered at two angles and six interior variants compared. Not a generic camera detector; shaders/visibility/bones approximate."
+}

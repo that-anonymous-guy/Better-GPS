@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "reader": "TruckLib.Models \u002B TruckLib.Sii",
+  "atsPrefixBindingsUnambiguous": true,
+  "frontAttachment": "registered accessory_hookup_data on bumper slot_0, matching stock steering-wheel/light-bar system",
+  "models": [
+    {
+      "cabin": "dc",
+      "parts": 1,
+      "geometryAndExistingLocatorsPreserved": true,
+      "canonicalNativeLayout": true,
+      "byteIdenticalVertexAndIndexPools": true,
+      "socketFacesRear": true
+    },
+    {
+      "cabin": "s52m",
+      "parts": 1,
+      "geometryAndExistingLocatorsPreserved": true,
+      "canonicalNativeLayout": true,
+      "byteIdenticalVertexAndIndexPools": true,
+      "socketFacesRear": true
+    },
+    {
+      "cabin": "s76h",
+      "parts": 1,
+      "geometryAndExistingLocatorsPreserved": true,
+      "canonicalNativeLayout": true,
+      "byteIdenticalVertexAndIndexPools": true,
+      "socketFacesRear": true
+    },
+    {
+      "part": 396,
+      "materials": 4,
+      "userOpticalAnglePreserved": true
+    },
+    {
+      "part": 397,
+      "materials": 4,
+      "userOpticalAnglePreserved": true
+    },
+    {
+      "lod": 0,
+      "parts": 1,
+      "materials": 5,
+      "pupilDownTiltDegrees": 45,
+      "fixedPlateAndTabsPreserved": true,
+      "sizeMillimetres": [
+        74.99999,
+        59.352768,
+        64.82503
+      ]
+    },
+    {
+      "bumper": "low_chrome_fog",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "low_paint_fog",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "geometryAndExistingLocatorsPreserved": true,
+      "emptyOptionalSlot": true,
+      "parentChassisCombinations": 8,
+      "canonicalNativeLayout": true
+    },
+    {
+      "part": "pp807032",
+      "materials": 5,
+      "userOpticalAnglePreserved": true
+    }
+  ]
+}

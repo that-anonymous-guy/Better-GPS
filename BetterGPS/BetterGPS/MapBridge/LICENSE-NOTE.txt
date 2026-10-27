@@ -1,0 +1,3 @@
+BetterGPSMapBridge is development code for the BetterGPS project.
+It depends on TruckLib 0.5.1 (GPL v2). If this project is distributed, comply with the licenses of TruckLib and all transitive dependencies.
+No warranty.

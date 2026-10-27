@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "profiles": {
+    "layout": [
+      "copilot",
+      "garmin",
+      "device-pages"
+    ],
+    "t680": [
+      "copilot",
+      "copilot-menu",
+      "t680-clock",
+      "t680-camera",
+      "t680-gauges",
+      "copilot-background-apps",
+      "deskclock",
+      "game-audio",
+      "calculator",
+      "gallery",
+      "immersive"
+    ],
+    "clock": [
+      "timezones",
+      "voice-icons",
+      "t680-clock",
+      "navplus",
+      "smartnav",
+      "mack",
+      "volvo18",
+      "vnl2014",
+      "icc5",
+      "zonar",
+      "international",
+      "sygic",
+      "garmin",
+      "deskclock"
+    ],
+    "input": [
+      "cursor-only",
+      "menu-shortcut",
+      "menu-mouse",
+      "device-pages",
+      "touch-geometry",
+      "TouchPhoneTest"
+    ],
+    "startup": [
+      "startup-guards",
+      "startup-performance",
+      "copilot-startup-gpu",
+      "device-pages"
+    ],
+    "global": [
+      "timezones",
+      "voice-icons",
+      "cursor-only",
+      "menu-shortcut",
+      "menu-mouse",
+      "device-pages",
+      "copilot-menu",
+      "t680-clock",
+      "t680-gauges",
+      "mack",
+      "volvo18",
+      "vnl2014",
+      "icc5",
+      "zonar",
+      "international",
+      "sygic",
+      "garmin",
+      "TouchPhoneTest",
+      "deskclock",
+      "game-audio",
+      "calculator",
+      "gallery",
+      "immersive"
+    ]
+  },
+  "exclusive": [
+    "cursor-only",
+    "menu-shortcut",
+    "menu-mouse",
+    "shutdown",
+    "touchscreen",
+    "TouchPhoneTest"
+  ]
+}

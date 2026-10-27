@@ -1,0 +1,17 @@
+effect : "eut2.dif.spec.add.env.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 1.000000 , 1.000000 , 1.000000 }
+	env_factor : { 0.021981 , 0.021981 , 0.021981 }
+	fresnel : { 0.200000 , 0.900000 }
+	reflection : 0.000000
+	shininess : 110.000000
+	specular : { 0.787412 , 0.787412 , 0.787412 }
+	texture : "texture_base" {
+		source : "/vehicle/truck/upgrade/bettergps/camera_finish/palette.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+	texture : "texture_reflection" {
+		source : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	}
+}

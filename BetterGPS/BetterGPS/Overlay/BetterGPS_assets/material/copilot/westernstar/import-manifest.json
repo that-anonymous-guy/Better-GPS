@@ -1,0 +1,22 @@
+{
+  "artwork": [
+    {
+      "path": "western_star_49x_splash_screen.dds",
+      "size": [
+        483,
+        600
+      ],
+      "source_sha256": "b8f29182e7e8b7abd662b736eee4510b2efd073bddad4e9c7a973964e45a1e6f",
+      "sha256": "a880b9c715d0a957c7c250123dc2e2e975e1ab8a1101c33e33013ac005e79480"
+    }
+  ],
+  "native": {
+    "ui/dashboard/westernstar_49x.sii": "0e0c92162bb894bb02a5925648e47dfa0f737d2a5a4fbc8649e50b2a02005128"
+  },
+  "central_cluster_ui_rect": [
+    0,
+    0,
+    600,
+    800
+  ]
+}

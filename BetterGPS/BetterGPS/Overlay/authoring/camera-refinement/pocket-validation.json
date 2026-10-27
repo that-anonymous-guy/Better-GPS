@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "pp804395",
+      "opaque_front_face_rays": 12,
+      "escaped_rays": []
+    },
+    {
+      "model": "pp807032",
+      "opaque_front_face_rays": 12,
+      "escaped_rays": []
+    }
+  ],
+  "transparent_glass_excluded": true,
+  "backfaces_culled": true
+}

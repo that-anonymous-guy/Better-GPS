@@ -1,0 +1,246 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless.bettergps.googlebg
+ my_children[1]: _nameless.bettergps.googlemap
+ my_children[2]: _nameless.bettergps.nativebase
+ my_children[3]: _nameless._.background
+ my_children[4]: _nameless._.map
+ my_children[5]: _nameless._.speedlimit
+ my_children[6]: _nameless._.topbar
+ my_children[7]: _nameless._.clock
+ my_children[8]: _nameless._.singal1
+ my_children[9]: _nameless._.signal2
+ my_children[10]: _nameless._.signal3
+ my_children[11]: _nameless._.signal4
+ coords_l: 0
+ coords_r: 180
+ coords_t: 370
+ coords_b: 0
+ area_l: 0
+ area_r: 180
+ area_t: 370
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.map {
+ text: "<img src=/material/ui/dashboard/bare_map.mat xscale=stretch yscale=stretch left=0.375 right=0.625 bottom=0.25 top=0.75>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 350
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.speedlimit {
+ value: 75
+ look_template: txt.db_navi_spd
+ text: ""
+ coords_l: 137
+ coords_r: 176
+ coords_t: 344
+ coords_b: 306
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.topbar {
+ text: "<color value=ff333333><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 370
+ coords_b: 350
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.clock {
+ value: "23:55"
+ look_template: txt.roadtrip.phone_clock
+ text: ""
+ coords_l: 120
+ coords_r: 168
+ coords_t: 367
+ coords_b: 351
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.singal1 {
+ text: "<color value=ffffffff><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 102
+ coords_r: 105
+ coords_t: 357
+ coords_b: 354
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.signal2 {
+ text: "<color value=ffffffff><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 107
+ coords_r: 110
+ coords_t: 360
+ coords_b: 354
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.signal3 {
+ text: "<color value=ffffffff><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 112
+ coords_r: 115
+ coords_t: 363
+ coords_b: 354
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.signal4 {
+ text: "<color value=ffffffff><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 117
+ coords_r: 120
+ coords_t: 365
+ coords_b: 354
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/white.mat color=ff191919 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 350
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+
+ui::text : _nameless.bettergps.nativebase {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/phone_layout_marker.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 370
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless.bettergps.googlebg {
+ text: "<img src=/material/ui/dashboard/phone_map_background.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 360
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless.bettergps.googlemap {
+ text: "<img src=/material/ui/dashboard/bettergps_map.mat left=0.375 right=0.625 bottom=0.25 top=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 180
+ coords_t: 360
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+}

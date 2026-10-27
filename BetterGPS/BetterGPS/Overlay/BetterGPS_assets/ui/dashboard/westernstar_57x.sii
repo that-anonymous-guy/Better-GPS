@@ -1,0 +1,2518 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.sharedisplay
+ my_children[1]: _nameless._.display0
+ my_children[2]: _nameless._.display3
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display4
+ my_children[5]: _nameless._.display2
+ my_children[6]: _nameless._.background
+ my_children[7]: _nameless.bgicc5_intro
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 62
+ my_children[0]: _nameless._.rpm
+ my_children[1]: _nameless._.speed_g
+ my_children[2]: _nameless._.fuel_labels
+ my_children[3]: _nameless._.air_labels
+ my_children[4]: _nameless._.def_bar
+ my_children[5]: _nameless._.def_bar_gap
+ my_children[6]: _nameless._.fuel_red
+ my_children[7]: _nameless._.fuel_bar
+ my_children[8]: _nameless._.low_sulfur
+ my_children[9]: _nameless._.air_bar1_gap
+ my_children[10]: _nameless._.air_bar1_red
+ my_children[11]: _nameless._.air_bar1
+ my_children[12]: _nameless._.fuel_bar_gap
+ my_children[13]: _nameless._.air_bar2_gap
+ my_children[14]: _nameless._.consi_bgap
+ my_children[15]: _nameless._.consi_bar
+ my_children[16]: _nameless._.dot16r
+ my_children[17]: _nameless._.dot11r
+ my_children[18]: _nameless._.dot12r
+ my_children[19]: _nameless._.dot13r
+ my_children[20]: _nameless._.dot14r
+ my_children[21]: _nameless._.eco_labels
+ my_children[22]: _nameless._.dot15r
+ my_children[23]: _nameless._.bcg
+ my_children[24]: _nameless._.blinker_l_ic.o
+ my_children[25]: _nameless._.blinker_r_ic.o
+ my_children[26]: _nameless._.eng_brk
+ my_children[27]: _nameless._.diff_lock
+ my_children[28]: _nameless._.fuel_ico
+ my_children[29]: _nameless._.fuel_warn
+ my_children[30]: _nameless._.def_ico
+ my_children[31]: _nameless._.cc_mem_ico
+ my_children[32]: _nameless._.air_warn
+ my_children[33]: _nameless._.prk_brk
+ my_children[34]: _nameless._.pri_air_ico
+ my_children[35]: _nameless._.sec_air_ico
+ my_children[36]: _nameless._.cons_bcg
+ my_children[37]: _nameless._.fuel_bcg
+ my_children[38]: _nameless._.def_bcg
+ my_children[39]: _nameless._.air_bar1_bcg
+ my_children[40]: _nameless._.air_bar2_bcg
+ my_children[41]: _nameless._.clock
+ my_children[42]: _nameless._.volt
+ my_children[43]: _nameless._.temp
+ my_children[44]: _nameless._.gear
+ my_children[45]: _nameless._.compass
+ my_children[46]: _nameless._.speed
+ my_children[47]: _nameless._.odo
+ my_children[48]: _nameless._.cons_ins
+ my_children[49]: _nameless._.gear_mode
+ my_children[50]: _nameless._.dot11
+ my_children[51]: _nameless._.dot12
+ my_children[52]: _nameless._.dot13
+ my_children[53]: _nameless._.dot14
+ my_children[54]: _nameless._.dot15
+ my_children[55]: _nameless._.eng_chk_ico
+ my_children[56]: _nameless._.eng_stp_ico
+ my_children[57]: _nameless._.hi_beam_ico
+ my_children[58]: _nameless._.low_beam_ico
+ my_children[59]: _nameless._.parklght_ico
+ my_children[60]: _nameless._.cc_group
+ my_children[61]: _nameless._.speed_limit
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 950
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui_gauge : _nameless._.rpm {
+ min: &42e46666
+ max: &4242cccd
+ value_min: 0
+ value_max: 2500
+ value: 0
+ material: "/material/ui/dashboard/westernstar_57x/needle.mat"
+ xref_pos: 64
+ yref_pos: 259
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 525
+ coords_r: 916
+ coords_t: 443
+ coords_b: 94
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1440
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.speed_g {
+ min: &c2e3999a
+ max: &41eccccd
+ value_min: 0
+ value_max: &430fe666
+ value: 0
+ material: "/material/ui/dashboard/westernstar_57x/needle.mat"
+ xref_pos: 64
+ yref_pos: 259
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 525
+ coords_r: 916
+ coords_t: 443
+ coords_b: 94
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1430
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_labels {
+ text: "<align vstyle=bottom><font face=/font/mb292_regular.font xscale=0.7 yscale=0.7>E</align><ret><align vstyle=bottom hstyle=right>F</align><ret><align vstyle=bottom hstyle=center>1/2</font></align>"
+ coords_l: 78
+ coords_r: 322
+ coords_t: 61
+ coords_b: 23
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_labels {
+ text: "<align hstyle=left><font face=/font/mb292_regular.font xscale=0.7 yscale=0.7>0</align><ret><align hstyle=right>150</align><ret><offset hshift=68>50<ret><offset hshift=140>100</font>"
+ coords_l: 1151
+ coords_r: 1398
+ coords_t: 47
+ coords_b: -40
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.def_bar {
+ vertical: false
+ min_size: 0
+ max_size: 238
+ min_value: 0
+ max_value: 1
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FFB6B5AB></align>"
+ coords_l: &42a15551
+ coords_r: &439fb8e5
+ coords_t: 23
+ coords_b: 14
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1140
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.def_bar_gap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><offset hshift=30><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=60><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=120><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=150><img src=/material/ui/white.mat color=FF000000 height=15px width=3px>"
+ coords_l: 110
+ coords_r: 292
+ coords_t: 28
+ coords_b: -14
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_red {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=2px color=FF5419FA><ret><align vstyle=bottom><img src=/material/ui/white.mat  xscale=stretch height=2px color=FF5419FA></align>"
+ coords_l: 81
+ coords_r: 110
+ coords_t: 51
+ coords_b: &413ffffc
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.fuel_bar {
+ vertical: false
+ min_size: 0
+ max_size: 238
+ min_value: 0
+ max_value: 1
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FFB6B5AB></align>"
+ coords_l: &42a15551
+ coords_r: &439fb8f1
+ coords_t: 60
+ coords_b: 51
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_sulfur {
+ text: "<align hstyle=center><font face=/font/corporates.font xscale=0.35 yscale=0.35><color value=FFDCDCDC>ULTRA LOW<br><offset vshift=-4>SULFUR<br><offset vshift=-4>DIESEL<br><offset vshift=-4>FUEL ONLY</font></align>"
+ coords_l: -20
+ coords_r: 97
+ coords_t: 68
+ coords_b: -18
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_bar1_gap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><offset hshift=40><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=120><img src=/material/ui/white.mat color=FF000000 height=15px width=3px>"
+ coords_l: 1195
+ coords_r: 1357
+ coords_t: 61
+ coords_b: 19
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_bar1_red {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=2px color=FF5419FA><ret><align vstyle=bottom><img src=/material/ui/white.mat  xscale=stretch height=2px color=FF5419FA></align>"
+ coords_l: 1156
+ coords_r: 1264
+ coords_t: 51
+ coords_b: 12
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.air_bar1 {
+ vertical: false
+ min_size: 0
+ max_size: 238
+ min_value: 0
+ max_value: &412570a4
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><offset vshift=6><img src=/material/ui/white.mat xscale=stretch height=3px color=FFB6B5AB><ret><offset vshift=37><img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><offset vshift=37><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FFB6B5AB></align>"
+ coords_l: &44907555
+ coords_r: &44ae4e3c
+ coords_t: 60
+ coords_b: 14
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1120
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_bar_gap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><offset hshift=30><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=60><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=120><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=150><img src=/material/ui/white.mat color=FF000000 height=15px width=3px>"
+ coords_l: 110
+ coords_r: 292
+ coords_t: 61
+ coords_b: 19
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_bar2_gap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=15px width=3px></align><ret><offset hshift=40><img src=/material/ui/white.mat color=FF000000 height=15px width=3px><ret><offset hshift=120><img src=/material/ui/white.mat color=FF000000 height=15px width=3px>"
+ coords_l: 1195
+ coords_r: 1357
+ coords_t: 24
+ coords_b: -18
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.consi_bgap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=11px width=4px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=11px width=4px></align>"
+ coords_l: 1149
+ coords_r: 1260
+ coords_t: 320
+ coords_b: 284
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.consi_bar {
+ vertical: false
+ min_size: 0
+ max_size: 312
+ min_value: 0
+ max_value: &40cc1062
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FFB6B5AB></align>"
+ coords_l: 1048
+ coords_r: 1360
+ coords_t: 320
+ coords_b: 309
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot16r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 269
+ coords_b: 256
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot11r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 359
+ coords_b: 346
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot12r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 341
+ coords_b: 328
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot13r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot14r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 305
+ coords_b: 292
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eco_labels {
+ text: "<font face=/font/mb292_regular.font xscale=0.9 yscale=0.9><color value=FFFFFFFF>0<offset hshift=77>5<offset hshift=75>10<offset hshift=50>15</font>"
+ coords_l: 1043
+ coords_r: 1379
+ coords_t: 300
+ coords_b: 215
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot15r {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 287
+ coords_b: 274
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.bcg {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.left
+ my_children[1]: _nameless._.righ.t
+ my_children[2]: _nameless._.center
+ my_children[3]: _nameless._.center_over
+ coords_l: 129
+ coords_r: 1314
+ coords_t: 535
+ coords_b: 56
+ area_l: 129
+ area_r: 1314
+ area_t: 535
+ area_b: 56
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.left {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch top=0.6955 right=0.0002 left=0.3636>"
+ coords_l: 129
+ coords_r: 378
+ coords_t: 517
+ coords_b: 56
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.bcg
+}
+
+ui::text : _nameless._.righ.t {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch top=0.6955 left=0.0002 right=0.3636>"
+ coords_l: 1065
+ coords_r: 1314
+ coords_t: 517
+ coords_b: 56
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.bcg
+}
+
+ui::text : _nameless._.center {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch bottom=0.6954 left=0.0002 right=0.9998>"
+ coords_l: 378
+ coords_r: 1065
+ coords_t: 535
+ coords_b: 57
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.bcg
+}
+
+ui::text : _nameless._.center_over {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4045 right=0.856 top=0.83 bottom=0.884>"
+ coords_l: 563
+ coords_r: 875
+ coords_t: 186
+ coords_b: 148
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.bcg
+}
+
+ui::text : _nameless._.blinker_l_ic.o {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.708 right=0.75 top=0.764 bottom=0.807 color=FF44CC44>"
+ coords_l: 461
+ coords_r: 508
+ coords_t: 481
+ coords_b: 438
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1570
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.blinker_r_ic.o {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch right=0.708 left=0.75 top=0.764 bottom=0.807 color=FF44CC44>"
+ coords_l: 935
+ coords_r: 982
+ coords_t: 481
+ coords_b: 438
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1580
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.eng_brk {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.eng_brk_rng
+ my_children[1]: _nameless._.eng_brk_ico
+ coords_l: 897
+ coords_r: 1087
+ coords_t: 538
+ coords_b: 353
+ area_l: 897
+ area_r: 1087
+ area_t: 538
+ area_b: 353
+ id: 1230
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eng_brk_rng {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.93 top=0.7 bottom=0.805 color=FF54DD66>"
+ coords_l: 897
+ coords_r: 945
+ coords_t: 425
+ coords_b: 353
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.eng_brk
+}
+
+ui::text : _nameless._.eng_brk_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.74 right=0.79 top=0.71 bottom=0.75 color=FF54DD66>"
+ coords_l: 1035
+ coords_r: 1087
+ coords_t: 538
+ coords_b: 498
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.eng_brk
+}
+
+ui::text : _nameless._.diff_lock {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.46 right=0.522 top=0.764 bottom=0.807 color=FF78F7FF>"
+ coords_l: 8
+ coords_r: 67
+ coords_t: 112
+ coords_b: 71
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1490
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.844 right=0.895 top=0.755 bottom=0.815>"
+ coords_l: 338
+ coords_r: 365
+ coords_t: 68
+ coords_b: 38
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_warn {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.844 right=0.895 top=0.755 bottom=0.815 color=FF22CCFF>"
+ coords_l: 338
+ coords_r: 365
+ coords_t: 68
+ coords_b: 38
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.def_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.639 right=0.685 top=0.7 bottom=0.755>"
+ coords_l: 335
+ coords_r: 365
+ coords_t: 38
+ coords_b: &40800010
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_mem_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.69 right=0.735 top=0.705 bottom=0.755>"
+ coords_l: 461
+ coords_r: 525
+ coords_t: 76
+ coords_b: &410ffff0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1250
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_warn {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.468 right=0.535 top=0.705 bottom=0.755 color=FF2222EE>"
+ coords_l: 973
+ coords_r: 1046
+ coords_t: 57
+ coords_b: &3fffff00
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1260
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.prk_brk {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.418 right=0.465 top=0.705 bottom=0.755 color=FF2222EE>"
+ coords_l: 1045
+ coords_r: 1097
+ coords_t: 57
+ coords_b: &403fff80
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1270
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.pri_air_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.535 right=0.585 top=0.705 bottom=0.755>"
+ coords_l: 1111
+ coords_r: 1144
+ coords_t: 72
+ coords_b: &421ffff8
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.sec_air_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.586 right=0.636 top=0.705 bottom=0.755>"
+ coords_l: 1111
+ coords_r: 1144
+ coords_t: 43
+ coords_b: &412fffe0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cons_bcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.948 bottom=0.9665>"
+ coords_l: 1043
+ coords_r: 1366
+ coords_t: 321
+ coords_b: 306
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_bcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 76
+ coords_r: 324
+ coords_t: 62
+ coords_b: 46
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.def_bcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 76
+ coords_r: 324
+ coords_t: 24
+ coords_b: 9
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_bar1_bcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.948 bottom=0.966>"
+ coords_l: 1151
+ coords_r: 1399
+ coords_t: 61
+ coords_b: 48
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.air_bar2_bcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.948 bottom=0.966>"
+ coords_l: 1151
+ coords_r: 1399
+ coords_t: 24
+ coords_b: 11
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.clock {
+ value: "13:44"
+ look_template: txt.ws57xicc5.us.clock
+ text: ""
+ coords_l: 856
+ coords_r: 984
+ coords_t: 532
+ coords_b: 492
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.volt {
+ value: "14.0"
+ look_template: txt.ws57xicc5.us.volt
+ text: ""
+ coords_l: 7
+ coords_r: 138
+ coords_t: 532
+ coords_b: 492
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.temp {
+ value: "25|C"
+ look_template: txt.ws57xicc5.us.temp
+ text: ""
+ coords_l: 488
+ coords_r: 586
+ coords_t: 532
+ coords_b: 492
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: 10
+ look_template: txt.ws57xicc5.us.gear
+ text: ""
+ coords_l: 847
+ coords_r: 962
+ coords_t: 78
+ coords_b: 26
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.compass {
+ value: NW
+ look_template: txt.ws57xicc5.us.compass
+ text: ""
+ coords_l: 1305
+ coords_r: 1433
+ coords_t: 532
+ coords_b: 492
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.speed {
+ value: "0|mph"
+ look_template: txt.ws57xicc5.us.speed2
+ text: ""
+ coords_l: 602
+ coords_r: 884
+ coords_t: 120
+ coords_b: 14
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.odo {
+ value: "10123|mi"
+ look_template: txt.ws57xicc5.us.odo2
+ text: ""
+ coords_l: 570
+ coords_r: 892
+ coords_t: 33
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cons_ins {
+ value: "288.8|l/100km"
+ look_template: txt.ws57xicc5.trip_dist
+ text: ""
+ coords_l: 1096
+ coords_r: 1364
+ coords_t: 369
+ coords_b: 241
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1160
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear_mode {
+ value: ECONOMY
+ look_template: txt.ws57xicc5.mode
+ text: ""
+ coords_l: 841
+ coords_r: 978
+ coords_t: 30
+ coords_b: 4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot11 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 359
+ coords_b: 346
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot12 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 341
+ coords_b: 328
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot13 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot14 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 305
+ coords_b: 292
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dot15 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794 color=FF424646>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 287
+ coords_b: 274
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eng_chk_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.644 right=0.705 top=0.765 bottom=0.808 color=FF22CCFF>"
+ coords_l: 310
+ coords_r: 368
+ coords_t: 536
+ coords_b: 494
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1190
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eng_stp_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.529 right=0.588 top=0.765 bottom=0.808 color=FF2222EE>"
+ coords_l: 374
+ coords_r: 432
+ coords_t: 536
+ coords_b: 494
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1420
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.hi_beam_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.595 right=0.642 top=0.764 bottom=0.807 color=FFFF8833>"
+ coords_l: 437
+ coords_r: 487
+ coords_t: 540
+ coords_b: 493
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1590
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_beam_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.865 right=0.9125 top=0.82 bottom=0.863 color=FF59B520>"
+ coords_l: 437
+ coords_r: 487
+ coords_t: 540
+ coords_b: 493
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1480
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.parklght_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.865 right=0.9125 top=0.86 bottom=0.905 color=FF59B520>"
+ coords_l: 437
+ coords_r: 487
+ coords_t: 540
+ coords_b: 493
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1470
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.cc_group {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cc_speed
+ my_children[1]: _nameless._.cc_on
+ coords_l: 525
+ coords_r: 916
+ coords_t: 443
+ coords_b: 94
+ area_l: 525
+ area_r: 916
+ area_t: 443
+ area_b: 94
+ id: 1240
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.cc_speed {
+ min: -114
+ max: &41e9999a
+ value_min: 0
+ value_max: &430fb333
+ value: &42c11f07
+ material: "/material/ui/dashboard/westernstar_57x/triangle.mat"
+ xref_pos: 32
+ yref_pos: 289
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 525
+ coords_r: 916
+ coords_t: 443
+ coords_b: 94
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1450
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc_group
+}
+
+ui::text : _nameless._.cc_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.69 right=0.735 top=0.705 bottom=0.755 color=FF36CF1E>"
+ coords_l: 461
+ coords_r: 525
+ coords_t: 76
+ coords_b: 8
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc_group
+}
+
+ui::text_common : _nameless._.speed_limit {
+ value: 75
+ look_template: txt.ws57xicc5.us.limit
+ text: ""
+ coords_l: 533
+ coords_r: 597
+ coords_t: 76
+ coords_b: 8
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless._.wtemp_label
+ my_children[1]: _nameless._.dot02_on
+ my_children[2]: _nameless._.wtemp_bar
+ my_children[3]: _nameless._.wtemp_bgap
+ my_children[4]: _nameless._.opres_label
+ my_children[5]: _nameless._.opres_bar
+ my_children[6]: _nameless._.opres_bgap
+ my_children[7]: _nameless._.wtemp_bred
+ my_children[8]: _nameless._.wtemp_bbcg
+ my_children[9]: _nameless._.opres_bbcg
+ my_children[10]: _nameless._.cons_txt0
+ my_children[11]: _nameless._.wtemp_ico
+ my_children[12]: _nameless._.opres_ico
+ my_children[13]: _nameless._.wtemp
+ my_children[14]: _nameless._.dot03r_on
+ coords_l: 8
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 147
+ area_l: 8
+ area_r: 1395
+ area_t: 450
+ area_b: 147
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.wtemp_label {
+ text: "<font face=/font/mb292_regular.font xscale=0.75 yscale=0.75>100<offset hshift=26>150<offset hshift=48>200<offset hshift=26>250</font>"
+ coords_l: 117
+ coords_r: 435
+ coords_t: 336
+ coords_b: 259
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.dot02_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 341
+ coords_b: 328
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui_text_bar : _nameless._.wtemp_bar {
+ vertical: false
+ min_size: 0
+ max_size: 294
+ min_value: &42171eb8
+ max_value: &42f23852
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2px color=FFB6B5AB></align>"
+ coords_l: 123
+ coords_r: &43d08001
+ coords_t: 352
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1150
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.wtemp_bgap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><offset hshift=97><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=49><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=148><img src=/material/ui/white.mat color=FF000000 height=9px width=3px>"
+ coords_l: 172
+ coords_r: 372
+ coords_t: 352
+ coords_b: 316
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.opres_label {
+ text: "<font face=/font/mb292_regular.font xscale=0.75 yscale=0.75>0<offset hshift=120>50<offset hshift=80>100</font>"
+ coords_l: 119
+ coords_r: 437
+ coords_t: 224
+ coords_b: 147
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui_text_bar : _nameless._.opres_bar {
+ vertical: false
+ min_size: 0
+ max_size: 294
+ min_value: 0
+ max_value: &40dc7ae1
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2px color=FFB6B5AB></align>"
+ coords_l: 123
+ coords_r: &43d08001
+ coords_t: 240
+ coords_b: 231
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1110
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.opres_bgap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px>"
+ coords_l: 150
+ coords_r: 394
+ coords_t: 240
+ coords_b: 204
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.wtemp_bred {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=2px color=FF5419FA>"
+ coords_l: 374
+ coords_r: 418
+ coords_t: 343
+ coords_b: 304
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.wtemp_bbcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 118
+ coords_r: &43d38002
+ coords_t: 353
+ coords_b: 339
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.opres_bbcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 118
+ coords_r: &43d38002
+ coords_t: 241
+ coords_b: 227
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.cons_txt0 {
+ text: "<align hstyle=right><font face=/font/corporates.font xscale=0.9 yscale=0.9><color value=FFCEC4C1>Consumption</font></align>"
+ coords_l: 1048
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 398
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.wtemp_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.795 right=0.845 top=0.71 bottom=0.75>"
+ coords_l: 57
+ coords_r: 113
+ coords_t: 366
+ coords_b: 323
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.opres_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.849 right=0.905 top=0.71 bottom=0.75>"
+ coords_l: 57
+ coords_r: 119
+ coords_t: 253
+ coords_b: 202
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.wtemp {
+ value: "68|C"
+ look_template: txt.ws57xicc5.us.temp_b
+ text: ""
+ coords_l: 229
+ coords_r: 415
+ coords_t: 397
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.dot03r_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 13
+ my_children[0]: _nameless._.text3
+ my_children[1]: _nameless._.oil_text
+ my_children[2]: _nameless._.dot35
+ my_children[3]: _nameless._.dot42r_on
+ my_children[4]: _nameless._.text4
+ my_children[5]: _nameless._.oil_icon
+ my_children[6]: _nameless._.bcg2_1
+ my_children[7]: _nameless._.bcg2_2
+ my_children[8]: _nameless._.dividers
+ my_children[9]: _nameless._.trip_dist
+ my_children[10]: _nameless._.trip_cons
+ my_children[11]: _nameless._.trip_speed
+ my_children[12]: _nameless._.trip_time2
+ coords_l: 8
+ coords_r: 1432
+ coords_t: 535
+ coords_b: 56
+ area_l: 8
+ area_r: 1432
+ area_t: 535
+ area_b: 56
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.text3 {
+ text: "<font face=/font/corporates.font xscale=0.9 yscale=0.9><color value=FFCEC4C1>Engine oil level</font>"
+ coords_l: 45
+ coords_r: 325
+ coords_t: 481
+ coords_b: 429
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oil_text {
+ text: "<align hstyle=center><font face=/font/corporates.font xscale=0.9 yscale=0.9>Oil level OK</font></align>"
+ coords_l: 70
+ coords_r: 388
+ coords_t: 281
+ coords_b: 204
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.dot35 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 287
+ coords_b: 274
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.dot42r_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 341
+ coords_b: 328
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.text4 {
+ text: "<align hstyle=left><font face=/font/corporates.font xscale=0.9 yscale=0.9><color value=FFCEC4C1>Trip</font></align>"
+ coords_l: 1012
+ coords_r: 1359
+ coords_t: 481
+ coords_b: 429
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oil_icon {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.75 right=0.84 top=0.764 bottom=0.807>"
+ coords_l: 161
+ coords_r: 286
+ coords_t: 366
+ coords_b: 300
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bcg2_1 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat width=249px yscale=stretch top=0.6955 left=0.0002 right=0.3636><offset hshift=-1.5><img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 1065
+ coords_r: 1402
+ coords_t: 517
+ coords_b: 56
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bcg2_2 {
+ text: "<align hstyle=right><img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch bottom=0.6954 left=0.8907 right=0.9998></align>"
+ coords_l: 990
+ coords_r: 1065
+ coords_t: 535
+ coords_b: &42640040
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.dividers {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 left=0.402 right=0.56 top=0.899 bottom=0.903 color=30FFFFFF><img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 right=0.402 left=0.56 top=0.899 bottom=0.903 color=30FFFFFF><ret><offset vshift=50><img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 left=0.402 right=0.56 top=0.899 bottom=0.903 color=30FFFFFF><img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 right=0.402 left=0.56 top=0.899 bottom=0.903 color=30FFFFFF><ret><offset vshift=100><img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 left=0.402 right=0.56 top=0.899 bottom=0.903 color=30FFFFFF><img src=/material/ui/dashboard/westernstar_57x/icons.mat width=148 height=4 right=0.402 left=0.56 top=0.899 bottom=0.903 color=30FFFFFF>"
+ coords_l: 1062
+ coords_r: 1357
+ coords_t: 363
+ coords_b: 258
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.trip_dist {
+ value: "39|km"
+ look_template: txt.ws57xicc5.trip_dist
+ text: ""
+ coords_l: 1000
+ coords_r: 1287
+ coords_t: 407
+ coords_b: 279
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.trip_cons {
+ value: "27.2|l/100km"
+ look_template: txt.ws57xicc5.trip_dist
+ text: ""
+ coords_l: 1000
+ coords_r: 1287
+ coords_t: 259
+ coords_b: 131
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.trip_speed {
+ value: "45|mph"
+ look_template: txt.ws57xicc5.trip_dist
+ text: ""
+ coords_l: 1000
+ coords_r: 1287
+ coords_t: 307
+ coords_b: 179
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1400
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.trip_time2 {
+ value: "1:31"
+ look_template: txt.ws57xicc5.triptime
+ text: ""
+ coords_l: 1000
+ coords_r: 1287
+ coords_t: 359
+ coords_b: 231
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 14
+ my_children[0]: _nameless._.otemp_label
+ my_children[1]: _nameless._.otemp
+ my_children[2]: _nameless._.dot53_on
+ my_children[3]: _nameless._.otemp_bar
+ my_children[4]: _nameless._.otemp_bgap
+ my_children[5]: _nameless._.bpres_label
+ my_children[6]: _nameless._.bpres_bar
+ my_children[7]: _nameless._.bpres_gap
+ my_children[8]: _nameless._.otemp_bbcg
+ my_children[9]: _nameless._.bpres_bbcg
+ my_children[10]: _nameless._.cons_txt1
+ my_children[11]: _nameless._.otemp_ico
+ my_children[12]: _nameless._.bpres_ico
+ my_children[13]: _nameless._.dot53r_on
+ coords_l: 8
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 147
+ area_l: 8
+ area_r: 1395
+ area_t: 450
+ area_b: 147
+ id: 200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.otemp_label {
+ text: "<font face=/font/mb292_regular.font xscale=0.75 yscale=0.75>100<offset hshift=75>200<offset hshift=76>300</font>"
+ coords_l: 117
+ coords_r: 435
+ coords_t: 336
+ coords_b: 259
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.otemp {
+ value: "212|F"
+ look_template: txt.ws57xicc5.us.temp_b
+ text: ""
+ coords_l: 229
+ coords_r: 415
+ coords_t: 397
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.dot53_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.otemp_bar {
+ vertical: false
+ min_size: 0
+ max_size: 294
+ min_value: &42171eb8
+ max_value: &4314e3d7
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2px color=FFB6B5AB></align>"
+ coords_l: 123
+ coords_r: &43d08001
+ coords_t: 352
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.otemp_bgap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><offset hshift=37><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=74><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=148><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=185><img src=/material/ui/white.mat color=FF000000 height=9px width=3px>"
+ coords_l: 160
+ coords_r: 384
+ coords_t: 352
+ coords_b: 316
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bpres_label {
+ text: "<font face=/font/mb292_regular.font xscale=0.75 yscale=0.75>0<offset hshift=115>50<offset hshift=85>100</font>"
+ coords_l: 119
+ coords_r: 437
+ coords_t: 224
+ coords_b: 147
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.bpres_bar {
+ vertical: false
+ min_size: 0
+ max_size: 294
+ min_value: 0
+ max_value: 1
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2px color=FFB6B5AB></align>"
+ coords_l: 123
+ coords_r: &43d08001
+ coords_t: 240
+ coords_b: 231
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1180
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bpres_gap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=28><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><offset hshift=27><img src=/material/ui/white.mat color=FF000000 height=9px width=3px>"
+ coords_l: 150
+ coords_r: 394
+ coords_t: 240
+ coords_b: 204
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.otemp_bbcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 118
+ coords_r: &43d38002
+ coords_t: 353
+ coords_b: 339
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bpres_bbcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 118
+ coords_r: &43d38002
+ coords_t: 241
+ coords_b: 227
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.cons_txt1 {
+ text: "<align hstyle=right><font face=/font/corporates.font xscale=0.9 yscale=0.9><color value=FFCEC4C1>Consumption</font></align>"
+ coords_l: 1048
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 398
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.otemp_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.367 right=0.425 top=0.765 bottom=0.805>"
+ coords_l: 49
+ coords_r: 120
+ coords_t: 373
+ coords_b: 326
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bpres_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.367 right=0.417 top=0.708 bottom=0.75>"
+ coords_l: 55
+ coords_r: 109
+ coords_t: 254
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.dot53r_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.bcg3_1
+ my_children[1]: _nameless._.bcg3_2
+ my_children[2]: _nameless._.bcg3_3
+ my_children[3]: _nameless._.bcg3_4
+ coords_l: 990
+ coords_r: 1402
+ coords_t: 535
+ coords_b: 56
+ area_l: 990
+ area_r: 1402
+ area_t: 535
+ area_b: 56
+ id: 500
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.bcg3_1 {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat width=249px yscale=stretch top=0.6955 left=0.0002 right=0.3636><offset hshift=-1.5><img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 1065
+ coords_r: 1402
+ coords_t: 517
+ coords_b: 56
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.bcg3_2 {
+ text: "<align hstyle=right><img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch bottom=0.6954 left=0.8907 right=0.9998></align>"
+ coords_l: 990
+ coords_r: 1065
+ coords_t: 535
+ coords_b: &42640040
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.bcg3_3 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 1
+ coords_r: 36
+ coords_t: 379
+ coords_b: 251
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.bcg3_4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 1400
+ coords_r: 1435
+ coords_t: 368
+ coords_b: 240
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.turbo_label
+ my_children[1]: _nameless._.dot24_on
+ my_children[2]: _nameless._.turbo_bar
+ my_children[3]: _nameless._.turbo_bgap
+ my_children[4]: _nameless._.turbo_bbcg
+ my_children[5]: _nameless._.cons_txt2
+ my_children[6]: _nameless._.turbo_icon
+ my_children[7]: _nameless._.dot23r_on
+ coords_l: 8
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 259
+ area_l: 8
+ area_r: 1395
+ area_t: 450
+ area_b: 259
+ id: 300
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.turbo_label {
+ text: "<font face=/font/mb292_regular.font xscale=0.75 yscale=0.75>0<offset hshift=120>40<offset hshift=102>80</font>"
+ coords_l: 116
+ coords_r: 434
+ coords_t: 336
+ coords_b: 259
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.dot24_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 8
+ coords_r: 21
+ coords_t: 305
+ coords_b: 292
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui_text_bar : _nameless._.turbo_bar {
+ vertical: false
+ min_size: 0
+ max_size: 294
+ min_value: 0
+ max_value: &3fcccccd
+ text: "<img src=/material/ui/white.mat xscale=stretch height=9px color=FFD2D2C4><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=2px color=FFB6B5AB></align>"
+ coords_l: 123
+ coords_r: &43d08001
+ coords_t: 352
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.turbo_bgap {
+ text: "<img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><align hstyle=center><img src=/material/ui/white.mat color=FF000000 height=9px width=3px></align><ret><offset hshift=37><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=74><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=148><img src=/material/ui/white.mat color=FF000000 height=9px width=3px><ret><offset hshift=185><img src=/material/ui/white.mat color=FF000000 height=9px width=3px>"
+ coords_l: 160
+ coords_r: 384
+ coords_t: 352
+ coords_b: 316
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.turbo_bbcg {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch left=0.4 right=0.87 top=0.92 bottom=0.94>"
+ coords_l: 118
+ coords_r: &43d38002
+ coords_t: 353
+ coords_b: 339
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.cons_txt2 {
+ text: "<align hstyle=right><font face=/font/corporates.font xscale=0.9 yscale=0.9><color value=FFCEC4C1>Consumption</font></align>"
+ coords_l: 1048
+ coords_r: 1395
+ coords_t: 450
+ coords_b: 398
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.turbo_icon {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.895 right=0.92 top=0.775 bottom=0.794>"
+ coords_l: 46
+ coords_r: 109
+ coords_t: 371
+ coords_b: 324
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.dot23r_on {
+ text: "<img src=/material/ui/dashboard/westernstar_57x/icons.mat xscale=stretch yscale=stretch  left=0.432 right=0.449 top=0.777 bottom=0.794>"
+ coords_l: 1419
+ coords_r: 1432
+ coords_t: 323
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=ff050a0a>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+
+ui::text : _nameless.bgicc5_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/cascadia_icc5_cluster_intro.mat left=0 right=0.993788819876 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+}

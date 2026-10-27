@@ -1,0 +1,4 @@
+	gps_path:"/ui/gmaps_kenwortht680_gps.sii"
+	dashboard_path:"/ui/dashboard/kenworth_t680.sii"
+	backlight_with_lights: false
+	air_brake_safeguard: true

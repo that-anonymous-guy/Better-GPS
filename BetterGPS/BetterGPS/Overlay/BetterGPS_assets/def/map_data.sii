@@ -1,0 +1,15 @@
+SiiNunit
+{
+map_data : .map.data {
+
+@include "/def/map_data/colour_data.sui"
+
+@include "/def/map_data/full_detail_config.sui"
+@include "/def/map_data/zoom_uplift_config.sui"
+@include "/def/map_data/icons_size.sui"
+@include "/def/map_data/camera_limits.sui"
+@include "/def/map_data/map_infos.sui"
+
+}
+
+}

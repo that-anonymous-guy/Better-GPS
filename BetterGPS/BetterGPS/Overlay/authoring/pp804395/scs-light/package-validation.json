@@ -1,0 +1,1303 @@
+{
+  "status": "PASS",
+  "target": "ATS 1.61 stock T680 NG",
+  "triangles": 5562,
+  "mount_type": "flat wall plate with straight side tabs to pivots",
+  "optional": true,
+  "permanent_hookups": false,
+  "version": "0.13.2",
+  "uniform_scale": 0.625,
+  "package_type": "unpacked mod directory",
+  "side_cameras": [
+    {
+      "cabin": "dc",
+      "part_number": "PP804396",
+      "side": "right",
+      "locator": "bgps_right",
+      "position_scs": [
+        0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        -0.6621671319007874,
+        0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          0.9617383480072021,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          1.0082379579544067,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.00014935201033949852,
+      "configurator_faces_outward": [
+        0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    },
+    {
+      "cabin": "dc",
+      "part_number": "PP804397",
+      "side": "left",
+      "locator": "bgps_left",
+      "position_scs": [
+        -0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        0.6621671319007874,
+        -0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          -1.0082379579544067,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          -0.9617383480072021,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.0001495840260758996,
+      "configurator_faces_outward": [
+        -0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        -0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    },
+    {
+      "cabin": "s52m",
+      "part_number": "PP804396",
+      "side": "right",
+      "locator": "bgps_right",
+      "position_scs": [
+        0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        -0.6621671319007874,
+        0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          0.9617383480072021,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          1.0082379579544067,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.00014935201033949852,
+      "configurator_faces_outward": [
+        0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    },
+    {
+      "cabin": "s52m",
+      "part_number": "PP804397",
+      "side": "left",
+      "locator": "bgps_left",
+      "position_scs": [
+        -0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        0.6621671319007874,
+        -0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          -1.0082379579544067,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          -0.9617383480072021,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.0001495840260758996,
+      "configurator_faces_outward": [
+        -0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        -0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    },
+    {
+      "cabin": "s76h",
+      "part_number": "PP804396",
+      "side": "right",
+      "locator": "bgps_right",
+      "position_scs": [
+        0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        -0.6621671319007874,
+        0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          0.9617383480072021,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          1.0082379579544067,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.00014935201033949852,
+      "configurator_faces_outward": [
+        0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    },
+    {
+      "cabin": "s76h",
+      "part_number": "PP804397",
+      "side": "left",
+      "locator": "bgps_left",
+      "position_scs": [
+        -0.9663534760475159,
+        1.7562673091888428,
+        -1.9065446853637695
+      ],
+      "fore_aft_fit_adjustment_m": 0,
+      "rotation_wxyz": [
+        0.7493036389350891,
+        0.006649168208241463,
+        0.6621671319007874,
+        -0.005875937640666962
+      ],
+      "camera_bounds_scs": [
+        [
+          -1.0082379579544067,
+          1.7289716005325317,
+          -1.9505270719528198
+        ],
+        [
+          -0.9617383480072021,
+          1.7836322784423828,
+          -1.8723094463348389
+        ]
+      ],
+      "mount_contact_gap_min_m": 6.0492195188999176e-05,
+      "mount_contact_gap_max_m": 0.0001495840260758996,
+      "configurator_faces_outward": [
+        -0.9922503232955933,
+        0.017746197059750557,
+        -0.12298096716403961
+      ],
+      "housing_rearward_direction": [
+        -0.1230003833770752,
+        1.862645149230957e-09,
+        0.9924065470695496
+      ],
+      "mirror_intersections": 0,
+      "price": 250,
+      "mirror_symmetry_max_error_m": 0.0
+    }
+  ],
+  "camera_head_down_tilt_degrees": 45,
+  "height_reference": "Day Cab unchanged; sleepers +10 cm",
+  "socket_faces": "rear (+Z in cabin space)",
+  "custom_icon": "256x64 RGBA8 DDS",
+  "material_draws_per_lod": {
+    "front_rear": 5,
+    "sides": 4
+  },
+  "refinement": {
+    "version": "0.13.0",
+    "models": [
+      {
+        "model": "pp804395",
+        "lod": 0,
+        "triangles": 5562,
+        "materials": 5,
+        "export_objects": 1
+      },
+      {
+        "model": "pp804395",
+        "lod": 1,
+        "triangles": 2210,
+        "materials": 5,
+        "export_objects": 1
+      },
+      {
+        "model": "pp804396",
+        "lod": 0,
+        "triangles": 7229,
+        "materials": 4,
+        "export_objects": 1
+      },
+      {
+        "model": "pp804396",
+        "lod": 1,
+        "triangles": 1873,
+        "materials": 4,
+        "export_objects": 1
+      },
+      {
+        "model": "pp804397",
+        "lod": 0,
+        "triangles": 7229,
+        "materials": 4,
+        "export_objects": 1
+      },
+      {
+        "model": "pp804397",
+        "lod": 1,
+        "triangles": 1873,
+        "materials": 4,
+        "export_objects": 1
+      },
+      {
+        "model": "pp807032",
+        "lod": 0,
+        "triangles": 4966,
+        "materials": 5,
+        "export_objects": 1
+      },
+      {
+        "model": "pp807032",
+        "lod": 1,
+        "triangles": 2034,
+        "materials": 5,
+        "export_objects": 1
+      },
+      {
+        "model": "pp807032_low",
+        "lod": 0,
+        "triangles": 4966,
+        "materials": 5,
+        "export_objects": 1
+      },
+      {
+        "model": "pp807032_low",
+        "lod": 1,
+        "triangles": 2034,
+        "materials": 5,
+        "export_objects": 1
+      }
+    ],
+    "texture_size": [
+      2048,
+      256
+    ],
+    "shared_textures": true,
+    "native_materials": [
+      "eut2.dif.spec.tsnmap",
+      "eut2.dif.spec",
+      "eut2.glass",
+      "eut2.dif.spec.add.env",
+      "eut2.dif"
+    ],
+    "mounting_origins_and_optical_angles": "preserved",
+    "rear_cable": true,
+    "fixings": {
+      "each_side_flange": 4,
+      "rear_wall_plate": 2,
+      "front": "behind-grille backing bridge with two strap fixings"
+    },
+    "hardware_style": "round low head with recessed hex socket; rounded 32-side pivot washer",
+    "cable_passages": "rear central drilled plate and side flange passages, rubber grommets",
+    "normal_map_gradient_strength": 0.02,
+    "sun_specular_optics": true,
+    "housing_and_optics_environment_reflection": false,
+    "optical_cavity": "separate eut2.dif material, diffuse .5, zero specular, no NM/environment",
+    "front_flats": "constant section through to fixing, full 89 mm length; no necks",
+    "front_mount_profiles": {
+      "standard": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "low": {
+        "width": 0.0055,
+        "thickness": 0.0015,
+        "spacing": 0.062125
+      }
+    },
+    "side_labels_removed": true,
+    "box_housing_closed_optical_pocket": true,
+    "front_bridge_bearing_feet": "Z=.0264-.09*X-.005*Y in approved local SCS metres",
+    "front_bridge_rear_bar": "Z=.0435-.125*X-.005*Y; two bearing levels for thin and deep grilles",
+    "IR_layout": "two staggered rectangular banks, 18 diodes",
+    "uv": "padded swatches, local box projection; no unique complex unwrap",
+    "dimension_source": "existing approved reconstruction; not OEM drawings"
+  },
+  "cabin_mounts": [
+    {
+      "cabin": "dc",
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/dc.pmg",
+      "source_sha256": "630df92507121dcde1193eae11ea9a8431d999502385b13d85217dc5ca421f1d",
+      "output_sha256": "73a2b997095359a1b626d2021f9238d4792297c8e6628acaa7e5a3f3395995c6",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 132,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "bgps_cam",
+        "position": [
+          0.0,
+          2.5747785568237305,
+          -0.5319089293479919
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "a2b451ad6c020000000000002cc924402f2b08bf0000803f00000000000000000000803f0000000000000000"
+      },
+      "side_locators": [
+        {
+          "name": "bgps_right",
+          "position": [
+            0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            -0.6621671319007874,
+            0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "42f9663fe5e41100f162773f5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc98329bff08ac03b00000000"
+        },
+        {
+          "name": "bgps_left",
+          "position": [
+            -0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            0.6621671319007874,
+            -0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "8228f72556780000f16277bf5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc983293ff08ac0bb00000000"
+        }
+      ]
+    },
+    {
+      "cabin": "s52m",
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/s52m.pmg",
+      "source_sha256": "ed971adf0a2a34714d3d6a9607746ebee370298c6e1a455c22895320635ce674",
+      "output_sha256": "616ff7be54fef4773f5de0f1057fa93628a68e4b7576fc7187caa8cea98c6a3d",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 132,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "bgps_cam",
+        "position": [
+          0.0,
+          2.674785614013672,
+          0.5240044593811035
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          0.0,
+          0.0,
+          0.99996018409729,
+          -0.008922458626329899
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "a2b451ad6c02000000000000b02f2b402825063f0000803f000000000000000064fd7f3f812f12bc00000000"
+      },
+      "side_locators": [
+        {
+          "name": "bgps_right",
+          "position": [
+            0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            -0.6621671319007874,
+            0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "42f9663fe5e41100f162773f5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc98329bff08ac03b00000000"
+        },
+        {
+          "name": "bgps_left",
+          "position": [
+            -0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            0.6621671319007874,
+            -0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "8228f72556780000f16277bf5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc983293ff08ac0bb00000000"
+        }
+      ]
+    },
+    {
+      "cabin": "s76h",
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/s76h.pmg",
+      "source_sha256": "6e46da919050782f62b88e805db869bcfc73e058697ab8cfdc2f62ecdebb24a4",
+      "output_sha256": "5b763760aed17cf2df500480b632770ce7be125e452a7cdddcf9418998baa8d0",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 132,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "bgps_cam",
+        "position": [
+          0.0,
+          2.674778461456299,
+          1.122934341430664
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          0.0,
+          0.0,
+          0.9999998807907104,
+          0.0004534721083473414
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "a2b451ad6c02000000000000922f2b4050bc8f3f0000803f0000000000000000feff7f3fffbfed3900000000"
+      },
+      "side_locators": [
+        {
+          "name": "bgps_right",
+          "position": [
+            0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            -0.6621671319007874,
+            0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "42f9663fe5e41100f162773f5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc98329bff08ac03b00000000"
+        },
+        {
+          "name": "bgps_left",
+          "position": [
+            -0.9663534760475159,
+            1.7562673091888428,
+            -1.9065446853637695
+          ],
+          "scale": 1.0,
+          "rotation_wxyz": [
+            0.7493036389350891,
+            0.006649168208241463,
+            0.6621671319007874,
+            -0.005875937640666962
+          ],
+          "hookup_offset": 0,
+          "raw_hex": "8228f72556780000f16277bf5ecde03fa809f4bf0000803f5dd23f3f44e1d93bc983293ff08ac0bb00000000"
+        }
+      ]
+    }
+  ],
+  "front_camera_mounts": [
+    {
+      "bumper": "low_chrome_fog",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "bd24ba31f5aa9b9229c619dce11e2f71b945f552478b16f81ae5a0194179206b",
+      "output_sha256": "cbb3d9c7ecd09c75f1a9c1e7a71833e02bf23a04462b1426e79aace090a07465",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.3416999876499176,
+          -0.15389999747276306,
+          0.005311197135597467
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000004df3aebef6971dbe8d09ae3b0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "a88c74662382554e1763e1eca3e9c76e4a57ca6b607c51512ec8ef22c698c66a",
+      "output_sha256": "587dbce1b163e38272a728bb553b3b16a3121c3b879286552de972a485cc4933",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.3416999876499176,
+          -0.15389999747276306,
+          0.005311197135597467
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000004df3aebef6971dbe8d09ae3b0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "low_paint_fog",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "63220047a757069b8f494669cc89c826c50eda92ef140ff729777790781b8b8f",
+      "output_sha256": "3fc805acacfb0124f029a46d7a86f81070e3148b90966560ecc4d23ed343e545",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.3416999876499176,
+          -0.15389999747276306,
+          0.005311197135597467
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000004df3aebef6971dbe8d09ae3b0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "79f33c1549eac144a81aa811519cd3adfa8beec81d81d9891770f4705a63bdd8",
+      "output_sha256": "6426d70a45fd6a0179e79f96d350ea92b4b6593b696c7d1f66d34bd4f0d107b8",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.3416999876499176,
+          -0.15389999747276306,
+          0.005311197135597467
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000004df3aebef6971dbe8d09ae3b0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "e115a1671b6aa27bb49e9a89db5f2328a45c3f967adf2925241e169c61b4a59a",
+      "output_sha256": "124c2a48d80a9c1663f3138e8a82fb391e8b02328604f8762c50755ce86bcd86",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.36149999499320984,
+          -0.14949999749660492,
+          0.009550384245812893
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000008716b9be871619be37791c3c0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "25ccb2b16f7f8e198a832e7835013fde0edb9c9fa9dacd3a6e327f097f3cebb4",
+      "output_sha256": "3fff0c907e7198503db406bf91262c5b65bca5c7166ae8bcbecf9c27662f64a9",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.36149999499320984,
+          -0.14949999749660492,
+          0.009550384245812893
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000008716b9be871619be37791c3c0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "9e9b3be08c3aa0a3b014af57eb30bf7999b8780a0799679d7b401da4bf8f61bb",
+      "output_sha256": "325956af67e0a0eb3b6c4b4dcd9a9dcc9e7e6f50edacaf874897c2d2ebd6433b",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.36149999499320984,
+          -0.14949999749660492,
+          0.009550384245812893
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000008716b9be871619be37791c3c0000803f0000803f00000000000000000000000000000000"
+      }
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmg",
+      "attachment_system": "optional slotted accessory_hookup_data",
+      "slot_name": "slot_0",
+      "source_sha256": "b2464193efd0bcffae72d1349daf2aa57d7f4ebca8308c5e10f5ba44d813a9fb",
+      "output_sha256": "80d29d6f13968a4971396451428dddfc5ef8c47f4a4826c999d1a5b5ac16d0a7",
+      "original_geometry_and_locators_preserved": true,
+      "bytes_added": 48,
+      "vertex_and_index_pools_byte_identical": true,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true,
+      "camera_locator": {
+        "name": "slot_0",
+        "position": [
+          -0.36149999499320984,
+          -0.14949999749660492,
+          0.009550384245812893
+        ],
+        "scale": 1.0,
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hookup_offset": 0,
+        "raw_hex": "65ee6b09000000008716b9be871619be37791c3c0000803f0000803f00000000000000000000000000000000"
+      }
+    }
+  ],
+  "front_camera_placement": [
+    {
+      "bumper": "low_chrome_fog",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3417,
+        -0.1539,
+        0.005311197198033333
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3779499989569187,
+          -0.1754419176965952,
+          -0.02136076933979988
+        ],
+        [
+          -0.3054500010430813,
+          -0.1264687075406313,
+          0.0943278805977106
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06517511842910022,
+      "grille_front_z": 0.029152750968933105,
+      "ignored_nonphysical_pieces": [
+        3,
+        6
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": true,
+      "alpha_grille_blocked_samples": 80
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3417,
+        -0.1539,
+        0.005311197198033333
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3779499989569187,
+          -0.1754419176965952,
+          -0.02136076933979988
+        ],
+        [
+          -0.3054500010430813,
+          -0.1264687075406313,
+          0.0943278805977106
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06517511842910022,
+      "grille_front_z": 0.029152750968933105,
+      "ignored_nonphysical_pieces": [
+        1,
+        4
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": true,
+      "alpha_grille_blocked_samples": 80
+    },
+    {
+      "bumper": "low_paint_fog",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3417,
+        -0.1539,
+        0.005311197198033333
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3779499989569187,
+          -0.1754419176965952,
+          -0.02136076933979988
+        ],
+        [
+          -0.3054500010430813,
+          -0.1264687075406313,
+          0.0943278805977106
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06517511842910022,
+      "grille_front_z": 0.029152750968933105,
+      "ignored_nonphysical_pieces": [
+        3,
+        6
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": true,
+      "alpha_grille_blocked_samples": 80
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3417,
+        -0.1539,
+        0.005311197198033333
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3779499989569187,
+          -0.1754419176965952,
+          -0.02136076933979988
+        ],
+        [
+          -0.3054500010430813,
+          -0.1264687075406313,
+          0.0943278805977106
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 4.7829878894845024e-05,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06517511842910022,
+      "grille_front_z": 0.029152750968933105,
+      "ignored_nonphysical_pieces": [
+        3,
+        6
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": true,
+      "alpha_grille_blocked_samples": 80
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3615,
+        -0.1495,
+        0.009550384553074836
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3977499989569187,
+          -0.17104191769659519,
+          -0.017121581984758376
+        ],
+        [
+          -0.32525000104308127,
+          -0.12206870754063129,
+          0.09856706795275211
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06817011842910022,
+      "grille_front_z": 0.03039693832397461,
+      "ignored_nonphysical_pieces": [
+        0,
+        6
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": false,
+      "alpha_grille_blocked_samples": 0
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3615,
+        -0.1495,
+        0.009550384553074836
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3977499989569187,
+          -0.17104191769659519,
+          -0.017121581984758376
+        ],
+        [
+          -0.32525000104308127,
+          -0.12206870754063129,
+          0.09856706795275211
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06817011842910022,
+      "grille_front_z": 0.03039693832397461,
+      "ignored_nonphysical_pieces": [
+        0,
+        2
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": false,
+      "alpha_grille_blocked_samples": 0
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3615,
+        -0.1495,
+        0.009550384553074836
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3977499989569187,
+          -0.17104191769659519,
+          -0.017121581984758376
+        ],
+        [
+          -0.32525000104308127,
+          -0.12206870754063129,
+          0.09856706795275211
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06817011842910022,
+      "grille_front_z": 0.03039693832397461,
+      "ignored_nonphysical_pieces": [
+        0,
+        5
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": false,
+      "alpha_grille_blocked_samples": 0
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "locator": "slot_0",
+      "position_scs": [
+        -0.3615,
+        -0.1495,
+        0.009550384553074836
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "camera_bounds_scs": [
+        [
+          -0.3977499989569187,
+          -0.17104191769659519,
+          -0.017121581984758376
+        ],
+        [
+          -0.32525000104308127,
+          -0.12206870754063129,
+          0.09856706795275211
+        ]
+      ],
+      "body_to_grille_vertex_gap_m": 0.00033560016890987754,
+      "body_grille_intersections": 0,
+      "strap_grille_intersections": 0,
+      "strap_depth_past_grille_m": 0.06817011842910022,
+      "grille_front_z": 0.03039693832397461,
+      "ignored_nonphysical_pieces": [
+        0,
+        2
+      ],
+      "alpha_grille_holes_checked": false,
+      "side": "vehicle left (-X), beside license plate",
+      "socket_faces": "front (-Z)",
+      "model": "pp807032",
+      "mount_profile": "standard",
+      "flat_section_m": {
+        "width": 0.0105,
+        "thickness": 0.0025,
+        "spacing": 0.062
+      },
+      "accepted_grille_flat_clipping": false,
+      "alpha_grille_blocked_samples": 0
+    }
+  ],
+  "front_attachment_system": "one visible standard accessory_hookup_data on bumper slot_0; suitable_for=bumper; hidden legacy alias",
+  "front_banner_conflict": "bidirectional with sign and sign_low; stock banner/bullbar conflict retained; no camera/bullbar conflict",
+  "ats_prefix_bindings": {
+    "bgps_cam": [
+      "bgps_cam"
+    ],
+    "bgps_cam_l": [],
+    "bgps_cam_r": [],
+    "bgps_left": [
+      "bgps_left"
+    ],
+    "bgps_right": [
+      "bgps_right"
+    ]
+  },
+  "package_bytes": 7947496,
+  "in_game_validation": "pending",
+  "files": {
+    "automat/2f/2f9644a79c0d1a59.mat": "5e644dece82d11e2a2c3b00b5ac9314804d21a58cc1ec56c8d6090cfca47c536",
+    "automat/8d/8db2d08f60aaeeaf.mat": "f787418e055015785c0ed3768c2f6cdfb8a31f2f5579a247416db5bdafc7c8a9",
+    "automat/9d/9d1e9ad6e640d008.mat": "52f0da815a2f1166479369172d82e59583c753bc3f699ebdde4a155b03293342",
+    "automat/d0/d0eb281c95d855bd.mat": "f159159822cb36edc8ff91fb895542d72a5f2de40be30c8ff1bed036b832c764",
+    "automat/d3/d38b64e94dad8a2f.mat": "9762f656ed712062477151d327c5ec7c61be1c5c0eeec4f18bbcec504c87960b",
+    "def/vehicle/addon_hookup_storage.bettergps.sii": "5a1d087079a2815d96f7cd55cf00de02832ff021573417896ad9a3b8569b295e",
+    "def/vehicle/addon_hookups/bettergps_pp807032.sui": "bb4dd90b0b98e5dfc6f2f2c2c587f4b9da73a1f1150d55b18c2dca8ff601f31e",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam/pp804395.sii": "ff33ec5a7b627258df4327b2f843ae9621ca7e401d6af15ae41c722e1d5fd47a",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_l/pp804397.sii": "b826257f47f913212fbb1729805f37b7ec519a217ee976caa98a5f9cf853432e",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_r/pp804396.sii": "e179da76e93f4c7f2b94e9b78e1876ec818789ef4ee4607682bd037a6e46fe16",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_left/pp804397.sii": "add317ce08986a2dc6874ac9be1201d3e74cf06e85b5271be19cee813483ddba",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_right/pp804396.sii": "3b779f98394e40b9f81cf920cf40473daeb0c9622263f63083dd096765d17ba3",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/f_banner/sign.sii": "54df2975735410553b59539474800ea2ef07bff9c7724ca01b9a6afd34bf1eac",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/f_banner/sign_low.sii": "7d34a47878f8b718b1f5787b94bda6652e84b222503b1df4a343d9fe52b01f82",
+    "manifest.sii": "d7e1352e9408dbb563798d9e17c20fc74680fa35e2e6a240ab8261aa659b73cf",
+    "material/ui/accessory/bettergps/pp804395.dds": "0f7a5eaf7403fa70348173ba3066e7494d29eded957fe94660936b83782c5cf6",
+    "material/ui/accessory/bettergps/pp804395.mat": "dba021af250b2b61ab2d3a77408d04eced77c04570f281677cc9fed27f338739",
+    "material/ui/accessory/bettergps/pp804395.tobj": "91a0e27ecab9310c1806137317505e9ca785de836c427cbea3ebf288e1b73e8a",
+    "material/ui/accessory/bettergps/pp804396.dds": "b770c0b33e212a8dfdba7e1699046a25188c3aaccfe9f5011feb9f83aff4bda7",
+    "material/ui/accessory/bettergps/pp804396.mat": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff",
+    "material/ui/accessory/bettergps/pp804396.tobj": "9a553acdf03f2befe139d72f6fbcbb000cda9a53915e1420b44423d57b492d8e",
+    "material/ui/accessory/bettergps/pp804397.mat": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff",
+    "material/ui/accessory/bettergps/pp807032.dds": "cdac8f1aea397482426c51920d2c5289ecabdfd1b76c8fc3ea176b0df6cef2d2",
+    "material/ui/accessory/bettergps/pp807032.mat": "2339d5cfb6594523cd9c5452e61cf0b4f860a8a5471d970d16ec9b33a6139acf",
+    "material/ui/accessory/bettergps/pp807032.tobj": "e51714a827842bd87e7d1c621b47281920429d9946f6152d98516b4c4167319c",
+    "mod_description.txt": "42181eddc995169bff29d70704199d0385b07ab39667f05b45ccf1599784f668",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmg": "cbb3d9c7ecd09c75f1a9c1e7a71833e02bf23a04462b1426e79aace090a07465",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmg": "587dbce1b163e38272a728bb553b3b16a3121c3b879286552de972a485cc4933",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmg": "3fc805acacfb0124f029a46d7a86f81070e3148b90966560ecc4d23ed343e545",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmg": "6426d70a45fd6a0179e79f96d350ea92b4b6593b696c7d1f66d34bd4f0d107b8",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmg": "124c2a48d80a9c1663f3138e8a82fb391e8b02328604f8762c50755ce86bcd86",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmg": "3fff0c907e7198503db406bf91262c5b65bca5c7166ae8bcbecf9c27662f64a9",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmg": "325956af67e0a0eb3b6c4b4dcd9a9dcc9e7e6f50edacaf874897c2d2ebd6433b",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmg": "80d29d6f13968a4971396451428dddfc5ef8c47f4a4826c999d1a5b5ac16d0a7",
+    "vehicle/truck/kenworth_t680_2022/cabin/dc.pmg": "73a2b997095359a1b626d2021f9238d4792297c8e6628acaa7e5a3f3395995c6",
+    "vehicle/truck/kenworth_t680_2022/cabin/s52m.pmg": "616ff7be54fef4773f5de0f1057fa93628a68e4b7576fc7187caa8cea98c6a3d",
+    "vehicle/truck/kenworth_t680_2022/cabin/s76h.pmg": "5b763760aed17cf2df500480b632770ce7be125e452a7cdddcf9418998baa8d0",
+    "vehicle/truck/upgrade/bettergps/camera_finish/glass.dds": "6c35efa2b2c310f5a2808dc756b249b304c84caff4760b91327b4d670091673f",
+    "vehicle/truck/upgrade/bettergps/camera_finish/glass.tobj": "b6a5af94674ed42b2c3d5f448427d529c58ad8af562d542b204cfa67d0b2672c",
+    "vehicle/truck/upgrade/bettergps/camera_finish/micro_normal.dds": "8ba1f8375789446a7e3d2a56dcc4b9eb18054912aff0177fa52aa4d1bfa57ed9",
+    "vehicle/truck/upgrade/bettergps/camera_finish/micro_normal.tobj": "531c679f2fb3b304c69ab01b51e3cb57f0cd1e7dfc3782fcaa560f1c7609f15b",
+    "vehicle/truck/upgrade/bettergps/camera_finish/palette.dds": "aeccc8cd4927088f469261b1f05b832c3b909b85db9dd207826a04a7ed013488",
+    "vehicle/truck/upgrade/bettergps/camera_finish/palette.tobj": "a5d3ae587ec6d703058c84263d1f7592664e9ff9af391362dc639803d3fd7afd",
+    "vehicle/truck/upgrade/bettergps/pp804395/pp804395_lod0.pmd": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1",
+    "vehicle/truck/upgrade/bettergps/pp804395/pp804395_lod0.pmg": "4d7198f6ca89fcab99b6c15b56a02fa04c5e3e1f78589e1073cca83dc015c5a3",
+    "vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmd": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4",
+    "vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmg": "d1601415ee358c031adf629855c0d5c9aabe2d2e036b06ac404aa36c9e8c05ff",
+    "vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmd": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4",
+    "vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmg": "5926c78dd3697365641b7ce4228554cc0320d1dac3bceb9dce127e34d99d5044",
+    "vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmd": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1",
+    "vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmg": "f220aff709360ff27888f911a330c74623b80ee5d362cb81dee9eadab45a9b6b"
+  }
+}

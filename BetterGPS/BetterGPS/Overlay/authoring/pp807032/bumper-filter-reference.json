@@ -1,0 +1,18 @@
+{
+  "version": "0.13.1",
+  "scope": "front camera catalogue only; models, shaders, poses and prices unchanged",
+  "stock_bumper_units": {
+    "low_chrome_fog": "low_chr_f.kenworth.t680_2022.bumper",
+    "low_chrome_fog_aero": "low_chr_f_a.kenworth.t680_2022.bumper",
+    "low_paint_fog": "low_pnt_f.kenworth.t680_2022.bumper",
+    "low_paint_fog_aero": "low_pnt_f_a.kenworth.t680_2022.bumper",
+    "standard_paint_fog": "std_pnt_f.kenworth.t680_2022.bumper",
+    "standard_paint_fog_aero": "std_pnt_f_a.kenworth.t680_2022.bumper",
+    "standard_plastic_fog": "std_pla_f.kenworth.t680_2022.bumper",
+    "standard_plastic_fog_aero": "std_pla_f_a.kenworth.t680_2022.bumper"
+  },
+  "filter_source": "https://modding.scssoft.com/wiki/Documentation/Engine/Units/accessory_data",
+  "filter": "exact unit IDs in suitable_for; no broad bumper fallback or guessed filename patterns",
+  "in_game_validation": "pending user check; no game launch or desktop control",
+  "superseded_by": "0.13.2: restored suitable_for=bumper; user reported 0.13.1 no longer offered the front option"
+}

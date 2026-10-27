@@ -1,0 +1,250 @@
+{
+  "tag": "android-4.2.2_r1",
+  "commit": "0ed03e8e14cf2edcda9ee3ecc604d4e048c8ccf3",
+  "license": "Apache-2.0",
+  "files": {
+    "ic_tab_timer_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_timer_normal.png",
+      "source_sha256": "e443d973ad47561b8f9f093d3e660cbc5f25d934f9f38ad486bef0f208eb2510",
+      "sha256": "e57ff954270082f52d2e1d5b2f31be8b424c90d9a7a7bab2b5f35188318730e2",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_tab_timer_activated.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_timer_activated.png",
+      "source_sha256": "43d45662969059df536abc074ec78afa5bfa8d3d18a3347fe83137b023a84d92",
+      "sha256": "ad3d951d5d9c470731570cc1b5a55eb39217b19ef3ca529f9e95c76effce7943",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_tab_clock_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_clock_normal.png",
+      "source_sha256": "c884fdadff44ce6b169131364553cdba238514309cf2e891c35f8d059df1b5b5",
+      "sha256": "f3efe58290977a7601f349dbd61c8c6fc84c44521cfe7856c890a64e4e933c09",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_tab_clock_activated.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_clock_activated.png",
+      "source_sha256": "cd5356d2b06113ec814b846584d9d58fd9ade09b20a38a139c7d889392485031",
+      "sha256": "32a945532af6c9cd4c39aa50ad11a6309ff943703063eee2997106bdcc0c0d3e",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_tab_stopwatch_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_stopwatch_normal.png",
+      "source_sha256": "c1612be01599fb1dbd2c2f5cd25ec5e2559e45616f69a0e2e41f435c8a6337af",
+      "sha256": "fbbae7c7a864bb039e0d4aef7bb943f0392898bd29e187bc618863bf17213cf0",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_tab_stopwatch_activated.dds": {
+      "source": "res\\drawable-xhdpi\\ic_tab_stopwatch_activated.png",
+      "source_sha256": "a885923fbf2bbb161f80c90e7944d2726ac438db914569245c51e4508a0bde88",
+      "sha256": "fe77acf54f2b689e5ab20e22eb11d99a1fd7d4806e01b41ebf21a001a98800dc",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_alarm.dds": {
+      "source": "res\\drawable-xhdpi\\ic_alarm.png",
+      "source_sha256": "fd25e228db60bbf1497ec97799dcbe2f133aca55a8d77173fad47b62de77cc2e",
+      "sha256": "c643b45c97fa1ff96c1c2187941fbbdbd79e0afb4cec307e62f1f64e4a07c63f",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_alarm_small.dds": {
+      "source": "res\\drawable-xhdpi\\ic_alarm_small.png",
+      "source_sha256": "6a634451cbe05ef28e53d9ce1e1f6a83fe70d72d1f3937ab752badc5c3c0af31",
+      "sha256": "bb85d79afb96ed9acfe9d6808cf5620541ce5a46f2484204d3e6243d746639bf",
+      "size": [
+        36,
+        36
+      ]
+    },
+    "ic_location.dds": {
+      "source": "res\\drawable-xhdpi\\ic_location.png",
+      "source_sha256": "ea3d75437aa311acc8b81aa980af64eb4fd8e3744967fb71fcb396ddd9b48e74",
+      "sha256": "d2316ccd5389811c74ea5d463e261195d3c3e73691c658c3122bcfdb0de9fb99",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_add.dds": {
+      "source": "res\\drawable-xhdpi\\ic_add.png",
+      "source_sha256": "4c7f5ab6b6ead32594521607e77ed25abe545a1c2607c24491f5d27ada9b6374",
+      "sha256": "3a0fd9e32f9b12ec7543bf572b6b03191d48794cda9f85be590077d8696ff7c3",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_delete_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_delete_normal.png",
+      "source_sha256": "ce103987874fd7b88dc2bd18db72d395cb472c34226092d62a659ebc467f57e5",
+      "sha256": "b7aa3e2aafe45fc1b11c5f281466a6ad4b2cef6825ce488ca3021d176c6e17bc",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_backspace_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_backspace_normal.png",
+      "source_sha256": "e21244e757425e2100407fe839e845f82d5d2052b2e71e677cffc36c5119f15e",
+      "sha256": "918c7b326724d16f68e1437442538a1224198dd1d269eb5c8a1be1d3d8b54179",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_lap_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_lap_normal.png",
+      "source_sha256": "f4def0a1662be5978e54aba7c6e22357d6d239690d7a7cec6a65672d8a085c7c",
+      "sha256": "4cf65d446568587ef348b9501e6950365f2c3559ee1c3258e9de4320972a53ca",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_reset_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_reset_normal.png",
+      "source_sha256": "c54a3ba378057cdc86ef25c8571ee29ec3d34a7b573e73a3fde6b901701875c4",
+      "sha256": "bfc0800437842a1803f520b20d6da431feaa0d01de345520440722d9744e8ebb",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_start_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_start_normal.png",
+      "source_sha256": "146804c33bb8e4abbb928fcead2141e331b646ed3276a6d550e1201cbcdac5da",
+      "sha256": "c18dbb453759793b9c1e9fb28e0df817b71761cb856b041c127abddb1fd41d81",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_stop_normal.dds": {
+      "source": "res\\drawable-xhdpi\\ic_stop_normal.png",
+      "source_sha256": "5f8edb5f2dc5869ce72e9b987761f3f3d375fda8943bcb2a10a17c04f2a6340f",
+      "sha256": "4376716a38be8c720240d025f2fdb3fc959eaa8111c1e0559dfb5fc8154a89d2",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_menu_done_holo_dark.dds": {
+      "source": "res\\drawable-xhdpi\\ic_menu_done_holo_dark.png",
+      "source_sha256": "d6c7ac99f96761548e21f5da62875577c8a80a2439162c8f0ca47c42ffa9471b",
+      "sha256": "3841d6209239eec38c2413da3c062ccaa1685ddf04d33dbb4068a9134f1b83eb",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_menu_revert_holo_dark.dds": {
+      "source": "res\\drawable-xhdpi\\ic_menu_revert_holo_dark.png",
+      "source_sha256": "7f7cfbb289d579325355fe12fe9a82f77579a6748ece2621cb6876d2c1e56db3",
+      "sha256": "d91574b10444ae7d555c82af476775071f767fbad4f25ec5c594e010928e3fb8",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "ic_ringtone.dds": {
+      "source": "res\\drawable-xhdpi\\ic_ringtone.png",
+      "source_sha256": "2a30561d8a6a048ec2fa24bcb053a2894fede16eef192c4f02df9409bc0058ed",
+      "sha256": "7157bba19d66dc40d1dac76bd938373ec8476676a07a269527f2e1ad64055eaf",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "clock_analog_dial.dds": {
+      "source": "res\\drawable-xhdpi\\clock_analog_dial.png",
+      "source_sha256": "30e27deb1bd53078c0d50a3f6495d6bf75de6e92a93450bf7cab2221ae3c5093",
+      "sha256": "eece35179193a661b3ab4fee33a0f00c12fa22ab10a9af5c325a54a9575ba348",
+      "size": [
+        588,
+        588
+      ]
+    },
+    "clock_analog_hour.dds": {
+      "source": "res\\drawable-xhdpi\\clock_analog_hour.png",
+      "source_sha256": "cde138284afbb9a5f35c028ef5ceb4b7cc2e41589db80a57b095b29893595fb8",
+      "sha256": "438a3b56beaf0bbb7778c8482f9e5c1bdaf778faee0b07fb3496bc19aae0ab60",
+      "size": [
+        588,
+        588
+      ]
+    },
+    "clock_analog_minute.dds": {
+      "source": "res\\drawable-xhdpi\\clock_analog_minute.png",
+      "source_sha256": "dea2ba331d58905f49f9db0084575b8cd979c767648d43f1a75244d36d4b7e9c",
+      "sha256": "98c594312de1ba862e891ca45f1001df689af54de231a7bae257d02b4ecdef44",
+      "size": [
+        588,
+        588
+      ]
+    },
+    "clock_analog_second.dds": {
+      "source": "res\\drawable-xhdpi\\clock_analog_second.png",
+      "source_sha256": "0ca5a993a5fda7dec704e1356995bffc0f58280299801d2c2c39a9713f793a93",
+      "sha256": "d44fd3c00df24d53429eccbdeca9a60fbbb42495e3e7c335a83376c791ef1817",
+      "size": [
+        588,
+        588
+      ]
+    },
+    "stat_notify_timer.dds": {
+      "source": "res\\drawable-xhdpi\\stat_notify_timer.png",
+      "source_sha256": "c65c3cb830f46ca71d21ac753a1728d1b510ce984cba1a9ad6569b3e5c2be26b",
+      "sha256": "c62cae5aee4b954db0b68968ab695b0905f8a98ddee1b87437c534147e6fb65b",
+      "size": [
+        48,
+        48
+      ]
+    },
+    "stat_notify_stopwatch.dds": {
+      "source": "res\\drawable-xhdpi\\stat_notify_stopwatch.png",
+      "source_sha256": "7dc7b25065a69f1a5499fb6d2d8c458bdf965dc8df07a7c3feec31f4aadf3fa2",
+      "sha256": "ce9ab3c86da1e4cd9a6a7152231658ea383611b061b4b20a7ea81160884d193b",
+      "size": [
+        48,
+        48
+      ]
+    },
+    "stat_notify_alarm.dds": {
+      "source": "res\\drawable-xhdpi\\stat_notify_alarm.png",
+      "source_sha256": "174d5dde672c97f54f3b5e54845093e70b5b3125e6d9e83786766da71fa68d5d",
+      "sha256": "bec8008fadd1127c21c0548613e2ff69dbc8e86a5994d9d46a91320fb658c3ec",
+      "size": [
+        48,
+        48
+      ]
+    },
+    "timer.wav": {
+      "source": "assets/sounds/Timer_Expire.ogg",
+      "sha256": "937f4cb49fe62cf08c1aaa7cc0772b5e213ff5ad1d741e7ec6b516c0d8473e24"
+    },
+    "alarm.wav": {
+      "source": "res/raw/fallbackring.ogg",
+      "sha256": "7567b9dedd902b50157bc974abdd4b001f1cb9c0f9f5e4441f23ab0fac8869a8"
+    }
+  },
+  "cities": 280
+}

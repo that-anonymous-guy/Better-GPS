@@ -1,0 +1,542 @@
+[
+  {
+    "part": "bracket_left",
+    "label": "12 Montant gauche",
+    "id_rgb": [
+      242,
+      97,
+      97
+    ],
+    "tile_px_top_left": [
+      2048,
+      2816,
+      512,
+      768
+    ]
+  },
+  {
+    "part": "bracket_right",
+    "label": "13 Montant droit",
+    "id_rgb": [
+      97,
+      139,
+      242
+    ],
+    "tile_px_top_left": [
+      2560,
+      2816,
+      512,
+      768
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "label": "01 Boitier",
+    "id_rgb": [
+      182,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      0,
+      0,
+      2048,
+      2048
+    ]
+  },
+  {
+    "part": "camera_lens",
+    "label": "08 Verre objectif",
+    "id_rgb": [
+      242,
+      97,
+      224
+    ],
+    "tile_px_top_left": [
+      3584,
+      2048,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "front_face_inset",
+    "label": "04 Facade",
+    "id_rgb": [
+      97,
+      242,
+      218
+    ],
+    "tile_px_top_left": [
+      0,
+      2048,
+      1536,
+      1024
+    ]
+  },
+  {
+    "part": "ir_led_-1_1",
+    "label": "19 LED 01",
+    "id_rgb": [
+      242,
+      176,
+      97
+    ],
+    "tile_px_top_left": [
+      3072,
+      3072,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_2",
+    "label": "20 LED 02",
+    "id_rgb": [
+      133,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      3276,
+      3072,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_3",
+    "label": "21 LED 03",
+    "id_rgb": [
+      103,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      3480,
+      3072,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_4",
+    "label": "22 LED 04",
+    "id_rgb": [
+      242,
+      97,
+      146
+    ],
+    "tile_px_top_left": [
+      3684,
+      3072,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_5",
+    "label": "23 LED 05",
+    "id_rgb": [
+      97,
+      188,
+      242
+    ],
+    "tile_px_top_left": [
+      3888,
+      3072,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_6",
+    "label": "24 LED 06",
+    "id_rgb": [
+      230,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      3072,
+      3328,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_7",
+    "label": "25 LED 07",
+    "id_rgb": [
+      212,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      3276,
+      3328,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_8",
+    "label": "26 LED 08",
+    "id_rgb": [
+      97,
+      242,
+      169
+    ],
+    "tile_px_top_left": [
+      3480,
+      3328,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_-1_9",
+    "label": "27 LED 09",
+    "id_rgb": [
+      242,
+      127,
+      97
+    ],
+    "tile_px_top_left": [
+      3684,
+      3328,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_1",
+    "label": "28 LED 10",
+    "id_rgb": [
+      97,
+      109,
+      242
+    ],
+    "tile_px_top_left": [
+      3888,
+      3328,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_2",
+    "label": "29 LED 11",
+    "id_rgb": [
+      152,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      3072,
+      3584,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_3",
+    "label": "30 LED 12",
+    "id_rgb": [
+      242,
+      97,
+      194
+    ],
+    "tile_px_top_left": [
+      3276,
+      3584,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_4",
+    "label": "31 LED 13",
+    "id_rgb": [
+      97,
+      237,
+      242
+    ],
+    "tile_px_top_left": [
+      3480,
+      3584,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_5",
+    "label": "32 LED 14",
+    "id_rgb": [
+      242,
+      206,
+      97
+    ],
+    "tile_px_top_left": [
+      3684,
+      3584,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_6",
+    "label": "33 LED 15",
+    "id_rgb": [
+      163,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      3888,
+      3584,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_7",
+    "label": "34 LED 16",
+    "id_rgb": [
+      97,
+      242,
+      121
+    ],
+    "tile_px_top_left": [
+      3072,
+      3840,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_8",
+    "label": "35 LED 17",
+    "id_rgb": [
+      242,
+      97,
+      115
+    ],
+    "tile_px_top_left": [
+      3276,
+      3840,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "ir_led_1_9",
+    "label": "36 LED 18",
+    "id_rgb": [
+      97,
+      158,
+      242
+    ],
+    "tile_px_top_left": [
+      3480,
+      3840,
+      204,
+      256
+    ]
+  },
+  {
+    "part": "lens_bezel",
+    "label": "07 Bague objectif",
+    "id_rgb": [
+      200,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      3072,
+      2048,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "mount_base",
+    "label": "03 Base support",
+    "id_rgb": [
+      242,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      2048,
+      1024,
+      2048,
+      1024
+    ]
+  },
+  {
+    "part": "mounting_slot",
+    "label": "14 mounting_slot",
+    "id_rgb": [
+      97,
+      242,
+      199
+    ],
+    "tile_px_top_left": [
+      0,
+      3584,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "mounting_slot.001",
+    "label": "15 mounting_slot.001",
+    "id_rgb": [
+      242,
+      157,
+      97
+    ],
+    "tile_px_top_left": [
+      512,
+      3584,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "mounting_slot.002",
+    "label": "16 mounting_slot.002",
+    "id_rgb": [
+      115,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      1024,
+      3584,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "pivot_plate_left",
+    "label": "05 Pivot gauche",
+    "id_rgb": [
+      122,
+      242,
+      97
+    ],
+    "tile_px_top_left": [
+      1536,
+      2048,
+      768,
+      768
+    ]
+  },
+  {
+    "part": "pivot_plate_right",
+    "label": "06 Pivot droit",
+    "id_rgb": [
+      242,
+      97,
+      164
+    ],
+    "tile_px_top_left": [
+      2304,
+      2048,
+      768,
+      768
+    ]
+  },
+  {
+    "part": "pivot_screw_left",
+    "label": "17 pivot_screw_left",
+    "id_rgb": [
+      97,
+      206,
+      242
+    ],
+    "tile_px_top_left": [
+      1536,
+      3584,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "pivot_screw_right",
+    "label": "18 pivot_screw_right",
+    "id_rgb": [
+      242,
+      236,
+      97
+    ],
+    "tile_px_top_left": [
+      2048,
+      3584,
+      512,
+      512
+    ]
+  },
+  {
+    "part": "sun_shield_left",
+    "label": "10 Bord gauche",
+    "id_rgb": [
+      193,
+      97,
+      242
+    ],
+    "tile_px_top_left": [
+      0,
+      3072,
+      1024,
+      512
+    ]
+  },
+  {
+    "part": "sun_shield_right",
+    "label": "11 Bord droit",
+    "id_rgb": [
+      97,
+      242,
+      151
+    ],
+    "tile_px_top_left": [
+      1024,
+      3072,
+      1024,
+      512
+    ]
+  },
+  {
+    "part": "sun_shield_top",
+    "label": "02 Casquette",
+    "id_rgb": [
+      242,
+      108,
+      97
+    ],
+    "tile_px_top_left": [
+      2048,
+      0,
+      2048,
+      1024
+    ]
+  },
+  {
+    "part": "weatherproof_connector",
+    "label": "09 Connecteur",
+    "id_rgb": [
+      97,
+      128,
+      242
+    ],
+    "tile_px_top_left": [
+      3072,
+      2560,
+      512,
+      512
+    ]
+  }
+]

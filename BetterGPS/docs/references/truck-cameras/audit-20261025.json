@@ -1,0 +1,402 @@
+{
+  "date": "2026-10-25",
+  "scope": "19 familles officielles installées; mods exclus; inspection hors ligne des définitions et métadonnées PMD, sans certification visuelle exhaustive des maillages",
+  "definitions_read": 26643,
+  "model_reference_checks": 11209,
+  "warnings": [
+    "/vehicle/truck/mack_anthem/accessory/grill/grill_0_1_1_int.pmd: Unable to find the specified file.",
+    "/vehicle/truck/mack_anthem/accessory/grill/grill_0_1_2_int.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/air_freshener_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/heads_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/smelling_sack_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyac/wooden_classic_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toyseat/jcb_hat_4.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_decors/toystandchewing_gum_set1_ext.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_set/kenworth_w900/dashbrd_set_1.dlc_toys.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_set/peterbilt_579/dashbrd_set_1.dlc_toys.pmd: Unable to find the specified file.",
+    "/vehicle/truck/upgrade/interior_set/volvo_vnr_e/set_cabinet.pmd: Unable to find the specified file."
+  ],
+  "references": {
+    "S1": {
+      "title": "SCS — T680 Anniversary, 19 décembre 2023",
+      "url": "https://blog.scssoft.com/2023/12/kenworth-t680-100-years-anniversary.html"
+    },
+    "S2": {
+      "title": "Kenworth — T680 / DigitalVision",
+      "url": "https://kenworth.anthology-digital.com/trucks/t680/"
+    },
+    "S3": {
+      "title": "Bendix — AutoVue FLC-20, document constructeur déposé NHTSA",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2019/MC-10163233-9999.pdf"
+    },
+    "S4": {
+      "title": "SCS — Cascadia cinquième génération, 15 octobre 2024",
+      "url": "https://blog.scssoft.com/2024/10/ats-introducing-fifth-generation.html"
+    },
+    "S5": {
+      "title": "Freightliner — New Cascadia Driver’s Manual / Detroit Assurance 5.0",
+      "url": "https://dtnacontent-dtna.prd.freightliner.com/content/dam/public/dtna-servicelit/dtna/pdfs/en_us/freightliner/drivers-manuals/New%20Cascadia%20Driver%27s%20Manual_.pdf"
+    },
+    "S6": {
+      "title": "Volvo — sécurité du nouveau VNL, mars 2024",
+      "url": "https://www.volvotrucks.us/news-and-stories/press-releases/2024/march/safety-drives-everything-in-the-all-new-volvo-vnl/"
+    },
+    "S7": {
+      "title": "Volvo — VNR Electric / sécurité",
+      "url": "https://www.volvotrucks.us/trucks/vnr-electric/"
+    },
+    "S8": {
+      "title": "Mack — Wingman Fusion sur Anthem et Pinnacle, octobre 2019",
+      "url": "https://www.macktrucks.ca/mack-news/2019/mack-now-offers-bendix-wingman-fusion-with-enhanced-features-on-mack-anthem-and-pinnacle-models"
+    },
+    "S9": {
+      "title": "International — Wingman Fusion sur LoneStar et LT, février 2019",
+      "url": "https://news.international.com/BendixWingmanFusionStandard"
+    },
+    "S10": {
+      "title": "DTNA — lancement Western Star 57X",
+      "url": "https://northamerica.daimlertruck.com/news-stories/2022/western-star-introduces-all-new-57x"
+    },
+    "S11": {
+      "title": "Western Star — manuel 47X/49X, caméra MPC2",
+      "url": "https://dtnacontent-dtna.prd.freightliner.com/content/dam/public/dtna-servicelit/dtna/pdfs/en_us/western-star/drivers-manuals/47X%2C%2049X%20Drivers%20Manual.pdf"
+    },
+    "S12": {
+      "title": "Western Star — fiche constructeur 5700XE, 2018",
+      "url": "https://westernstar.blob.core.windows.net/assets/brochures/5700XETechSheet.pdf"
+    },
+    "S13": {
+      "title": "Peterbilt — Model 389 / SmartNav camera provisions",
+      "url": "https://www.peterbilt.com/trucks/specialized/389"
+    },
+    "S14": {
+      "title": "Guide SmartNav 2.0 Rev A fourni, tableau de compatibilité p.21",
+      "url": "references/navplus-smartnav/smartnav_camera_installation_guide_rev_a.pdf"
+    },
+    "S15": {
+      "title": "Volvo Group Magazine 4/2017, VNL/VNR p.63",
+      "url": "https://www.volvogroup.com/content/dam/volvo-group/markets/master/news-and-media/volvo-group-magazine/news-and-media-vgm-4-2017.pdf"
+    },
+    "S16": {
+      "title": "SCS — VNL 2025 / VNR Electric, mai 2026",
+      "url": "https://blog.scssoft.com/2026/05/ats-volvo-vnl-2025-volvo-vnr-electric.html"
+    },
+    "S17": {
+      "title": "Stoneridge — programmes OEM, générations à distinguer",
+      "url": "https://www.stoneridge.com/commercial-truck/"
+    }
+  },
+  "trucks": [
+    {
+      "id": "kenworth.t680_2022",
+      "name": "Kenworth T680 NG (ID 2022)",
+      "native_video_confirmed": true,
+      "game": "DigitalVision en option : appareils extérieurs sur les ensembles de rétroviseurs, moniteurs sur les montants A.",
+      "real": "Caméras arrière latérales ; le constructeur décrit aussi une vue plongeante côté passager. Caméra ADAS au pare-brise selon équipement ; celle-ci n’est pas une entrée NavPlus prouvée.",
+      "references": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "definitions_read": 1522,
+      "pmd_reference_checks": 626,
+      "native_definitions": [
+        "/def/vehicle/truck/kenworth.t680_2022/accessory/int_display/digital_mirror.sii"
+      ],
+      "camera_models": [
+        "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror_int.pmd",
+        "/vehicle/truck/kenworth_t680_2022/accessory/int_display/digital_mirror.pmd",
+        "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome_int.pmd",
+        "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_chrome.pmd",
+        "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint_int.pmd",
+        "/vehicle/truck/kenworth_t680_2022/accessory/mirror/camera_paint.pmd"
+      ]
+    },
+    {
+      "id": "freightliner.cascadia2024",
+      "name": "Freightliner Cascadia 2024 / 5e génération",
+      "native_video_confirmed": true,
+      "game": "MirrorEye en option, ensembles extérieurs de rétroviseurs et moniteurs intérieurs.",
+      "real": "Caméra multipurpose Detroit Assurance au pare-brise ; un dispositif orienté conducteur peut aussi équiper le véhicule réel.",
+      "references": [
+        "S4",
+        "S5"
+      ],
+      "definitions_read": 1696,
+      "pmd_reference_checks": 567,
+      "native_definitions": [
+        "/def/vehicle/truck/freightliner.cascadia2024/accessory/int_display/digital_mirror.sii"
+      ],
+      "camera_models": [
+        "/vehicle/truck/freightliner_cascadia2024/accessory/int_display/digital_mirror_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/int_display/digital_mirror.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome_day_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome_day.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_chrome.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only_day_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only_day.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_only.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic_day_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic_day.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic_int.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/mirror/camera_plastic.pmd",
+        "/vehicle/truck/freightliner_cascadia2024/accessory/s_mirror/camera_only.pmd"
+      ]
+    },
+    {
+      "id": "volvo.vnl2025",
+      "name": "Volvo VNL 2025",
+      "native_video_confirmed": true,
+      "game": "CMS en option : modules latéraux hauts sur la cabine, moniteurs aux montants A.",
+      "real": "Volvo documente aussi une caméra de couplage à l’arrière de cabine et plusieurs entrées infotainment réelles. Leurs flux/implantations ne sont pas confirmés dans le stock audité.",
+      "references": [
+        "S6",
+        "S16"
+      ],
+      "definitions_read": 1692,
+      "pmd_reference_checks": 594,
+      "native_definitions": [
+        "/def/vehicle/truck/volvo.vnl2025/accessory/int_display/digital_mirror.sii"
+      ],
+      "camera_models": [
+        "/vehicle/truck/volvo_vnl2025/accessory/int_display/digital_mirror_int.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/int_display/digital_mirror.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_dc_int.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_dc.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_s_int.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_chrome_s.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_dc_int.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_dc.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_s_int.pmd",
+        "/vehicle/truck/volvo_vnl2025/accessory/mirror/cam_paint_s.pmd"
+      ]
+    },
+    {
+      "id": "freightliner.cascadia2019",
+      "name": "Freightliner Cascadia 2019",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Caméra Detroit Assurance 5.0 contre le pare-brise sur le véhicule réel ; pas de flux infotainment identifié dans ce relevé.",
+      "references": [
+        "S5"
+      ],
+      "definitions_read": 1779,
+      "pmd_reference_checks": 609,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "westernstar.49x",
+      "name": "Western Star 49X",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Caméra MPC2 Detroit Assurance contre le pare-brise, selon équipement réel.",
+      "references": [
+        "S11"
+      ],
+      "definitions_read": 2104,
+      "pmd_reference_checks": 673,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "westernstar.57x",
+      "name": "Western Star 57X",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Detroit Assurance 5.0 caméra + radar documenté d’origine sur le véhicule réel. Ne pas importer les rétros caméra du Cascadia au seul motif du dashboard commun.",
+      "references": [
+        "S10"
+      ],
+      "definitions_read": 1247,
+      "pmd_reference_checks": 550,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "westernstar.5700xe",
+      "name": "Western Star 5700XE",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Fiche constructeur : Bendix AutoVue avec avertissement de voie. Caméra ADAS avant ; pas une caméra de recul.",
+      "references": [
+        "S12"
+      ],
+      "definitions_read": 1378,
+      "pmd_reference_checks": 533,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "mack.anthem",
+      "name": "Mack Anthem du jeu",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Wingman Fusion : caméra au pare-brise sur le modèle réel. Les Digital Mirror des nouveaux Anthem/Pioneer ne prouvent pas leur présence sur cet Anthem ATS.",
+      "references": [
+        "S8",
+        "S17"
+      ],
+      "definitions_read": 1521,
+      "pmd_reference_checks": 659,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "mack.pinnacle",
+      "name": "Mack Pinnacle",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Wingman Fusion : caméra au pare-brise selon équipement réel.",
+      "references": [
+        "S8"
+      ],
+      "definitions_read": 1381,
+      "pmd_reference_checks": 592,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "intnational.lt",
+      "name": "International LT",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Wingman Fusion avant, caméra + radar ; référence constructeur de 2019.",
+      "references": [
+        "S9"
+      ],
+      "definitions_read": 1399,
+      "pmd_reference_checks": 566,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "intnational.lonestar",
+      "name": "International LoneStar",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Wingman Fusion documenté sur la gamme à partir des équipements cités en 2019. Ne valide pas chaque finition/millésime stock.",
+      "references": [
+        "S9"
+      ],
+      "definitions_read": 1336,
+      "pmd_reference_checks": 504,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "volvo.vnl2018",
+      "name": "Volvo VNL 2018",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Volvo Active Driver Assist au pare-brise ; documentation de la génération 2017 mentionnant aussi une possibilité de caméra extérieure avec l’infotainment. Installation stock non confirmée.",
+      "references": [
+        "S15"
+      ],
+      "definitions_read": 1559,
+      "pmd_reference_checks": 689,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "volvo.vnr_e",
+      "name": "Volvo VNR Electric",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Volvo décrit VADA caméra + radar sur le VNR Electric. Ce n’est pas le CMS du nouveau VNL.",
+      "references": [
+        "S7"
+      ],
+      "definitions_read": 174,
+      "pmd_reference_checks": 149,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "kenworth.t680",
+      "name": "Kenworth T680 classique (dit 2014)",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "T680 compatible caméras NavPlus/DEA600 en option ; AutoVue documenté sur la famille T680, sans preuve d’équipement pour chaque millésime ATS.",
+      "references": [
+        "S3",
+        "S14"
+      ],
+      "definitions_read": 999,
+      "pmd_reference_checks": 506,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "kenworth.w900",
+      "name": "Kenworth W900",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Guide DEA600 : compatibilité des entrées caméras gauche/droite/recul. Le tableau de compatibilité n’est pas la preuve d’un kit physiquement installé.",
+      "references": [
+        "S14"
+      ],
+      "definitions_read": 2498,
+      "pmd_reference_checks": 1289,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "peterbilt.389",
+      "name": "Peterbilt 389",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Peterbilt confirme les provisions caméra SmartNav ; kit, installation et génération à vérifier sur le camion réel.",
+      "references": [
+        "S13",
+        "S14"
+      ],
+      "definitions_read": 1014,
+      "pmd_reference_checks": 562,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "peterbilt.579",
+      "name": "Peterbilt 579 ancien du jeu",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Compatibilité SmartNav ; AutoVue documenté sur la famille. Les Digital Vision du New 579 de 2021 ne sont pas transposables à l’ancien 579 ATS.",
+      "references": [
+        "S3",
+        "S14",
+        "S17"
+      ],
+      "definitions_read": 938,
+      "pmd_reference_checks": 491,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "volvo.vnl",
+      "name": "Volvo VNL ancien (dit 2014)",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Pas de référence d’époque suffisamment précise retenue pour certifier une caméra sur cette configuration. Ne pas extrapoler le VADA/CMS récent à ce véhicule.",
+      "references": [],
+      "definitions_read": 1097,
+      "pmd_reference_checks": 544,
+      "native_definitions": [],
+      "camera_models": []
+    },
+    {
+      "id": "intnational.9900i",
+      "name": "International 9900i",
+      "native_video_confirmed": false,
+      "game": "Aucun CMS déclaré identifié.",
+      "real": "Aucune installation caméra d’origine certifiée par les références retenues pour cette génération. Cela n’exclut pas un kit de flotte ajouté après fabrication.",
+      "references": [],
+      "definitions_read": 1309,
+      "pmd_reference_checks": 506,
+      "native_definitions": [],
+      "camera_models": []
+    }
+  ]
+}

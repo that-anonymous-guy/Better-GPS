@@ -1,0 +1,1888 @@
+SiiNunit
+{
+ui::window : _nameless.01261de50 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.sharedisplay
+ my_children[1]: _nameless._.display1
+ my_children[2]: _nameless._.display2
+ my_children[3]: _nameless._.display3
+ my_children[4]: _nameless._.display4
+ my_children[5]: _nameless._.display5
+ my_children[6]: _nameless._.display6
+ my_children[7]: _nameless.bgv18_intro
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 11
+ my_children[0]: _nameless._.bcg
+ my_children[1]: _nameless._.ambient_temp
+ my_children[2]: _nameless._.time
+ my_children[3]: _nameless._.gear_mode
+ my_children[4]: _nameless._.gear
+ my_children[5]: _nameless._.eng_brk_off
+ my_children[6]: _nameless._.eng_brk_on
+ my_children[7]: _nameless._.low_fuel_i.move.to.screens
+ my_children[8]: _nameless._.low_airpr
+ my_children[9]: _nameless._.dmg_warn
+ my_children[10]: _nameless._.cc
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg {
+ text: "<color value=FF352E2C><img src=/material/ui/white.mat xscale=stretch yscale=stretch>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=10 vshift=414><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.5 right=1 top=0.977 bottom=1 xscale=stretch yscale=stretch width=780 height=4 >\r\n<ret><offset hshift=110 vshift=10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >\r\n<ret><offset hshift=548 vshift=10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >\r\n<ret><offset hshift=654 vshift=10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.ambient_temp {
+ value: "87|F"
+ look_template: txt.volvo_vnr_e.temp
+ text: ""
+ coords_l: 551
+ coords_r: 647
+ coords_t: 480
+ coords_b: 403
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.time {
+ value: "23:54"
+ look_template: txt.volvo_vnr_e.clock
+ text: ""
+ coords_l: 640
+ coords_r: 785
+ coords_t: 480
+ coords_b: 403
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear_mode {
+ value: N
+ look_template: txt.volvo_vnr_e.general
+ text: ""
+ coords_l: 250
+ coords_r: 346
+ coords_t: 75
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1380
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: 12
+ look_template: txt.volvo_vnr_e.gear
+ text: ""
+ coords_l: 350
+ coords_r: 474
+ coords_t: 68
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eng_brk_off {
+ text: "<color value=FFAAAAAA>\r\n<offset vshift=20><font face=/font/mack.font xscale=0.4 yscale=0.425>OFF</font>\r\n<offset vshift=-30><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0 bottom=0.25 xscale=stretch yscale=stretch width=80 height=80>"
+ coords_l: 662
+ coords_r: 792
+ coords_t: 62
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.eng_brk_on {
+ text: "<color value=FF352E2C>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch width=50>\r\n<color value=FFFFFFFF>\r\n<offset vshift=-10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0 bottom=0.25 xscale=stretch yscale=stretch width=80 height=80>"
+ coords_l: 662
+ coords_r: 792
+ coords_t: 62
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1230
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_fuel_i.move.to.screens {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0 bottom=0.25 xscale=stretch yscale=stretch>"
+ coords_l: 581
+ coords_r: 651
+ coords_t: 131
+ coords_b: 61
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_airpr {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0 bottom=0.25 xscale=stretch yscale=stretch>"
+ coords_l: 581
+ coords_r: 651
+ coords_t: 131
+ coords_b: 61
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1260
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.dmg_warn {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0 bottom=0.25 xscale=stretch yscale=stretch>"
+ coords_l: 581
+ coords_r: 651
+ coords_t: 131
+ coords_b: 61
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1190
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.cc {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cc_icon
+ my_children[1]: _nameless._.cc_txt
+ coords_l: 0
+ coords_r: 128
+ coords_t: 62
+ coords_b: 0
+ area_l: 0
+ area_r: 128
+ area_t: 62
+ area_b: 0
+ id: 1240
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_icon {
+ text: "<color value=FF3FAC5D><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.375 right=0.5 top=0.75 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 10
+ coords_r: 75
+ coords_t: 67
+ coords_b: 2
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc
+}
+
+ui::text_common : _nameless._.cc_txt {
+ value: 30
+ look_template: txt.volvo_vnr_e.generalg
+ text: ""
+ coords_l: 84
+ coords_r: 184
+ coords_t: 59
+ coords_b: 9
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 17
+ my_children[0]: _nameless._.bcg1
+ my_children[1]: _nameless._.compass
+ my_children[2]: _nameless._.trip1
+ my_children[3]: _nameless._.trip_odo
+ my_children[4]: _nameless._.odo
+ my_children[5]: _nameless._.speed
+ my_children[6]: _nameless._.economy_i
+ my_children[7]: _nameless._.economy_bar
+ my_children[8]: _nameless._.econa_arr
+ my_children[9]: _nameless._.battery_i
+ my_children[10]: _nameless._.battery_bar
+ my_children[11]: _nameless._.econ_bar
+ my_children[12]: _nameless._.econi_dot
+ my_children[13]: _nameless._.econa1_tri
+ my_children[14]: _nameless._.econa1_txt
+ my_children[15]: _nameless._.batt_bar
+ my_children[16]: _nameless._.batt_txt
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 100
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg1 {
+ text: "<color value=FF504741>\r\n<ret><offset vshift=134><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=800 height=218>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=20><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=80 height=80>\r\n<ret><offset hshift=10 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.5 right=1 top=0.977 bottom=1 xscale=stretch yscale=stretch width=290 height=4 >\r\n<ret><offset hshift=500  vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.5 right=1 top=0.977 bottom=1 xscale=stretch yscale=stretch width=290 height=4 >\r\n<ret><offset hshift=0 vshift=130><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4>\r\n<ret><offset hshift=0 vshift=242><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >\r\n<ret><offset hshift=0 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >\r\n<color value=FF352E2C>\r\n<ret><offset hshift=0 vshift=240><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.compass {
+ value: NE
+ look_template: txt.volvo_vnr_e.compass
+ text: ""
+ coords_l: 124
+ coords_r: 252
+ coords_t: 480
+ coords_b: 404
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.trip1 {
+ text: "<color value=FF878781><align vstyle=bottom><font face=/font/mack.font xscale=0.5 yscale=0.525>Trip</font></align>"
+ coords_l: 20
+ coords_r: 148
+ coords_t: 407
+ coords_b: 348
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.trip_odo {
+ value: "9999|mi"
+ look_template: txt.volvo_vnr_e.valued_l
+ text: ""
+ coords_l: &429ffffe
+ coords_r: 324
+ coords_t: 400
+ coords_b: 345
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.odo {
+ value: "999999|mi"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: 525
+ coords_r: 780
+ coords_t: 400
+ coords_b: 345
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.speed {
+ value: "0|mph"
+ look_template: txt.volvo_vnr_e.speed_big
+ text: ""
+ coords_l: 250
+ coords_r: 550
+ coords_t: 480
+ coords_b: 350
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.economy_i {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 332
+ coords_b: 252
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.economy_bar {
+ text: "<color value=FF878781>\r\n<align hstyle=right><offset vshift=-4><font face=/font/mack.font xscale=0.5 yscale=0.5>kWh/mi</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=66>0\r\n<ret><offset vshift=66><align hstyle=right>10</align>\r\n</font>\r\n<color value=FF878781>\r\n<ret><offset vshift=35><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF352E2C>\r\n<ret><offset vshift=39 hshift=4><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=22 width=412>"
+ coords_l: 162
+ coords_r: 584
+ coords_t: 342
+ coords_b: 238
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.econa_arr {
+ text: "<color value=FF352E2C>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch height=48>\r\n<ret><offset vshift=52><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=48>\r\n<ret><color value=FF23E8FF>\r\n<offset hshift=142 vshift=10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9257 right=0.9882 top=0.9765 bottom=0.8671 width=30 height=26>\r\n<color value=FF878781>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset hshift=6 vshift=4>T\r\n</font>\r\n"
+ coords_l: 605
+ coords_r: 783
+ coords_t: 342
+ coords_b: 238
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.battery_i {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.75 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 227
+ coords_b: 147
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.battery_bar {
+ text: "<color value=FF878781>\r\n<align hstyle=center><offset vshift=30><font face=/font/mack.font xscale=0.5 yscale=0.5>VOLTS</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=30>9\r\n<ret><offset vshift=30><align hstyle=right>17</align>\r\n</font>\r\n<color value=FF352E2C>\r\n<ret><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF4444FF>\r\n<ret><offset hshift=2 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=110>\r\n<ret><offset hshift=362 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=110>\r\n<color value=FF878781>\r\n<ret><offset hshift=116 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=242>\r\n<color value=FF352E2C>\r\n<ret><offset hshift=6><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=24 width=462>"
+ coords_l: 162
+ coords_r: 636
+ coords_t: 211
+ coords_b: 137
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.econ_bar {
+ vertical: false
+ min_size: 0
+ max_size: 407
+ min_value: 161
+ max_value: &3e24dd2f
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 169
+ coords_r: 576
+ coords_t: 300
+ coords_b: 284
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.econi_dot {
+ text: "<color value=FF55DD3A><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.93 right=0.987 top=0.75 bottom=0.862>"
+ coords_l: 320
+ coords_r: 349
+ coords_t: 306
+ coords_b: 276
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.econa1_tri {
+ vertical: false
+ min_size: 0
+ max_size: 435
+ min_value: 161
+ max_value: &3e24dd2f
+ text: "<align hstyle=right>\r\n<color value=FF23E8FF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9257 right=0.9882 top=0.9765 bottom=0.8671 width=30 height=26>\r\n</align>"
+ coords_l: 155
+ coords_r: 185
+ coords_t: 331
+ coords_b: 306
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.econa1_txt {
+ value: "32.5|mpg"
+ look_template: txt.volvo_vnr_e.generalg
+ text: ""
+ coords_l: 642
+ coords_r: 770
+ coords_t: 343
+ coords_b: 291
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.batt_bar {
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 171
+ coords_r: 411
+ coords_t: 206
+ coords_b: 190
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.batt_txt {
+ value: "13.7|V"
+ look_template: txt.volvo_vnr_e.generalg
+ text: ""
+ coords_l: 643
+ coords_r: 771
+ coords_t: 217
+ coords_b: 160
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless._.bcg2
+ my_children[1]: _nameless._.economy_i2
+ my_children[2]: _nameless._.economy_bar2
+ my_children[3]: _nameless._.econa2_arr
+ my_children[4]: _nameless._.econa12_tr
+ my_children[5]: _nameless._.econa12_txt
+ my_children[6]: _nameless._.rem_dst
+ my_children[7]: _nameless._.rem_dst_i
+ my_children[8]: _nameless._.rem_dst_txt
+ my_children[9]: _nameless._.rem_fuel
+ my_children[10]: _nameless._.rem_fuel_i
+ my_children[11]: _nameless._.rem_fuel_txt
+ my_children[12]: _nameless._.title2
+ my_children[13]: _nameless._.econi2_dot
+ my_children[14]: _nameless._.econ2_bar
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 200
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg2 {
+ text: "<color value=FF504741>\r\n<ret><offset hshift=20 vshift=164><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9140625 right=0.92578125 top=0.875 bottom=0.9765625 width=20 height=100>\r\n<ret><offset hshift=50 vshift=80><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=750 height=272>\r\n<color value=FF9AB5AF>\r\n<ret><offset hshift=19 vshift=172><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=22 height=10>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=15 vshift=-5><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=90 height=90>\r\n<ret><offset hshift=0 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4>\r\n<ret><offset hshift=0 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >\r\n<color value=FF352E2C>\r\n<ret><offset vshift=220 hshift=60><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=357 height=116><offset hshift=8><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=357 height=116>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.economy_i2 {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 371
+ coords_b: 291
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.economy_bar2 {
+ text: "<color value=FF878781>\r\n<align hstyle=right><offset vshift=-4><font face=/font/mack.font xscale=0.5 yscale=0.5>kWh/mi</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=66>0\r\n<ret><offset vshift=66><align hstyle=right>10</align>\r\n</font>\r\n<color value=FF878781>\r\n<ret><offset vshift=35><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF352E2C>\r\n<ret><offset vshift=39 hshift=5><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=22 width=412>"
+ coords_l: 162
+ coords_r: 584
+ coords_t: 381
+ coords_b: 277
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.econa2_arr {
+ text: "<color value=FF352E2C>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch height=48>\r\n<ret><offset vshift=52><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=48>\r\n<ret><color value=FF23E8FF>\r\n<offset hshift=142 vshift=10><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9257 right=0.9882 top=0.9765 bottom=0.8671 width=30 height=26>\r\n<color value=FF878781>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset hshift=6 vshift=4>T\r\n</font>\r\n"
+ coords_l: 605
+ coords_r: 783
+ coords_t: 381
+ coords_b: 277
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui_text_bar : _nameless._.econa12_tr {
+ vertical: false
+ min_size: 0
+ max_size: 435
+ min_value: 161
+ max_value: &3e24dd2f
+ text: "<align hstyle=right>\r\n<color value=FF23E8FF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9257 right=0.9882 top=0.9765 bottom=0.8671 width=30 height=26>\r\n</align>"
+ coords_l: 155
+ coords_r: 185
+ coords_t: 370
+ coords_b: 345
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.econa12_txt {
+ value: "32.5|mpg"
+ look_template: txt.volvo_vnr_e.generalg
+ text: ""
+ coords_l: 642
+ coords_r: 770
+ coords_t: 382
+ coords_b: 330
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.rem_dst {
+ value: "Distance to Empty"
+ look_template: txt.volvo_vnr_e.innertxt
+ text: ""
+ coords_l: 105
+ coords_r: &43c97fff
+ coords_t: 259
+ coords_b: 218
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.rem_dst_i {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 69
+ coords_r: 149
+ coords_t: 223
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.rem_dst_txt {
+ value: "999|mi"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: 187
+ coords_r: 404
+ coords_t: 218
+ coords_b: 154
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.rem_fuel {
+ value: "Remaining Energy"
+ look_template: txt.volvo_vnr_e.innertxt
+ text: ""
+ coords_l: 460
+ coords_r: 758
+ coords_t: 259
+ coords_b: 218
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.rem_fuel_i {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.75 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 440
+ coords_r: 510
+ coords_t: 218
+ coords_b: 148
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.rem_fuel_txt {
+ value: "56|kWh"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: 554
+ coords_r: 771
+ coords_t: 218
+ coords_b: 154
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.title2 {
+ value: "Energy Economy"
+ look_template: txt.volvo_vnr_e.scr_title
+ text: ""
+ coords_l: 120
+ coords_r: 556
+ coords_t: 470
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.econi2_dot {
+ text: "<color value=FF55DD3A><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.932 right=0.985 top=0.75 bottom=0.862>"
+ coords_l: 390
+ coords_r: 420
+ coords_t: 345
+ coords_b: 315
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui_text_bar : _nameless._.econ2_bar {
+ vertical: false
+ min_size: 0
+ max_size: 407
+ min_value: 161
+ max_value: &3e24dd2f
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 169
+ coords_r: 576
+ coords_t: 339
+ coords_b: 323
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.bcg3
+ my_children[1]: _nameless._.title3
+ my_children[2]: _nameless._.airp1
+ my_children[3]: _nameless._.airp1_bg
+ my_children[4]: _nameless._.airp1_b
+ my_children[5]: _nameless._.airp1_txt
+ my_children[6]: _nameless._.airp2
+ my_children[7]: _nameless._.airp2_bg
+ my_children[8]: _nameless._.airp2_b
+ my_children[9]: _nameless._.airp2_txt
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 300
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg3 {
+ text: "<color value=FF504741>\r\n<ret><offset hshift=20 vshift=164><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9140625 right=0.92578125 top=0.875 bottom=0.9765625 width=20 height=100>\r\n<ret><offset hshift=50 vshift=80><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=750 height=272>\r\n<color value=FF9AB5AF>\r\n<ret><offset hshift=19 vshift=210><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=22 height=10>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=15 vshift=-5><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=90 height=90>\r\n<ret><offset hshift=0 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4>\r\n<ret><offset hshift=50 vshift=214><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=750 height=4 >\r\n<ret><offset hshift=0 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >\r\n<color value=FF352E2C>\r\n<ret><offset hshift=50 vshift=212><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=750 height=4 >"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.title3 {
+ value: "Air Pressures"
+ look_template: txt.volvo_vnr_e.scr_title
+ text: ""
+ coords_l: 120
+ coords_r: 556
+ coords_t: 470
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.airp1 {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.25 right=0.375 top=0 bottom=0.25 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 371
+ coords_b: 291
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.airp1_bg {
+ text: "<color value=FF878781>\r\n<align hstyle=center><offset vshift=30><font face=/font/mack.font xscale=0.5 yscale=0.5>PSI</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=30>0\r\n<ret><offset vshift=30><align hstyle=right>174</align>\r\n</font>\r\n<color value=FF352E2C>\r\n<ret><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF4444FF>\r\n<ret><offset hshift=2 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=160>\r\n<color value=FF878781>\r\n<ret><offset hshift=168 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=304>\r\n<color value=FF352E2C>\r\n<ret><offset hshift=6><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=24 width=462>"
+ coords_l: 162
+ coords_r: 636
+ coords_t: 355
+ coords_b: 281
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.airp1_b {
+ vertical: false
+ min_size: 0
+ max_size: 456
+ min_value: 0
+ max_value: 12
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 171
+ coords_r: 411
+ coords_t: 350
+ coords_b: 334
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1120
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.airp1_txt {
+ value: "100|PSI"
+ look_template: txt.volvo_vnr_e.rawvalue
+ text: ""
+ coords_l: 650
+ coords_r: 770
+ coords_t: 362
+ coords_b: 307
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1370
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.airp2 {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.25 right=0.375 top=0.25 bottom=0.5 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 235
+ coords_b: 155
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.airp2_bg {
+ text: "<color value=FF878781>\r\n<align hstyle=center><offset vshift=30><font face=/font/mack.font xscale=0.5 yscale=0.5>PSI</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=30>0\r\n<ret><offset vshift=30><align hstyle=right>174</align>\r\n</font>\r\n<color value=FF352E2C>\r\n<ret><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF4444FF>\r\n<ret><offset hshift=2 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=160>\r\n<color value=FF878781>\r\n<ret><offset hshift=168 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=304>\r\n<color value=FF352E2C>\r\n<ret><offset hshift=6><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=24 width=462>"
+ coords_l: 162
+ coords_r: 636
+ coords_t: 219
+ coords_b: 145
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.airp2_b {
+ vertical: false
+ min_size: 0
+ max_size: 456
+ min_value: 0
+ max_value: 12
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 171
+ coords_r: 411
+ coords_t: 214
+ coords_b: 198
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1120
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.airp2_txt {
+ value: "100|PSI"
+ look_template: txt.volvo_vnr_e.rawvalue
+ text: ""
+ coords_l: 650
+ coords_r: 770
+ coords_t: 226
+ coords_b: 171
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1370
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.bcg4
+ my_children[1]: _nameless._.title4
+ my_children[2]: _nameless._.soc_title
+ my_children[3]: _nameless._.soc
+ my_children[4]: _nameless._.soc_bg
+ my_children[5]: _nameless._.soc_b
+ my_children[6]: _nameless._.soc_txt
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 400
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg4 {
+ text: "<color value=FF504741>\r\n<ret><offset hshift=20 vshift=164><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9140625 right=0.92578125 top=0.875 bottom=0.9765625 width=20 height=100>\r\n<ret><offset hshift=50 vshift=80><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=750 height=272>\r\n<color value=FF9AB5AF>\r\n<ret><offset hshift=19 vshift=209><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=22 height=10>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=15 vshift=-5><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=90 height=90>\r\n<ret><offset hshift=0 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4>\r\n\r\n<ret><offset hshift=0 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=800 height=4 >\r\n"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.title4 {
+ value: "Battery Status"
+ look_template: txt.volvo_vnr_e.scr_title
+ text: ""
+ coords_l: 120
+ coords_r: 556
+ coords_t: 470
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.soc_title {
+ value: "State Of Charge"
+ look_template: txt.volvo_vnr_e.innertxt
+ text: ""
+ coords_l: 282
+ coords_r: 580
+ coords_t: 320
+ coords_b: 279
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.soc {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.25 right=0.375 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 71
+ coords_r: 151
+ coords_t: 294
+ coords_b: 214
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.soc_bg {
+ text: "<color value=FF878781>\r\n<align hstyle=center><offset vshift=30><font face=/font/mack.font xscale=0.5 yscale=0.5>SOC</font></align>\r\n<font face=/font/handel_gothic_light.font xscale=0.6 yscale=0.9>\r\n<ret><offset vshift=30>0\r\n<ret><offset vshift=30><align hstyle=right>100</align>\r\n</font>\r\n<color value=FF352E2C>\r\n<ret><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=30>\r\n<color value=FF4444FF>\r\n<ret><offset hshift=376 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=96>\r\n<color value=FF878781>\r\n<ret><offset hshift=2 vshift=2><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=26 width=370>\r\n<color value=FF352E2C>\r\n<ret><offset hshift=6><img src=/material/ui/white.mat xscale=stretch yscale=stretch height=24 width=462>"
+ coords_l: 162
+ coords_r: 636
+ coords_t: 263
+ coords_b: 189
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui_text_bar : _nameless._.soc_b {
+ vertical: false
+ min_size: 0
+ max_size: 456
+ min_value: 0
+ max_value: 1
+ text: "<color value=FF9AB5AF><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 171
+ coords_r: 411
+ coords_t: 258
+ coords_b: 242
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.soc_txt {
+ value: 100
+ look_template: txt.volvo_vnr_e.rawvalueperc
+ text: ""
+ coords_l: 644
+ coords_r: 800
+ coords_t: 285
+ coords_b: 230
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1510
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.bcg5
+ my_children[1]: _nameless._.title5
+ my_children[2]: _nameless._.trip_dst
+ my_children[3]: _nameless._.trip_dst1
+ my_children[4]: _nameless._.trip_spd
+ my_children[5]: _nameless._.trip_spd_txt
+ my_children[6]: _nameless._.trip_cons
+ my_children[7]: _nameless._.trip_cons_tx
+ my_children[8]: _nameless._.range
+ my_children[9]: _nameless._.range_txt
+ my_children[10]: _nameless._.fuel
+ my_children[11]: _nameless._.fuel_txt
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 500
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg5 {
+ text: "<color value=FF504741>\r\n<ret><offset hshift=20 vshift=164><img src=/material/ui/dashboard/volvo_vnr_e/display.mat xscale=stretch yscale=stretch left=0.9140625 right=0.92578125 top=0.875 bottom=0.9765625 width=20 height=100>\r\n<ret><offset hshift=50 vshift=130><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=740 height=222>\r\n<color value=FF3F3733>\r\n<ret><offset hshift=50 vshift=80><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=740 height=48>\r\n<color value=FF9AB5AF>\r\n<ret><offset hshift=19 vshift=248><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=22 height=10>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=15 vshift=-5><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=90 height=90>\r\n<ret><offset hshift=10 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=780 height=4>\r\n<ret><offset hshift=50 vshift=126><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=740 height=4 >\r\n<ret><offset hshift=50 vshift=201><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=740 height=4 >\r\n<ret><offset hshift=50 vshift=276><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=740 height=4 >\r\n<ret><offset hshift=10 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=780 height=4 >\r\n<ret><offset hshift=420 vshift=136><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >\r\n<ret><offset hshift=420 vshift=212><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >\r\n<ret><offset hshift=420 vshift=290><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9882 right=1 top=0.75 bottom=0.977 xscale=stretch yscale=stretch width=4 height=56 >"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.title5 {
+ value: Trip
+ look_template: txt.volvo_vnr_e.scr_title
+ text: ""
+ coords_l: 120
+ coords_r: 556
+ coords_t: 470
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.trip_dst {
+ value: "333.2|mi"
+ look_template: txt.volvo_vnr_e.valued_l
+ text: ""
+ coords_l: 392
+ coords_r: 592
+ coords_t: 406
+ coords_b: 347
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.trip_dst1 {
+ value: Distance
+ look_template: txt.volvo_vnr_e.innertxt
+ text: ""
+ coords_l: 262
+ coords_r: 406
+ coords_t: 388
+ coords_b: 347
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.trip_spd {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.25 right=0.375 top=0.75 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 64
+ coords_r: 124
+ coords_t: 343
+ coords_b: 283
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.trip_spd_txt {
+ value: "24|mph"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: &430afffe
+ coords_r: 413
+ coords_t: 341
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1400
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.trip_cons {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 64
+ coords_r: 124
+ coords_t: 268
+ coords_b: 208
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.trip_cons_tx {
+ value: "8.2|mpg"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: &430afffe
+ coords_r: 413
+ coords_t: 266
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.range {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>"
+ coords_l: 433
+ coords_r: 493
+ coords_t: 343
+ coords_b: 283
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.range_txt {
+ value: "24|mi"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: &43fdffff
+ coords_r: 782
+ coords_t: 341
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.fuel {
+ text: "<color value=FF878781><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.125 right=0.25 top=0.75 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 433
+ coords_r: 493
+ coords_t: 268
+ coords_b: 208
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.fuel_txt {
+ value: "88|kWh"
+ look_template: txt.volvo_vnr_e.valued_r
+ text: ""
+ coords_l: &43fdffff
+ coords_r: 782
+ coords_t: 266
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.display6 {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.bcg6
+ my_children[1]: _nameless._.title6
+ my_children[2]: _nameless._.no_msg_txt
+ my_children[3]: _nameless._.low_fuel
+ my_children[4]: _nameless._.low_air
+ my_children[5]: _nameless._.eng_dmg
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 600
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.bcg6 {
+ text: "<color value=FF504741>\r\n<ret><offset hshift=10 vshift=80><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=780 height=272>\r\n<color value=FFFFFFFF>\r\n<ret><offset hshift=15 vshift=-5><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0 right=0.125 top=0.25 bottom=0.5 xscale=stretch yscale=stretch width=90 height=90>\r\n<ret><offset hshift=10 vshift=76><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.75 right=0.75 top=0.977 bottom=1 xscale=stretch yscale=stretch width=780 height=4>\r\n<ret><offset hshift=10 vshift=352><img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.9 right=0.9 top=0.977 bottom=1 xscale=stretch yscale=stretch width=780 height=4 >"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text_common : _nameless._.title6 {
+ value: Messages
+ look_template: txt.volvo_vnr_e.scr_title
+ text: ""
+ coords_l: 120
+ coords_r: 556
+ coords_t: 470
+ coords_b: 409
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text_common : _nameless._.no_msg_txt {
+ value: "No Messages!"
+ look_template: txt.volvo_vnr_e.general
+ text: ""
+ coords_l: 189
+ coords_r: 629
+ coords_t: 308
+ coords_b: 221
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::group : _nameless._.low_fuel {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.info_bcg1
+ my_children[1]: _nameless._.low_fuel_txt
+ my_children[2]: _nameless._.low_fuel_i
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 1200
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.info_bcg1 {
+ text: "<color value=DD101010>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch>\r\n<color value=FF878781>\r\n<ret><offset hshift=70 vshift=20><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=660 height=320><color value=FF504741>\r\n<ret><offset hshift=74 vshift=24><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=652 height=312>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 128
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text_common : _nameless._.low_fuel_txt {
+ value: "<align hstyle=center>Battery Level Low</align>"
+ look_template: txt.volvo_vnr_e.general
+ text: ""
+ coords_l: &43070002
+ coords_r: 452
+ coords_t: 377
+ coords_b: 221
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.low_fuel_i {
+ text: "<color value=FFFFFFFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.25 right=0.375 top=0.5 bottom=0.75 xscale=stretch yscale=stretch>\r\n<color value=FF11AAFF>\r\n<ret><offset hshift=49 vshift=150><img src=/material/ui/white.mat width=50 height=10 xscale=stretch yscale=stretch>"
+ coords_l: 479
+ coords_r: 679
+ coords_t: 400
+ coords_b: 200
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::group : _nameless._.low_air {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.info_bcg2
+ my_children[1]: _nameless._.low_air_txt
+ my_children[2]: _nameless._.low_air_i
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 1260
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.info_bcg2 {
+ text: "<color value=DD101010>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch>\r\n<color value=FF878781>\r\n<ret><offset hshift=70 vshift=20><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=660 height=320><color value=FF504741>\r\n<ret><offset hshift=74 vshift=24><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=652 height=312>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 128
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_air
+}
+
+ui::text_common : _nameless._.low_air_txt {
+ value: "Low Air Pressure"
+ look_template: txt.volvo_vnr_e.general
+ text: ""
+ coords_l: 151
+ coords_r: &43f30001
+ coords_t: 381
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_air
+}
+
+ui::text : _nameless._.low_air_i {
+ text: "<color value=FF5555FF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.5 right=0.625 top=0 bottom=0.25 xscale=stretch yscale=stretch>"
+ coords_l: 507
+ coords_r: 627
+ coords_t: 360
+ coords_b: 240
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_air
+}
+
+ui::group : _nameless._.eng_dmg {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.info_bcg3
+ my_children[1]: _nameless._.dmg_txt
+ my_children[2]: _nameless._.dmg_i
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 480
+ area_b: 0
+ id: 1190
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.info_bcg3 {
+ text: "<color value=DD101010>\r\n<img src=/material/ui/white.mat xscale=stretch yscale=stretch>\r\n<color value=FF878781>\r\n<ret><offset hshift=70 vshift=20><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=660 height=320><color value=FF504741>\r\n<ret><offset hshift=74 vshift=24><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=652 height=312>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 128
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.eng_dmg
+}
+
+ui::text_common : _nameless._.dmg_txt {
+ value: "Check Powertrain"
+ look_template: txt.volvo_vnr_e.general
+ text: ""
+ coords_l: 151
+ coords_r: &43f30001
+ coords_t: 381
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.eng_dmg
+}
+
+ui::text : _nameless._.dmg_i {
+ text: "<color value=FF11AAFF>\r\n<img src=/material/ui/dashboard/volvo_vnr_e/display.mat left=0.5 right=0.625 top=0.25 bottom=0.5 xscale=stretch yscale=stretch>"
+ coords_l: 507
+ coords_r: 627
+ coords_t: 360
+ coords_b: 240
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.eng_dmg
+}
+
+
+ui::text : _nameless.bgv18_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/volvo18_cluster_intro.mat left=0 right=0.995481927711 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+}

@@ -1,0 +1,1 @@
+effect : "ui.rfx" { texture : "texture" { source : "/material/ui/dashboard/bettergps_overlaynew/volvo18_gps_guard.tobj" u_address : clamp v_address : clamp mip_filter : none } }

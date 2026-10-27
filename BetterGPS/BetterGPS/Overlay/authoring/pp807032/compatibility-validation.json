@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "version": "0.13.2",
+  "visible_front_options": [
+    "pp807032.bgps.addon_hookup"
+  ],
+  "parent_type_filter": "bumper",
+  "all_bumpers_use_standard_model": true,
+  "legacy_alias_hidden_price": 0,
+  "camera_banner_conflicts_bidirectional": true,
+  "camera_bullbar_conflict": false,
+  "stock_banner_bullbar_conflict_preserved": true,
+  "stock_banner_other_fields_byte_preserved_after_removing_added_conflicts": true,
+  "low_grille_flat_clipping_accepted": true,
+  "engine_ui_validation": "pending user test; offline definitions only"
+}

@@ -1,0 +1,805 @@
+SiiNunit
+{
+ui::window : _nameless.06caf6d90 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.background
+ my_children[1]: _nameless._.sharedisplay
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display2
+ my_children[5]: _nameless._.display4
+ my_children[6]: _nameless._.display3
+ my_children[7]: _nameless._.display5
+ my_children[8]: _nameless.bg5700_intro
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF969696>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.lines
+ my_children[1]: _nameless._.odo
+ my_children[2]: _nameless._.cc_speed
+ my_children[3]: _nameless._.gear
+ my_children[4]: _nameless._.gearmode
+ my_children[5]: _nameless._.cc_ico
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 950
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.lines {
+ text: "<img src=/material/ui/white.mat color=FF000000 xscale=stretch height=4px><ret><align vstyle=bottom><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=4px><ret></align><ret><img src=/material/ui/white.mat color=FF000000 yscale=stretch width=4px><ret><align hstyle=right><img src=/material/ui/white.mat color=FF000000 yscale=stretch width=4px></align><ret><offset hshift=208><img src=/material/ui/white.mat color=FF000000 height=145px width=4px><ret><offset vshift=144><img src=/material/ui/white.mat color=FF000000 xscale=stretch height=4px>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.odo {
+ value: "5555555|mi"
+ look_template: txt.5700xe.odo
+ text: ""
+ coords_l: 4
+ coords_r: 252
+ coords_t: 58
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cc_speed {
+ value: "65|mph"
+ look_template: txt.5700xe.odo
+ text: ""
+ coords_l: 339
+ coords_r: 587
+ coords_t: 58
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: N
+ look_template: txt.5700xe.gear
+ text: ""
+ coords_l: 4
+ coords_r: 208
+ coords_t: 214
+ coords_b: 89
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1300
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gearmode {
+ value: "A econ"
+ look_template: txt.5700xe.gearmode
+ text: ""
+ coords_l: 4
+ coords_r: 208
+ coords_t: 123
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1310
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_ico {
+ text: "<img src=/material/ui/dashboard/westernstar_5700xe/icons.mat xscale=stretch yscale=stretch left=0.6 bottom=0.35 color=FF000000>"
+ coords_l: 356
+ coords_r: 416
+ coords_t: 60
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1240
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.page1
+ my_children[1]: _nameless._.compass
+ my_children[2]: _nameless._.ambient
+ my_children[3]: _nameless._.clock
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page1 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>1/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.compass {
+ value: NW
+ look_template: txt.5700xe.compass
+ text: ""
+ coords_l: 523
+ coords_r: 586
+ coords_t: 140
+ coords_b: 88
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.ambient {
+ value: "58|F"
+ look_template: txt.5700xe.temp
+ text: ""
+ coords_l: 391
+ coords_r: 503
+ coords_t: 140
+ coords_b: 88
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.clock {
+ value: "12:34"
+ look_template: txt.5700xe.clock
+ text: ""
+ coords_l: 211
+ coords_r: 796
+ coords_t: 175
+ coords_b: 123
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.page2
+ my_children[1]: _nameless._.avgeco
+ my_children[2]: _nameless._.box
+ my_children[3]: _nameless._.numbers
+ my_children[4]: _nameless._.instecobar
+ my_children[5]: _nameless._.avgecoico
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page2 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>2/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.avgeco {
+ value: "5.6|mpg"
+ look_template: txt.5700xe.avgeco
+ text: ""
+ coords_l: 211
+ coords_r: 743
+ coords_t: 208
+ coords_b: 156
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.box {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=3px color=FF000000><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FF000000></align><ret><img src=/material/ui/white.mat yscale=stretch width=3px color=FF000000><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px color=FF000000></align>"
+ coords_l: 259
+ coords_r: 724
+ coords_t: 134
+ coords_b: 104
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.numbers {
+ text: "<font face=/font/db_normal.font xscale=1.979 yscale=1.979><color value=FF000000>0<offset hshift=140>5<offset hshift=133>10<align hstyle=right>15</align></font>"
+ coords_l: 252
+ coords_r: 741
+ coords_t: 103
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.instecobar {
+ vertical: false
+ min_size: 0
+ max_size: 465
+ min_value: 0
+ max_value: &40cc11b2
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 259
+ coords_r: 724
+ coords_t: 134
+ coords_b: 104
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.avgecoico {
+ vertical: false
+ min_size: 0
+ max_size: 491
+ min_value: 0
+ max_value: &40cc11b2
+ text: "<align hstyle=right><img src=/material/ui/dashboard/westernstar_5700xe/icons.mat width=26px height=20px top=0.852 right=0.17 color=FF000000></align>"
+ coords_l: 247
+ coords_r: 736
+ coords_t: 154
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.page3
+ my_children[1]: _nameless._.trip.header
+ my_children[2]: _nameless._.tripdist
+ my_children[3]: _nameless._.tripfuel
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 300
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page3 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>3/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.trip.header {
+ text: "<align hstyle=center><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>Trip</font></align>"
+ coords_l: 212
+ coords_r: 743
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.tripdist {
+ value: "101|mi"
+ look_template: txt.5700xe.tripdist
+ text: ""
+ coords_l: 211
+ coords_r: 796
+ coords_t: 171
+ coords_b: 43
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.tripfuel {
+ value: "44|l"
+ look_template: txt.5700xe.fuelused
+ text: ""
+ coords_l: 211
+ coords_r: 796
+ coords_t: 124
+ coords_b: -4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1500
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.page5
+ my_children[1]: _nameless._.voltage
+ my_children[2]: _nameless._.voltico
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 500
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page5 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>5/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.voltage {
+ value: "12.2|V"
+ look_template: txt.5700xe.volt
+ text: ""
+ coords_l: 211
+ coords_r: 796
+ coords_t: 124
+ coords_b: -4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.voltico {
+ text: "<align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px color=FF000000></align><ret><offset vshift=20><img src=/material/ui/white.mat xscale=stretch height=3px color=FF000000><ret><offset vshift=20><img src=/material/ui/white.mat yscale=stretch width=3px color=FF000000><ret><align hstyle=right><offset vshift=20><img src=/material/ui/white.mat yscale=stretch width=3px color=FF000000></align><ret><offset vshift=14 hshift=15><img src=/material/ui/white.mat height=8px width=10px color=FF000000><ret><offset vshift=14 hshift=62><img src=/material/ui/white.mat height=8px width=10px color=FF000000><ret><offset vshift=35 hshift=13><img src=/material/ui/white.mat height=3px width=15px color=FF000000><ret><offset vshift=35 hshift=60><img src=/material/ui/white.mat height=3px width=15px color=FF000000><ret><offset vshift=29 hshift=66><img src=/material/ui/white.mat height=15px width=3px color=FF000000>"
+ coords_l: 458
+ coords_r: 544
+ coords_t: 194
+ coords_b: 121
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.page4
+ my_children[1]: _nameless._.faxleico
+ my_children[2]: _nameless._.raxleico
+ my_children[3]: _nameless._.f
+ my_children[4]: _nameless._.r
+ my_children[5]: _nameless._.oiltempico
+ my_children[6]: _nameless._.oiltemp
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page4 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>4/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.faxleico {
+ text: "<img src=/material/ui/dashboard/westernstar_5700xe/icons.mat xscale=stretch yscale=stretch right=0.51 bottom=0.36 color=FF000000>"
+ coords_l: 227
+ coords_r: 301
+ coords_t: 191
+ coords_b: 137
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.raxleico {
+ text: "<img src=/material/ui/dashboard/westernstar_5700xe/icons.mat xscale=stretch yscale=stretch right=0.51 bottom=0.36 color=FF000000>"
+ coords_l: 227
+ coords_r: 301
+ coords_t: 126
+ coords_b: 72
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.f {
+ text: "<align hstyle=center><font face=/font/db_normal.font xscale=1.746 yscale=1.746><color value=FF000000>F</font></align>"
+ coords_l: 242
+ coords_r: 263
+ coords_t: 202
+ coords_b: 172
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.r {
+ text: "<align hstyle=center><font face=/font/db_normal.font xscale=1.746 yscale=1.746><color value=FF000000>R</font></align>"
+ coords_l: 242
+ coords_r: 263
+ coords_t: 137
+ coords_b: 107
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.oiltempico {
+ text: "<img src=/material/ui/dashboard/westernstar_5700xe/icons.mat xscale=stretch yscale=stretch left=0.43 top=0.61 color=FF000000>"
+ coords_l: 506
+ coords_r: 635
+ coords_t: 202
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.oiltemp {
+ value: "55|F"
+ look_template: txt.5700xe.oiltemp
+ text: ""
+ coords_l: 471
+ coords_r: 669
+ coords_t: 126
+ coords_b: 71
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.page6
+ my_children[1]: _nameless._.title
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 214
+ area_b: 0
+ id: 600
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+
+ui::text : _nameless._.page6 {
+ text: "<align hstyle=right><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>6/6</font></align>"
+ coords_l: 662
+ coords_r: 790
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.title {
+ text: "<align hstyle=center><font face=/font/db_normal.font xscale=2.561 yscale=2.561><color value=FF000000>Parked Menu</font><br offset=5><font face=/font/db_normal.font xscale=3.259 yscale=3.259><color value=FF000000>Press </font><offset vshift=8><img src=/material/ui/dashboard/westernstar_5700xe/icons.mat width=65px height=45px top=0.37 bottom=0.65 right=0.43><offset vshift=-8><font face=/font/db_normal.font xscale=3.259 yscale=3.259><color value=FF000000> to enter<br>Parked Menu</align></font>"
+ coords_l: 212
+ coords_r: 743
+ coords_t: 211
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+
+ui::text : _nameless.bg5700_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/westernstar_5700_cluster.mat left=0 right=0.993470149254 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 214
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.06caf6d90
+}
+}

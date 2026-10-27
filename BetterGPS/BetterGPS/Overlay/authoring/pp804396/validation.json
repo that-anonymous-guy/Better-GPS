@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scs_models": [
+    {
+      "model": "pp804396_lod0",
+      "triangles": 4407,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804396_lod1",
+      "triangles": 1249,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804396_truck",
+      "triangles": 4407,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804396_truck_lod1",
+      "triangles": 1249,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804397_lod0",
+      "triangles": 4407,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804397_lod1",
+      "triangles": 1249,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804397_truck",
+      "triangles": 4407,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    },
+    {
+      "model": "pp804397_truck_lod1",
+      "triangles": 1249,
+      "pieces": 1,
+      "native_section_order": true,
+      "all_stream_ranges_valid": true
+    }
+  ],
+  "material_count": 1,
+  "texture_size": [
+    128,
+    16
+  ],
+  "converted_pupil_up_degrees": 57.33706117642588,
+  "glb_ball_hierarchy_preserved": true,
+  "truck_mounting": "separate right and left vehicle models included",
+  "files": {
+    "scs/converted/automat/3c/3c6011a3f910234b.mat": "1fe70674e2faa93c628a0fc2217924b6f4a44e3c55caeb5048c4f1804cc7b761",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/palette.dds": "c83d64a3b74f6246f4c891eddbd66f2ad1dea8e5346d03574d9f1f583b09909e",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/palette.tobj": "36f00a5aab07538c9724179a313815f2f9f14488d1594e73020cd3991d9fd22d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_lod0.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_lod0.pmg": "8c5ae6cdf9bfb30aec86a91f8b5ff1f11f1aa1a8731c26f02a189a4637cb290a",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_lod1.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_lod1.pmg": "a20d7a2747b6b1f99b8c123be819893e741ee1daef8b8396f4791ed192caa784",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmg": "b4e47700f599349d21aaa27bd3227dcaa1b8db001f517ca0e15c5f747baf393a",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck_lod1.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck_lod1.pmg": "6f457758dc978ea8daa8d82d90ef7573c5fb094469556864f6f91b77e4d47fe6",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_lod0.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_lod0.pmg": "5e2f662a008311fdaa8ff17740fccfcb3ccd84fabb2efaba05c05bf85236bc85",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_lod1.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_lod1.pmg": "4a976f1b345e3c2e058a74d6aba52269ee99125d32982da689cab9a93ded05d1",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmg": "0ab41d5f330e9a901e27620f7a81091dce7c7f1cd17cd09f0406575e3556db5c",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck_lod1.pmd": "def72b70aca7d9d05d3ed292c64300eae8890b30e2eb6a193dc54b98963a8c1d",
+    "scs/converted/vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck_lod1.pmg": "5da082551e48bdf76ec025473ac52f8f5147ba4719b9cdb2dc6fc6bcf7a14d5c"
+  }
+}

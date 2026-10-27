@@ -1,0 +1,250 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	default
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 3.6.23 (hash: e467db79ca8c), SCS Blender Tools: 2.4.aeadde03"
+    Type: "Trait"
+    Name: "pp807032_low_lod0"
+}
+Global {
+    LookCount: 1
+    VariantCount: 1
+    PartCount: 1
+    MaterialCount: 5
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "Satin_powder_coat"
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.47999998927116394 0.47999998927116394 0.47999998927116394 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 48.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/palette"
+        }
+        Texture {
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/micro_normal"
+        }
+    }
+    Material {
+        Alias: "Dark_optical_cavity"
+        Effect: "eut2.dif"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.5 0.5 0.5 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.0 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/palette"
+        }
+    }
+    Material {
+        Alias: "Sun_specular_optics"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.8500000238418579 0.8500000238418579 0.8500000238418579 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 150.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/palette"
+        }
+    }
+    Material {
+        Alias: "Protective_glass"
+        Effect: "eut2.glass"
+        Flags: 0
+        AttributeCount: 8
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.5 0.5 0.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 95.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.20000000298023224 0.8999999761581421 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "tint"
+            Value: ( 0.949999988079071 0.9700000286102295 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "tint_opacity"
+            Value: ( 0.00800000037997961 )
+        }
+        Attribute {
+            Format: INT
+            Tag: "queue_bias"
+            Value: ( 0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "Metal_hardware"
+        Effect: "eut2.dif.spec.add.env"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.8999999761581421 0.8999999761581421 0.8999999761581421 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 110.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.1599999964237213 0.1599999964237213 0.1599999964237213 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.20000000298023224 0.8999999761581421 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/bettergps/camera_finish/palette"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/fuzzy_reflection/fuzzy_reflection"
+        }
+    }
+}
+Variant {
+    Name: "default"
+    Part {
+        Name: "defaultpart"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "model": "pp804395",
+      "closed_optical_pocket": true,
+      "front_facing_opaque_probe_hits": 12
+    },
+    {
+      "model": "pp804395",
+      "fixing_heads": 2,
+      "cable_head_and_tab_intersections": 0,
+      "central_grommet": true
+    },
+    {
+      "model": "pp804396",
+      "fixing_heads": 4,
+      "head_housing_intersections": 0,
+      "cable_housing_intersections": 0,
+      "grommet": true
+    },
+    {
+      "model": "pp804397",
+      "fixing_heads": 4,
+      "head_housing_intersections": 0,
+      "cable_housing_intersections": 0,
+      "grommet": true
+    },
+    {
+      "model": "pp807032",
+      "closed_optical_pocket": true,
+      "front_facing_opaque_probe_hits": 12
+    },
+    {
+      "model": "pp807032",
+      "fixing_heads": 2,
+      "backing_bridge": true
+    },
+    {
+      "model": "pp807032_low",
+      "closed_optical_pocket": true,
+      "front_facing_opaque_probe_hits": 12
+    },
+    {
+      "model": "pp807032_low",
+      "fixing_heads": 2,
+      "backing_bridge": true
+    }
+  ]
+}

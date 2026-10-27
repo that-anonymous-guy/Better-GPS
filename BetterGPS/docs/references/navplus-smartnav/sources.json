@@ -1,0 +1,24 @@
+{
+  "archived_on": "2026-10-25",
+  "page_numbering": "One-based PDF pages; printed numbering matches verified operator-manual sections.",
+  "sources": [
+    {
+      "file": "smartnav_operators_manual_2019.pdf",
+      "original_filename": "smartnav_operators_manual_2019.pdf",
+      "sha256": "894b49a14d251734cb50969c1222e6992d1c52a35e6f8039b854bdcbbdbf8d48",
+      "bytes": 1480536,
+      "pages": 58,
+      "pdf_title": "Microsoft Word - DEA6XX Owners Manual v5.2.docx",
+      "source": "User-provided local PDF, preserved without edits"
+    },
+    {
+      "file": "smartnav_camera_installation_guide_rev_a.pdf",
+      "original_filename": "SmartNav 2.0 Camera Installation Guide - Final release Rev A.pdf",
+      "sha256": "375dee19354bef924eb6a02a056b40abdd3e39c18d8c10c637dfb6f49ea71ab7",
+      "bytes": 3397898,
+      "pages": 25,
+      "pdf_title": "Microsoft PowerPoint - SmartNav 2.0 Camera Installation Guide - Final release Rev A.PPTX",
+      "source": "User-provided local PDF, preserved without edits"
+    }
+  ]
+}

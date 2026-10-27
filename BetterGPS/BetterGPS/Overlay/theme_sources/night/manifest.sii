@@ -1,0 +1,27 @@
+SiiNunit
+{
+# ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
+# Please keep this form to not make any conflicts with other mod packages (name collisions).
+mod_package : .package_name {
+
+    # Package version can be any string with any length.
+    package_version: "4.2"
+
+    # Display name can be any string with any length.
+    display_name: "Google Maps Navigation Dark Mode"
+
+    # Author can be any string with any length.
+    author: "Pratik Patel"
+
+    # Categories is an array of strings.
+    category[]: "interior"
+    category[]: "ui"
+    
+
+    # Icon inside the root directory of the mod.
+    icon: "google_maps_dark.jpg"
+
+    # Description file inside the root directory of the mod.
+    description_file: "mod_description.txt"
+}
+}

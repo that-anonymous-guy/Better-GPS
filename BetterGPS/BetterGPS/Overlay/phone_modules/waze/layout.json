@@ -1,0 +1,118 @@
+[
+  {
+    "file": "../above_light.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "above_black.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      0,
+      2
+    ]
+  },
+  {
+    "file": "../above_dark.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      3
+    ]
+  },
+  {
+    "file": "vertical/nav/navwaze_vertical.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      0,
+      2
+    ]
+  },
+  {
+    "file": "vertical/waze_buttons_topright_vertical_light.dds",
+    "x": 282,
+    "y": 160,
+    "states": [
+      0,
+      1
+    ]
+  },
+  {
+    "file": "vertical/waze_buttons_topright_vertical_dark.dds",
+    "x": 282,
+    "y": 160,
+    "states": [
+      2,
+      3
+    ]
+  },
+  {
+    "file": "vertical/nav/waze_navbelow_vertical_light.dds",
+    "x": 0,
+    "y": 630,
+    "states": [
+      0
+    ]
+  },
+  {
+    "file": "vertical/nav/waze_navbelow_vertical_dark.dds",
+    "x": 0,
+    "y": 630,
+    "states": [
+      2
+    ]
+  },
+  {
+    "file": "waze_compass_light.dds",
+    "x": 3,
+    "y": 160,
+    "states": [
+      0
+    ]
+  },
+  {
+    "file": "waze_compass_dark.dds",
+    "x": 3,
+    "y": 160,
+    "states": [
+      2
+    ]
+  },
+  {
+    "file": "waze_menu_light.dds",
+    "x": 3,
+    "y": 18,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "waze_menu_dark.dds",
+    "x": 3,
+    "y": 18,
+    "states": [
+      3
+    ]
+  },
+  {
+    "file": "vertical/notrip/waze_notripbelow_vertical_light.dds",
+    "x": 0,
+    "y": 630,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "vertical/notrip/waze_notripbelow_vertical_dark.dds",
+    "x": 0,
+    "y": 630,
+    "states": [
+      3
+    ]
+  }
+]

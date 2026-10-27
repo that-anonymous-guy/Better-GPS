@@ -1,0 +1,1 @@
+effect : "ui.rfx" { texture : "texture" { source : "/material/ui/dashboard/bettergps_map_device_51.tobj" mip_filter : none } }

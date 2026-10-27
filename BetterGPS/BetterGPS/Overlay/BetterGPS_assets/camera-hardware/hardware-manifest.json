@@ -1,0 +1,2836 @@
+{
+  "source_sha256": "61e7a931e70069156ef3bf79c7636e4114dc086cb7479a51ab9ed115eda04a2e",
+  "sourceName": "BetterGPS_PP804395_T680NG.zip",
+  "files": [
+    {
+      "path": "material/environment/mirror/park_1x1.tobj",
+      "bytes": 89,
+      "sha256": "cfdb9b9753aff6deab3461ca46c21f4a393f38ce2949cc69a78d44ca8157e02c",
+      "source_sha256": "cfdb9b9753aff6deab3461ca46c21f4a393f38ce2949cc69a78d44ca8157e02c"
+    },
+    {
+      "path": "material/environment/mirror/park_1x1.dds",
+      "bytes": 65664,
+      "sha256": "cfebfa7586c66b7781f83e217f74fd32e23806d141e80458a19e57d3df8a53df",
+      "source_sha256": "cfebfa7586c66b7781f83e217f74fd32e23806d141e80458a19e57d3df8a53df"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam/pp804395.sii",
+      "bytes": 356,
+      "sha256": "ff33ec5a7b627258df4327b2f843ae9621ca7e401d6af15ae41c722e1d5fd47a",
+      "source_sha256": "ff33ec5a7b627258df4327b2f843ae9621ca7e401d6af15ae41c722e1d5fd47a"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_l/pp804397.sii",
+      "bytes": 364,
+      "sha256": "b826257f47f913212fbb1729805f37b7ec519a217ee976caa98a5f9cf853432e",
+      "source_sha256": "b826257f47f913212fbb1729805f37b7ec519a217ee976caa98a5f9cf853432e"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_r/pp804396.sii",
+      "bytes": 365,
+      "sha256": "e179da76e93f4c7f2b94e9b78e1876ec818789ef4ee4607682bd037a6e46fe16",
+      "source_sha256": "e179da76e93f4c7f2b94e9b78e1876ec818789ef4ee4607682bd037a6e46fe16"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804395.dds",
+      "bytes": 65664,
+      "sha256": "0f7a5eaf7403fa70348173ba3066e7494d29eded957fe94660936b83782c5cf6",
+      "source_sha256": "0f7a5eaf7403fa70348173ba3066e7494d29eded957fe94660936b83782c5cf6"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804395.mat",
+      "bytes": 173,
+      "sha256": "dba021af250b2b61ab2d3a77408d04eced77c04570f281677cc9fed27f338739",
+      "source_sha256": "dba021af250b2b61ab2d3a77408d04eced77c04570f281677cc9fed27f338739"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804395.tobj",
+      "bytes": 93,
+      "sha256": "91a0e27ecab9310c1806137317505e9ca785de836c427cbea3ebf288e1b73e8a",
+      "source_sha256": "91a0e27ecab9310c1806137317505e9ca785de836c427cbea3ebf288e1b73e8a"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804396.dds",
+      "bytes": 65664,
+      "sha256": "b770c0b33e212a8dfdba7e1699046a25188c3aaccfe9f5011feb9f83aff4bda7",
+      "source_sha256": "b770c0b33e212a8dfdba7e1699046a25188c3aaccfe9f5011feb9f83aff4bda7"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804396.mat",
+      "bytes": 126,
+      "sha256": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff",
+      "source_sha256": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804396.tobj",
+      "bytes": 93,
+      "sha256": "9a553acdf03f2befe139d72f6fbcbb000cda9a53915e1420b44423d57b492d8e",
+      "source_sha256": "9a553acdf03f2befe139d72f6fbcbb000cda9a53915e1420b44423d57b492d8e"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp804397.mat",
+      "bytes": 126,
+      "sha256": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff",
+      "source_sha256": "768702792ebb289bf2e86318ca128869b6c448cbd3598282a3c827a8074f11ff"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp807032.dds",
+      "bytes": 65664,
+      "sha256": "cdac8f1aea397482426c51920d2c5289ecabdfd1b76c8fc3ea176b0df6cef2d2",
+      "source_sha256": "cdac8f1aea397482426c51920d2c5289ecabdfd1b76c8fc3ea176b0df6cef2d2"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp807032.mat",
+      "bytes": 126,
+      "sha256": "2339d5cfb6594523cd9c5452e61cf0b4f860a8a5471d970d16ec9b33a6139acf",
+      "source_sha256": "2339d5cfb6594523cd9c5452e61cf0b4f860a8a5471d970d16ec9b33a6139acf"
+    },
+    {
+      "path": "material/ui/accessory/bettergps/pp807032.tobj",
+      "bytes": 93,
+      "sha256": "e51714a827842bd87e7d1c621b47281920429d9946f6152d98516b4c4167319c",
+      "source_sha256": "e51714a827842bd87e7d1c621b47281920429d9946f6152d98516b4c4167319c"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/dc.pmg",
+      "bytes": 567152,
+      "sha256": "6cc9fcbfabd38db4c0236fe13dff3d46304cf42edabfc17889033e2c412756da",
+      "source_sha256": "73a2b997095359a1b626d2021f9238d4792297c8e6628acaa7e5a3f3395995c6"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/s52m.pmg",
+      "bytes": 824024,
+      "sha256": "9149d7a7652fdb0de1ab243909c9812e67589af2c34bbc42c5775fb551e3c7d0",
+      "source_sha256": "616ff7be54fef4773f5de0f1057fa93628a68e4b7576fc7187caa8cea98c6a3d"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/cabin/s76h.pmg",
+      "bytes": 928688,
+      "sha256": "6e2833f7c8dbe323f8ab5df10cebe1d78ee3f64d986ebdbb1b784af86e6a72ee",
+      "source_sha256": "5b763760aed17cf2df500480b632770ce7be125e452a7cdddcf9418998baa8d0"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804395/pp804395_lod0.pmd",
+      "bytes": 293,
+      "sha256": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1",
+      "source_sha256": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804395/pp804395_lod0.pmg",
+      "bytes": 323260,
+      "sha256": "5fed066466a007d5966ad3cef4712c3aafcb95c35b46cddc61bbc890bf4e7975",
+      "source_sha256": "4d7198f6ca89fcab99b6c15b56a02fa04c5e3e1f78589e1073cca83dc015c5a3"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmd",
+      "bytes": 256,
+      "sha256": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4",
+      "source_sha256": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804396/pp804396_truck.pmg",
+      "bytes": 399608,
+      "sha256": "179ef157efa19dd0697a6194cdee993d8b2f234f1518cb2e6781ac6d20c18c7e",
+      "source_sha256": "d1601415ee358c031adf629855c0d5c9aabe2d2e036b06ac404aa36c9e8c05ff"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmd",
+      "bytes": 256,
+      "sha256": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4",
+      "source_sha256": "94d4b55eb2574f7fde8c6315f3388fa326d64ef87d6cb9eb3a2821f58ebc6bc4"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmg",
+      "bytes": 403324,
+      "sha256": "85a6f96077a60099ddd755987da0d1e90ca5b56b5c7ee3a81042a3911424a306",
+      "source_sha256": "5926c78dd3697365641b7ce4228554cc0320d1dac3bceb9dce127e34d99d5044"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmd",
+      "bytes": 293,
+      "sha256": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1",
+      "source_sha256": "acbb7a2b1650e31b67856587dbcb89d181a8794a8927065356151f3580327fb1"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/pp807032/pp807032_lod0.pmg",
+      "bytes": 287392,
+      "sha256": "058593c46f9011cc6796a8c57ddcb4278efe23fed2575a42de9ff5800cc30b08",
+      "source_sha256": "f220aff709360ff27888f911a330c74623b80ee5d362cb81dee9eadab45a9b6b"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_left/pp804397.sii",
+      "bytes": 363,
+      "sha256": "add317ce08986a2dc6874ac9be1201d3e74cf06e85b5271be19cee813483ddba",
+      "source_sha256": "add317ce08986a2dc6874ac9be1201d3e74cf06e85b5271be19cee813483ddba"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_right/pp804396.sii",
+      "bytes": 365,
+      "sha256": "3b779f98394e40b9f81cf920cf40473daeb0c9622263f63083dd096765d17ba3",
+      "source_sha256": "3b779f98394e40b9f81cf920cf40473daeb0c9622263f63083dd096765d17ba3"
+    },
+    {
+      "path": "def/vehicle/addon_hookup_storage.bettergps.sii",
+      "bytes": 65,
+      "sha256": "5a1d087079a2815d96f7cd55cf00de02832ff021573417896ad9a3b8569b295e",
+      "source_sha256": "5a1d087079a2815d96f7cd55cf00de02832ff021573417896ad9a3b8569b295e"
+    },
+    {
+      "path": "def/vehicle/addon_hookups/bettergps_pp807032.sui",
+      "bytes": 884,
+      "sha256": "bb4dd90b0b98e5dfc6f2f2c2c587f4b9da73a1f1150d55b18c2dca8ff601f31e",
+      "source_sha256": "bb4dd90b0b98e5dfc6f2f2c2c587f4b9da73a1f1150d55b18c2dca8ff601f31e"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog.pmg",
+      "bytes": 282396,
+      "sha256": "cbb3d9c7ecd09c75f1a9c1e7a71833e02bf23a04462b1426e79aace090a07465",
+      "source_sha256": "cbb3d9c7ecd09c75f1a9c1e7a71833e02bf23a04462b1426e79aace090a07465"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_chrome_fog_aero.pmg",
+      "bytes": 309016,
+      "sha256": "587dbce1b163e38272a728bb553b3b16a3121c3b879286552de972a485cc4933",
+      "source_sha256": "587dbce1b163e38272a728bb553b3b16a3121c3b879286552de972a485cc4933"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog.pmg",
+      "bytes": 298076,
+      "sha256": "3fc805acacfb0124f029a46d7a86f81070e3148b90966560ecc4d23ed343e545",
+      "source_sha256": "3fc805acacfb0124f029a46d7a86f81070e3148b90966560ecc4d23ed343e545"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/low_paint_fog_aero.pmg",
+      "bytes": 321236,
+      "sha256": "6426d70a45fd6a0179e79f96d350ea92b4b6593b696c7d1f66d34bd4f0d107b8",
+      "source_sha256": "6426d70a45fd6a0179e79f96d350ea92b4b6593b696c7d1f66d34bd4f0d107b8"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog.pmg",
+      "bytes": 340156,
+      "sha256": "124c2a48d80a9c1663f3138e8a82fb391e8b02328604f8762c50755ce86bcd86",
+      "source_sha256": "124c2a48d80a9c1663f3138e8a82fb391e8b02328604f8762c50755ce86bcd86"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_paint_fog_aero.pmg",
+      "bytes": 367200,
+      "sha256": "3fff0c907e7198503db406bf91262c5b65bca5c7166ae8bcbecf9c27662f64a9",
+      "source_sha256": "3fff0c907e7198503db406bf91262c5b65bca5c7166ae8bcbecf9c27662f64a9"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog.pmg",
+      "bytes": 331308,
+      "sha256": "325956af67e0a0eb3b6c4b4dcd9a9dcc9e7e6f50edacaf874897c2d2ebd6433b",
+      "source_sha256": "325956af67e0a0eb3b6c4b4dcd9a9dcc9e7e6f50edacaf874897c2d2ebd6433b"
+    },
+    {
+      "path": "vehicle/truck/kenworth_t680_2022/accessory/bumper/standard_plastic_fog_aero.pmg",
+      "bytes": 358352,
+      "sha256": "80d29d6f13968a4971396451428dddfc5ef8c47f4a4826c999d1a5b5ac16d0a7",
+      "source_sha256": "80d29d6f13968a4971396451428dddfc5ef8c47f4a4826c999d1a5b5ac16d0a7"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/glass.dds",
+      "bytes": 196,
+      "sha256": "6c35efa2b2c310f5a2808dc756b249b304c84caff4760b91327b4d670091673f",
+      "source_sha256": "6c35efa2b2c310f5a2808dc756b249b304c84caff4760b91327b4d670091673f"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/glass.tobj",
+      "bytes": 104,
+      "sha256": "b6a5af94674ed42b2c3d5f448427d529c58ad8af562d542b204cfa67d0b2672c",
+      "source_sha256": "b6a5af94674ed42b2c3d5f448427d529c58ad8af562d542b204cfa67d0b2672c"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/micro_normal.dds",
+      "bytes": 699300,
+      "sha256": "8ba1f8375789446a7e3d2a56dcc4b9eb18054912aff0177fa52aa4d1bfa57ed9",
+      "source_sha256": "8ba1f8375789446a7e3d2a56dcc4b9eb18054912aff0177fa52aa4d1bfa57ed9"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/micro_normal.tobj",
+      "bytes": 111,
+      "sha256": "531c679f2fb3b304c69ab01b51e3cb57f0cd1e7dfc3782fcaa560f1c7609f15b",
+      "source_sha256": "531c679f2fb3b304c69ab01b51e3cb57f0cd1e7dfc3782fcaa560f1c7609f15b"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/palette.dds",
+      "bytes": 699300,
+      "sha256": "aeccc8cd4927088f469261b1f05b832c3b909b85db9dd207826a04a7ed013488",
+      "source_sha256": "aeccc8cd4927088f469261b1f05b832c3b909b85db9dd207826a04a7ed013488"
+    },
+    {
+      "path": "vehicle/truck/upgrade/bettergps/camera_finish/palette.tobj",
+      "bytes": 106,
+      "sha256": "a5d3ae587ec6d703058c84263d1f7592664e9ff9af391362dc639803d3fd7afd",
+      "source_sha256": "a5d3ae587ec6d703058c84263d1f7592664e9ff9af391362dc639803d3fd7afd"
+    },
+    {
+      "path": "automat/2f/2f9644a79c0d1a59.mat",
+      "bytes": 550,
+      "sha256": "5e644dece82d11e2a2c3b00b5ac9314804d21a58cc1ec56c8d6090cfca47c536",
+      "source_sha256": "5e644dece82d11e2a2c3b00b5ac9314804d21a58cc1ec56c8d6090cfca47c536"
+    },
+    {
+      "path": "automat/8d/8db2d08f60aaeeaf.mat",
+      "bytes": 347,
+      "sha256": "f787418e055015785c0ed3768c2f6cdfb8a31f2f5579a247416db5bdafc7c8a9",
+      "source_sha256": "f787418e055015785c0ed3768c2f6cdfb8a31f2f5579a247416db5bdafc7c8a9"
+    },
+    {
+      "path": "automat/9d/9d1e9ad6e640d008.mat",
+      "bytes": 551,
+      "sha256": "52f0da815a2f1166479369172d82e59583c753bc3f699ebdde4a155b03293342",
+      "source_sha256": "52f0da815a2f1166479369172d82e59583c753bc3f699ebdde4a155b03293342"
+    },
+    {
+      "path": "automat/d0/d0eb281c95d855bd.mat",
+      "bytes": 502,
+      "sha256": "f159159822cb36edc8ff91fb895542d72a5f2de40be30c8ff1bed036b832c764",
+      "source_sha256": "f159159822cb36edc8ff91fb895542d72a5f2de40be30c8ff1bed036b832c764"
+    },
+    {
+      "path": "automat/d3/d38b64e94dad8a2f.mat",
+      "bytes": 340,
+      "sha256": "9762f656ed712062477151d327c5ec7c61be1c5c0eeec4f18bbcec504c87960b",
+      "source_sha256": "9762f656ed712062477151d327c5ec7c61be1c5c0eeec4f18bbcec504c87960b"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/f_banner/sign.sii",
+      "bytes": 656,
+      "sha256": "54df2975735410553b59539474800ea2ef07bff9c7724ca01b9a6afd34bf1eac",
+      "source_sha256": "54df2975735410553b59539474800ea2ef07bff9c7724ca01b9a6afd34bf1eac"
+    },
+    {
+      "path": "def/vehicle/truck/kenworth.t680_2022/accessory/f_banner/sign_low.sii",
+      "bytes": 664,
+      "sha256": "7d34a47878f8b718b1f5787b94bda6652e84b222503b1df4a343d9fe52b01f82",
+      "source_sha256": "7d34a47878f8b718b1f5787b94bda6652e84b222503b1df4a343d9fe52b01f82"
+    }
+  ],
+  "mountDirectories": [
+    "automat/2f",
+    "automat/8d",
+    "automat/9d",
+    "automat/d0",
+    "automat/d3",
+    "def/vehicle",
+    "def/vehicle/addon_hookups",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_l",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_cam_r",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_left",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/bgps_right",
+    "def/vehicle/truck/kenworth.t680_2022/accessory/f_banner",
+    "material/ui/accessory/bettergps",
+    "vehicle/truck/kenworth_t680_2022/accessory/bumper",
+    "vehicle/truck/kenworth_t680_2022/cabin",
+    "vehicle/truck/upgrade/bettergps/camera_finish",
+    "vehicle/truck/upgrade/bettergps/pp804395",
+    "vehicle/truck/upgrade/bettergps/pp804396",
+    "vehicle/truck/upgrade/bettergps/pp804397",
+    "vehicle/truck/upgrade/bettergps/pp807032"
+  ],
+  "optional": true,
+  "defaultAccessoriesAdded": false,
+  "opticalTags": [
+    {
+      "name": "bgps_v_f",
+      "position": [
+        1.3969838619232178e-09,
+        -0.0021248821867629886,
+        -0.015366377774626017
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "f220aff709360ff27888f911a330c74623b80ee5d362cb81dee9eadab45a9b6b",
+      "sha256": "058593c46f9011cc6796a8c57ddcb4278efe23fed2575a42de9ff5800cc30b08",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_v_l",
+      "position": [
+        -0.02759222313761711,
+        2.7939677238464355e-09,
+        -0.03628268837928772
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "5926c78dd3697365641b7ce4228554cc0320d1dac3bceb9dce127e34d99d5044",
+      "sha256": "85a6f96077a60099ddd755987da0d1e90ca5b56b5c7ee3a81042a3911424a306",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_v_r",
+      "position": [
+        0.027592222206294537,
+        2.7939677238464355e-09,
+        -0.03628268837928772
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "d1601415ee358c031adf629855c0d5c9aabe2d2e036b06ac404aa36c9e8c05ff",
+      "sha256": "179ef157efa19dd0697a6194cdee993d8b2f234f1518cb2e6781ac6d20c18c7e",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_v_b",
+      "position": [
+        8.149072527885437e-10,
+        0.033597905188798904,
+        -0.010518212802708149
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "4d7198f6ca89fcab99b6c15b56a02fa04c5e3e1f78589e1073cca83dc015c5a3",
+      "sha256": "5fed066466a007d5966ad3cef4712c3aafcb95c35b46cddc61bbc890bf4e7975",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "73a2b997095359a1b626d2021f9238d4792297c8e6628acaa7e5a3f3395995c6",
+      "sha256": "41f27f132767bb6135da1b2c950428208ff6c687fe8f0146a996f7901b94168a",
+      "geometryPreserved": true
+    },
+    {
+      "name": "cam_parkbck",
+      "position": [
+        0,
+        1.7,
+        -1.9
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "41f27f132767bb6135da1b2c950428208ff6c687fe8f0146a996f7901b94168a",
+      "sha256": "f6505854506c92b3b9ab67a6cbf37503876cf352e36d43c8d2cbbf5b7aa5cae7",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "616ff7be54fef4773f5de0f1057fa93628a68e4b7576fc7187caa8cea98c6a3d",
+      "sha256": "227d06c5879a2c74607c28af8b51d18e153d479e8c7e060eea6ff187f2c3872b",
+      "geometryPreserved": true
+    },
+    {
+      "name": "cam_parkbck",
+      "position": [
+        0,
+        1.7,
+        -1.9
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "227d06c5879a2c74607c28af8b51d18e153d479e8c7e060eea6ff187f2c3872b",
+      "sha256": "5984c84c13c29d06165c036cd4196394c1f1f8b83f2e04043139dc2ee352ce4d",
+      "geometryPreserved": true
+    },
+    {
+      "name": "bgps_frame",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "5b763760aed17cf2df500480b632770ce7be125e452a7cdddcf9418998baa8d0",
+      "sha256": "eefdcbdb0c8097da53c3769a69d53ebc3fae7c4bca8adadabcd6ce358722225b",
+      "geometryPreserved": true
+    },
+    {
+      "name": "cam_parkbck",
+      "position": [
+        0,
+        1.7,
+        -1.9
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "source_sha256": "eefdcbdb0c8097da53c3769a69d53ebc3fae7c4bca8adadabcd6ce358722225b",
+      "sha256": "3bb76bbaf70abeb246b0ba7f970c6b8af4d2a5bef31eb08284aa1edb21124587",
+      "geometryPreserved": true
+    }
+  ],
+  "calibration": {
+    "approved": true,
+    "views": {
+      "forward": {
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      "left": {
+        "part": "pp804397",
+        "model": "pp804397_truck",
+        "tag": "bgps_v_l",
+        "pupilLocal": [
+          -0.02759222313761711,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 145,
+        "down": 0,
+        "direction": [
+          -0.5735764363510459,
+          -0.0,
+          0.8191520442889919
+        ]
+      },
+      "right": {
+        "part": "pp804396",
+        "model": "pp804396_truck",
+        "tag": "bgps_v_r",
+        "pupilLocal": [
+          0.027592222206294537,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 215,
+        "down": 0,
+        "direction": [
+          0.5735764363510462,
+          -0.0,
+          0.8191520442889918
+        ]
+      },
+      "reverse": {
+        "part": "pp804395",
+        "model": "pp804395_lod0",
+        "tag": "bgps_v_b",
+        "pupilLocal": [
+          8.149072527885437e-10,
+          0.033597905188798904,
+          -0.010518212802708149
+        ],
+        "fovHorizontal": 100,
+        "yaw": 180,
+        "down": 45,
+        "direction": [
+          -8.659560562354934e-17,
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      }
+    },
+    "cabinPoses": [
+      {
+        "cabin": "dc",
+        "view": "left",
+        "positionCab": [
+          -1.0057488381894588,
+          1.756911191778149,
+          -1.8836240597776137
+        ],
+        "mount": [
+          -0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          0.6621671319007874,
+          -0.005875937640666962
+        ],
+        "part": "pp804397",
+        "model": "pp804397_truck",
+        "tag": "bgps_v_l",
+        "pupilLocal": [
+          -0.02759222313761711,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 145,
+        "down": 0,
+        "direction": [
+          -0.5735764363510459,
+          -0.0,
+          0.8191520442889919
+        ]
+      },
+      {
+        "cabin": "dc",
+        "view": "right",
+        "positionCab": [
+          1.005748838074906,
+          1.756911191778149,
+          -1.8836240607018644
+        ],
+        "mount": [
+          0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          -0.6621671319007874,
+          0.005875937640666962
+        ],
+        "part": "pp804396",
+        "model": "pp804396_truck",
+        "tag": "bgps_v_r",
+        "pupilLocal": [
+          0.027592222206294537,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 215,
+        "down": 0,
+        "direction": [
+          0.5735764363510462,
+          -0.0,
+          0.8191520442889918
+        ]
+      },
+      {
+        "cabin": "dc",
+        "view": "reverse",
+        "positionCab": [
+          -8.149072527885437e-10,
+          2.6083764620125294,
+          -0.5213907165452838
+        ],
+        "mount": [
+          0.0,
+          2.5747785568237305,
+          -0.5319089293479919
+        ],
+        "mountRotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "part": "pp804395",
+        "model": "pp804395_lod0",
+        "tag": "bgps_v_b",
+        "pupilLocal": [
+          8.149072527885437e-10,
+          0.033597905188798904,
+          -0.010518212802708149
+        ],
+        "fovHorizontal": 100,
+        "yaw": 180,
+        "down": 45,
+        "direction": [
+          -8.659560562354934e-17,
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      {
+        "cabin": "s52m",
+        "view": "left",
+        "positionCab": [
+          -1.0057488381894588,
+          1.756911191778149,
+          -1.8836240597776137
+        ],
+        "mount": [
+          -0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          0.6621671319007874,
+          -0.005875937640666962
+        ],
+        "part": "pp804397",
+        "model": "pp804397_truck",
+        "tag": "bgps_v_l",
+        "pupilLocal": [
+          -0.02759222313761711,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 145,
+        "down": 0,
+        "direction": [
+          -0.5735764363510459,
+          -0.0,
+          0.8191520442889919
+        ]
+      },
+      {
+        "cabin": "s52m",
+        "view": "right",
+        "positionCab": [
+          1.005748838074906,
+          1.756911191778149,
+          -1.8836240607018644
+        ],
+        "mount": [
+          0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          -0.6621671319007874,
+          0.005875937640666962
+        ],
+        "part": "pp804396",
+        "model": "pp804396_truck",
+        "tag": "bgps_v_r",
+        "pupilLocal": [
+          0.027592222206294537,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 215,
+        "down": 0,
+        "direction": [
+          0.5735764363510462,
+          -0.0,
+          0.8191520442889918
+        ]
+      },
+      {
+        "cabin": "s52m",
+        "view": "reverse",
+        "positionCab": [
+          -8.149072365293714e-10,
+          2.7085658582194503,
+          0.5339214692922123
+        ],
+        "mount": [
+          0.0,
+          2.674785614013672,
+          0.5240044593811035
+        ],
+        "mountRotation": [
+          0.0,
+          0.0,
+          0.99996018409729,
+          -0.008922458626329899
+        ],
+        "part": "pp804395",
+        "model": "pp804395_lod0",
+        "tag": "bgps_v_b",
+        "pupilLocal": [
+          8.149072527885437e-10,
+          0.033597905188798904,
+          -0.010518212802708149
+        ],
+        "fovHorizontal": 100,
+        "yaw": 180,
+        "down": 45,
+        "direction": [
+          -8.659560562354934e-17,
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      {
+        "cabin": "s76h",
+        "view": "left",
+        "positionCab": [
+          -1.0057488381894588,
+          1.756911191778149,
+          -1.8836240597776137
+        ],
+        "mount": [
+          -0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          0.6621671319007874,
+          -0.005875937640666962
+        ],
+        "part": "pp804397",
+        "model": "pp804397_truck",
+        "tag": "bgps_v_l",
+        "pupilLocal": [
+          -0.02759222313761711,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 145,
+        "down": 0,
+        "direction": [
+          -0.5735764363510459,
+          -0.0,
+          0.8191520442889919
+        ]
+      },
+      {
+        "cabin": "s76h",
+        "view": "right",
+        "positionCab": [
+          1.005748838074906,
+          1.756911191778149,
+          -1.8836240607018644
+        ],
+        "mount": [
+          0.9663534760475159,
+          1.7562673091888428,
+          -1.9065446853637695
+        ],
+        "mountRotation": [
+          0.7493036389350891,
+          0.006649168208241463,
+          -0.6621671319007874,
+          0.005875937640666962
+        ],
+        "part": "pp804396",
+        "model": "pp804396_truck",
+        "tag": "bgps_v_r",
+        "pupilLocal": [
+          0.027592222206294537,
+          2.7939677238464355e-09,
+          -0.03628268837928772
+        ],
+        "fovHorizontal": 100,
+        "yaw": 215,
+        "down": 0,
+        "direction": [
+          0.5735764363510462,
+          -0.0,
+          0.8191520442889918
+        ]
+      },
+      {
+        "cabin": "s76h",
+        "view": "reverse",
+        "positionCab": [
+          -8.149072260745705e-10,
+          2.7083668122946283,
+          1.1334830209848734
+        ],
+        "mount": [
+          0.0,
+          2.674778461456299,
+          1.122934341430664
+        ],
+        "mountRotation": [
+          0.0,
+          0.0,
+          0.9999998807907104,
+          0.0004534721083473414
+        ],
+        "part": "pp804395",
+        "model": "pp804395_lod0",
+        "tag": "bgps_v_b",
+        "pupilLocal": [
+          8.149072527885437e-10,
+          0.033597905188798904,
+          -0.010518212802708149
+        ],
+        "fovHorizontal": 100,
+        "yaw": 180,
+        "down": 45,
+        "direction": [
+          -8.659560562354934e-17,
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      }
+    ],
+    "frontPoses": [
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_chrome_fog_aero",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.580179091542959
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "low_paint_fog_aero",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.34169998625293374,
+          0.46113931492436677,
+          -3.7292200289666653
+        ],
+        "positionBumper": [
+          -0.34169998625293374,
+          -0.15602487965952605,
+          -0.01005518063902855
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_paint_fog_aero",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "dc_157_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "dc_163_4x2",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "dc_179_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "dc_185_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "s52_200_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "s52_206_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "s76_224_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.575939904432744
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      },
+      {
+        "bumper": "standard_plastic_fog_aero",
+        "chassis": "s76_230_6x4",
+        "positionChassis": [
+          -0.361499993596226,
+          0.4655393149005249,
+          -3.72498084185645
+        ],
+        "positionBumper": [
+          -0.361499993596226,
+          -0.1516248796833679,
+          -0.005815993528813124
+        ],
+        "part": "pp807032",
+        "model": "pp807032_lod0",
+        "tag": "bgps_v_f",
+        "pupilLocal": [
+          1.3969838619232178e-09,
+          -0.0021248821867629886,
+          -0.015366377774626017
+        ],
+        "fovHorizontal": 100,
+        "yaw": 0,
+        "down": 5,
+        "direction": [
+          -0.0,
+          -0.08715574274765817,
+          -0.9961946980917455
+        ]
+      }
+    ],
+    "approvalNote": "User accepted mounting angles; all horizontal FOV set to 100 degrees. Front must follow actual installed bumper/hookup/optical tag; no fixed cab-space origin."
+  },
+  "nativeRearReference": "Native SCS rear view moved 0.023 m rearward from the previous setting on cab Z (net 0.011 m rearward from original optical reference); physical hardware geometry unchanged; 30-degree downward view."
+}

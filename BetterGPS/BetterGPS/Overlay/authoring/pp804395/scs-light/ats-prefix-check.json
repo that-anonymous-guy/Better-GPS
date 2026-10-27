@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "matching_rule": "locator_name starts with accessory type; confirmed by SCS developer 50keda",
+  "source_url": "https://forum.scssoft.com/viewtopic.php?start=1370&t=176424",
+  "old_version": "0.8.1",
+  "old_zip_collisions_reproduced": {
+    "bgps_cam": [
+      "bgps_cam"
+    ],
+    "bgps_cam_f": [
+      "bgps_cam",
+      "bgps_cam_f"
+    ],
+    "bgps_cam_l": [
+      "bgps_cam",
+      "bgps_cam_l"
+    ],
+    "bgps_cam_r": [
+      "bgps_cam",
+      "bgps_cam_r"
+    ]
+  },
+  "new_version": "0.8.2",
+  "new_zip_bindings": {
+    "bgps_cam": [
+      "bgps_cam"
+    ],
+    "bgps_front": [
+      "bgps_front"
+    ],
+    "bgps_left": [
+      "bgps_left"
+    ],
+    "bgps_right": [
+      "bgps_right"
+    ]
+  },
+  "game_ui_retested": false,
+  "limitation": "No further desktop control requested by user; verify new pins manually in ATS"
+}

@@ -1,0 +1,4 @@
+	gps_path:"/ui/gmaps_intnationallonestar_gps.sii"
+	dashboard_path:"/ui/dashboard/international_lonestar.sii"
+	backlight_with_lights: true
+	air_brake_safeguard: true

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "navplushd_clock_top_time.dds",
+    "size": [
+      267,
+      39
+    ],
+    "source_sha256": "415d2be56ba8bdff5e0dc4cb15d4058c014d595e68d05d2602124a027be0d0bd",
+    "sha256": "e950a1120db8302842ceb31cb5d32715d2535b84e93f3787ae8b8f4d07834f6f"
+  },
+  {
+    "name": "navplushd_clock_bottom.dds",
+    "size": [
+      1324,
+      64
+    ],
+    "source_sha256": "fd275fffeeb35bf7d372384645faa823fe8f50500906b8531187bf286ff018b1",
+    "sha256": "5ebf053743eca29acd40ac964a2b5235622a46ede7db5b5369ec5118466b9823"
+  }
+]

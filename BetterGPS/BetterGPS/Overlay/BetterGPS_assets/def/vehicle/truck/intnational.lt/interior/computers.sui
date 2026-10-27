@@ -1,0 +1,4 @@
+	gps_path:"/ui/gmaps_intnationallt_gps.sii"
+	dashboard_path:"/ui/dashboard/international_lt.sii"
+	backlight_with_lights: true
+	air_brake_safeguard: true

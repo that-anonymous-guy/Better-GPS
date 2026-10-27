@@ -1,0 +1,5 @@
+	gps_path:"/ui/gmaps_intnational9900i_gps.sii"
+	dashboard_path:"/ui/dashboard/international_9900i.sii"
+	dashboard_drawable_size: (256, 64)
+	backlight_with_lights: true
+	air_brake_safeguard: true

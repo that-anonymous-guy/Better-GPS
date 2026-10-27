@@ -1,0 +1,2144 @@
+=== PDF PAGE 1 ===
+Owner´s Manual DEA600 Radio
+
+1 | P a g e
+
+
+
+Owner´s Manual DEA600 Radio
+MY  2016
+Delphi
+11/07/2019
+
+=== PDF PAGE 2 ===
+Owner´s Manual DEA600 Radio
+Contents
+DEA600 Radio System ....................... 4
+I
+ntroduction ..................................... 4
+System Features and Functions ....... 4
+R
+adio ............................................... 5
+Radio Button Operation .............. 5
+Smart Display.................................. 6
+Getting Started ............................ 6
+Audio Application ............................. 11
+Media Sources ............................... 12
+Media Audio Control Soft keys 12
+USB ........................................... 17
+CD Player .................................. 18
+Front Auxiliary.......................... 19
+Bluetooth Player........................ 19
+R
+ear Auxiliary ........................... 19
+Radio Sources ............................... 20
+AM/FM ..................................... 20
+WX ............................................ 20
+Sirius XM .................................. 21
+Audio Widget ................................ 23
+M
+edia source ............................. 23
+Radio source.............................. 25
+Phone................................................. 26
+Contacts......................................... 27
+Contact Information .................. 28
+Favorites .................................... 28
+Making a Call ................................ 29
+Recent calls ............................... 29
+I
+ncoming Call............................ 29
+Messaging ......................................... 31
+Apps .................................................. 33
+Clock ............................................. 33
+Camera Views ............................... 35
+Application Interface ................ 35
+Automatic Cameras View ......... 36
+G
+auges........................................... 36
+Gauges....................................... 37
+Gauge States.............................. 37
+Virtual Gauges Pop-up .............. 37
+Gauges Settings ......................... 38
+Settings .............................................. 41
+Camera Application Settings ........ 42
+Display Settings ............................ 42
+Wireless & Networks .................... 42
+Wi-Fi ......................................... 43
+Bluetooth ..................................  44
+OTA (Over the Air) .................. 47
+Keyboard Sound............................ 47
+Date & Time ................................. 47
+Applications .................................  48
+System Information ....................... 49
+Language & Inputs .......................  50
+Language ..................................  50
+Text to speech output ................ 51
+System Audio ................................ 51
+Manual Equalization ................  52
+Auto Equalization ....................  53
+Speed Dependent Volume ........  53
+Speakers Configuration ............  54
+Seek Sensitivity -6dB to +6dB .. 54
+Tips and Troubleshooting ................  55
+Radio ............................................. 55
+Unable to tune stations .............  55
+2 | P a g e
+
+=== PDF PAGE 3 ===
+Owner´s Manual DEA600 Radio
+CD ................................................. 55
+CD player not functioning ........ 55
+CD Insertion is not possible ...... 55
+i
+Pod ............................................... 55
+iPod does not play or there is no
+sound ......................................... 55
+iPod not functioning .................. 55
+B
+luetooth ....................................... 55
+My radio doesn't recognize my
+B
+luetooth enabled device .......... 55
+The device and my radio can't
+communicate
+ ............................. 55
+Device music cannot be heard .. 55
+Rear Seat Audio (RSA) ................. 55
+The RSA shows no link ............ 55
+Precautions ........................................ 56
+D
+river Distraction Avoidance ....... 56
+Limited
+Applications/Functionalities ..... 56
+System memory ............................ 56
+A
+pple devices ................................ 56
+Sirius XM ...................................... 56
+Warranty Replacement.................. 56
+Product Cleaning ........................... 56
+M
+oisture Condensation ................. 56
+Damage Disc ................................. 57
+Bluetooth ......................................  57
+Bluetooth Distraction
+.................... 57
+Disclaimers, Trademarks and L
+icense
+Agreements ......................................  57
+FCC Information ........................... 57
+Conformity assessment issues........... 58
+FCC/I
+C Regulatory Notice ........... 58
+Modification statement ............  58
+Interference statement
+..............  58
+Radiation Exposure Statement
+.. 58
+FCC Class B digital device notice
+................................................... 58
+CAN ICES-3 (B) / NMB-3 (B) ..... 58
+3 | P a g e
+
+=== PDF PAGE 4 ===
+Owner´s Manual DEA600 Radio
+DEA600 Radio System
+I
+ntr  oduction
+The information and figures in this manual describe features that may or may not be on your specific vehicle either because they are options that you did not
+purchase or due to changes subsequent to the printing of this owner manual.
+The DEA600 System consists of a 7" S mart Display connected to a Radio. The Smart Display functions as a main display managing the entir e user interface. The
+Smart Display with resistive touch-screen has a rear USB for playback or USB modem connection, and manages the Applications, Phone interface, Audio, Internet
+and Bluetooth / Wi- Fi connections.   The R adio is a module capable of managing t he audio output of t he system to the speakers,  containing the tune r (AM, FM,
+WX), Sirius XM, Front Aux, Rear Aux, USB, CD. It also transmits the audio output from the Smart Display and manages the hard buttons.
+IMPORTANT!: The operation of this equipment is subject to the following two conditions: (1) It is possible that this equipment or device may not cause
+harmful interference, and (2) the equipment or device must accept any interference, including interference that may cause undesired operation.
+System Featur es and Functions
+The DEA600 System implements the following features and functions:
+•
+ 7" display with resistive touch-screen.
+• Bluetooth & Wi-Fi connectivity.
+• 4 Integrated Analog Camera Inputs.
+• Microphone Input (Mono).
+• GPS/Navigation Application Compatibility.
+• Audio Outputs.
+• Text to Speech.
+• 1 knob with center push.
+• Front Aux Input / Rear Aux Input.
+• USB compatibility for Apple devices.
+• CD Playback.
+• Front USB Connectivity (USB Playback).
+• Tuner (AM/FM/WX).
+• SiriusXM.
+• 4/2 Speakers Output.
+• Steering Wheel Control Compatibility.
+• Rear Seat Audio Compatibility.
+Smart
+Display
+Radio
+4 | P a g e
+
+=== PDF PAGE 5 ===
+Owner´s Manual DEA600 Radio
+Radio
+Radio Button Operati on
+V olume Knob/ Power
+Rotate to Increase/decrease Volume. Press Knob to turn ON/OFF the Radio.
+One-Hour Timer
+W
+ith key off, pressing the PWR button on Radio or PWR button on RSA will
+turn ON the receiver and activate the receiver ’s one-hour timer. The receiver
+will turn OFF after one hour or by pressing the PWR button.
+Eject
+It removes any disc from the CD slot.
+Phone
+T
+he Phone button is used to open the Phone App; and during a Phone Call it
+can be used to hang up the call.
+Dim Day /  Dim Night
+The Dimming Day button is used to increment the brightness level of the
+Smart Display and the backlight level of the Radio bezel.
+The Dimming Night button is used to decrease the brightness level of the
+Smart Display and the backlight level of the Radio bezel.
+Back /  Home /  Menu
+The Back button is used to exit the current screen and open the previous
+screen.
+The Home button is used to go directly to the main home screen.
+T
+he Menu  button is used t o open t he menu related to the curr ent scree n.
+When the System is on the Home screen, the Menu button opens the
+"System Settings" menu.
+5 | P a g e
+
+=== PDF PAGE 6 ===
+Owner´s Manual DEA600 Radio
+Smar t Display
+Getting Started
+Using the touch screen
+A “Touch” over a soft k ey activates or selects th e corresponding function, or
+it opens the selected item; please see Figure 1, as reference.
+Figure 1: Touch action over Navigation A pp.
+A “Swipe” action is the case when the System registers a touch and a linear
+streak movement over the screen. The movement can be performed to the
+right, left, up and down. Due to this, the System is able to discern among 4
+swipes:
+• Swipe Right.
+• Swipe Left.
+• Swipe Up.
+• Swipe Down
+The next right screen is presented once the system senses a Swipe Left
+action; please see Figure 2, as reference.
+Figure 2: Swipe to the L eft action.
+The next left screen is presented once the System senses a Swipe Right
+action; please see Figure 3, as reference.
+F
+igure 3: Swipe to the Right acti on.
+6 | P a g e
+
+=== PDF PAGE 7 ===
+Owner´s Manual DEA600 Radio
+The next top screen is presented once the System senses a Swipe Down
+action; please see Figure 4, as reference.
+Figure 4: Swipe down action.
+The next bottom screen is presented once the System senses a Swipe Up
+action; please see Figure 5, as reference.
+Figure 5: Swipe up action.
+Home screen &  Navigatio n butto ns
+The installed application icons are presented at the home screen. The home
+screen is distributed in a home main screen and subsequent home screens.
+Each of the home screens present 6 application icons maximum, plus the
+Audio widget. The number of the subsequent home screens is relative to the
+number of installed applications. Each subsequent home screen is added to
+the right of the main home screen or next to the right of the last subsequent
+home screen. An indicator identifies which home screen is displayed. The
+screen indicator is placed below the top bar of the home screen.
+The following Applications are presented at the Home Screen as default
+(Figure 6):
+• Gauges.
+• Navigation.
+• Audio.
+• Phone.
+• Camera Views.
+• Clock.
+Figure 6:
+ The Main home s creen.
+7 | P a g e
+
+=== PDF PAGE 8 ===
+Notification
+Owner´s Manual DEA600 Radio
+Each application icon works as the application activation soft key.
+The System has the capability to rearrange the ap plication icons according
+to the user needs. The basic sequence is (see Figure 7 as reference):
+•
+ Select the desired application.
+• Press, and hold, the application icon to "grab" it.
+• "Drag" the icon to the desired location  by moving the  application to
+this one.
+• "Drop" the icon by releasing it.
+The Notification Bar accepts the swipe down action in order to present more
+information related to the displayed icons.
+Also, the Status bar presents the following information, if available:
+• Time/Date.
+• Temperature.*
+• Mute.
+• Bluetooth ON / Connected to a Bluetooth Device.
+• Connected to a Wi-Fi network.
+• USB Source available.
+• DDA active.
+• Gauge Warning active.
+• Alarm Indicator.
+*Feature dependable on final OEM configuration.
+Notification Ic ons
+The following icons are placed in the Notification & Status Bars in case these
+are activated.
+Figure 7: Drag and Drop Function.
+At the top bar of each screen, there are located the Notification and Status
+bars. The Notification bar presents the following information, if available:
+• Open Wi-Fi network available.
+• Downloading Data.
+• System Update (MobileCare).
+• CD Warning.
+•
+ Third Party Applications Notifications.
+• Cellular Modem connection strength.
+• CD Source available.
+• New SMS.
+Icon Meaning
+Downloading Data.
+CD Warning.
+CD Source available.
+New SMS.
+Mute.
+Bluetooth ON/Connected to a Bluetooth Device.
+Connected to a Wi-Fi network.
+USB Source available.
+DDA active.
+Alarm Indicator.
+Table 1:
+ Notification & Status Icons meaning.
+The System presents four soft key navigation buttons at the bottom of the
+screen:
+8 | P a g e
+
+=== PDF PAGE 9 ===
+Owner´s Manual DEA600 Radio
+•
+ Back.
+• Home.
+• Menu.
+The Back soft  key is used to exit  the current screen and open  the previous
+screen. The Back  soft  key button doesn ’t have  any  effect  at the home
+screen
+.
+The Home soft key is used to go directly to the home screen.
+The
+Menu soft key is used to open  the menu related  to the current screen
+(for example, Figure 8); when it is used in the  Launcher the Menu  soft key
+will open the System Settings menu (Figure 9 and Figure 10).
+Figure 9: The settings screen –  Part I.
+Figure 8: Settings menu related to Sirius X M audio source.
+Figure 10: The settings screen –  Part II.
+9 | P a g e
+
+=== PDF PAGE 10 ===
+Owner´s Manual DEA600 Radio
+When the System is turned OFF, the clock view illustrated on  will be shown
+(Figure 11).
+Figure 11: C lock view in OFF power mode.
+When the Driver Distraction Avoidance (DDA) mode is active, some
+application icons from the home screen are grayed out and cannot be
+selected by the user, see Figure 12 as reference.
+Dim Day /  Dim Night
+The Dimming level is indicated each time the Dim Day, or Dim Night, button
+is pushed (Figure 13).
+Figure 13: The Dimming level indicator pop-up.
+V olume
+Volume level is indicated each time the volume knob is turned (Figure 14).
+F
+igure 12: DDA  mode active.
+10 | P a g e
+
+
+=== PDF PAGE 11 ===
+Owner´s Manual DEA600 Radio
+Figure 14: The V olume level indicator pop-up.
+Volume mute condition is also reported at the Status bar (Figure 15).
+F
+igure 15: The Mute activation indicator icon.
+Mute
+This feature is used to mute the radio due to an external event in the vehicle.
+The radio remains MUTE while event is active.
+If this event  oc curs, t he Media s ources ar e paus ed. Once  it en ds, t he
+System continues playing the media.
+There ar e some actions that  can cancel t his mut e lik e: Alar m notification ,
+volume changes, media insertion, BT call, among others.
+Reverse Mute
+The radio is muted if the reverse gear is selected. This interruption is ignored
+if the radio is on BT call.
+Selecting any transmission gear different than reverse cancels the mute
+(starts the media).
+Audio Application
+The Audio application is located on the home screen of the Smart Display
+(Figure 16). All Music source are accessed and managed via the Audio app.
+F
+igure 16: Open A udio A pp to access Music Sources.
+The Audio sources are presented to the user in a Tab-bar at the top of the
+application screen, with each Audio source working as a soft key selector;
+the selected Audio source icon is highlighted.
+11 | P a g e
+
+=== PDF PAGE 12 ===
+Owner´s Manual DEA600 Radio
+The System does not allow the selection of more than one Audio Source
+option at a time. If the System senses the selection of the current Audio
+source option no change will take place.
+The System supports 9 different Audio sources: 5 Media sources and 4
+Radio sources.
+Media Sour ces
+The System displays 5 Media sources at the main Audio sources tab-bar:
+• USB.
+• CD.
+• Aux.
+• Bluetooth.
+• Rear Aux.
+If media audio source are not available, the corresponding icons are
+displayed in gray.
+Medi
+a Audio Control  Soft keys
+The System presents the next control soft key s as part of the Media sources
+interface:
+• Play/Pause.
+• Next.
+• Previous.
+• Repeat.
+• Shuffle.
+• Views.
+In the case the CD media, USB or the Bluetooth media source are selected ,
+the user interface is illustrated on the Figure 17.
+Figure 17: A udio A pp Media Sources.
+The System displays the song name, artist name and the album image
+artwork, if available.
+The
+ System displays the track time bar  located under the album  artwork of
+the file that is being played, please see Figure 18, as reference.
+F
+igure 18: Track Time Bar.
+12 | P a g e
+
+=== PDF PAGE 13 ===
+Owner´s Manual DEA600 Radio
+Fast forward function is activated by long pressing the next soft key for 2
+seconds. F ast rev erse funct ion is activ ates by  long pr essing th e previ ous
+soft key for 2 seconds.
+V iews
+The System presents the v iew soft k ey, when it is sel ected (Figure 19), t he
+following options are displayed:
+• Artists
+• Albums.
+• All Songs
+• Playlists.
+• Search.
+Figure 19: V iews Soft key.
+For Apple devices the System supports the following additional views:
+• Genre.
+• Composer.
+• Audio Books.
+Artist
+The System presents the albums allocated by artist, illustrated on Figure 20.
+Figure 20: The A rtists view.
+All the artists in this mode work as a soft  key. Once an artist is selected, the
+System starts to play all the media files related.
+For Apple devices the artist view screen follows the distribution and styling
+Figure 21 illustrates.
+13 | P a g e
+
+=== PDF PAGE 14 ===
+Owner´s Manual DEA600 Radio
+A
+lbums
+The albums view screen follows the distribution and styling as the Figure 23
+illustrates.
+Figure 21: A pple A rtist V iew.
+Once an artist  is  selected the System  displays  the list of  the  contained
+albums, as shown in the Figure 22.
+Figure 22: A pple A rtist’s A lbums V iew.
+The System displays up to 5 items per screen. In the case there are more
+than 5 albums, the remaining albums are distributed in bottom subsequent
+screens. All items in the list work as a soft key button selector.
+Figure 23: The A lbums view.
+The System displays the albums contained in the media source selected.
+The albums are displayed in a grid manner. Up to 10 album icons are
+displayed per screen. In the case there are more than 10 albums, the
+remaining album are distributed in a next to right subsequent screens.
+Each album icon works as a soft key selector. The albums are distributed by
+5 columns of two albums per screen. Each Album grid displays the Album
+image (if av
+ailable), Album name and Art ist name. If t he Album name is  not
+available the label "Unknown" is displayed. If the Artist name is not available
+the label "Unknown" as the artist name is displayed.
+If one album is selected, the System starts to play all the media files related.
+In the case t he alb um art work i s not availab le t he Syst em displays a
+standard album icon as Figure 24 illustrates.
+14 | P a g e
+
+=== PDF PAGE 15 ===
+Owner´s Manual DEA600 Radio
+Figure 24: Standard A lbum A rtwork icon.
+For Apple devices the album view screen follows the distribution and styling
+illustrated on previous Figure 22.
+Once an album is selected the System displays the list of the contained
+songs. The System displays up to 5 items per screen. In the case there are
+more than 5 item
+s the rem aining items are distributed in bot tom subsequent
+screens.
+All Songs
+Once the All Songs view is selected the System displays the list of the
+contained songs. Up to 5 songs are displayed per screen. In the case there
+are more than 5 songs, the remaining songs are distributed in subsequent
+screens. All songs in the list work as a soft key button selector. Once a song
+is selected, the System plays the selection.
+Pl
+aylists
+The System presents the playlists contained in the connected device
+following the distribution and styling Figure 25 illustrates.
+Figure 25: The Playlists view.
+Search
+If t he S earch t ab is s elected, t he search s creen is dis played with th e
+following elements:
+• White Box.
+• Keyboard.
+The Keyboard works as the user-system interface to acquire the alpha/
+numeric search. The white box displays the acquired information. The
+System continue playing audio while performing the search. The Figure 26
+illustrates the search screen.
+15 | P a g e
+
+=== PDF PAGE 16 ===
+Owner´s Manual DEA600 Radio
+Figure 26: The Search screen.
+The Views soft key button is not available for the next Media sources:
+• CD.
+• Aux.
+• Bluetooth.
+• Rear Aux.
+In the case the Rear Aux media source is selected, the user interface shall
+follow the distribution and styling Figure 27 illustrates.
+Figure 27: The Rear A ux Media source screen.
+In the case the Aux media source is selected, the user interface shall follow
+the distribution and styling of the Figure 28.
+Figure 28: The A ux Media source s creen.
+16 | P a g e
+
+=== PDF PAGE 17 ===
+Owner´s Manual DEA600 Radio
+USB
+Playing from a USB
+The USB port is in the front of the Radio. Five volts DC power is limited to
+one amp from this port. Devices such as iPod that require greater current will
+not charge from this port.
+1. Connect the USB.
+2.
+ The USB  Source  media  is  automatically selected and  plays the
+media content of the USB device if no other app of higher priority is
+in use (I.E. phone call, video, reverse mute…).
+3
+. To control and browse the selected  media source refer to sections
+Media Sources and Media Audio Control Soft ke y for further
+information.
+Drives
+The USB MP3 players and USB drives connected must comply with the USB
+Mass Storage specification:
+• MS-Dos partition only.
+• Class specification  (USB  MSC)  and  supports formats of  FAT32,
+FAT16, NTFS, and HFS+.
+• Hard disk drives may be played, but they are not supported.
+• The radio will not be able to play back write-protected music.
+• MTP players are not supported.
+The following guidelines must be met when creating MP3 files; otherwise the
+files might not play:
+For MP
+3 Files
+• Bit rates: 32, 40, 48, 56, 64, 80, 96, 112, 124, 160, 192, 224, 256,
+320 kbps for MPEG-1 Audio Layer 3.
+
+• Sampling frequencies: 32, 44.1 and 48  kHz  for  MPEG-1  Audio
+Layer 3.
+• Maximum number of folders: Eight folders with 255 files per folder.
+• Maximum of 1,000 files on a disc.
+• M3u and pls playlist versions supported.
+• Recorded on a CD-R or CD-RW with a maximum capacity of 700
+M
+B.
+Error Messages
+If an “ UNSUPPORTED”  message is displayed, it could be for one of the
+following reasons:
+• When a MTP Player or a USB device with unsupported format or
+partition is connected.
+•
+ When the device is damaged.
+• When the  connected device was  not  connected  as  mass  storage
+device.
+If “ NO MUSIC”  message is  displayed,  it  could  be  because there are  not
+MP3.
+iPod
+This Radio supports the following iPod models:
+• iPod classic® (6G).
+• iPod nano® ( 6G, and 7G).
+• iPod touch® (4G, and 5G).
+• iPhone® (4S, 5, 5C, and 5S).
+Other iPods may be played, but functionality is not guaranteed.
+Radio provides up to 1A of charge, so any device connected to the USB that
+requires less than 1 A will be charged.
+There may be problems with the operation and function in the following
+situations:
+• When connecting an iPod  on which  a more recent  version  of  the
+firmware is installed than is supported by the Radio.
+• When connecting an iPod  with  firmware  from  other  providers is
+installed.
+Playing from an iP od
+To connect an iPod:
+1. Connect one end of the standard iPod USB cable to the iPod's dock
+connector.
+2. Connect the other end to the USB port in the front of Radio.
+17 | P a g e
+
+=== PDF PAGE 18 ===
+Owner´s Manual DEA600 Radio
+3. Radio will start playing the USB and shows the track number, Song,
+Artist, elapsed time, and Album information when available.
+4. If the iPod is an unsupported model, it can still be listened to in the
+vehicle by  connecting to the  auxiliary input  jack  using  a  standard
+3.5 mm (1/8 in) stereo cable.
+5. To control and browse the selected  media source refer to sections
+Media Sources and Media Audio Control Soft ke y for further
+information.
+Expected behavior when iPod is connected:
+• The iPod battery recharges automatically while the vehicle is on.
+• The iPod shuts off and stops charging when the vehicle is shut off.
+There can be increased skipping, difficulty in recording tracks, difficulty in
+finding tracks, and/or difficulty in loading and ejecting.
+If
+ these problems occur,  check  the disc for  damage  or  try  a  known good
+disc.
+To avoid damage to the C D player:
+• Do not use scratched or damaged discs.
+• Do not  apply  labels  to  discs.  (The  labels could get  caught in the
+player).
+•
+ Insert only one disc at a time.
+• Keep the loading slot free of foreign materials, liquids, and debris.
+• Use a marking pen to label the top of the disc.
+To load a d isc:
+Error Messag es
+If an “ UNSUPPORTED”  message is displayed, it could be for one of the
+following reasons:
+• When the iPod connected is not supported.
+• The iPod  does  not respond to  the  radio  commands,  in  this  case
+reset the iPod and try again the connection.
+If a “ NO MUSIC ”  message is displayed, it could be because there are no
+playable files in the iPod.
+CD Player
+The player can be used for CD and MP3 audio.
+With the vehicle on, insert a disc into the slot, label side up, the player pulls it
+in and begins playing.
+The system is capable of playing:
+• Most audio CDs.
+• CD-R.
+• CD-RW.
+• MP3.
+When playing any compatible recordable disc, the sound quality can be
+reduced due to disc quality, the method of recording, the quality of the music
+that has been recorded, or the way the disc has been handled.
+1. Turn the vehicle on.
+2. Insert a disc into the slot, label side up. The player pulls it in the
+rest of the way. If the disc  is damaged or improperly loaded, there
+is an error on the screen and the disc ejects.
+3. Press “Eject” to eject a disc from the CD player. If  the disc is not
+removed within a short period of time, it is automatically pulled back
+into the player.
+Playing an A udio C D:
+1. After the CD is inserted, the mode is  changed to CD  mode, unless
+any mode with a  higher  priority  is  active  (I.E. phone call,  video,
+reverse mute….).
+2. To control and browse the selected media source refer  to sections
+Media Sources and Media  Audio  Control Soft key  for  further
+information.
+Error Messages
+If a “Disc Error” message is displayed and/or the disc comes out, it could be
+for one of the following reasons:
+• The disc has an invalid or unknown format.
+• The disc is  very  hot.  Try  the  disc  again when the  temperature
+returns to normal.
+• The road is  very  rough.  Try  the  disc  again  when  the road is
+smoother.
+18 | P a g e
+
+=== PDF PAGE 19 ===
+Owner´s Manual DEA600 Radio
+• The disc is bent.
+• The disc is dirty, scratched, wet, or upside down.
+• The air is very humid. Try the disc again later.
+• There was a problem while burning the disc.
+• The label is caught in the CD player.
+• If the disc is not playing correctly, for any other reason, try a known
+good CD.
+•
+ If any error continues, contact your dealer.
+For MP3 Files:
+• Bit rates: 32, 40, 48, 56, 64, 80, 96, 112, 124, 160, 192, 224, 256,
+320 kbps for MPEG-1 Audio Layer 3.
+
+• Sampling frequencies: 32, 44.1 and 48  kHz  for  MPEG-1  Audio
+Layer 3.
+• Maximum number of folders: Eight folders with 255 files per folder.
+• Maximum of 1,000 files on a disc.
+• M3U and PLS playlist versions supported.
+• Recorded on a CD-R or CD-RW with a maximum capacity of 700
+M
+B.
+Special C onsideratio ns
+Root Directory:
+The root directory is treated as a folder. All files contained directly under the
+root directory are accessed prior to any root directory folders.
+Empty Folders:
+If a root directory or folder is empty or contains only folders, the player
+advances to the next folder in the file structure that contains a compressed
+audio file. The empty folder(s) are not displayed or numbered.
+F
+ront Auxiliary
+Front auxiliary input is active when a jack connector is inserted.
+After the connector is inserted, the mode is changed to Front Aux mode,
+unless any  mode wit h a higher prior ity is act ive ( I.E. phone  ca ll, v ideo,
+reverse mute….).
+This operation is not available while the System is in standby power mode.
+In front auxiliary mode, you can play an external device such as an iPod ® or
+MP3 player via the auxiliary input jack on the front of the receiver.
+To use an external device simply connect the device via the auxiliary input
+jack.
+Front auxiliary mode will not be available if no device is connected to the
+auxiliary input jack on the front of the receiver.
+Bluetooth Pl ayer
+If your connected device supports this feature, it can be used as an audio
+source input to the radio, allowing you to enjoy the music files store d on your
+phone.
+This feature  is  recommended for use  with  the  default device player.
+Functionality cannot be warranted,  when a third party player is used in the
+connected device. The radio  can be out of  synchrony  if  the user alters  or
+command the player within the phone.
+Playing Bluetooth A udio:
+1. Pair  device  to  Smart display. Refer  to  Bluetooth Settings  for  further
+information.
+2. To  control  and browse the  selected  media source refer  to  sections
+Media Sources and Media Audio Control Soft key for further information.
+Notes:
+Note 1:  Repeat and random functions will only be shown if the cell phone
+supports these feature.
+Note 2:  The  contacts  shown on the  radio  display will depend on the
+information received by the radio from the phone device used.
+Note 3
+: Functions may differ depending on the phone.
+Please consult your cell phone user guide regarding how to enable it.
+Note
+ 4: Some phones will make the  radio display BT AUDIO PAUSE while
+audio is  available.  This  is normal on  phones  that do not  have full
+compatibility with this radio Bluetooth remote control commands.
+Note 5:  Some devices will disconnect Bluetooth when a transfer is
+performed.
+Rear Auxiliary
+The DEA600 is not safety product.
+The cameras  and  the  rear auxiliary inputs  are provided for  driver
+conveniences only.
+The purpose of this stereo input is to connect the audio output of an external
+source or a s ound c hannel f rom a s afety sy stem. When the sou rce is an
+external Navigation  audio input the  system detects activation  of the
+19 | P a g e
+
+=== PDF PAGE 20 ===
+Owner´s Manual DEA600 Radio
+navigation system and the Rear Aux is set automatically, if no other source
+with higher priority is active (I.E. phone call, video, reverse mute…).
+D
+uring this Mode, the Radio streams the  audio from the Navigation system
+on
+the speakers (Stereo Signal). This operation is available under the
+following condit ions: Wit h Ignit ion ON  and Sy stem ON:  the radio s hall
+change to REAR AUX IN mode.
+If the Navigation audio is deactivated, then the radio shall switch to the last
+source (if available) if not, the radio shall return to the last tuner mode.
+Radio Sour ces
+The System displays the 4 Radio sources into the next to the right
+subsequent tab-bar as illustrated on Figure 29:
+• AM.
+• FM.
+• SiriusXM.
+• WX.
+Figure 29: A udio A pp Tuner Sources.
+There are 7 presets for  WX, 12 presets for FM, 12 presets for AM and 18
+presets for SXM; 6 presets will be shown on each screen. Additional presets
+can be v iewed by swiping the preset bar. Each pr eset w orks as sof t ke y
+button selector.
+In order to save a station in to a memory:
+• Tune to the desired station.
+• Press and hold one of the 6 presets.
+• When the selected  station is displayed  on  the preset, the  station
+has been saved in the selected preset.
+The System displays the current tuned frequency along with the
+corresponding radio Band.
+The systems display a specific screen interface for the SiriusXM source.
+AM/
+ FM
+The System presents the following control soft keys as part of the AM/FM
+radio source interface:
+• Next.
+• Previous.
+• Scan.
+• Strong Station list.
+• Update List.
+To perf orm SEEK  UP  f unction it  is necess ary t o pr ess and r elease NE XT
+soft key on the screen.
+To
+ perform SEEK D OWN function  it  is  necessary  to  press  and release
+PREVIOUS soft key on the screen.
+TUNE UP is performed by pressing and hold NEXT soft key.
+TUNE D
+OWN is performed by pressing and hold PREVIOUS soft key.
+The AM/FM radio sources screens follow the distribution and styling
+previous
+Figure 29 illustrates.
+W
+X
+The WX band is for Governmental weather radio services frequencies; the
+radio can tune 7 weather channels.
+The System presents the next control soft keys as part of the WX radio
+source interface:
+20 | P a g e
+
+=== PDF PAGE 21 ===
+Owner´s Manual DEA600 Radio
+• Next.
+• Previous.
+• SCAN.
+The System presents 7 presets for this application. To save stations in to
+preset follow the AM-FM instructions.
+The WX radio source screen is illustrated in Figure 30.
+Figure 30: The WX  radio source screen.
+Sirius X M
+In the case the Sirius XM source is selected the system displays the current
+tuned channel number and name.
+The system presents the next control soft keys as part of the Sirius XM
+interface:
+1. Category Browse control/Indicator.
+2. Scan.
+3. Direct Tuning.
+4. Buffer Indicator Bar.
+5. Replay Control.
+6. Go Live Control.
+7. Tune Scan Control.
+8. Channel Browsing.
+9. Presets (Smart Favorites).
+The SiriusXM user interface screen is illustrated in Figure 31.
+F
+igure 31: The SiriusX M user interf ace screen.
+The channel number in the screen works as a soft key.
+In the case the channel art is not available it’s replaced by the SiriusXM
+logo.
+The System activates the Scan function in the case the Scan option is
+selected.
+The System displays up to 18 presets memories in a tab divider manner at
+the bott om of t he screen interface. To sav e stations in to preset f ollow the
+AM/FM instructions.
+The System  displays  a  pop-up sub menu  in  the case the  Menu  button is
+selected while in this screen. The pop-up sub menu presents the next
+options as Figure 32 illustrates:
+21 | P a g e
+
+=== PDF PAGE 22 ===
+Owner´s Manual DEA600 Radio
+• Audio Settings.
+• SiriusXM Settings.
+Figure 32: The pop-up sub menu s creen.
+Each of the options in the pop-up submenu works as a soft key. The System
+opens the Audio Settings in a separate screen in the case this option is
+selected. In the cas
+e t he Sir iusXM S ettings ar e sel ected, t he Syst em
+displays the next configurable options in a separate screen (see Figure 33 &
+Figure 34
+ as reference):
+• Preset View.
+• Category Browser.
+• Channel browser Auto select.
+• Auto select timer.
+• Tune start.
+• Reset Default.
+Figure 33: The Sirius X M Settings screen –  Part I.
+Figure 34: The Sirius X M Settings screen –  Part II.
+In the case the Category List option is selected, a separate screen opens
+listing all the available categories. See Figure 35 as reference.
+22 | P a g e
+
+=== PDF PAGE 23 ===
+Owner´s Manual DEA600 Radio
+In
+the case the “ Direct tuning ”  soft key is selected, a numeric keypad is
+displayed as Figure 37  illustrates. It can be used to select an specific
+channel.
+Figure 35: The C ategory list screen.
+The listed elements work as a soft key. In the case the channel list option is
+selected, a separate screen listing all the available channels is presented.
+See Figure 36 as reference.
+F
+igure 36: The C hannel list screen.
+The listed elements work as a soft key.
+Figure 37: The search virtual button screen.
+Audio W idg et
+The Audio Widget  is displayed at t he r ight of  the home scr een, and i t
+displays the Media and Radio source in case any source is active.
+Media sourc e
+The Audio Widget presents the available song info such as the artist name,
+album name, and song name. The widget supports the following
+configuration based on the Media sources selected:
+• USB.
+• Bluetooth.
+• AUX.
+• Rear Aux.
+• CD.
+The Audio  Widget presents the next audio controls for the USB, Bluetooth
+and CD configurations:
+23 | P a g e
+
+=== PDF PAGE 24 ===
+Owner´s Manual DEA600 Radio
+•
+ Previous.
+• Play/Pause.
+• Next.
+For USB, the Audio Widget is presented as Figure 38 illustrates.
+Figure 39: The A udio Widget for Bluetooth.
+The Audio Widget presents the song name and the artist  for CD source (see
+Figure 40 as reference).
+Figure 38: The A udio Widget with available art w ork screen for USB.
+T
+he Audio Widget displays the art work corresponding to the playing song if
+available. The Audio Widget shall display  the generic art work  in case there
+is no artwork for the playing song (see previous Figure 24 as reference).
+The
+Audio Widget displays the song  name and the  artist for BT Audio (see
+Figure 39 as reference).
+Figure 40: The A udio Widget for the C D configuration s creen.
+24 | P a g e
+
+=== PDF PAGE 25 ===
+Owner´s Manual DEA600 Radio
+The Audio Widget does not present audio controls for the AUX, & Rear AUX;
+see Figure 41 & Figure 42as reference.
+Figure 41: The A udio Widget for the A UX  configuration screen.
+Figure 42: The A udio Widget for the rear A UX  configuration screen.
+Radio sourc e
+The Audio Widget shall display the next audio controls for the Radio source
+configuration:
+• Previous.
+• Next.
+The Audio Widget shall present the Radio band selected and the frequency
+tuned. Illustrated in: Figure 43, Figure 44, Figure 45 & Figure 46.
+Figure 43: The A udio widget for the radio band FM s creen.
+25 | P a g e
+
+=== PDF PAGE 26 ===
+Owner´s Manual DEA600 Radio
+F
+igure 44: The A udio widget for the radio band A M screen.  Figure 46: The A udio widget for the Sirius X M configuration s creen.
+Phone
+Once your device is properly paired (see Settings / Bluetooth section),
+DEA600 System supports Hands Free features, if the connected device has
+that capability. Open the Phone App
+ located on the home screen of the
+Smart Display as illustrated on Figure 47.
+Figure 45: The A udio widget for the Weather channel s creen.
+Figure 47: Select Phone App in Home Screen.
+26 | P a g e
+
+=== PDF PAGE 27 ===
+Owner´s Manual DEA600 Radio
+The Phone screen  interface presents these elements (as  is  illustrated  on
+Figure 48):
+• Numeric Keyboard.
+• Call Button.
+• Search Bar.
+• Contacts Tab.
+• Recent Calls Tab.
+• Favorites Tab.
+• Add Contact Tab.
+Figure 48: The Phone screen interf ace.
+The System captures the number to dial from the displayed numeric
+keyboard. In t he case the S ystem detects t he act ivation of t he call b utton,
+the System starts with the dial process.
+Contacts
+The contact options are open as the default option. The System displays up
+to 4 items per screen. In the case there are more than 4 items, the remaining
+items are distributed in bottom subsequent screens. See Figure 48  as
+reference.
+A loading image is  displayed  during the contact  list  synchronization. See
+Figure 49 as reference.
+Figure 49: The contact list synchronization s creen.
+If failure is present during the contact synchronization, message "No Contact
+available" is displayed. See Figure 50 as reference.
+Figure 50: The no contact list loaded screen.
+27 | P a g e
+
+=== PDF PAGE 28 ===
+Owner´s Manual DEA600 Radio
+The
+System activates the search function  in case white box  is selected. In
+the case the  search function is  activated, the System displays a keyboard,
+see Figure 51 as reference.
+F
+igure 52: The C ontact information s creen.
+Figure 51: The search contact screen.
+The System is able to capture the information introduced and performs a
+contact search based on it. In the case a contact is selected, the System
+displays the contact information screen.
+Contac
+t Informati on
+The contact information displays the following information, if available.  See
+Figure 50 as reference:
+• Contact Name.
+• Company.
+• Phone 1.
+• Phone 2.
+• E-mail.
+• Address.
+Favorites
+If Favorites  option  is  selected, the 8  favorite  contacts  are  displayed as
+Figure 53 illustrates.
+Figure 53: The 8 favorite contacts s creen.
+Each of the favorite contacts works as a soft k ey. If a contact is selected, the
+dialing process is performed.
+28 | P a g e
+
+=== PDF PAGE 29 ===
+Owner´s Manual DEA600 Radio
+In order to save a contact as favorite, the desired contact shall be selected
+and pres s and hold t he de sired ph one nu mber unt il t he pop- up message
+“Are you sure you want to add t he contact into favorites?” is displayed, then
+“Ok” option shall be selected.
+Making a Call
+You
+can call a contact directly from the previously stored contact information
+if the item Phone 1 or Phone 2 is selected; the System uses the information
+there to start the dialing process.
+You can also dial  a new number directly on the dial pad  and tap the green
+phone
+soft key; the System uses the information there to start the dialing
+process. You can also start the call form a connected device. The Figure 54
+illustrates the dialing process.
+• Contact name.
+o Event  indicator;  Receive call, Made  call  or  Missed  Call
+The Receive  call  indicator  is  represented with a  Blue
+arrow.
+o The Made call indicator is represented with a Green arrow.
+o The Missed call indicator is represented with a Red arrow.
+• Time of when the event was performed indicator.
+Figure 55: The history of calls screen.
+Figure 54: The dialing process screen.
+Recent calls
+In the case the Recent Calls option is selected, the System displays the
+history of the call s. T he Syst em dis plays up to 4 items per screen. Each
+listed item presents the following information; see Figure 55 Error!
+Reference source not found. as reference:
+Incoming Call
+The
+"incoming call screen" is displayed in case the System detects an
+incoming call. The incoming call displays the next information and soft key
+selector, see Figure 56 as reference:
+• Contact name.
+• Contact number.
+• The "incoming call" label.
+• Accept call soft key selector.
+• Reject call soft key selector.
+29 | P a g e
+
+=== PDF PAGE 30 ===
+Owner´s Manual DEA600 Radio
+Figure 56: The incoming call screen.
+In the case the System detects the selection of the Reject soft key the
+system cancels the incoming call.
+In the case the System detects the selection of the Accept soft key the
+System allows the incoming call. Audio is distributed through Radio to
+Vehicle Front Left speaker. Also, the System displays the current call screen
+presenting the next information and soft key selectors (see Figure 57 as
+reference):
+• Contact name.
+• Contact number.
+• Hang Up soft key selector.
+• Mute soft key selector.
+• Keyboard activation soft key selector.
+• Second call.
+• Transfer call.
+Figure 57: The current call screen.
+In the case the System detects the selection of the Hang Up soft key the call
+is ended.
+If the Mute soft key is selected, the System disables the microphones.
+If t he Tr ansfer soft  key is s elected, t he Sy stem tr ansfers t he cal l to th e
+connected device.
+If the System detects the selection of the second call soft key the current call
+is placed on hold allowing the user to dial another number.
+If the System detects the selection of the Keyboard activation soft key a pop-
+up numeric keyboard is displayed. See Figure 58 as a reference.
+30 | P a g e
+
+=== PDF PAGE 31 ===
+Owner´s Manual DEA600 Radio
+Figure 58: The pop-up numeric k eyboard screen.
+Messaging
+If the Messaging App is selected, see Figure 59 as reference, the System
+displays the received text messages in a list manner grouped by
+conversations, see Figure 60 as reference.
+Figure 59: Opening Messaging A pp on Home screen.
+Figure 60: The received text messages screen.
+The following information and options are available:
+• Contact name.
+• Message.
+• Hear last message soft key.
+• Time.
+• Search soft key.
+• New message soft key.
+Up to 4 messages are displayed at a time. If there are more than 4
+messages, the remaining messages are placed in subsequent screens.
+Up to 10 conversations can be available with the 10 most recent message of
+each one.
+The System provides the following options upon message notification shown
+on the screen: Ok, Dismiss, see Figure 61 as reference. 31 | P a g e
+
+=== PDF PAGE 32 ===
+Owner´s Manual DEA600 Radio
+Figure 61: New messag e received.
+The SMS message information is displayed and provides a predefined
+message list to replay with, as follows, see Figure 62:
+1. Can´t answer right now.
+2. I´m driving, call you later.
+3. I’ll contact you later.
+4. What’s up?
+5. Personalized.
+Figure 62: Predef ined message lis t
+The System sends the selected message or opens the message editor or
+application for the user to write the desired text, see Figure 63.
+F
+igure 63: Message editor
+While the vehicle is in motion (parking brake is not set or vehicle speed is
+more than 5 km/h), the Personalize option is disabled.
+32 | P a g e
+
+=== PDF PAGE 33 ===
+Owner´s Manual DEA600 Radio
+A
+pps
+Only authorized Applications  can be installed on the  System. Contact
+your dealer for further information.
+Clock
+Open the Clock App by selecting it on the Home main screen, see Figure 64
+as reference.
+Figure 65: C lock screen.
+In the case the alarm icon is select ed ( left lower cor ner), the Syst em
+presents the following screen, Figure 66; and the following options:
+•
+ Alarm On/Off control
+• Alarm source setting
+• Alarm volume setting
+• Hear Reference Volume On/Off control
+Figure 64: Opening C lock app.
+The Clock screen  is  presented on Figure 65 . The  application is able  to
+present time in different cities locks; it also has Stopwatch, Timer and Alarm
+options.
+33 | P a g e
+
+=== PDF PAGE 34 ===
+Owner´s Manual DEA600 Radio
+The Tone items that can be selected as the audio source are:
+•
+ Tone.
+• Radio FM.
+• Radio AM.
+• SirusXM.
+Once the alarm is set, the alarm indicator icon is displayed in the top bar of
+the home screen. See Figure 68 as reference.
+F
+igure 66: A larm list
+Each item of  the  alarm  list  works  as a soft  key  and  can be activated  or
+deactivated with the On/Off select soft key.
+If the alarm hour is selected a numeric pop-up pad is presented, see Figure
+67 as reference. The time set  on the numeric pop-up pad is  used to set  the
+alarm once the OK soft key is selected.
+Figure 68: The alarm indicator icon
+Once the Alarm is activated a screen with the option Snooze or Dismiss
+appears, see Figure 69.
+Figure 67: Alarm setup pop-up.
+34 | P a g e
+
+=== PDF PAGE 35 ===
+hicle one at a time, each of the camera views option work as a soft k
+e System displays the camera view corresponding to the soft k
+lected.
+e System presents the Reverse view as default once the application
+ened.
+e application presents the next activation soft keys relative to each of t
+ailable views, see Figure 71 as reference:
+• Reverse View.
+• Forward View.
+• Right View.
+• Left View.
+Owner´s Manual DEA600 Radio
+A
+pplication I nterfac e
+The Camera Views App presents the view of the 4 cameras installed on the
+ve ey.
+Th ey
+se
+Th  is
+op
+Th he
+av
+Figure 69: Snooze /  Dismiss Alarm screen.
+Camer a Views
+The DEA600 is not a safety product. The cameras and the rear auxiliary
+inputs are provided for driver conveniences only.
+Open the Camera  Views App located on  the home screen  as illustrated on
+Figure 70.
+Figure 71: C amera view reference.
+This feature may not be available in all vehicles.
+The activation soft keys are presented as part of the standard view of the
+activation. The user is able to establish  the view as full screen mode and to
+Figure 70: Open C amera V iews A pp. return to the standard view mode.
+35 | P a g e
+
+=== PDF PAGE 36 ===
+Owner´s Manual DEA600 Radio
+The application indicates the current activated view. The forward camera
+image is mirrored (left to right) to provide a correct image.
+Automatic  Cameras V iew
+The following camera views are activated automatically under certain
+scenarios:
+• Reverse View.
+• Right View.
+• Left View.
+The System activates the Reverse View in case the vehicle is put in reverse
+(if the automatic view function is activated).
+The System activates the Right View in case the right turn signal is activated
+(if the automatic view function is activated).
+The System activates the Left view in case the left turn signal is activated (if
+the automatic view function is activated).
+The System informs the user which camera view is activated. The forward
+camera view can only be activated manually.
+The System provides the Automatic Camera View activation/deactivation
+configurable options and Camera App Settings by pressing the Menu button
+on the navigation bar.
+Details for the Camera Application Settings are described under the Settings
+section of this document.
+Gauges
+This feature may not be available in all vehicles.
+Open the G
+auges App located on t he home s creen of the  Smart Dis play as
+illustrated on Figure 72. The system displays the Gauges screen interface.
+Figure 72: Open Gauges A pp.
+The Gauges  app can handle  up  to 30 gauges  distributed in 5  screens  as
+Figure 73 represents.
+Figure 73: V irtual Gauges application layout.
+Gauges are updated with information collected form vehicle digital buses.
+The Virtual Gauges app shows the  last  selected page each  time  that  the
+application is opened.
+36 | P a g e
+
+=== PDF PAGE 37 ===
+Owner´s Manual DEA600 Radio
+The
+default page (page 1)  is  displayed  in  the  Virtual  Gauges  app in the
+following cases:
+•
+ The first  time  the  Virtual  Gauges app is  opened after an  IGN  or
+BATT cycle.
+• When the last selected page is not available.
+• When the last selected page does not contain any gauges.
+Gauges
+This manual describes the general function of the Virtual Gauges.
+Please refer to the vehicle's owner's manual for information about th e
+functionality of individual gauges.
+Gauge States
+Each gauge is capable of 3 different states (when available):
+1. Regular State, Figure 74.
+This state includes Metric or English rates.
+Figure 74: Regular K W Oil Temp Gauge state A rt Work (°F).
+2. Warning States, Figure 75.
+In this state the Gauges Turns Red.
+o If Gauge reaches  an  out  of  range condition, the  virtual
+gauge Pops-Up larger on the screen. pop-up may return to
+its original state per user interaction.
+Figure 75: Warning K W Oil Temp Gauge state A rt Work.
+3. Error States (Needle Deflection).
+o If  Data  is  not  available, the gauge  pointer shall
+automatically be positioned in -  15° from the Null position
+and stay in that position until data is available.
+o If  the  gauge is under  scaled,  the  gauge  pointer  will
+automatically be  positioned in -  5 ° from  the  Null  position
+and stay in that position until the data is rescaled.
+o If  the  gauge is over  scaled,  the  gauge will pointer
+automatically be positioned in +  5° from the Null position
+and stay in that position until the data is rescaled.
+V irtual  Gauges Pop-up
+All the Virtual Gauges function as soft keys, each Virtual Gauge soft key
+toggles to a full screen zoom of the gauge when the us er presses the Virtual
+Gauge soft key.
+While the Virtual Gauge is toggled to full screen zoom, a press of the screen
+returns the gauge to its original size.
+If
+the user  pr esses the screen while the Virtual gauge is in t he pr ocess o f
+toggling to a full screen zoom, the Virtual Gauges app cancels the full screen
+zoom toggle.
+Gauges are automatically toggled to full screen zoom when a Warning State
+is present.
+If a Virtual Gauge has been toggled to full screen due to a warning condition
+and another Virtual Gauge presents a warning condition, the first Virtual
+Gauge in a warning state will be displayed for at least 3 seconds. After 3
+seconds,
+ the Virtual Gauge in a full screen state due  to a warning state  will
+37 | P a g e
+
+=== PDF PAGE 38 ===
+Owner´s Manual DEA600 Radio
+return to a normal state allowing the second Virtual Gauge in a warning to
+state to toggle to full screen.
+All the Virtual Gauges
+ minimized after being in full screen due to  a warning
+state remain in the warning state in their original size while the warning
+condition of the gauge persists.
+Gaug
+es Setti ngs
+Pressing the Menu soft key or hard key of the Virtual Gauges app presents a
+pop-up menu with the following elements. See Figure 76 as reference:
+•
+ Preset 1 - Soft key.
+• Preset 2 - Soft key.
+• Edit Presets.
+• Load Updates.
+• Factory Reset.
+Figure 76: Gauges settings pop-up.
+to save changes or CANCEL soft key to discard changes. See Figure 77 as
+reference.
+Figure 77: Gauges edit preset screen.
+The preset selection pop-up menu is displayed in order to specify which
+preset memory should be used to save the new layout. See Figure 78 as
+reference.
+Presets
+Presets
+are used to define personalized views  of the gauges.  Two presets
+are available to save different combinations of the available gauges.
+Pressing the "Edit Presets" option from  the settings pop-up allows  editing of
+the Presets. Once the desired modifications are done, select the OK soft key
+Figure 78: Gauges save configuration pop-up.
+38 | P a g e
+
+=== PDF PAGE 39 ===
+Owner´s Manual DEA600 Radio
+The General Settings screen shows the page numbers in their 3 states
+(Selected, Active and Disabled) as defined for the app.
+The default page selected when
+ accessing the General  Settings in the
+Virtual
+Gauges app is the page 1. The General Settings screen from the
+Virtual Gauges app show the active virtual gauges.
+T
+he Default Virtual Gauges priorities and  the  User  defined Virtual Gauges
+priorities are saved on the memory.
+Pr
+eset Updates
+The default preset established is the one selected when the General settings
+screen is opened.
+The Virtual Gauges
+ app allows the  selection  of one of  the  Presets at any
+time by pressing the soft key.
+I
+f a Preset  is sele cted while  t he ot her pr eset is act ive, the Virtual  Ga uges
+app saves the changes in the Preset previously active and then switches to
+the selected Pr eset, updat ing t he position of t he activ e gauges acc ording
+with the priority level in stored the Preset.
+During the
+ saving  of  a preset or  a  restoration  of  the  default  presets the
+Virtual Gauges app shows a pop-up with the label "Processing..." while the
+operation is performed.
+The Virtual Gauges  app updates the  priority level of the virtual gauges as
+they are reorganized by the user, changing the priority level of the selected
+gauge for the priority of the gauge in the target position selected by the user.
+This will allow the Virtual Gauges app to keep the Virtual Gauges positions
+as defined by the user without fixing the gauge position to a slot.
+All the
+ updates  in  the virtual gauges  priority  level are saved  in  the  preset
+selected as User Defined Virtual Gauges priorities.
+The User Defined Virtual Gauges Priorities does not modify the Default
+Virtual Gauges Priorities.
+G auge Populatio n
+Automatic arrangement is used to identify available gauges.
+The population of the gauges for the Automatic arrangement depends on the
+priority preset selected.
+The priority
+ preset is configurable through the  Settings menu of  the Virtual
+gauges app.
+Automatic  Popul ation
+The Virtual Gauges are populated by adding gauges if the relative vehicle
+information is available. The Virtual Gauges app adds available gauges
+following the priority established.
+The
+ actual  Virtual  Gauges page from  the  Virtual Gauges app  page is
+highlighted, allowing the user to differentiate it from the disabled pages and
+from the active pages that are not selected as the actual page.
+The
+ Standard Priority list of gauges have a higher priority than the Optional
+Gauges, even if a given gauge from the Optional gauges shares a priority
+level with a gauge from the Standard Priority gauges.
+If
+ not Available information for a  specific Gauge is received  from the vehicle
+information bus is received the related Gauge will be hidden upon the next
+key cycle. Some virtual gauges show a specific icon in the case of a not
+available gauge.
+The
+ Virtual Gauges app pages for  gauges population are disabled if  there
+are no gauges in the page. The disabled Virtual Gauges app pages are
+displayed in an opaque manner.
+The active  Virtual  Gauges app pages  are displayed in  clear  way  which
+allows the user to differentiate between the actual page and disabled pages.
+As the
+ optional  virtual  gauges  become  available, they starts  to  be
+accommodated from the last active gauge displayed filling the available slots
+in all the pages in an incremental order and following the preset priority.
+The Virtual Gauges app does not allow the user to select the disabled gauge
+pages until they become available.
+Each time a Virtual Gauges app page is filled with gauges, the Virtual
+Gauges app act
+ivates the subsequent pag e, in in cremental order,  t o
+continue placing the active virtual gauges.
+Priori ty presets
+Priority Preset 1
+Gauge Priority
+Engine Oil Temperature  Page One
+Main Trans Oil Temperature  Page One
+Manifold Pressure (Boost)  Page One
+DPF Status  Page One
+Fuel Economy  Page One
+Percent Torque  Page One
+Percent Horsepower  NA
+39 | P a g e
+
+=== PDF PAGE 40 ===
+Owner´s Manual DEA600 Radio
+Gauge Priority
+Idle Time  NA
+Idle Fuel  NA
+Fuel Usage Rate  NA
+Drive Axle #1 (front) Oil Temperature  2
+Drive Axle #2 (rear) Oil Temperature  3
+Drive Axle #3 (center) Oil Temperature  4
+Air Filter Restriction Pressure  6
+Fuel Filter Restriction/Fuel Pressure Gauge  7
+Ammeter  1
+Air Suspension Pressure 1  5
+Tractor Brake Application  N/A – In Cluster
+Pusher Axle #1 Pressure  8
+PTO Hour Meter  9
+Priority Preset 2
+Gauge Priority
+Engine Oil Temperature Page One
+Main Trans Oil Temperature Page One
+Manifold Pressure (Boost) Page One
+DPF Status Page One
+Fuel Economy Page One
+Percent Torque Page One
+Percent Horsepower N/A
+Idle Time N/A
+Idle Fuel N/A
+Preset Gaug es Interac tion
+The positions of the active gauges can be adjusted in the General Settings
+screen of t he Virtual Gauges app by  selecting a gauge and draggin g it to a
+new desired position.
+Individual gauges can be moved  by selecting and then  dragging to a  new
+position.  As the gauge is dragged it will snap into the closest gauge slot
+even if the slot is already occupied by another gauge.  The gauge will be
+moved to the location shown when the user deselects the gauge.
+While a gauge is being moved and
+ starts snapping in other  gauge slots in
+the
+General Settings screen of the Virtual Gauges app, the non-moving
+gauges re-position to give space to the dragged gauge.
+The re-positioning of the non-selected gauges from the General Settings
+screen of the Virtual Gauges app shall be according the following rules:
+• Gauges in the preceding slots  will shift back one position until  the
+position where the selected gauge was originally is reached.
+• Gauges in slots after where the  selected gauge snaps  will remain
+unaffected.
+Once the user stops pressing the screen, all the gauges will be moved and
+the gauge selected keep their new positions.
+Only
+ one gauge can be  moved at a time  in the General Settings screen of
+the Virtual Gauges app.
+W
+hile moving a gauge posit ion in t he General Settings screen of the Virtual
+Gauges app, if the user moves the gauge to one of the sides of the screen,
+the Virtual gauges app will switch to the next/previous page, depending on
+the side. In this case, right side is related with the next page and the left side
+is related with the previous page.
+The
+ page  movement when a  gauge is moved  to  a  one  of the side  of  the
+screen is subject to the following restrictions:
+• The page switching shall be restricted to the active pages.
+• If the gauge is moved to the left side of the screen while in the first
+page no action shall be performed.
+• If the gauge is moved to the right side of the screen while in the last
+active page no action is performed.
+Reset to Default Screen
+If the Reset to Default Soft key from the General Settings of the Virtual
+Gauges app is depressed, the Virtual Gauges app shall restore the gauge
+priority list to the Default Virtual Gauges priorities, updating also the position
+of the gauges in the Settings Screen and in the Virtual Gauges app.
+When short pressed, prior to resetting to the Default Virtual Gauges priorities
+the Virtual Gauges app displays  the following Pup-up warning.  See Figure
+79 as reference.
+40 | P a g e
+
+=== PDF PAGE 41 ===
+Owner´s Manual DEA600 Radio
+Figure 79: Reset conf iguration pop-up.
+OK and Cancel act as soft keys in the pop-up warning.
+Pressing OK  closes t he war ning pop-up and t he G eneral Settings scree n
+and restores D efault Virtual G auges pr iorities as w ell as updating t he
+position of the gauges in the General Settings screen and in the Virtual
+Gauges app.
+Pressing Cancel  closes  the  warning pop-up and  returns  to  the  General
+Settings pop-up menu without changing any configuration.
+Settings
+The System presents the following settings options. See
+Figure 80 & Figure
+81 as reference:
+• Wireless & Networks.
+• Language & Inputs.
+• Date & Time.
+• System Audio.
+• System Information.
+• Cameras Settings.
+• Apps.
+• Keyboard Sounds.
+• Display Settings.
+Figure 80: The settings screen –  Part I.
+Figure 81: The settings screen –  Part II.
+Each opt ion is dis played in a gr id manner.  E ach of t he setti ngs options
+works as a soft key.
+41 | P a g e
+
+=== PDF PAGE 42 ===
+Owner´s Manual DEA600 Radio
+The Menu soft  key  does not hav e functionality in t his screen.  While insid e
+the settings menus, the System continue showing the current menu even if
+there is a track change.
+Camer a Application Settings
+In
+the case the Camera Settings is selected, the System displays the
+following information  as  activation/deactivation controls, Figure 82  as
+reference.
+Figure 82: The C ameras settings screen.
+The activation soft key is displayed as a slider control. The slider control has
+two states.
+Display Settings
+The
+System opens the Display Settings section in the case this option is
+selected at system settings.
+Once the Display Settings menu is  open, the System displays  the following
+configuration options, see Figure 83 as reference:
+•
+ Dimming brightness.
+o 10% per step.
+o 25% per step.
+• Units of measure.
+o English.
+o Metric.
+Figure 83: The Display Settings screen.
+• On: slide action to the right.
+• Off: slide action to the left.
+In the case the System detects an On state, the corresponding automatic
+camera view is activated.
+In the  case  the  System detects an  Off  state,  the  corresponding automatic
+camera view is deactivated.
+This menu may not be available in all vehicles.
+Wir eless & Networ ks
+The Wireless & Network settings is open once the System senses a touch
+over the Wireless & Networks icon.
+Once the Wireless & Networks settings menu is open the next  connectivity
+options list is presented to the user, see Figure 84 as reference:
+• Wi-Fi.
+42 | P a g e
+
+=== PDF PAGE 43 ===
+Owner´s Manual DEA600 Radio
+• Bluetooth.
+• Bluetooth Network Connection.
+Figure 84: The Wireless & Networks setting s screen
+The Bluetooth & Wi-Fi activation options are presented to the us er as s lider
+controls. Each slide control has two states:
+• On: slide action to the right.
+• Off: slide action to the left.
+In the case the System detects an On state the corresponding wireless
+option is activated.
+In the case
+ the  system detects an  Off  state the corresponding wireless
+option is deactivated.
+W
+i-Fi
+In the cas e the Wi-Fi option is activ ated a separ ate sub screen displays t he
+list of available networks. The  WPS activation soft key is present as part of
+the Wi-Fi interface. The listed items in the av ailable network list work as sof t
+keys.
+A password to enable the connection might be required if the network is a
+limited ac cess net work. I n t he case a pas sword is r equired a pop -up sub
+screen along with a virtual keyboard is displayed illustrated in
+Figure 85.
+Figure 85: The Wi-Fi password request.
+The System captures the introduced password and uses it for the network
+connection process.
+The System presents the Wi-Fi menu screens following the distribution and
+styling of the Figure 86.
+43 | P a g e
+
+=== PDF PAGE 44 ===
+Owner´s Manual DEA600 Radio
+Figure 86: The Wi-Fi menu screen.
+In the case the System detects the activation of the Menu soft key or hard
+key the System  displays  a  pop sub menu  with  the following options,  see
+Figure 87 as reference:
+• Scan.
+• WPS Pin Entry.
+• Advanced.
+• Help.
+Figure 87: The Wi-Fi settings option.
+In the case the adv anced opt ion is select ed the Syst em d isplays t he
+standard advanced Wi-Fi menu, see Figure 88 as references.
+Figure 88: The A dvanced Wi-Fi menu screen.
+Bluetooth
+The following profiles are supported by the System:
+44 | P a g e
+
+=== PDF PAGE 45 ===
+Owner´s Manual DEA600 Radio
+• Advanced Audio Distribution Profile (A2DP).
+• Audio/Video Remote Control Profile (AVRCP).
+• Hands-Free Profile (HFP).
+• Phone Book Access Profile (PBAP).
+• Message Access Profile (MAP).
+• Personal Area Networking Profile (PAN).
+• Serial Port Profile (SPP).
+The System can connect to a Bluet ooth D evice. T o use this functionality
+your device requires Bluetooth and to be paired and connected to the
+DEA600. The supported device  list  is  located  in the following  web  page:
+http://www.panapacific.com/support
+Other devices may  be  connected and played, but functionality  cannot  be
+guaranteed.
+In the case the Bluetooth option is turned ON, a sub screen is displayed
+listing the next options, see Figure 89 as reference:
+•
+ “Visible to all nearby Bluetooth devices” option.
+•
+ List of the Bluetooth devices available to connect.
+• List of the Bluetooth devices available to pair.
+Figure 89: The Bluetooth menu s creen.
+The System activates the detection to other Bluetooth devices if the "Visible
+to all nearby Bluetooth  devices" option  is  activated.  The  "Visible to all
+nearby Bluetooth devices" function is activated for 2 minutes.
+Each of the  items  in  the "Available devices"  list  works  as  a  soft  key,  see
+Figure 90 as reference.
+Figure 90: A vailable devices searching.
+In the case one item is selected, a pop-up screen is displayed presenting the
+following information and soft keys, see Figure 91 as reference.
+Information:
+•
+ Target device name.
+• PIN or White Box to introduce PIN.
+Soft keys:
+• Cancel option.
+• Pair option.
+45 | P a g e
+
+=== PDF PAGE 46 ===
+Owner´s Manual DEA600 Radio
+Figure 91: Bluetooth Pairing request.
+If the System detects the selection of the white box a keyboard is displayed,
+if available. The System captures in the  White Box the introduced  PIN. See
+Figure 92, Figure 93 & Figure 94.
+Figure 92: Bluetooth PIN request.
+In the case the Pair button is selected, the System starts the connection
+process.
+Automatically, the DEA600 will connect to the first available paired device,
+starting from the last paired/connected device.
+Figure 93: Bluetooth c onnecting process.
+Figure 94: Bluetooth device c onnected.
+46 | P a g e
+
+=== PDF PAGE 47 ===
+Owner´s Manual DEA600 Radio
+In the case the Cancel button  is  selected,  the  System cancels  the
+connection process closing the pop-up screen. If the connection process is
+cancelled a pop-up message is displayed stating "Pairing failed. Unable to
+connect to remote device". See Figure 95 as reference.
+F
+igure 95: Error – Pairing failed.
+OTA (Over the Ai r)
+The System is capable of receiving Over the Air updates when the unit is
+connected to the internet. Select Device Update application and it will search
+for updates automatically. The following items can be updated:
+• CoPilot Truck navigation software and virtual gauges.
+• DEA600 System Software Updates.
+Figure 96: The K eyboard sound option screen.
+The System allows the activation and deactivation of the keyboard sound
+option.
+Date & Time
+The System supports both, automatic date &  time settings (see Figure 97 &
+Figure 98 as reference) or manual setting (see as reference) of the date and
+time.
+Keyboar d Sound
+In the case the keyboard sounds option is selected, the System displays the
+next configurable options illustrated Figure 96:
+•
+ Touch sounds.
+47 | P a g e
+
+=== PDF PAGE 48 ===
+Owner´s Manual DEA600 Radio
+•
+ Automatic date & time.
+• Automatic time zone.
+• Set date.
+• Set time.
+• Select time zone.
+• Use 24-hour format.
+• Choose date format.
+The System shall present the following date format options only. Each of
+these operates as a soft key selection item to change the applicable setting:
+• 12/31/2014.
+• 31/12/2014.
+• 2014/12/31.
+Figure 97: A utomatic Date & Time settings screen.
+Applications
+The System supports the standard application manager settings. In the case
+the Apps option is selected the System presents a list of the installed apps
+illustrated in Figure 99.
+Figure 98: Manual Date & Time settings s creen.
+In the case the date & time option is selected, the System presents the next
+configurable options following standard date & time settings functionality: Figure 99: The A pps option screen.
+48 | P a g e
+
+=== PDF PAGE 49 ===
+Owner´s Manual DEA600 Radio
+Each
+item in the list works as a soft key.  Each item in the list presents  the
+next information:
+• Application icon.
+• Application name.
+• Application memory space.
+The System displays  up to 5 items  per screen. In the case there  are more
+than 5 items the remaining items are displayed in subsequent screens.
+In the case  a  listed  item  is  selected,  the  System  presents  the  following
+controls and information. See Figure 100 as reference.
+Controls:
+F
+igure 100: The A pp controls & information s creen.
+• Force stop button.
+• Disable button.
+• Clear data button.
+• Clear cache button.
+• Clear Defaults button, if available.
+Information:
+• Application name.
+• Application version.
+• Application icon.
+• List of applicable permissions.
+• Storage information.
+The controls functions follow the standard apps functionality.
+System Infor mation
+In the case the System Information menu is selected, the System displays
+the next information as Read only (see Figure 101 as reference):
+• IP Address.
+• Wi-Fi Mac Address.
+• Android Version.
+• Model Version
+• Software Version
+• Regulatory Information.
+49 | P a g e
+
+=== PDF PAGE 50 ===
+Owner´s Manual DEA600 Radio
+Figure 101: The System Information s creen.
+Language & Inputs
+In the case t he Language &  I nputs menu is selected,  t he Sy stem d isplays
+the following options:
+• Language.
+• Text to speech output.
+Each option works as a soft key.
+The Sy stem pr esents t he Language & I nputs options f ollowing th e
+distribution and styling of the Figure 102.
+Figure 102: The L anguage & Inputs options.
+Language
+In the case the Language option is selected, the System displays the
+following language options, see Figure 107 as reference:
+• English.
+• Español.
+• Français.
+50 | P a g e
+
+=== PDF PAGE 51 ===
+Owner´s Manual DEA600 Radio
+Figure 103: L anguages menu screen.
+Each language option works as a soft key. The System allows the selection
+of one opt ion at a time. I f the language is changed t o other than English a
+pop-up message is displayed stating: "System about to Reboot".
+As part of the pop-up message, the next two soft keys are displayed:
+• Ok; to proceed.
+• Cancel; to not proceed.
+Text to speec h output
+The System presents the "Text-To-Speech" option. The System presents the
+following options, see Figure 104 as reference:
+• Preferred engine.
+• Language.
+Figure 104: Text-To-Speech menu screen.
+System Audio
+In the case the System Audio is selected, the next configuration options are
+displayed, see Figure 105, Figure 106 & Figure 107 as reference:
+• Auto Equalization.
+• Manual Equalization.
+• Fade/Balance adjustment.
+• Speed Dependent Volume.
+• 4/2 Speakers Configuration.
+• Seek Sensitivity.
+51 | P a g e
+
+=== PDF PAGE 52 ===
+Owner´s Manual DEA600 Radio
+Figure 105: The System audio screen –  Part I.
+Figure 106: The System audio screen – Part II.
+Figure 107: The System audio screen –  Part III.
+The Manual Equalization and the Auto Equalization options work as soft
+keys.
+The Fade and Balance configuration options are presented in a bar selector
+manner.
+Manual
+ Equalization
+In the case the Manual Equalization option is selected, the System displays
+the following configurable options, see Figure 108 as reference:
+• Bass.
+• Middle.
+• Treble.
+52 | P a g e
+
+=== PDF PAGE 53 ===
+Owner´s Manual DEA600 Radio
+Figure 108: The Manual equalizer s creen.
+The System adju sts th e Ba ss v alue ac cordingly wit h t he s elected value i n
+the Bass bar control.
+The System adjusts the Middle value accordingly with the selected value in
+the Middle bar control.
+The System adjusts the Treble value accordingly with the selected value in
+the Treble bar control.
+The scale of the Bars is from -12dB to +12dB. The System supports
+detection of 12 steps on each of the bars, adjusting 2 dB per step.
+Auto Equaliz ation
+In the case the Auto Equalization option is selected, the System displays the
+following options, see Figure 109 as reference:
+• POP.
+• ROCK.
+• COUNTRY.
+• NEWS.
+•
+ JAZZ.
+• CLASSICAL.
+Figure 109: The A uto equalizer screen Part I.
+Each Audio sett ing sect ion has a checkbox as a selector  c ontrol. The
+System
+adjusts the Audio output configuration based on the option selected.
+The System does not allow selecting more than one Auto Equalization
+option. In the case the system detects the selection of the current Auto
+Equalization option, no change will take place.
+Speed Dependent V ol
+ume
+This function changes the volume level proportionally with the vehicle speed
+in order to compensate for engine or road noise.
+In t he cas e t he S peed D ependent V olume opt ion is se lected, the Syst em
+displays the next configurable options, see Figure 110 as reference:
+•
+ Off.
+• Low
+• Mid.
+• High.
+53 | P a g e
+
+=== PDF PAGE 54 ===
+Owner´s Manual DEA600 Radio
+Figure 110: The System audio screen Part II.
+The System allows the selection of one option at a time.
+Speakers Config urati on
+In the case the Speakers configuration option is selected, the System
+displays the next  configurable options, see previous Figure 110  as
+reference:
+• 4 Speakers.
+• 2 Speakers.
+The System allows the selection of one option at a time.
+While the radio is configured to 2 speakers, the Fade option is unavailable.
+Seek Sensitivity -6dB to +6dB
+The seek sensitivity option is present in a bar selector manner, as illustrated
+in
+Figure 111.
+Figure 111: Seek sensitivity screen.
+The scale of the seek sensitivity Bar is from -6 dB to +6 dB. The System
+detects 12 steps on the bar. The System adjusts 1 dB per step of the
+corresponding value.
+54 | P a g e
+
+=== PDF PAGE 55 ===
+Owner´s Manual DEA600 Radio
+Tips and Tr oubleshooting
+Radio
+Unable to tune stati ons
+You are in a weak signal area.
+• Increase the  Seek  Sensitivity  (see  Seek  Sensitivity  section  for
+details).
+CD
+CD player not func tioning
+Out of the operation range, Operation temperature of the CD is -20 °C to 55°
+C (-4°F to 131°F).
+•
+ Allow the  vehicle ´s interior  temperature to increase  or  decrease
+(depending on the case).
+CD Insertion i s not possi ble
+A CD is already in the CD player.
+• Eject the CD and remove it.
+iPod
+iP
+od does not pl ay or there i s no sound
+The iPod has not been recognized.
+• Verify that the iPod is supported.
+• If the iPod is supported, reset the  iPod and re-connect  again (see
+iPod section for details).
+iPod not functioni ng
+Out of the  operation range, Operation temperature of  the iPod player  is  -
+20°C to 85°C (-4°F to 185°F).
+Allow the vehicle´s interior temperature to be in human supportable range.
+B
+luetooth
+My radi o doesn't rec ognize my Bluetooth enabl ed devic e
+Try one of the following actions:
+1. Remove the device, after  that  pair and connect  the device. Refer  to
+DELETE ONE OR DELETE ALL DEVICES and  to Pairing a Bluetooth
+Device and Connecting a Device sections.
+2. Make sure the device is turned on.
+3. Make sure the  Bluetooth adapter on  your radio is  enabled,  Refer to
+Bluetooth Enabling/Disabling section.
+4. The device might be out of range. Try moving it closer.
+The devic e and my  radi o can't c ommunic ate
+Try one of the following actions:
+1. Make sure that you selected  the correct device  to be connected to. For
+example, you might have  two  or  more  devices previously paired  or
+connected, so make sure you selected the right device.
+2. Some devices require  a passkey before they  can be connected  to the
+radio.
+3. Probably an incorrect  passkey was typed  or  the  time  limit  expired for
+typing the passkey. Refer to Connecting a Device section.
+4. If  the device is  close to other devices that  use radio frequencies (such
+as microwave ovens, cordless phones,  remote controls for  electronics
+or lighting, or 802.11  wireless  networks), those devices  might  be
+creating interference. Try moving the device that isn't working farther
+away from the other devices.
+Device music  cannot be heard
+1. Verify the  device is paired and connected. Refer  to sections: Pairing a
+Bluetooth Device and Connecting a Device.
+2. Make sure BT  AUDIO Source is selected in the source list menu. Refer
+to Media Sources section.
+3. Adjust the Volume on the radio by rotating the knob.
+4. Verify that your device is not paused.
+5. Make sure your device has music files.
+Rear  Seat Audio (R SA)
+The RSA shows no link
+The radio requires up to 15 seconds to wake up, so if you wake up the radio
+using the RSA and the radio is  in sleep mode, the RSA will  show "no-link"
+55 | P a g e
+
+=== PDF PAGE 56 ===
+Owner´s Manual DEA600 Radio
+while the radio starts. The communication shall be reestablished after this
+time lapse expires.
+Pr ecautions
+The DEA600 is not a safety product. The cameras and the rear auxiliary
+inputs are provided for driver conveniences only.
+Dr iver  Distr action Avoidance
+To avoid driver  distractions,  the  System  implements  two  states for  the
+overall functionality of the System:
+• Normal Functionality
+• Driving State
+Normal functionality allows the user access to all the functionalities of the
+system; this stat e is enabled when t he park ing br ake is s et an d when t he
+vehicle speed is less than 5 Km/h.
+Driving state
+ disables  some  functions/applications that may distract  the
+driver from the road; t his state is activ ated when the park ing brake is uns et
+or the vehicle speed is equal or greater than 5 km/h.
+Limited Applications/ Functionalities
+M
+essaging
+The System displays new message alerts with audible feedback activating
+the TTS  functionality while in  the Driving Distraction  Avoidance Driving
+State. The audible feedback will read the incoming message using the TTS
+functionality.
+The user is
+ not allowed by the system to write new messages while in the in
+the Driving Distraction Avoidance Driving State. The virtual keyboard will be
+inactive during this state.
+The user
+ is  only  able  to  respond  a  message  using the options  from  the
+predefined messages.
+Phone
+T
+he System allows t he user to answer a call while in t he Driving Distraction
+Avoidance Driving State.
+Other Phone functionalities are restricted while in the Driving Distraction
+Avoidance Driving State.
+System memor  y
+If the battery is disconnected before or at the same time as the ignition line,
+the system does not guarantee the memory retention.
+The
+ time  of  day  is  be set to  the  default value when  the battery is
+disconnected.
+A
+pple devices
+Apple devices shall not be connected in the Rear mini USB port.
+If not certified accessories are used to connect an Apple device to the
+DEA600 sy stem, it  will not  be able t o pr ovide P ower as r equired for th e
+Apple device.
+Sir ius XM
+The Sirius XM implementation includes only music.
+War r anty Replacement
+It is recommended that  every time one or  both of the modules ar e replaced
+in the vehicle, any configurable settings (advanced menu, frequency zone,
+etc) are configured with both modules connected.
+Pr oduct Cleaning
+Use a soft dry cloth for periodic cleaning. for more severe stains, please
+dampen the cloth with water only. Anything else might affect the appearance
+or damage the lens or plastics.
+Moistur e Condensation
+Y
+ou may  not ice t he C D play back s ound wav ering due to wate r
+condensation. If this happens please remove the disc from the player and
+wait about an hour for the moisture to evaporate.
+56 | P a g e
+
+=== PDF PAGE 57 ===
+Owner´s Manual DEA600 Radio
+Damage Disc
+Don’t attempt the following:
+•
+ To play  a  cracked,  warped or damaged  disc.  Playing a bad  disc
+could severely damage the playback mechanism.
+• To grip  or  pull  out  the disc while  it  is  being  pulled  back into the
+player by the automatic reloading mechanism.
+•
+ To insert a disc into the mechanism when the unit is powered OFF.
+Bluetooth
+The Message Access Profile features with an Apple device are limited to
+read/receive messages per Apple devices limitation. Apple devices do not
+support sending messages through the MAP Bluetooth profile.
+Bluetooth D
+istr action
+When using a cell phone, it can be distracting to look too long or too often at
+the screen of the phone or the infotainment system. Taking your eyes off the
+road too long or too often could cause a crash resulting in injury or death.
+Focus your attention on driving.
+Disclaimers, Tr ademar ks and License
+Agr eements
+Delphi does not take any responsibility of an incomplete system in the
+vehicle.
+“Made for
+ iPod ” and “Made for iPhone ” mean that  an  electronic  accessory
+has been designed to connect specifically to iPod or iPhone and has been
+certified by the developer to meet Apple performance standards.
+iPod and iPhone are trademarks of Apple Computer, Inc., registered in the
+U.S. and other countries.
+“ SiriusXM”  means that the radio has been designed and certified to meet
+SiriusXM standards.
+SiriusXM is a trademark of SiriusXM Company registered in the U.S.
+“The Bluetooth® word mark and logos are registered trademarks owned by
+Bluetooth SIG, Inc. and any use of such marks by Delphi is under license.
+Other trademarks and trade names are those of their respective owners.”
+“
+The Wi-Fi CERTIFIED™ Logo is a c ertification mark of Wi-Fi Alliance®.”
+FCC Infor mation
+Radio is complaint with Part 15 of the Federal Communications Commission
+(FCC) rules and with Industry Canada Standards RSS-GEN/210.
+FCC ID: L2C0057TR for USA.
+IC ID:   3432A-0057TR for Canada.
+57 | P a g e
+
+=== PDF PAGE 58 ===
+Owner´s Manual DEA600 Radio
+Confor mity assessment issues
+FCC/ IC Regulator  y Notice
+Modification statement
+Delphi Electronics & Safety has not approved any changes or modifications
+to this device by  t he us er. A ny chan ges or  mod ifications could  void  th e
+user’s authority to operate the equipment.
+Delphi
+Electronics&Safety n ’ approuve aucune modification apportée à
+l’appareil par l ’utilisateur, quelle  qu ’en soit  la  nature. Tout changement  ou
+modification peuvent annuler le droit d’utilisation de l’appareil par l’utilisateur.
+Interferenc e statement
+This device complies with Part 15 of the FCC Rules and Industry Canada
+licence‐exempt RSS standard(s). Operation is subject to the following two
+conditions: (1) this device may not cause interference, and (2) this device
+must accept any interference, including interference that may cause
+undesired operation of the device.
+Le pr
+ésent appareil est conforme aux CNR d'Industrie Canada applicables
+aux appareils radio exempts de licence. L'exploitation est autoris ée aux deux
+conditions suivantes : (1) l'appareil ne doit pas produire de brouillage, et (2)
+l'utilisateur de l'appareil doit accepter tout brouillage radio électrique subi,
+même si le brouillage est susceptible d'en compromettre le fonctionnement.
+Limited Power Sources
+The equipment receives power supply from a specific external power supply
+according to 2.5 paragraph of EN 60950-1.
+L'équipement re çoit l'alimentation é lectrique d'une source d'alimentation
+externe spécifique selon le paragraphe 2.5 de la norme EN 60950-1.
+R
+adiation Exposure Statement
+This device complies with FCC/IC radiation exposure limits set forth for an
+uncontrolled environ ment a nd m eets t he FCC radio frequency (RF)
+Exposure Guidelines in S upplement C  t o OE T65 and R SS‐102 of the IC
+radio frequency (RF) Exposure rules. This transmitter must not be co-located
+or operating in conjunction with any other antenna or transmitter.
+Le pr ésent appareil est conforme à  l'exposition aux radiations FCC / IC
+définies pour un environnement non contr ôlé et r épond aux directives
+d'exposition de la fr équence de la FCC radiofré quence (RF) dans le
+Supplément C à OET 65 et RSS‐ 102 de la fr équence rad io (RF) I C r ègles
+d'exposition. L'émetteur ne doit pas ê tre colocalis é ni fonctionner
+conjointement avec à autre antenne ou autre émetteur.
+F
+CC Class B digital devic e notic e
+This equipment has been tested and found to comply with the limits for a
+Class B d igital dev ice, p ursuant to  part  15 of  t he FCC  Rules. These limits
+are designed to pr ovide reasonable pr otection aga inst harmf ul int erference
+in a residential installation. This equipment generates, uses and can radiate
+radio frequency energy and, if not installed and used in accordance with the
+instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular
+installation. If this equipment does cause harmful interference to radio or
+television reception, which can be determined by turning the equipment off
+and on, the user is encouraged to try to correct the interference by one or
+more of the following measures:
+• Reorient or relocate the receiving antenna.
+• Increase the separation between the equipment and receiver.
+• Connect the
+ equipment into an outlet on a circuit different from that
+to which the receiver is connected.
+• Consult the dealer or an experienced radio/TV technician for help.
+CAN ICES-3 (B) /  NMB-3 (B)
+This Class B digital apparatus complies with Canadian ICES-003.
+Cet
+appareil num érique de classe B est conforme à la norme canadienne
+ICES-003.
+58 | P a g e

@@ -1,0 +1,5 @@
+	dashboard_path:"/ui/dashboard/kenworth_w900.sii"
+	dashboard_drawable_size: (256, 128)
+	gps_path:"/ui/gmaps_kenworthw900_gps.sii"
+	backlight_with_lights: false
+	air_brake_safeguard: true

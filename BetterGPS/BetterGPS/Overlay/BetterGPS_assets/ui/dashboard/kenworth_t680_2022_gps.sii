@@ -1,0 +1,234 @@
+SiiNunit
+{
+ui::window : _nameless.063ae3791 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless.18c1.86a0
+ my_children[1]: _nameless.18c4.8960
+ my_children[2]: _nameless.bgtrk_guard
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 0
+ area_r: 1280
+ area_t: 720
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::group : _nameless.18c1.86a0 {
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.bcg
+ my_children[1]: _nameless._.clock
+ my_children[2]: _nameless._.eta
+ my_children[3]: _nameless._.map_bcg
+ my_children[4]: _nameless._.map
+ my_children[5]: _nameless._.compass
+ my_children[6]: _nameless._.spd_limit
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 0
+ area_r: 1280
+ area_t: 720
+ area_b: 0
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.063ae3791
+}
+
+ui::text : _nameless._.bcg {
+ text: "<color value=FFFFFFFF>\r\n<ret><img src=/material/ui/dashboard/kenworth_t680_2022/infotainment.mat top=0 bottom=0.27 width=1280 height=88>\r\n<ret><offset vshift=88><img src=/material/ui/dashboard/kenworth_t680_2022/infotainment.mat top=0.27 bottom=0.27 width=1280 height=399>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/kenworth_t680_2022/infotainment.mat top=0.27 bottom=1 width=1280 height=233></align>"
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text_common : _nameless._.clock {
+ value: "22:59"
+ look_template: txt.kw_t680_2022.infot_clk
+ text: ""
+ coords_l: 838
+ coords_r: 1021
+ coords_t: 713
+ coords_b: 648
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text_common : _nameless._.eta {
+ value: "22:59"
+ look_template: txt.kw_t680_2022.infot_eta
+ text: ""
+ coords_l: 1040
+ coords_r: 1223
+ coords_t: 145
+ coords_b: 80
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1530
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text : _nameless._.map_bcg {
+ text: "<color value=FF131313><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text : _nameless._.map {
+ text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/bare_map.mat left=0.125 right=0.875 bottom=0.3598 top=0.701 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 743
+ coords_b: 116
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text_common : _nameless._.compass {
+ value: N
+ look_template: txt.kw_t680_2022.infot_eta
+ text: ""
+ coords_l: 48
+ coords_r: 231
+ coords_t: 143
+ coords_b: 78
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::text_common : _nameless._.spd_limit {
+ value: 120
+ look_template: txt.kw_t680_2022.infot_spdl
+ text: ""
+ coords_l: 21
+ coords_r: 141
+ coords_t: 368
+ coords_b: 248
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c1.86a0
+}
+
+ui::group : _nameless.18c4.8960 {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.18be.a140
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 0
+ area_r: 1280
+ area_t: 720
+ area_b: 0
+ id: 200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.063ae3791
+}
+
+ui::text : _nameless.18be.a140 {
+ text: "<img src=/material/ui/white.mat color=ff000000 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.18c4.8960
+}
+
+
+ui::text : _nameless.bgtrk_guard {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/truck_gps_guard.mat left=0.275 right=0.975 top=0.375 bottom=0.875 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1280
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.063ae3791
+}
+}

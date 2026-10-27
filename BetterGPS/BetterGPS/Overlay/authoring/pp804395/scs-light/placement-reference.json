@@ -1,0 +1,8 @@
+{
+  "reference_version": "0.5.0",
+  "reference_cabin": "dc",
+  "socket_height_scs_m": 2.574778537750244,
+  "pivot_height_scs_m": 2.619778537750244,
+  "pivot_scs_local_m": [0, 0.045, 0],
+  "note": "Keep the approved Day Cab height; align sleeper pivot heights to it. All stock T680 NG chassis share the same cabin attachment height."
+}

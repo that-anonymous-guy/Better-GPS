@@ -1,0 +1,2413 @@
+SiiNunit
+{
+ui::window : _nameless.1d2.eb10 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.bckg_lit
+ my_children[1]: _nameless._.sharedisplay
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display2
+ my_children[4]: _nameless._.display3
+ my_children[5]: _nameless._.display6
+ my_children[6]: _nameless._.display5
+ my_children[7]: _nameless._.display1
+ my_children[8]: _nameless._.display4
+ my_children[9]: _nameless.bgmk_intro
+ coords_l: 0
+ coords_r: 801
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 801
+ area_t: 800
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.bckg_lit {
+ text: "<img src=/material/ui/white.mat color=FF0F0F0F xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 17
+ my_children[0]: _nameless._.sidebar
+ my_children[1]: _nameless._.engbrake_off
+ my_children[2]: _nameless._.engbrake_on
+ my_children[3]: _nameless._.e
+ my_children[4]: _nameless._.gear
+ my_children[5]: _nameless._.cc
+ my_children[6]: _nameless._.gear_mode
+ my_children[7]: _nameless._.lcd_gear_bcg
+ my_children[8]: _nameless._.lcd_gear
+ my_children[9]: _nameless._.top_lines
+ my_children[10]: _nameless._.lcd_clock_bg
+ my_children[11]: _nameless._.amb_temp
+ my_children[12]: _nameless._.clock
+ my_children[13]: _nameless._.engbrake_ico
+ my_children[14]: _nameless._.cc_memory
+ my_children[15]: _nameless._.cc_on
+ my_children[16]: _nameless._.lcd_clock
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.sidebar {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59><offset vshift=3><img src=/material/ui/white.mat xscale=stretch height=31px color=FF765B59>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.engbrake_off {
+ text: "<font face=/font/mack_light.font xscale=0.55 yscale=0.55><color value=FFE6D1BB>OFF</font>"
+ coords_l: 641
+ coords_r: 741
+ coords_t: 51
+ coords_b: -2
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.engbrake_on {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF101010>"
+ coords_l: 639
+ coords_r: 710
+ coords_t: 51
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1230
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.e {
+ text: "<font face=/font/mack.font xscale=0.9 yscale=0.9>E</font>"
+ coords_l: 458
+ coords_r: 500
+ coords_t: 77
+ coords_b: 9
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: 8L
+ look_template: txt.pinnacle.gear
+ text: ""
+ coords_l: 315
+ coords_r: 461
+ coords_t: 77
+ coords_b: 9
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1300
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cc {
+ value: "45|mph"
+ look_template: txt.pinnacle.cc
+ text: ""
+ coords_l: 87
+ coords_r: 189
+ coords_t: 79
+ coords_b: 10
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear_mode {
+ value: D
+ look_template: txt.pinnacle.gearm
+ text: ""
+ coords_l: 264
+ coords_r: 410
+ coords_t: 77
+ coords_b: 9
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1380
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.lcd_gear_bcg {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FFA61B1F>"
+ coords_l: 0
+ coords_r: 145
+ coords_t: 800
+ coords_b: 672
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.lcd_gear {
+ value: A8
+ look_template: txt.pinnacle.lcd_gear
+ text: ""
+ coords_l: 0
+ coords_r: 145
+ coords_t: 800
+ coords_b: 672
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.top_lines {
+ text: "<offset hshift=110><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F><offset hshift=425><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F><offset hshift=123><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 440
+ coords_b: 382
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.lcd_clock_bg {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF202020>"
+ coords_l: 400
+ coords_r: 800
+ coords_t: 800
+ coords_b: 658
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.amb_temp {
+ value: "121|F"
+ look_template: txt.pinnacle.amb_temp
+ text: ""
+ coords_l: 531
+ coords_r: 659
+ coords_t: 452
+ coords_b: 375
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.clock {
+ value: "22:22"
+ look_template: txt.pinnacle.clock
+ text: ""
+ coords_l: 548
+ coords_r: 797
+ coords_t: 451
+ coords_b: 323
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.engbrake_ico {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.85 bottom=0.99 left=0.33 right=0.53 color=FFE6D1BB>"
+ coords_l: 713
+ coords_r: 793
+ coords_t: 69
+ coords_b: 13
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_memory {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch bottom=0.38 left=0.5>"
+ coords_l: 17
+ coords_r: 92
+ coords_t: 75
+ coords_b: &4187fffe
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1250
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cc_on {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch bottom=0.38 left=0.5 color=FF8ADB63>"
+ coords_l: 17
+ coords_r: 92
+ coords_t: 75
+ coords_b: &4187fffe
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1240
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.lcd_clock {
+ value: "22:22"
+ look_template: txt.pinnacle.clock_lcd
+ text: ""
+ coords_l: 595
+ coords_r: 789
+ coords_t: 760
+ coords_b: 690
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 16
+ my_children[0]: _nameless._.bcg0
+ my_children[1]: _nameless._.sidetab0
+ my_children[2]: _nameless._.middle_lines
+ my_children[3]: _nameless._.trip_label
+ my_children[4]: _nameless._.top_line0
+ my_children[5]: _nameless._.consump_bcg
+ my_children[6]: _nameless._.volts
+ my_children[7]: _nameless._.voltage
+ my_children[8]: _nameless._.trip_dist
+ my_children[9]: _nameless._.odometer
+ my_children[10]: _nameless._.compass
+ my_children[11]: _nameless._.speed
+ my_children[12]: _nameless._.home_icon
+ my_children[13]: _nameless._.consump_icon
+ my_children[14]: _nameless._.battery_icon
+ my_children[15]: _nameless._.cons_1
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 100
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.bcg0 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 335
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.sidetab0 {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.middle_lines {
+ text: "<offset hshift=290><img src=/material/ui/white.mat height=55px width=3px color=FF675E5F><offset hshift=210><img src=/material/ui/white.mat height=55px width=3px color=FF675E5F>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 271
+ coords_b: 213
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.trip_label {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>Trip 1</font>"
+ coords_l: 239
+ coords_r: 339
+ coords_t: 438
+ coords_b: 385
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.top_line0 {
+ text: "<offset hshift=233><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 440
+ coords_b: 382
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.consump_bcg {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=25px color=FF101010><img src=/material/ui/white.mat yscale=stretch width=155px color=FF543729><ret><offset hshift=2 vshift=-4><font face=/font/mack_light.font xscale=0.6 yscale=0.6>1</font>"
+ coords_l: 51
+ coords_r: &4366ffff
+ coords_t: 204
+ coords_b: 158
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.volts {
+ text: "<color value=FFE6D1BB><font face=/font/mack_light.font xscale=0.5 yscale=0.5>VOLTS</font>"
+ coords_l: 618
+ coords_r: 721
+ coords_t: 166
+ coords_b: 113
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.voltage {
+ value: "27.8|V"
+ look_template: txt.pinnacle.voltage
+ text: ""
+ coords_l: 604
+ coords_r: 732
+ coords_t: 224
+ coords_b: 96
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.trip_dist {
+ value: "3370|mi"
+ look_template: txt.pinnacle.dist
+ text: ""
+ coords_l: 287
+ coords_r: 535
+ coords_t: 455
+ coords_b: 389
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.odometer {
+ value: "10500000|mi"
+ look_template: txt.pinnacle.dist
+ text: ""
+ coords_l: 206
+ coords_r: 535
+ coords_t: 399
+ coords_b: 329
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.compass {
+ value: SW
+ look_template: txt.pinnacle.compass
+ text: ""
+ coords_l: 117
+ coords_r: 230
+ coords_t: 451
+ coords_b: 388
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.speed {
+ value: "45|mph"
+ look_template: txt.pinnacle.speed
+ text: ""
+ coords_l: 308
+ coords_r: 509
+ coords_t: 310
+ coords_b: 160
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.home_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.49 bottom=0.59 left=0.675 right=0.845>"
+ coords_l: 27
+ coords_r: 95
+ coords_t: 441
+ coords_b: 401
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.consump_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.815 left=0.58 right=0.76>"
+ coords_l: 116
+ coords_r: 177
+ coords_t: 284
+ coords_b: 222
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.battery_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.02 right=0.25 top=0.83>"
+ coords_l: 626
+ coords_r: 709
+ coords_t: 288
+ coords_b: 226
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.cons_1 {
+ value: "8.4"
+ look_template: txt.pinnacle.avgfuel
+ text: ""
+ coords_l: 76
+ coords_r: 231
+ coords_t: 217
+ coords_b: 149
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.title2
+ my_children[1]: _nameless._.bcg2
+ my_children[2]: _nameless._.sidetab2
+ my_children[3]: _nameless._.oil_temp_bg
+ my_children[4]: _nameless._.oil_temp_bar
+ my_children[5]: _nameless._.oil_temp_bgb
+ my_children[6]: _nameless._.oil_temp_lbl
+ my_children[7]: _nameless._.oil_temp_val
+ my_children[8]: _nameless._.truck2
+ my_children[9]: _nameless._.oil_tmp_icon
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 300
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title2 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Engine Oil Temp</font>"
+ coords_l: 120
+ coords_r: 538
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.bcg2 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.sidetab2 {
+ text: "<offset vshift=68><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.oil_temp_bg {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d><ret><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><offset vshift=21><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d></align><ret><align vstyle=bottom><offset hshift=71><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 277
+ coords_b: 253
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui_text_bar : _nameless._.oil_temp_bar {
+ vertical: false
+ min_size: 0
+ max_size: 473
+ min_value: &418e6666
+ max_value: &4314e666
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 158
+ coords_r: 631
+ coords_t: 272
+ coords_b: 258
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.oil_temp_bgb {
+ text: "<align vstyle=bottom><offset hshift=69><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 277
+ coords_b: 253
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.oil_temp_lbl {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>0<offset hshift=187>\xc2\xb0F<align hstyle=right>300</align></font>"
+ coords_l: 155
+ coords_r: 635
+ coords_t: 258
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.oil_temp_val {
+ value: "258|F"
+ look_template: txt.pinnacle.temp
+ text: ""
+ coords_l: 645
+ coords_r: 800
+ coords_t: 292
+ coords_b: 164
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.truck2 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.oil_tmp_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.62 bottom=0.81 right=0.26>"
+ coords_l: 67
+ coords_r: 144
+ coords_t: 285
+ coords_b: 228
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless._.title4
+ my_children[1]: _nameless._.bcg4
+ my_children[2]: _nameless._.sidetab4
+ my_children[3]: _nameless._.air_bcg_1
+ my_children[4]: _nameless._.air_bar
+ my_children[5]: _nameless._.air_bgb_1
+ my_children[6]: _nameless._.labels41
+ my_children[7]: _nameless._.air_bcg_2
+ my_children[8]: _nameless._.air_bgb_2
+ my_children[9]: _nameless._.labels42
+ my_children[10]: _nameless._.middle_line4
+ my_children[11]: _nameless._.air_pressure
+ my_children[12]: _nameless._.cons_block4
+ my_children[13]: _nameless._.air_icons
+ my_children[14]: _nameless._.truck4
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 400
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title4 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Air Pressures</font>"
+ coords_l: 120
+ coords_r: 538
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bcg4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.sidetab4 {
+ text: "<offset vshift=136><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_bcg_1 {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=3px color=FF5d48ad><ret><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FF5d48ad><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><offset vshift=21><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FF5d48ad><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d></align><ret><align vstyle=bottom><offset hshift=71><img src=/material/ui/white.mat color=FF5d48ad width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 334
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.air_bar {
+ vertical: false
+ min_size: 0
+ max_size: 475
+ min_value: 0
+ max_value: 12
+ text: "<img src=/material/ui/white.mat height=14px xscale=stretch color=FFFFFFFF><ret><offset vshift=131><img src=/material/ui/white.mat height=14px xscale=stretch color=FFFFFFFF>"
+ coords_l: 158
+ coords_r: 631
+ coords_t: 329
+ coords_b: 161
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1120
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_bgb_1 {
+ text: "<align vstyle=bottom><offset hshift=69><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 334
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.labels41 {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>0<offset hshift=163>PSI<align hstyle=right>174</align></font>"
+ coords_l: 155
+ coords_r: 635
+ coords_t: 315
+ coords_b: 273
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_bcg_2 {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=3px color=FF5d48ad><ret><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FF5d48ad><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><offset vshift=21><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FF5d48ad><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d></align><ret><align vstyle=bottom><offset hshift=71><img src=/material/ui/white.mat color=FF5d48ad width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 203
+ coords_b: 179
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_bgb_2 {
+ text: "<align vstyle=bottom><offset hshift=69><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 203
+ coords_b: 179
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.labels42 {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>0<offset hshift=163>PSI<align hstyle=right>174</align></font>"
+ coords_l: 155
+ coords_r: 635
+ coords_t: 184
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.middle_line4 {
+ text: "<align vstyle=center><img src=/material/ui/white.mat xscale=stretch height=3px color=FF675E5F></align>"
+ coords_l: 57
+ coords_r: &443b4001
+ coords_t: 268
+ coords_b: 244
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.air_pressure {
+ value: 78
+ look_template: txt.pinnacle.air
+ text: ""
+ coords_l: 642
+ coords_r: 780
+ coords_t: 349
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1370
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.cons_block4 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 645
+ coords_r: 773
+ coords_t: 329
+ coords_b: 201
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_icons {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch right=0.25 bottom=0.6>"
+ coords_l: 62
+ coords_r: 148
+ coords_t: 361
+ coords_b: &43140001
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.truck4 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display6 {
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.title6
+ my_children[1]: _nameless._.bcg6
+ my_children[2]: _nameless._.sidetab6
+ my_children[3]: _nameless._.no_notices
+ my_children[4]: _nameless._.low_fuel
+ my_children[5]: _nameless._.damage
+ my_children[6]: _nameless._.truck6
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 700
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title6 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Pop-up Notices</font>"
+ coords_l: 120
+ coords_r: &44070002
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.bcg6 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.sidetab6 {
+ text: "<offset vshift=306><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.no_notices {
+ text: "<align hstyle=center><font face=/font/mack.font xscale=0.7 yscale=0.7>No Notices</font></align>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 285
+ coords_b: 229
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::group : _nameless._.low_fuel {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.low_fuel_txt
+ my_children[1]: _nameless._.low_fu_block
+ my_children[2]: _nameless._.low_fuel_ico
+ coords_l: 174
+ coords_r: 302
+ coords_t: 317
+ coords_b: 189
+ area_l: 174
+ area_r: 302
+ area_t: 317
+ area_b: 189
+ id: 1200
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.low_fuel_txt {
+ text: "<align hstyle=center><font face=/font/mack.font xscale=0.8 yscale=0.8>Low Fuel Level</font></align>"
+ coords_l: 54
+ coords_r: 853
+ coords_t: 285
+ coords_b: 229
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.low_fu_block {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 64
+ coords_r: 789
+ coords_t: 387
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::text : _nameless._.low_fuel_ico {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.815 left=0.58 right=0.75>"
+ coords_l: 190
+ coords_r: 257
+ coords_t: 293
+ coords_b: 218
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low_fuel
+}
+
+ui::group : _nameless._.damage {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.damage_text
+ my_children[1]: _nameless._.damage_block
+ my_children[2]: _nameless._.damage_icon
+ coords_l: 174
+ coords_r: 302
+ coords_t: 317
+ coords_b: 189
+ area_l: 174
+ area_r: 302
+ area_t: 317
+ area_b: 189
+ id: 1190
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.damage_text {
+ text: "<align hstyle=center><font face=/font/mack.font xscale=0.8 yscale=0.8>Check Engine</font></align>"
+ coords_l: 54
+ coords_r: 844
+ coords_t: 285
+ coords_b: 229
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage
+}
+
+ui::text : _nameless._.damage_block {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 64
+ coords_r: 789
+ coords_t: 387
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage
+}
+
+ui::text : _nameless._.damage_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.37 bottom=0.675 left=0.5><ret><align hstyle=center><offset vshift=23><img src=/material/ui/white.mat width=40px height=23px color=FF291F17></align>"
+ coords_l: 159
+ coords_r: 259
+ coords_t: 285
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage
+}
+
+ui::text : _nameless._.truck6 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.title7
+ my_children[1]: _nameless._.bcg7
+ my_children[2]: _nameless._.sidetab7
+ my_children[3]: _nameless._.eng_load_bg
+ my_children[4]: _nameless._.eng_load_bar
+ my_children[5]: _nameless._.eng_load_bgb
+ my_children[6]: _nameless._.eng_load_lbl
+ my_children[7]: _nameless._.truck7
+ my_children[8]: _nameless._.eng_ico7
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 600
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title7 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Drive Train</font>"
+ coords_l: 120
+ coords_r: 539
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.bcg7 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.sidetab7 {
+ text: "<offset vshift=272><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.eng_load_bg {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d><ret><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><offset vshift=21><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=233px height=3px color=FFb79f8d><img src=/material/ui/white.mat yscale=stretch width=125px height=3px color=FFb79f8d><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px color=FFb79f8d></align><ret><align vstyle=bottom><offset hshift=71><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px><offset hshift=62><img src=/material/ui/white.mat color=FFb79f8d width=18px height=9px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 277
+ coords_b: 253
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui_text_bar : _nameless._.eng_load_bar {
+ vertical: false
+ min_size: 0
+ max_size: 473
+ min_value: &3e800000
+ max_value: &3f400000
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 158
+ coords_r: 631
+ coords_t: 272
+ coords_b: 258
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.eng_load_bgb {
+ text: "<align vstyle=bottom><offset hshift=69><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px><offset hshift=58><img src=/material/ui/white.mat color=FF000000 width=22px height=11px></align>"
+ coords_l: 153
+ coords_r: 636
+ coords_t: 277
+ coords_b: 253
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.eng_load_lbl {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>0<offset hshift=55>ENGINE LOAD %<align hstyle=right>125</align></font>"
+ coords_l: 155
+ coords_r: 635
+ coords_t: 258
+ coords_b: 210
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.truck7 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.eng_ico7 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.37 bottom=0.675 left=0.5><ret><align hstyle=center><offset vshift=19><img src=/material/ui/white.mat width=35px height=20px color=FF291F17></align>"
+ coords_l: 57
+ coords_r: 141
+ coords_t: 285
+ coords_b: 236
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 20
+ my_children[0]: _nameless._.title1
+ my_children[1]: _nameless._.bcg1
+ my_children[2]: _nameless._.sidetab1
+ my_children[3]: _nameless._.fuel_bar_bcg
+ my_children[4]: _nameless._.left_box
+ my_children[5]: _nameless._.right_box
+ my_children[6]: _nameless._.fuel_dst_txt
+ my_children[7]: _nameless._.fuel_txt
+ my_children[8]: _nameless._.mpg_label
+ my_children[9]: _nameless._.mpg_labels
+ my_children[10]: _nameless._.inst_eco_dot
+ my_children[11]: _nameless._.fuel_dist
+ my_children[12]: _nameless._.fuel_remain
+ my_children[13]: _nameless._.avg_eco_dot
+ my_children[14]: _nameless._.consump_bcg2
+ my_children[15]: _nameless._.truck1
+ my_children[16]: _nameless._.fuel_icon1
+ my_children[17]: _nameless._.fuel_dst_ico
+ my_children[18]: _nameless._.fuel_icon
+ my_children[19]: _nameless._.cons_2
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 200
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title1 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Fuel Economy</font>"
+ coords_l: 120
+ coords_r: 538
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bcg1 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.sidetab1 {
+ text: "<offset vshift=34><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_bar_bcg {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=3px><ret><align vstyle=bottom><img src=/material/ui/white.mat xscale=stretch height=3px></align><ret><img src=/material/ui/white.mat yscale=stretch width=3px><ret><align hstyle=right><img src=/material/ui/white.mat yscale=stretch width=3px><ret></align><ret><offset vshift=3 hshift=3><img src=/material/ui/white.mat color=FF101010 width=426px height=21px>"
+ coords_l: 137
+ coords_r: 569
+ coords_t: 318
+ coords_b: 291
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.left_box {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=35px color=FF101010><ret><offset vshift=35><img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF543729>"
+ coords_l: 41
+ coords_r: 397
+ coords_t: 218
+ coords_b: 116
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.right_box {
+ text: "<img src=/material/ui/white.mat xscale=stretch height=35px color=FF101010><ret><offset vshift=35><img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF543729>"
+ coords_l: 409
+ coords_r: 764
+ coords_t: 218
+ coords_b: 116
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_dst_txt {
+ text: "<font face=/font/mack.font xscale=0.6 yscale=0.6>Distance to Empty</font>"
+ coords_l: 55
+ coords_r: &43c10001
+ coords_t: 224
+ coords_b: 182
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_txt {
+ text: "<font face=/font/mack.font xscale=0.6 yscale=0.6>Remaining Fuel</font>"
+ coords_l: 448
+ coords_r: 727
+ coords_t: 224
+ coords_b: 182
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.mpg_label {
+ text: "<font face=/font/mack.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>MPG</font>"
+ coords_l: 482
+ coords_r: 574
+ coords_t: 361
+ coords_b: 303
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.mpg_labels {
+ text: "<font face=/font/mack_light.font xscale=0.6 yscale=0.6><color value=FFE6D1BB>0<align hstyle=right>15</align></font>"
+ coords_l: &43090002
+ coords_r: 569
+ coords_t: 294
+ coords_b: 246
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.inst_eco_dot {
+ vertical: false
+ min_size: 0
+ max_size: 407
+ min_value: 0
+ max_value: &40cc1062
+ text: "<align hstyle=right><img src=/material/ui/dashboard/mack_pinnacle/icons.mat left=0.85 right=1 top=0.856 bottom=1 xscale=stretch yscale=stretch width=22 height=22></align>"
+ coords_l: 160
+ coords_r: 567
+ coords_t: 315
+ coords_b: 294
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel_dist {
+ value: "8888|km"
+ look_template: txt.pinnacle.dist
+ text: ""
+ coords_l: 154
+ coords_r: 386
+ coords_t: 182
+ coords_b: 115
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel_remain {
+ value: "109|gal"
+ look_template: txt.pinnacle.fuel
+ text: ""
+ coords_l: 530
+ coords_r: 751
+ coords_t: 181
+ coords_b: 115
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.avg_eco_dot {
+ vertical: false
+ min_size: 0
+ max_size: 429
+ min_value: 0
+ max_value: &40cc1062
+ text: "<align hstyle=right><img src=/material/ui/dashboard/mack_pinnacle/icons.mat left=0.86 right=0.98 top=0.76 bottom=0.69 xscale=stretch yscale=stretch width=30 height=18></align>"
+ coords_l: 151
+ coords_r: 580
+ coords_t: 290
+ coords_b: 269
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.consump_bcg2 {
+ text: "<img src=/material/ui/white.mat yscale=stretch width=25px color=FF101010><img src=/material/ui/white.mat yscale=stretch width=155px color=FF543729><ret><offset hshift=2 vshift=-4><font face=/font/mack_light.font xscale=0.6 yscale=0.6>1</font>"
+ coords_l: 606
+ coords_r: 786
+ coords_t: 328
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.truck1 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_icon1 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.815 left=0.58 right=0.76>"
+ coords_l: 59
+ coords_r: 120
+ coords_t: 327
+ coords_b: 265
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_dst_ico {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.58 right=0.79 top=0.675 bottom=0.815>"
+ coords_l: 51
+ coords_r: 138
+ coords_t: 182
+ coords_b: 119
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.26 right=0.43 top=0.68 bottom=0.83>"
+ coords_l: 425
+ coords_r: 502
+ coords_t: 184
+ coords_b: 116
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.cons_2 {
+ value: "8.4"
+ look_template: txt.pinnacle.avgfuel
+ text: ""
+ coords_l: 631
+ coords_r: 786
+ coords_t: 341
+ coords_b: 273
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 18
+ my_children[0]: _nameless._.title_6
+ my_children[1]: _nameless._.bcg_6
+ my_children[2]: _nameless._.tab_6
+ my_children[3]: _nameless._.truck_icon_6
+ my_children[4]: _nameless._.trip_dist_2
+ my_children[5]: _nameless._.lines
+ my_children[6]: _nameless._.avg_spd_icon
+ my_children[7]: _nameless._.avg_fuel_ico.n
+ my_children[8]: _nameless._.dist_to_emp_.icon
+ my_children[9]: _nameless._.fuel_left_ic.on
+ my_children[10]: _nameless._.trip_time_ic.on
+ my_children[11]: _nameless._.idle_time_ic.on
+ my_children[12]: _nameless._.fuel_left
+ my_children[13]: _nameless._.fuel_dist_2
+ my_children[14]: _nameless._.fuel_cons_3
+ my_children[15]: _nameless._.avg_spd
+ my_children[16]: _nameless._.trip_time
+ my_children[17]: _nameless._.fake_idle_ti.me
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 500
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+
+ui::text : _nameless._.title_6 {
+ text: "<font face=/font/mack.font xscale=0.8 yscale=0.8>Trip 1</font>"
+ coords_l: 120
+ coords_r: &44070002
+ coords_t: 450
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.bcg_6 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF291F17><ret><img src=/material/ui/white.mat xscale=stretch height=55 color=FF543729>"
+ coords_l: 10
+ coords_r: 800
+ coords_t: 387
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.tab_6 {
+ text: "<offset vshift=204><img src=/material/ui/white.mat xscale=stretch height=31px color=FFFFFFFF>"
+ coords_l: 0
+ coords_r: 8
+ coords_t: 445
+ coords_b: -5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.truck_icon_6 {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.09 bottom=0.2 left=0.25 right=0.50>"
+ coords_l: 23
+ coords_r: &42d60003
+ coords_t: 435
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.trip_dist_2 {
+ value: "3370|mi"
+ look_template: txt.pinnacle.dist2
+ text: ""
+ coords_l: 0
+ coords_r: 800
+ coords_t: 376
+ coords_b: 305
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.lines {
+ text: "<align hstyle=center><offset vshift=8><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F><br offset=31><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F><br offset=28><img src=/material/ui/white.mat height=42px width=3px color=FF675E5F></align><ret><align hstyle=center><offset vshift=66><img src=/material/ui/white.mat height=3px xscale=stretch color=FF675E5F><br offset=57><img src=/material/ui/white.mat height=3px xscale=stretch color=FF675E5F></align>"
+ coords_l: 20
+ coords_r: 790
+ coords_t: 327
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.avg_spd_icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.248 right=0.405 top=0.232 bottom=0.375 color=FFE6D1BB>"
+ coords_l: 25
+ coords_r: 91
+ coords_t: 326
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.avg_fuel_ico.n {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch top=0.815 left=0.58 right=0.76 color=FFE6D1BB><ret><offset vshift=21 hshift=10><img src=/material/ui/white.mat width=22px height=25px color=FFE6D1BB>"
+ coords_l: 28
+ coords_r: 89
+ coords_t: 255
+ coords_b: 193
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.dist_to_emp_.icon {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.58 right=0.79 top=0.675 bottom=0.815 color=FFE6D1BB>"
+ coords_l: 423
+ coords_r: 510
+ coords_t: 327
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.fuel_left_ic.on {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.26 right=0.43 top=0.68 bottom=0.83 color=FFE6D1BB>"
+ coords_l: 428
+ coords_r: 505
+ coords_t: 260
+ coords_b: 192
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.trip_time_ic.on {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.255 right=0.394 top=0.536 bottom=0.673 color=FFE6D1BB>"
+ coords_l: 30
+ coords_r: 88
+ coords_t: 185
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.idle_time_ic.on {
+ text: "<img src=/material/ui/dashboard/mack_pinnacle/icons.mat xscale=stretch yscale=stretch left=0.44 right=0.56 top=0.689 bottom=0.827 color=FFE6D1BB>"
+ coords_l: 444
+ coords_r: 491
+ coords_t: 182
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.fuel_left {
+ value: "109|gal"
+ look_template: txt.pinnacle.fuel
+ text: ""
+ coords_l: 569
+ coords_r: 790
+ coords_t: 261
+ coords_b: 195
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.fuel_dist_2 {
+ value: "8888|km"
+ look_template: txt.pinnacle.dist
+ text: ""
+ coords_l: 558
+ coords_r: 790
+ coords_t: 331
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.fuel_cons_3 {
+ value: "6.4|mpg"
+ look_template: txt.pinnacle.fuel
+ text: ""
+ coords_l: 175
+ coords_r: 396
+ coords_t: 261
+ coords_b: 195
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.avg_spd {
+ value: "35|mph"
+ look_template: txt.pinnacle.avgspd
+ text: ""
+ coords_l: 175
+ coords_r: 396
+ coords_t: 331
+ coords_b: 265
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1400
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.trip_time {
+ value: "4:28"
+ look_template: txt.pinnacle.triptime
+ text: ""
+ coords_l: 175
+ coords_r: 396
+ coords_t: 191
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.fake_idle_ti.me {
+ text: "<align hstyle=right><font face=/font/mack.font xscale=0.9 yscale=0.9>0</font><color value=FFE6D1BB><offset vshift=25 hshift=2><font face=/font/db_normal.font xscale=2.328 yscale=2.328>%</font></align>"
+ coords_l: 645
+ coords_r: 790
+ coords_t: 191
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+
+ui::text : _nameless.bgmk_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/mack_cluster_intro.mat left=0 right=0.996884735202 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 454
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.1d2.eb10
+}
+}

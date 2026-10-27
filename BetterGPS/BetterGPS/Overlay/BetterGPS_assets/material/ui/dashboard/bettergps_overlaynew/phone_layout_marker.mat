@@ -1,0 +1,8 @@
+effect : "ui.rfx" {
+	texture : "texture" {
+		source : "phone_layout_marker.tobj"
+		u_address : clamp
+		v_address : clamp
+		mip_filter : none
+	}
+}

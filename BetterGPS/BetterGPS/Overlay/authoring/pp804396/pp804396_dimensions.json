@@ -1,0 +1,56 @@
+{
+  "part_number": "PP804396",
+  "type": "right side view camera",
+  "units": "metres",
+  "confirmed_features": [
+    "1/3 inch color CMOS",
+    "right side mounting",
+    "waterproof housing",
+    "night vision",
+    "paintable housing"
+  ],
+  "estimated_dimensions_mm": {
+    "base_width": 84,
+    "base_length": 106,
+    "base_thickness": 6,
+    "housing_width": 64,
+    "housing_height_above_base": 52,
+    "housing_length": 89,
+    "ball_diameter": 46.6,
+    "lens_outer_diameter": 23,
+    "mount_hole_diameter": 6.4
+  },
+  "dimensions_status": "photo-derived estimates; OEM enclosure dimensions unavailable",
+  "current_uniform_scale": 0.65,
+  "current_base_size_mm": [
+    54.6,
+    68.9
+  ],
+  "photo_interpretation": {
+    "visible_IR_modules": 6,
+    "IR_count_is_not_an_OEM_specification": true
+  },
+  "user_adjustment": {
+    "ball_up_degrees": 57.33706117642588,
+    "IR_depth_from_user_template": true,
+    "housing_and_base_fixed": true,
+    "separate_editable_ball_group": true
+  },
+  "blender_axes": {
+    "front": "-Y",
+    "up": "+Z",
+    "mounting_plane": "Z=0"
+  },
+  "source_triangles": 4407,
+  "scs_lod_triangles": {
+    "1": 1249,
+    "0": 4407,
+    "left_1": 1249,
+    "left_0": 4407
+  },
+  "uv": "8 solid palette swatches, no complex atlas",
+  "source_urls": [
+    "https://peterbiltparts.com/products/pana-pacific-camera-kit-pp804396",
+    "https://www.panapacific.com/products/pro-view-right-side-view-color-cmos-camera-kit-for-kenworth-navplus-system-or-peterbilt-smartnav-system-and-for-kenworth-navplus-hd-system-or-peterbilt-smartnav-2nd-generation-system"
+  ]
+}

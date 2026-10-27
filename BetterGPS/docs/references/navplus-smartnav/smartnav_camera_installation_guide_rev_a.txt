@@ -1,0 +1,236 @@
+=== PAGE 1 ===
+Camera Installation Guide w/
+SmartNav 2.0
+• Parts required to order from PACCAR Parts
+• 1x PP207020 Adaptor Harness. This allows up to 4 cam eras to be connected
+
+
+=== PAGE 2 ===
+Adaptor Harness PP207020
+
+
+=== PAGE 3 ===
+Two Camera Vendors via
+PACCAR Parts
+1. Pana-Pacific
+– Left, Right, Forward, and Back-up Camera available
+– Installation Instructions – See following slides
+2. Velvac Camera Kits
+– Left, Right, Forward, Camera available
+– Installation Instructions – See following slides
+
+=== PAGE 4 ===
+Pana-Pacific Cameras/Jumpers
+Through PACCAR Parts
+• Cameras
+• Available Camera kits. Kits include a camera and ext ension harness.
+• PP807032 – Front Camera with 16 ft cable
+• PP804395 – Rear Camera with 70 ft cable
+• PP804396 – Right Side Camera with 16 ft cable
+• PP804397 – Left Side Camera with 16 ft cable
+• Jumpers
+• Extension cables are available if a longer length is required:
+• RRC-10: 10 ft extension
+• RRC-1: 16 ft extension
+• RRC-35: 35 ft extension
+• RRC-70: 70 ft extension
+
+=== PAGE 5 ===
+Velvac Cameras/Jumpers
+Through PACCAR Parts
+
+=== PAGE 6 ===
+Velvac Cameras/Jumpers
+Through PACCAR Parts
+
+
+=== PAGE 7 ===
+Velvac Cameras/Jumpers
+Through PACCAR Parts
+
+
+=== PAGE 8 ===
+Camera Installation Block Diagram
+
+
+=== PAGE 9 ===
+PP207020 Adaptor Harness Plugs into Back of the Head Unit.
+The existing harness plug connects to the PP2010220 Adaptor Harness.
+Adaptor Harness
+PP207020
+4x Camera
+Inputs
+Display DEA 600
+connection
+Existing
+Harness
+connection
+Radio Head
+Unit DEA 610
+connection
+
+
+=== PAGE 10 ===
+Adaptor Harness PP207020
+Connection Display DEA 600
+Display DEA 600
+connection
+Display DEA 600
+connection
+
+=== PAGE 11 ===
+P92-8917
+Radio Head
+Unit DEA 610
+connection
+Adaptor Harness PP207020
+Connection Radio Head Unit  DEA 610
+
+=== PAGE 12 ===
+Camera Connections
+4x Camera Inputs
+
+
+=== PAGE 13 ===
+Camera Configuration Options
+• Camera
+– Video Input 1 – Reverse (Back-up) Camera
+– Video Input 2 – Forward Facing Camera
+– Video Input 3 – Right Turn Camera
+– Video Input 4 – Left Turn Camera
+• Cameras can be configured to be selected manually or Automatically (Via
+J1939 CAN Messages)
+• In Manual mode the user select the camera view
+• In Auto mode the camera view is selected automatically depending on the
+truck state
+– Left turn signal active
+– Right turn signal active
+– Reverse active
+– Front default
+– Note the user may manually select the camera view when left, right turn signal or
+reverse is not active
+
+=== PAGE 14 ===
+Camera Views
+Select camera views in “Home” screen to access the
+available camera views
+
+=== PAGE 15 ===
+Camera Display Activation DEA 600
+To configure the cameras within the DEA 600 Display
+ Enter camera views application select the desired camera view and activate “ON”
+
+
+=== PAGE 16 ===
+Camera Display Activation DEA 600
+To configure the cameras within the DEA 600 Display
+ Enter the Advanced Menu and follow the steps:
+– Simultaneously select the following hard keys Home  & Brightness . Hold for greater
+than 8 seconds. The display will enter the “Advanced Menu”
+– Scroll down to page 2
+
+=== PAGE 17 ===
+Camera Display Activation DEA 600
+– Page 2 Select Camera Required
+
+=== PAGE 18 ===
+Camera Display Activation DEA 600
+– Scroll up to page 1
+– Select “SAVE”
+– Pop Up Save Configuration appears “OK” or “Cancel” Select “OK”
+– System Reboots
+– Cameras are now active and manually selectable within the camera view menu
+– Completed
+ To set Cameras to Auto follow the steps above and continue the procedure using ESA.
+The ESA process is described in the next slides
+
+=== PAGE 19 ===
+Camera Views
+To activate a camera view, select the Forward, Right, Left or Reverse  soft key indicated on the display truck graphic
+
+
+=== PAGE 20 ===
+Example Camera View (Right)
+
+
+=== PAGE 21 ===
+Automatic Mode
+• Automatic Camera Mode by Model
+• Camera activation DEA 600
+– Cameras must be set to on within the DEA 600
+Peterbilt Auto Camera
+Availability
+Model Auto Camera
+325 NO
+330 NO
+337 NO
+348 NO
+382 NO
+320 NO
+365 YES
+367 YES
+389 YES
+587 NO
+567 YES
+579 YES
+Kenworth Auto Camera Availability
+Model LH
+Camera
+RH
+Camera
+Reverse
+Camera
+T270 YES YES NO
+T370 YES YES NO
+T440 YES YES ???
+T460 YES YES ???
+T470 YES YES ???
+C500 YES YES YES
+T660 YES YES YES
+T680 YES YES YES
+T800 YES YES YES
+T880 YES YES YES
+W900 YES YES YES
+
+=== PAGE 22 ===
+ESA Procedure for Setting Automatic Camera
+Mode
+• Program area of ESA (use the program button at top),
+– Look under the network interface tab.
+• Enable Router should be set to “Enable”
+• Transmit CECU LC Message should be set to “Gateway or Route to VCAN”
+NAMUX 3
+
+=== PAGE 23 ===
+ESA Procedure for Setting Automatic Camera
+Mode
+• Program area of ESA (use the program button at top),
+– Look under the network interface tab.
+• Enable Router should be set to “Enable”
+• Transmit CECU LC Message should be set to “Gateway or Route to VCAN”
+NAMUX 4
+
+=== PAGE 24 ===
+ESA Procedure for Setting Automatic Camera
+Mode
+• Program area of ESA (use the program button at top),
+– Look under the network interface tab.
+• Enable Router should be set to “Enable”
+• Transmit CECU LC Message should be set to “Gateway or Route to VCAN”
+• Once these are set, should see the lighting information
+on the bus.
+– Provides info SmartNav needs for the Automatic mode in the camera
+screen.
+• Note: Cameras will only work in automatic mode if the
+SmartNav is put in camera mode.
+– If in GPS mode or something else - camera view won't automatically pop up
+
+=== PAGE 25 ===
+J1939 CAN Messages
+• CAN Messages are used to activate camera views:
+– SPN 2367, PGN 65089 Left Turn Signal
+– SPN 2369, PGN 65089 Right Turn Signal
+– SPN 2391, PGN 65089 Backup Light
+• Note: no message to activate the forward facing camera.  The only way for
+a user to access it is to go the camera screen under the truck menu where
+it is the default camera view.

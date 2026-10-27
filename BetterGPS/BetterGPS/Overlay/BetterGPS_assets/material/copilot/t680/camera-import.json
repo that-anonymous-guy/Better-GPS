@@ -1,0 +1,29 @@
+[
+  {
+    "name": "navplushd_simple_background.dds",
+    "size": [
+      1324,
+      800
+    ],
+    "source_sha256": "9e540870a1a5e9ba6ed823492ea39510571c4763ee0789be669fa040c4a478f2",
+    "sha256": "f950bdadcc3b98f006789624a2abe0f02051a1dbba6f20bd807f97a620c43306"
+  },
+  {
+    "name": "navplushd_camera_icon.dds",
+    "size": [
+      253,
+      488
+    ],
+    "source_sha256": "44ec316254f2bd0fafa2475e150ff3e0be1a7f412159327bc381c0450d32e867",
+    "sha256": "c80ab4a3b8b828b448dd4a5e7914b71597809859cbe2c44988e305393ed1a599"
+  },
+  {
+    "name": "navplushd_camera_noavailable.dds",
+    "size": [
+      547,
+      114
+    ],
+    "source_sha256": "200a08ede235e51c00a8d536a1ed98051cba1672500422b37ce1403e8cc3b53d",
+    "sha256": "c29611f533bbffd9b301ae9247f480a504fffaa22720c02c1fbbbe33afebd982"
+  }
+]

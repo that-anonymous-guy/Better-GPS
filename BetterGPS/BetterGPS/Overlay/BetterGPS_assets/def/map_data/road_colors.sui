@@ -1,0 +1,2 @@
+	road_color:			0xFFFDFDFD 	# Advisor map undiscovered route
+	road_discovered_color:		0xFF4FAEF2	# Advisor map discovered route

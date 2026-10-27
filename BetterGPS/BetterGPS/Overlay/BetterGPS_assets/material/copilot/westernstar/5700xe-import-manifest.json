@@ -1,0 +1,44 @@
+{
+  "artwork": [
+    {
+      "path": "western_star_5700xe_splash_screen.dds",
+      "size": [
+        1065,
+        300
+      ],
+      "source_sha256": "22680d62757f46a17a4d6b55410e5f62a7ecd943054518893fcc89c3136d6dd4",
+      "sha256": "4e1be01aa9155e6a4078873d54f1b6df633412470aac348d3f7fb03f44380771"
+    },
+    {
+      "path": "western_star_zonar_5700xe_home.dds",
+      "size": [
+        1240,
+        724
+      ],
+      "source_sha256": "ad73e6ef866aaa68f30d01c7b69180099da5bc190d316409d3e78340b1bd36bf",
+      "sha256": "a022bcdfdfc28b0cf153d9e80be3f2f8146c64ff31bbac270815ba737897ce5d"
+    },
+    {
+      "path": "western_star_zonar_5700xe_nav.dds",
+      "size": [
+        1240,
+        724
+      ],
+      "source_sha256": "5faca819234b63c314fac318fbe395cda825b51f8d0228bd43054730a5e08e8f",
+      "sha256": "74cf3c6fa923d72ffeab2d35663230cb6b27f66f01969f3dd29789d7a1bee9c6"
+    },
+    {
+      "path": "western_star_zonar_5700xe_notrip.dds",
+      "size": [
+        1240,
+        724
+      ],
+      "source_sha256": "6bf46f60bf2874bec45e4b5f4ead78ede9c73ac06afb8de19b085f231e8ab56d",
+      "sha256": "852beaa45bdff6fcd1df7576a05f78692ec428f2ccc1d646313d02ebe258c146"
+    }
+  ],
+  "native": {
+    "ui/dashboard/westernstar_5700xe.sii": "1abe5e8bd1852fac39a5357f7163b306c9e8111ae44c0a61c4881559d7175b17",
+    "ui/dashboard/westernstar_5700xe_gps.sii": "0122056600ce9000ae2dd4de69543d6d1382ab5d32ae6b1fc79b8c85ad1a348f"
+  }
+}

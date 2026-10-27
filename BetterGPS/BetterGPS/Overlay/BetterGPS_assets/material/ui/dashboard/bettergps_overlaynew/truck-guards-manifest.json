@@ -1,0 +1,62 @@
+{
+  "ui/gps.sii": {
+    "original_sha256": "e8361b7c0a4312351442374a0c8642f86b825c369151aa6d8991655f421dae5f",
+    "ui_rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "marker_role": 157
+  },
+  "ui/gmaps_kenworthw900_gps.sii": {
+    "original_sha256": "d52b0b58f879a27117d1b8b1dfda9db850cbcae994c9a4b270749061c73e973f",
+    "ui_rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "marker_role": 157
+  },
+  "ui/gmaps_kenwortht680_gps.sii": {
+    "original_sha256": "252e3e3e63ff619134d71d2c0d6c5a8bcc1111a2bff077f5ae45e27544fbd82e",
+    "ui_rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "marker_role": 157
+  },
+  "ui/gmaps_peterbilt389_gps.sii": {
+    "original_sha256": "8b61e12f721c349b0d62b0e63bd0b690ff1d9816542119fe80f12c95084c8b96",
+    "ui_rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "marker_role": 157
+  },
+  "ui/gmaps_peterbilt579_gps.sii": {
+    "original_sha256": "d52b0b58f879a27117d1b8b1dfda9db850cbcae994c9a4b270749061c73e973f",
+    "ui_rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "marker_role": 157
+  },
+  "ui/dashboard/kenworth_t680_2022_gps.sii": {
+    "original_sha256": "7c750136afaf6edf33cb1ea03c40be3ef1bdfd13301f402971ad66b1b75f4574",
+    "ui_rect": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "marker_role": 157
+  }
+}

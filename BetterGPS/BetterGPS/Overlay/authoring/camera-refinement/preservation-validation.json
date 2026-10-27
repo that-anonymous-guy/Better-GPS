@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "preserved_rear_side_and_storage_files": 9,
+  "version": "0.13.0",
+  "front_mount_delta_scs_m": {
+    "low_chrome_fog": [
+      0.005299999999999971,
+      -0.0049000000000000155,
+      -0.0004524999999999998
+    ],
+    "low_chrome_fog_aero": [
+      0.005299999999999971,
+      -0.0049000000000000155,
+      -0.0004524999999999998
+    ],
+    "low_paint_fog": [
+      0.005299999999999971,
+      -0.0049000000000000155,
+      -0.0004524999999999998
+    ],
+    "low_paint_fog_aero": [
+      0.005299999999999971,
+      -0.0049000000000000155,
+      -0.0004524999999999998
+    ],
+    "standard_paint_fog": [
+      -0.0015000000000000013,
+      0.0015000000000000013,
+      -5.750000000000026e-05
+    ],
+    "standard_paint_fog_aero": [
+      -0.0015000000000000013,
+      0.0015000000000000013,
+      -5.750000000000026e-05
+    ],
+    "standard_plastic_fog": [
+      -0.0015000000000000013,
+      0.0015000000000000013,
+      -5.750000000000026e-05
+    ],
+    "standard_plastic_fog_aero": [
+      -0.0015000000000000013,
+      0.0015000000000000013,
+      -5.750000000000026e-05
+    ]
+  },
+  "stock_bumper_vertex_index_pools": "unchanged, independently verified by CameraModelCheck",
+  "runtime_texture_bytes": 1399117,
+  "native_triangles": {
+    "pp804395": 5562,
+    "pp804396": 7229,
+    "pp804397": 7229,
+    "pp807032": 4966,
+    "pp807032_low": 4966
+  },
+  "in_game_validation": "pending; offline rendering and native asset verification only"
+}

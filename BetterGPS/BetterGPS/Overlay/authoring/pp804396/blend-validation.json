@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "ball_up_degrees": 57.33706130802528,
+  "user_IR_POD_depth_replicated_to_all_modules": true,
+  "uniform_scale": 0.65,
+  "fixed_meshes_checked": 15,
+  "fixed_enclosure_unchanged_when_ball_rotates": true,
+  "base_on_Z_zero": true,
+  "one_simple_palette_uv_per_mesh": true
+}

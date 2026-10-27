@@ -1,0 +1,64 @@
+// CoPilot V9-inspired palette; green route requested for both modes.
+	road_color: 0xFF4A4845 	//Advisor map undiscovered route
+	road_discovered_color: 0xFF4A4845	//Advisor map discovered route
+	job_road_color:			0x50353535	//Job market map undiscovered route
+	job_road_discovered_color:	0xFF2b3436	//Job market map discovered route
+	world_road_color:		0xFF707070	//Main map undiscovered route
+	world_road_discovered_color:	0xFF4cc6ff 	//Main map discovered route
+	fleet_manager_road_color:		0xff424242	//Fleet manager map undiscovered route
+	fleet_manager_road_discovered_color:	0xff424242 	//Fleet manager map discovered route
+
+	// Map area colors
+	// !!DO NOT REORDER OR DELETE ANY ENTRIES!!
+
+	map_area_color_name[]: "Road"
+ map_area_color[]: 0xFF2158B7
+ map_area_discovered_color[]: 0xFF2158B7
+
+	map_area_color_name[]: "Light"
+ map_area_color[]: 0xFF4A4845
+ map_area_discovered_color[]: 0xFF4A4845
+
+	map_area_color_name[]: "Dark"
+ map_area_color[]: 0xFF3E3C39
+ map_area_discovered_color[]: 0xFF3E3C39
+
+	map_area_color_name[]: "Green"
+ map_area_color[]: 0xFF2B3B28
+ map_area_discovered_color[]: 0xFF2B3B28
+
+	prefab_color: 0xFF4A4845	//Undiscovered prefab driveable areas
+	prefab_obstacle_color: 0xFF3E3C39	//Undiscovered prefab buildings
+	prefab_grass_color: 0xFF2B3B28	//Undiscovered prefab grass areas
+	prefab_discovered_color: 0xFF4A4845	//Discovered prefab driveable areas
+	prefab_obstacle_discovered_color: 0xFF3E3C39	//Discovered prefab buildings
+	prefab_grass_discovered_color: 0xFF2B3B28	//Discovered prefab grass
+
+	outline_color: 0xFF1F5529	//Route outline
+	navigation_color: 0xFF3DC560	//Navigation path color
+	navigation_highlight_color: 0xFF3DC560	//Navigation path color, highligted segment
+	navigation_fade_color: 0xFF3DC560	//Navigation path color, faded segment
+	navigation_arrow_color: 0xFF3DC560	//Navigation crossroad arrows color
+
+// ATS 1.61 additional map area entries, original index order.
+	map_area_color_name[]: "Nav-Red"
+ map_area_color[]: 0xFF3DC560
+ map_area_discovered_color[]: 0xFF3DC560
+
+	map_area_color_name[]: "Nav-Green"
+ map_area_color[]: 0xFF3DC560
+ map_area_discovered_color[]: 0xFF3DC560
+
+	map_area_color_name[]: "Nav-Blue"
+ map_area_color[]: 0xFF3DC560
+ map_area_discovered_color[]: 0xFF3DC560
+
+	map_area_color_name[]: "Nav-Yellow"
+ map_area_color[]: 0xFF3DC560
+ map_area_discovered_color[]: 0xFF3DC560
+
+	map_area_color_name[]: "Nav-Purple"
+ map_area_color[]: 0xFF3DC560
+ map_area_discovered_color[]: 0xFF3DC560
+
+navigation_current_color: 0xFF3DC560 // ATS 1.61, CoPilot green

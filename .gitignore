@@ -1,0 +1,11 @@
+BetterGPS/build/
+BetterGPS/dist/
+BetterGPS/.bettergps-dev-pending.json
+BetterGPS/.bettergps-dev.json
+**/bin/
+**/obj/
+**/publish/
+**/__pycache__/
+*.py[cod]
+*.log
+BetterGPS/exports/

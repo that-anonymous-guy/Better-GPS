@@ -1,0 +1,21 @@
+SiiNunit
+{
+
+accessory_addon_data : sign.kenworth.t680_2022.f_banner
+{
+	name: "@@banner_oversize_load@@"
+	price: 50
+	unlock: 0
+	icon: "sign_os/sign_os"
+	part_type: factory
+
+	exterior_model: "/vehicle/truck/kenworth_t680_2022/accessory/f_banner/sign.pmd"
+
+	suitable_for[]: "std_pla_f.kenworth.t680_2022.bumper"
+	suitable_for[]: "std_pla_f_a.kenworth.t680_2022.bumper"
+	suitable_for[]: "std_pnt_f.kenworth.t680_2022.bumper"
+	suitable_for[]: "std_pnt_f_a.kenworth.t680_2022.bumper"
+
+	conflict_with[]: "small.kenworth.t680_2022.bullbar"
+}
+}

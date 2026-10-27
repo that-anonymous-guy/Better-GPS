@@ -1,0 +1,12 @@
+SiiNunit
+{
+mod_package : .package_name
+{
+    package_version: "0.13.2"
+    display_name: "BetterGPS - Pana-Pacific Cameras T680 NG"
+    author: "BetterGPS"
+    category[]: "tuning_parts"
+    description_file: "mod_description.txt"
+    compatible_versions[]: "1.61.*"
+}
+}

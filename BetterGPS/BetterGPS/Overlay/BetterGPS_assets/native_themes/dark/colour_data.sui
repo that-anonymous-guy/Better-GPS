@@ -1,0 +1,64 @@
+// Predator native dark palette; BetterGPS blue route additions.
+	road_color:			0xFF6e5642 	//Advisor map undiscovered route
+	road_discovered_color:		0xFF6e5642	//Advisor map discovered route
+	job_road_color:			0x50353535	//Job market map undiscovered route
+	job_road_discovered_color:	0xFF2b3436	//Job market map discovered route
+	world_road_color:		0xFF707070	//Main map undiscovered route
+	world_road_discovered_color:	0xFF4cc6ff 	//Main map discovered route
+	fleet_manager_road_color:		0xff424242	//Fleet manager map undiscovered route
+	fleet_manager_road_discovered_color:	0xff424242 	//Fleet manager map discovered route
+
+	// Map area colors
+	// !!DO NOT REORDER OR DELETE ANY ENTRIES!!
+
+	map_area_color_name[]: "Road"
+	map_area_color[]: 0xFF6e5642
+	map_area_discovered_color[]: 0xFF6e5642
+
+	map_area_color_name[]: "Light"
+	map_area_color[]: 0xFF6e5642
+	map_area_discovered_color[]: 0xFF6e5642
+
+	map_area_color_name[]: "Dark"
+	map_area_color[]: 0xFF4e3426
+	map_area_discovered_color[]: 0xFF4e3426
+
+	map_area_color_name[]: "Green"
+	map_area_color[]: 0xFF434014
+	map_area_discovered_color[]: 0xFF434014
+	
+	prefab_color:				0xFF6e5642	//Undiscovered prefab driveable areas
+	prefab_obstacle_color:			0xFF4e3426	//Undiscovered prefab buildings
+	prefab_grass_color:			0xFF434014	//Undiscovered prefab grass areas
+	prefab_discovered_color:		0xFF6e5642	//Discovered prefab driveable areas
+	prefab_obstacle_discovered_color:	0xFF4e3426	//Discovered prefab buildings
+	prefab_grass_discovered_color:		0xFF434014	//Discovered prefab grass
+
+	outline_color:			0xFFA64E17	//Route outline
+	navigation_color:		0xFFF48542	//Navigation path color
+	navigation_highlight_color:	0xFFF48542	//Navigation path color, highligted segment
+	navigation_fade_color:		0x50F48542	//Navigation path color, faded segment
+	navigation_arrow_color:		0x0006FB11	//Navigation crossroad arrows color
+
+// ATS 1.61 additional map area entries, original index order.
+	map_area_color_name[]: "Nav-Red"
+	map_area_color[]: 0xFF787890
+	map_area_discovered_color[]: 0xFFF48542
+	
+	map_area_color_name[]: "Nav-Green"
+	map_area_color[]: 0xFF759076
+	map_area_discovered_color[]: 0xFF35A54D
+	
+	map_area_color_name[]: "Nav-Blue"
+	map_area_color[]: 0xFF907576
+	map_area_discovered_color[]: 0xFFD9772F
+	
+	map_area_color_name[]: "Nav-Yellow"
+	map_area_color[]: 0xFF778f90
+	map_area_discovered_color[]: 0xFF24D4EC
+	
+	map_area_color_name[]: "Nav-Purple"
+	map_area_color[]: 0xFF827279
+	map_area_discovered_color[]: 0xFFA93E6E
+
+navigation_current_color: 0xFFF48542 // ATS 1.61, native Google blue

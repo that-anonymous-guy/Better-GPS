@@ -1,0 +1,30 @@
+{
+  "part_number": "PP807032",
+  "triangles": {
+    "0": 544,
+    "1": 116
+  },
+  "materials": 1,
+  "texture_size": [
+    128,
+    16
+  ],
+  "user_head_down_degrees": 5.563962930100027,
+  "strap_length_m": 0.08901667222380638,
+  "strap_size_m": [
+    0.0015,
+    0.08901667222380638,
+    0.003
+  ],
+  "strap_centres_spacing_m": 0.062,
+  "pivot_origin": true,
+  "front_scs": "-Z",
+  "up_scs": "+Y",
+  "standard_bumper_model_offset_scs": [
+    -0.013000000000000012,
+    -0.0020000000000000018,
+    0.003844187355041504
+  ],
+  "uv": "constant palette swatches; no complex atlas",
+  "dimensions_status": "user sketch and existing camera reconstruction; not OEM dimensions"
+}

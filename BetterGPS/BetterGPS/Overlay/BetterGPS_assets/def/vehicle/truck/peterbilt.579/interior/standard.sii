@@ -1,0 +1,49 @@
+SiiNunit
+{
+accessory_interior_data	: standard.peterbilt.579.interior
+{
+	name: "Prestige Interior"
+	price: 15180
+	unlock: 0
+	icon: "peterbilt_579/int_std"
+	part_type: factory
+
+	model: "/vehicle/truck/peterbilt_579/interior/model.pmd"
+	animated_model: "/vehicle/truck/peterbilt_579/interior/anim.pmd"
+	collision: "/vehicle/truck/peterbilt_579/interior/model.pmc"
+	look: Default
+	variant: standard_sl
+
+@include "animations.sui"
+
+@include "sound.sui"
+@include "sound_effects.sui"
+
+	dashboard_path: "/ui/dashboard/peterbilt_579.sii"
+	gps_path: "/ui/gmaps_peterbilt579_gps.sii"
+	backlight_with_lights: false
+	air_brake_safeguard: true
+
+	glass_panes[]: .peterbilt579.r.pane.front
+	glass_panes[]: .peterbilt579.r.pane.close
+	glass_panes[]: .peterbilt579.r.pane.far
+	suitable_for[]: "standard.peterbilt.579.cabin"
+	suitable_for[]: "exclusive.peterbilt.579.cabin"
+
+	ext_model: "/vehicle/truck/upgrade/ext_interior/peterbilt_579/stock.pmd"
+	ext_variant: cab_bc
+	ext_look: standard
+
+	defaults[]: "/def/vehicle/truck/peterbilt.579/accessory/steering_w/default.sii"
+	defaults[]: "/def/vehicle/truck/peterbilt.579/accessory/set_cuphold/set_closed.sii"
+
+@include "seat.sui"
+@include "mirrors.sui"
+@include "dashboard_color.sui"
+
+@include "int_shadow_cab_b.sui"
+}
+
+@include "glass.sui"
+@include "sound_effects_units.sui"
+}

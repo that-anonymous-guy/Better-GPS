@@ -1,0 +1,19 @@
+{
+  "version": "0.13.2",
+  "front_visible_unit": "pp807032.bgps.addon_hookup",
+  "legacy_hidden_unit": "pp807032low.bgps.addon_hookup",
+  "parent_type": "bumper",
+  "front_price": 250,
+  "legacy_price": 0,
+  "model": "pp807032_lod0",
+  "banner_units": [
+    "sign.kenworth.t680_2022.f_banner",
+    "sign_low.kenworth.t680_2022.f_banner"
+  ],
+  "stock_bullbar_unit": "small.kenworth.t680_2022.bullbar",
+  "camera_bullbar_compatible": true,
+  "stock_reference": "stock-reference/def/vehicle/truck/kenworth.t680_2022/accessory/f_banner/",
+  "source_url": "https://modding.scssoft.com/wiki/Documentation/Engine/Units/accessory_data",
+  "in_game_validation": "pending; no game launch or PC control",
+  "accepted_exception": "standard flats may clip low bumper alpha grille"
+}

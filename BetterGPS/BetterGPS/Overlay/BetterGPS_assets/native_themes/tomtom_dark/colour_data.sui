@@ -1,0 +1,55 @@
+// TomTom: charcoal map, desaturated roads, dark green land and slate blue water.
+// Reference: misc/exemples/tomtommack/tomtomdarktheme_1/2/3.png.
+// Native colors are packed ABGR; route remains #01EAF9 in both modes.
+road_color: 0xFF707068
+road_discovered_color: 0xFF707068
+job_road_color: 0x50353535
+job_road_discovered_color: 0xFF2b3436
+world_road_color: 0xFF707070
+world_road_discovered_color: 0xFF4cc6ff
+fleet_manager_road_color: 0xff424242
+fleet_manager_road_discovered_color: 0xff424242
+
+// Preserve the native map area indices.
+map_area_color_name[]: "Road"
+map_area_color[]: 0xFF598DA9
+map_area_discovered_color[]: 0xFF598DA9
+map_area_color_name[]: "Light"
+map_area_color[]: 0xFF707068
+map_area_discovered_color[]: 0xFF707068
+map_area_color_name[]: "Dark"
+map_area_color[]: 0xFF3E4344
+map_area_discovered_color[]: 0xFF3E4344
+map_area_color_name[]: "Green"
+map_area_color[]: 0xFF3D4128
+map_area_discovered_color[]: 0xFF3D4128
+
+prefab_color: 0xFF707068
+prefab_discovered_color: 0xFF707068
+prefab_obstacle_color: 0xFF3E4344
+prefab_obstacle_discovered_color: 0xFF3E4344
+prefab_grass_color: 0xFF3D4128
+prefab_grass_discovered_color: 0xFF3D4128
+
+outline_color: 0xFF665414
+navigation_color: 0xFFF9EA01
+navigation_current_color: 0xFFF9EA01
+navigation_highlight_color: 0xFFF9EA01
+navigation_fade_color: 0xFFF9EA01
+navigation_arrow_color: 0xFFF9EA01
+
+map_area_color_name[]: "Nav-Red"
+map_area_color[]: 0xFFF9EA01
+map_area_discovered_color[]: 0xFFF9EA01
+map_area_color_name[]: "Nav-Green"
+map_area_color[]: 0xFFF9EA01
+map_area_discovered_color[]: 0xFFF9EA01
+map_area_color_name[]: "Nav-Blue"
+map_area_color[]: 0xFFF9EA01
+map_area_discovered_color[]: 0xFFF9EA01
+map_area_color_name[]: "Nav-Yellow"
+map_area_color[]: 0xFFF9EA01
+map_area_discovered_color[]: 0xFFF9EA01
+map_area_color_name[]: "Nav-Purple"
+map_area_color[]: 0xFFF9EA01
+map_area_discovered_color[]: 0xFFF9EA01

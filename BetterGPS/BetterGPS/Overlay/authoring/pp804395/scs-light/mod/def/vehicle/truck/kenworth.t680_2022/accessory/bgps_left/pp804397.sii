@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : pp804397.kenworth.t680_2022.bgps_left
+{
+    name: "Pana-Pacific PP804397 - Left Side Camera"
+    price: 250
+    unlock: 0
+    icon: "bettergps/pp804397"
+    part_type: aftermarket
+    exterior_model: "/vehicle/truck/upgrade/bettergps/pp804397/pp804397_truck.pmd"
+    suitable_for[]: "*.kenworth.t680_2022.cabin"
+}
+}

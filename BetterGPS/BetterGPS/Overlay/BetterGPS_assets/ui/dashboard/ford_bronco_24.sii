@@ -1,0 +1,1673 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.sharedisplay
+ my_children[1]: _nameless._.display1
+ my_children[2]: _nameless._.display2
+ my_children[3]: _nameless._.display3
+ my_children[4]: _nameless._.display4
+ my_children[5]: _nameless._.display5
+ my_children[6]: _nameless._.service
+ my_children[7]: _nameless.bettergps.f150info
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 21
+ my_children[0]: _nameless._.sh_body
+ my_children[1]: _nameless._.rem_dist
+ my_children[2]: _nameless._.high_beam
+ my_children[3]: _nameless._.4a
+ my_children[4]: _nameless._.4h
+ my_children[5]: _nameless._.odometer
+ my_children[6]: _nameless._.rpm_dscrpt
+ my_children[7]: _nameless._.compass_1
+ my_children[8]: _nameless._.amb_temp_1
+ my_children[9]: _nameless._.spd_frame
+ my_children[10]: _nameless._.rpm_bcg
+ my_children[11]: _nameless._.rpm_bar
+ my_children[12]: _nameless._.spd_bar
+ my_children[13]: _nameless._.spd_val_1
+ my_children[14]: _nameless._.rpm_frame
+ my_children[15]: _nameless._.spd_limit
+ my_children[16]: _nameless._.rpm_val_1
+ my_children[17]: _nameless._.fuel_elmnts
+ my_children[18]: _nameless._.fuel_dnmc_el
+ my_children[19]: _nameless._.fuel_frame
+ my_children[20]: _nameless._.cruise_1
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 950
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.sh_body {
+ text: "<align vstyle=bottom>\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7021484375 right=0.716796875 top=0.9296875 bottom=0.99609375 width=31 height=64>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.716796875 right=0.7021484375 top=0.9296875 bottom=0.99609375 width=30 height=64></align>\r\n<ret><offset hshift=30><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.71484375 right=0.7158203125 top=0.9296875 bottom=0.99609375 width=962 height=64></align>\r\n</align>\r\n\r\n\r\n\r\n<ret><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.00390625 bottom=0.169921875 width=300 height=170>\r\n<ret><offset vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.16796875 bottom=0.171875 width=300 height=338>\r\n<ret><offset vshift=508><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.169921875 bottom=0.208984375 width=300 height=40>\r\n<ret><offset hshift=24 vshift=17><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.2529296875 color=fffaf9f9 right=0.326171875 top=0.453125 bottom=0.630859375 width=49 height=60>\r\n\r\n\r\n\r\n<ret><offset hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.00390625 bottom=0.169921875 width=380 height=170>\r\n<ret><offset vshift=170 hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.16796875 bottom=0.171875 width=380 height=338>\r\n<ret><offset vshift=508 hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.169921875 bottom=0.208984375 width=380 height=40>\r\n\r\n\r\n\r\n<ret><offset hshift=688><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.720703125 right=0.73046875 top=0.9296875 bottom=0.94921875 width=22 height=20>\r\n<ret><offset hshift=688 vshift=528><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.720703125 right=0.73046875 top=0.94921875 bottom=0.96875 width=22 height=20>\r\n<ret><offset vshift=20 hshift=688><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.720703125 right=0.73046875 top=0.947265625 bottom=0.951171875 width=22 height=508>\r\n\r\n\r\n\r\n<align hstyle=right>\r\n<ret><offset vshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.73046875 right=0.7421875 top=0.947265625 bottom=0.951171875 width=24 height=508>\r\n<ret><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.73046875 right=0.7421875 top=0.9296875 bottom=0.94921875 width=24 height=20>\r\n<ret><offset vshift=528><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.73046875 right=0.7421875 top=0.94921875 bottom=0.96875 width=24 height=20>\r\n</align>\r\n\r\n\r\n\r\n<ret><offset hshift=710><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7294921875 right=0.7314453125 top=0.9296875 bottom=0.94921875 width=278 height=20>\r\n<ret><offset hshift=710 vshift=528><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7294921875 right=0.7314453125 top=0.94921875 bottom=0.96875 width=278 height=20>\r\n<ret><offset hshift=710 vshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7294921875 right=0.7314453125 top=0.947265625 bottom=0.951171875 width=278 height=508>\r\n\r\n\r\n\r\n<ret><offset hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.796875 right=0.80078125 top=0.00390625 bottom=0.169921875 width=10 height=170>\r\n<ret><offset hshift=680 vshift=508><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.796875 left=0.796875 right=0.80078125 top=0.169921875 bottom=0.208984375 width=10 height=40>\r\n<ret><offset hshift=680 vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.796875 right=0.80078125 top=0.16796875 bottom=0.171875 width=10 height=338>"
+ coords_l: 6
+ coords_r: 1018
+ coords_t: 616
+ coords_b: 4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.rem_dist {
+ value: "9999|mi"
+ look_template: txt.ford_bronc24.rem_dis
+ text: ""
+ coords_l: 6
+ coords_r: 229
+ coords_t: 68
+ coords_b: 4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.high_beam {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.125 right=0.1875 top=0.875 bottom=1 color=ffe7e6c7 yscale=stretch xscale=stretch>"
+ coords_l: 342
+ coords_r: 390
+ coords_t: 58
+ coords_b: 10
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1590
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.4a {
+ text: "<align vstyle=center hstyle=center><color value=ff60b6e7><font face=/font/corporatesbold.font>4A</font></align>"
+ coords_l: 550
+ coords_r: 610
+ coords_t: 58
+ coords_b: 10
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.4h {
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.71484375 right=0.7158203125 top=0.9296875 bottom=0.99609375 width=60 height=64></align>\r\n\r\n<ret><align vstyle=center hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.1875 right=0.25 top=0.875 bottom=1 color=ff60b6e7 width=48 height=48></align>\r\n\r\n<ret><offset vshift=4 hshift=8><align vstyle=center><color value=ff60b6e7><font face=/font/corporatesbold.font>4H</font></align>\r\n\r\n"
+ coords_l: 550
+ coords_r: 733
+ coords_t: 68
+ coords_b: 4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1490
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.odometer {
+ value: "9999999|mi"
+ look_template: txt.ford_bronc24.odometer
+ text: ""
+ coords_l: 760
+ coords_r: 997
+ coords_t: 68
+ coords_b: 4
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_dscrpt {
+ text: "<align hstyle=center>\r\n<color value=ff302c24><font face=/font/db_normal_all_uppercase.font xscale=2.35 yscale=2.85 spacing=-2>RPM</font>\r\n<offset vshift=5 hshift=3><font face=/font/corporates.font xscale=0.85 yscale=0.85>X</font>\r\n<offset vshift=-4 hshift=-4><font face=/font/corporates.font xscale=0.85 yscale=1.12 spacing=1>1000</font>\r\n</align>"
+ coords_l: 464
+ coords_r: 689
+ coords_t: 134
+ coords_b: 64
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.compass_1 {
+ value: SW
+ look_template: txt.ford_bronc24.compass
+ text: ""
+ coords_l: 464
+ coords_r: 592
+ coords_t: 595
+ coords_b: 533
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.amb_temp_1 {
+ value: "72|C"
+ look_template: txt.ford_bronc24.amb_temp
+ text: ""
+ coords_l: 522
+ coords_r: 650
+ coords_t: 595
+ coords_b: 533
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.spd_frame {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.005859375 bottom=0.0625 width=58 height=58>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.060546875 bottom=0.064453125 width=58 height=325>\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.005859375 bottom=0.0625 width=58 height=58></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><align hstyle=right><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.062 bottom=0.0625 width=58 height=325></align>\r\n\r\n<ret><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5341796875 right=0.5361328125 top=0.005859375 bottom=0.0625 width=296 height=58>\r\n<ret><align vstyle=bottom><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5353 right=0.5353 top=0.0625 bottom=0.119140625 width=296 height=58></align>\r\n<ret><offset hshift=58 vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5322265625 right=0.5380859375 top=0.0546875 bottom=0.06640625 width=296 height=325>"
+ coords_l: 84
+ coords_r: 496
+ coords_t: 545
+ coords_b: 104
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_bcg {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.927734375 bottom=0.958984375 width=32 height=32>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.96484375 bottom=0.99609375 width=32 height=32></align>\r\n<ret><offset vshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.958984375 bottom=0.96484375 width=32 height=302>\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.927734375 bottom=0.958984375 width=32 height=32></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.96484375 bottom=0.99609375 width=32 height=32></align>\r\n<ret><align hstyle=right><offset vshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.958984375 bottom=0.96484375 width=32 height=302></align>\r\n\r\n<ret><offset hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.927734375 bottom=0.958984375 width=92 height=32>\r\n<ret><align vstyle=bottom><offset hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.96484375 bottom=0.99609375 width=92 height=32></align>\r\n<ret><offset vshift=32 hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.958984375 bottom=0.96484375 width=92 height=302>"
+ coords_l: 494
+ coords_r: 650
+ coords_t: 508
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.rpm_bar {
+ vertical: true
+ min_size: 0
+ max_size: 366
+ min_value: 0
+ max_value: 8000
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.56640625 right=0.58203125 top=0.638671875 bottom=0.99609375 width=32 height=366></align>\r\n<ret><offset hshift=32><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.58203125 right=0.5849609375 top=0.638671875 bottom=0.99609375 width=92 height=366></align>\r\n<ret><align vstyle=bottom hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5849609375 right=0.6005859375 top=0.638671875 bottom=0.99609375 width=32 height=366></align>"
+ coords_l: 494
+ coords_r: 650
+ coords_t: 508
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1700
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.spd_bar {
+ vertical: true
+ min_size: 0
+ max_size: 363
+ min_value: 0
+ max_value: 217
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5888671875 right=0.5986328125 top=0.003 bottom=0.35546875 height=362 width=20 color=ff675339></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5986328125 right=0.5888671875 top=0.003 bottom=0.35546875 height=362 width=20 color=ff675339></align>\r\n<ret><align vstyle=bottom><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.599609375 right=0.6015625 top=0.003 bottom=0.35546875 height=362 width=295 color=ff675339></align>"
+ coords_l: 123
+ coords_r: 456
+ coords_t: 507
+ coords_b: 145
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1710
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.spd_val_1 {
+ value: "288|MPH"
+ look_template: txt.ford_bronc24.speed
+ text: ""
+ coords_l: 142
+ coords_r: 372
+ coords_t: 255
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_frame {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5083 right=0.5283203125 top=0.12965 bottom=0.169921875 width=42 height=42>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5083 right=0.5283203125 top=0.169921875 bottom=0.2103 width=42 height=42></align>\r\n<ret><offset vshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5083 right=0.5283203125 top=0.16796875 bottom=0.171875 width=42 height=293>\r\n\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.54855 top=0.12965 bottom=0.169921875 width=42 height=42></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.54855 top=0.169921875 bottom=0.2103 width=42 height=42></align>\r\n<ret><align hstyle=right><offset vshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.54855 top=0.16796875 bottom=0.171875 width=42 height=293></align>\r\n\r\n\r\n\r\n<ret><offset hshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.52734375 right=0.529296875 top=0.12965 bottom=0.169921875 width=85 height=42>\r\n<ret><align vstyle=bottom><offset hshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.52734375 right=0.529296875 top=0.169921875 bottom=0.2103 width=85 height=42></align>\r\n\r\n\r\n\r\n\r\n<ret><offset vshift=44><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=160 height=20>\r\n<ret><offset vshift=90 hshift=6><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=154 height=20>\r\n<ret><offset vshift=136 hshift=12><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=148 height=20>\r\n<ret><offset vshift=182 hshift=18><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=142 height=20>\r\n<ret><offset vshift=228 hshift=24><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=136 height=20>\r\n<ret><offset vshift=274 hshift=30><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=130 height=20>\r\n<ret><offset vshift=320 hshift=36><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=124 height=20>"
+ coords_l: 488
+ coords_r: 656
+ coords_t: 513
+ coords_b: 136
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.spd_limit {
+ value: 50
+ look_template: txt.ford_bronc24.spd_limit
+ text: ""
+ coords_l: 142
+ coords_r: 206
+ coords_t: 484
+ coords_b: 420
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.rpm_val_1 {
+ value: "9.9"
+ look_template: txt.ford_bronc24.rpm
+ text: ""
+ coords_l: 518
+ coords_r: 651
+ coords_t: 222
+ coords_b: 144
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1730
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_elmnts {
+ text: "<offset hshift=18 vshift=106><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.568359375 right=0.5849609375 top=0.2109375 bottom=0.41015625 width=34 height=204>\r\n\r\n<ret><offset hshift=9 vshift=4><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0 right=0.0625 top=0.875 bottom=1 color=ff6e6055 width=52 height=52>\r\n\r\n<ret><align hstyle=center><offset vshift=55><color value=ff302c24><font face=/font/corporates.font xscale=1.1 yscale=1.1>F<br><offset vshift=211>E</font></align>"
+ coords_l: 6
+ coords_r: 74
+ coords_t: 450
+ coords_b: 88
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_text_bar : _nameless._.fuel_dnmc_el {
+ vertical: true
+ min_size: 10
+ max_size: 206
+ min_value: 0
+ max_value: 1
+ text: "<align vstyle=bottom hstyle=right>\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.568359375 right=0.5849609375 top=0.00390625 bottom=0.203125 width=34 height=204>\r\n</align>\r\n\r\n<ret>\r\n<align hstyle=right vstyle=top>\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.4677734375 right=0.486328125 top=0.2734375 bottom=0.279296875 width=34 height=7>\r\n</align>\r\n\r\n<ret>\r\n<align hstyle=left vstyle=top>\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.4921875 right=0.4990234375 top=0.271484375 bottom=0.283203125 width=12 height=10>\r\n</align>"
+ coords_l: 6
+ coords_r: 58
+ coords_t: 346
+ coords_b: 140
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_frame {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.8046875 right=0.8251953125 top=0.00390625 bottom=0.2109375 xscale=stretch yscale=stretch>\r\n"
+ coords_l: 21
+ coords_r: 62
+ coords_t: 348
+ coords_b: 136
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 14
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.cruise_1 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cr_contr_i
+ my_children[1]: _nameless._.cr_val_1
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 1240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.cr_contr_i {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.25 right=0.3125 top=0.875 bottom=1 color=ff4cf984 yscale=stretch xscale=stretch>"
+ coords_l: 402
+ coords_r: 450
+ coords_t: 263
+ coords_b: 215
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_1
+}
+
+ui::text_common : _nameless._.cr_val_1 {
+ value: 100
+ look_template: txt.ford_bronc24.cruise_value
+ text: ""
+ coords_l: 350
+ coords_r: 450
+ coords_t: 222
+ coords_b: 167
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_1
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 13
+ my_children[0]: _nameless._.body_1
+ my_children[1]: _nameless._.compass_2
+ my_children[2]: _nameless._.amb_temp_2
+ my_children[3]: _nameless._.spd_frame1
+ my_children[4]: _nameless._.spd_bar1
+ my_children[5]: _nameless._.spd_val_2
+ my_children[6]: _nameless._.rpm_frame1
+ my_children[7]: _nameless._.rpm_bcg1
+ my_children[8]: _nameless._.rpm_bar1
+ my_children[9]: _nameless._.rpm_dscrpt1
+ my_children[10]: _nameless._.rpm_val_2
+ my_children[11]: _nameless._.cruise_2
+ my_children[12]: _nameless._.spd_limit1
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.body_1 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.00390625 bottom=0.169921875 width=300 height=170>\r\n<ret><offset vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.16796875 bottom=0.171875 width=300 height=338>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.169921875 bottom=0.208984375 width=300 height=40></align>\r\n<ret><offset hshift=24 vshift=17><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.2529296875 color=fffaf9f9 right=0.326171875 top=0.453125 bottom=0.630859375 width=49 height=60>\r\n\r\n\r\n\r\n<ret><offset hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.00390625 bottom=0.169921875 width=380 height=170>\r\n<ret><offset vshift=170 hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.16796875 bottom=0.171875 width=380 height=338>\r\n<ret><offset hshift=300><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.169921875 bottom=0.208984375 width=380 height=40></align>\r\n\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.00390625 bottom=0.169921875 width=40 height=170></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.169921875 bottom=0.208984375 width=40 height=40></align>\r\n<ret><align hstyle=right><offset vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.16796875 bottom=0.171875 width=40 height=338></align>\r\n\r\n\r\n\r\n<ret><offset hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.00390625 bottom=0.169921875 width=292 height=170>\r\n<ret><align vstyle=bottom><offset hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.169921875 bottom=0.208984375 width=292 height=40></align>\r\n<ret><offset vshift=170 hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.16796875 bottom=0.171875 width=292 height=338>"
+ coords_l: 6
+ coords_r: 1018
+ coords_t: 616
+ coords_b: 68
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.compass_2 {
+ value: SW
+ look_template: txt.ford_bronc24.compass
+ text: ""
+ coords_l: 787
+ coords_r: 915
+ coords_t: 595
+ coords_b: 533
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.amb_temp_2 {
+ value: "72|C"
+ look_template: txt.ford_bronc24.amb_temp
+ text: ""
+ coords_l: 881
+ coords_r: 972
+ coords_t: 595
+ coords_b: 533
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.spd_frame1 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.005859375 bottom=0.0625 width=58 height=58>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.060546875 bottom=0.064453125 width=58 height=325>\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.005859375 bottom=0.0625 width=58 height=58></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><align hstyle=right><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.062 bottom=0.0625 width=58 height=325></align>\r\n\r\n<ret><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5341796875 right=0.5361328125 top=0.005859375 bottom=0.0625 width=404 height=58>\r\n<ret><align vstyle=bottom><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5353 right=0.5353 top=0.0625 bottom=0.119140625 width=404 height=58></align>\r\n<ret><offset hshift=58 vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5322265625 right=0.5380859375 top=0.0546875 bottom=0.06640625 width=404 height=325>"
+ coords_l: 222
+ coords_r: 742
+ coords_t: 545
+ coords_b: 104
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.spd_bar1 {
+ vertical: true
+ min_size: 0
+ max_size: 362
+ min_value: 0
+ max_value: 217
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5888671875 right=0.5986328125 top=0.00390625 bottom=0.35546875 height=362 width=20 color=ff675339></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5986328125 right=0.5888671875 top=0.00390625 bottom=0.35546875 height=362 width=20 color=ff675339></align>\r\n<ret><align vstyle=bottom><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.599609375 right=0.6015625 top=0.00390625 bottom=0.35546875 height=362 width=401 color=ff675339></align>"
+ coords_l: 261
+ coords_r: 702
+ coords_t: 506
+ coords_b: 144
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1710
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.spd_val_2 {
+ value: "288|MPH"
+ look_template: txt.ford_bronc24.speed
+ text: ""
+ coords_l: 280
+ coords_r: 520
+ coords_t: 255
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.rpm_frame1 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.50835 right=0.5283203125 top=0.1296 bottom=0.17 width=42 height=42>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.50835 right=0.5283203125 top=0.169921875 bottom=0.21 width=42 height=42></align>\r\n<ret><offset vshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.50835 right=0.5283203125 top=0.16796875 bottom=0.171875 width=42 height=293>\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.5485 top=0.1296 bottom=0.169921875 width=42 height=42></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.5485 top=0.169921875 bottom=0.21 width=42 height=42></align>\r\n<ret><align hstyle=right><offset vshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5283203125 right=0.5485 top=0.16796875 bottom=0.171875 width=42 height=293></align>\r\n\r\n<ret><offset hshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.52734375 right=0.529296875 top=0.1296 bottom=0.169921875 width=150 height=42>\r\n<ret><align vstyle=bottom><offset hshift=42><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.52734375 right=0.529296875 top=0.169921875 bottom=0.21 width=150 height=42></align>\r\n\r\n\r\n\r\n<ret><offset vshift=42 hshift=16><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=210 height=20>\r\n<ret><offset vshift=88 hshift=22><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=204 height=20>\r\n<ret><offset vshift=136 hshift=28><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=198 height=20>\r\n<ret><offset vshift=180 hshift=34><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=192 height=20>\r\n<ret><offset vshift=228 hshift=40><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=186 height=20>\r\n<ret><offset vshift=272 hshift=46><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=180 height=20>\r\n<ret><offset vshift=320 hshift=52><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5 right=0.578125 top=0.60546875 bottom=0.625 width=174 height=20>"
+ coords_l: 748
+ coords_r: 982
+ coords_t: 513
+ coords_b: 136
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.rpm_bcg1 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.927734375 bottom=0.958984375 width=32 height=32>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.96484375 bottom=0.99609375 width=32 height=32></align>\r\n<ret><offset vshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6259765625 right=0.6416015625 top=0.958984375 bottom=0.96484375 width=32 height=301>\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.927734375 bottom=0.958984375 width=32 height=32></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.96484375 bottom=0.99609375 width=32 height=32></align>\r\n<ret><align hstyle=right><offset vshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.64453125 right=0.66015625 top=0.958984375 bottom=0.96484375 width=32 height=301></align>\r\n\r\n<ret><offset hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.927734375 bottom=0.958984375 width=158 height=32>\r\n<ret><align vstyle=bottom><offset hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.96484375 bottom=0.99609375 width=158 height=32></align>\r\n<ret><offset vshift=32 hshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.6416015625 right=0.64453125 top=0.958984375 bottom=0.96484375 width=158 height=301>"
+ coords_l: 754
+ coords_r: 976
+ coords_t: 507
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.rpm_bar1 {
+ vertical: true
+ min_size: 0
+ max_size: 365
+ min_value: 0
+ max_value: 8000
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.56640625 right=0.58203125 top=0.638671875 bottom=0.99609375 width=32 height=365></align>\r\n<ret><offset hshift=32><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.58203125 right=0.5849609375 top=0.638671875 bottom=0.99609375 width=158 height=365></align>\r\n<ret><offset hshift=190><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5849609375 right=0.6005859375 top=0.638671875 bottom=0.99609375 width=32 height=365></align>"
+ coords_l: 754
+ coords_r: 976
+ coords_t: 507
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1700
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.rpm_dscrpt1 {
+ text: "<align hstyle=center>\r\n<color value=ff302c24><font face=/font/db_normal_all_uppercase.font xscale=2.35 yscale=2.85 spacing=-2>RPM</font>\r\n<offset vshift=5 hshift=3><font face=/font/corporates.font xscale=0.85 yscale=0.85>X</font>\r\n<offset vshift=-4 hshift=-4><font face=/font/corporates.font xscale=0.85 yscale=1.12 spacing=1>1000</font>\r\n</align>"
+ coords_l: 748
+ coords_r: 982
+ coords_t: 134
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.rpm_val_2 {
+ value: "9.9"
+ look_template: txt.ford_bronc24.rpm
+ text: ""
+ coords_l: 777
+ coords_r: 910
+ coords_t: 220
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1730
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.cruise_2 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cr_contr_i1
+ my_children[1]: _nameless._.cr_val_2
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 1240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.cr_contr_i1 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.25 right=0.3125 top=0.875 bottom=1 color=ff4cf984 yscale=stretch xscale=stretch>"
+ coords_l: 623
+ coords_r: 671
+ coords_t: 263
+ coords_b: 215
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_2
+}
+
+ui::text_common : _nameless._.cr_val_2 {
+ value: 100
+ look_template: txt.ford_bronc24.cruise_value
+ text: ""
+ coords_l: 571
+ coords_r: 671
+ coords_t: 222
+ coords_b: 167
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_2
+}
+
+ui::text_common : _nameless._.spd_limit1 {
+ value: 50
+ look_template: txt.ford_bronc24.spd_limit
+ text: ""
+ coords_l: 280
+ coords_r: 344
+ coords_t: 484
+ coords_b: 420
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.dspl2_title
+ my_children[1]: _nameless._.trip_frames
+ my_children[2]: _nameless._.trip_time
+ my_children[3]: _nameless._.avg_cons
+ my_children[4]: _nameless._.trip_dist
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.dspl2_title {
+ text: "<align vstyle=center><color value=ffddc0a8><font face=/font/corporatesbold.font xscale=1.3 yscale=1.3 spacing=-2>Trip <offset hshift=-10>1</font></align>"
+ coords_l: 728
+ coords_r: 856
+ coords_t: 588
+ coords_b: 550
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.trip_frames {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.3994140625 top=0.1640625 bottom=0.328125 xscale=stretch height=168>\r\n<ret><offset vshift=130><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.3994140625 top=0.1640625 bottom=0.328125 xscale=stretch height=168>\r\n<ret><offset vshift=260><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.3994140625 top=0.1640625 bottom=0.328125 xscale=stretch height=168>"
+ coords_l: 710
+ coords_r: 1004
+ coords_t: 543
+ coords_b: 109
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.trip_time {
+ value: "99:99"
+ look_template: txt.ford_bronc24.trip_time
+ text: ""
+ coords_l: 750
+ coords_r: 976
+ coords_t: 498
+ coords_b: 408
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.avg_cons {
+ value: "99.9|mph"
+ look_template: txt.ford_bronc24.trip_avr_con
+ text: ""
+ coords_l: 750
+ coords_r: 976
+ coords_t: 367
+ coords_b: 277
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.trip_dist {
+ value: "99|mi"
+ look_template: txt.ford_bronc24.trip_dist
+ text: ""
+ coords_l: 750
+ coords_r: 976
+ coords_t: 238
+ coords_b: 148
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.displ3_title
+ my_children[1]: _nameless._.gaug_bcg
+ my_children[2]: _nameless._.gaug_frames
+ my_children[3]: _nameless._.gaug_icons
+ my_children[4]: _nameless._.turbo_bar_1
+ my_children[5]: _nameless._.turbo_bar_2
+ my_children[6]: _nameless._.oil_temp_tip
+ my_children[7]: _nameless._.oil_temp_gr
+ my_children[8]: _nameless._.oil_temp_v_1
+ my_children[9]: _nameless._.air_temp_bar
+ my_children[10]: _nameless._.bat_volt_val
+ my_children[11]: _nameless._.bat_volt_bar
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 300
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.displ3_title {
+ text: "<align vstyle=center><color value=ffddc0a8><font face=/font/corporatesbold.font xscale=1.3 yscale=1.3 spacing=-2>Gauges</font></align>"
+ coords_l: 728
+ coords_r: 919
+ coords_t: 588
+ coords_b: 550
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.gaug_bcg {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 xscale=stretch height=64>\r\n<ret><offset vshift=103><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 xscale=stretch height=67>\r\n<ret><offset vshift=206><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 xscale=stretch height=67>\r\n<ret><offset vshift=309><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 xscale=stretch height=67>\r\n\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.59375 right=0.59765625 top=0.029296875 bottom=0.037109375 width=30 height=64 color=>"
+ coords_l: 800
+ coords_r: 975
+ coords_t: 513
+ coords_b: 144
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.gaug_frames {
+ text: "<align vstyle=bottom>\r\n<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.4033203125 top=0.328125 bottom=0.455078125 xscale=stretch height=130>\r\n<ret><offset vshift=100><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.4033203125 top=0.328125 bottom=0.455078125 xscale=stretch height=130>\r\n<ret><offset vshift=200><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.4033203125 top=0.328125 bottom=0.455078125 xscale=stretch height=130>\r\n<ret><offset vshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.255859375 right=0.4033203125 top=0.328125 bottom=0.455078125 xscale=stretch height=130>\r\n</align>\r\n\r\n<ret><offset hshift=92 vshift=55.5><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.0888671875 right=0.171875 top=0.486328125 bottom=0.49609375 width=170 height=10>\r\n<ret><offset hshift=92 vshift=356><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.0888671875 right=0.171875 top=0.486328125 bottom=0.49609375 width=170 height=10>\r\n\r\n<ret><offset hshift=92.5 vshift=156><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.001953125 right=0.0849609375 top=0.486328125 bottom=0.49609375 width=169 height=10>\r\n<ret><offset hshift=92.5 vshift=256><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.001953125 right=0.0849609375 top=0.486328125 bottom=0.49609375 width=169 height=10>"
+ coords_l: 711
+ coords_r: 1013
+ coords_t: 513
+ coords_b: 114
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.gaug_icons {
+ text: "<align hstyle=center>\r\n<offset vshift=10><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.0625 right=0.125 top=0.5 bottom=0.625 color=fffaf9f9 width=42 height=42>\r\n<ret><offset vshift=110><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5 right=0.5625 top=0.875 bottom=1 color=fffaf9f9 width=42 height=42>\r\n<ret><offset vshift=210><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0 right=0.0625 top=0.5 bottom=0.625 color=fffaf9f9 width=42 height=42>\r\n<ret><offset vshift=310><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.0625 right=0.125 top=0.875 bottom=1 color=fffaf9f9 width=42 height=42>\r\n</align>"
+ coords_l: 740
+ coords_r: 800
+ coords_t: 509
+ coords_b: 149
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.turbo_bar_1 {
+ vertical: false
+ min_size: 54
+ max_size: 216
+ min_value: 0
+ max_value: &3f266666
+ text: "<color value=ff6fc383><font face=/font/db_onramp.font yscale=6 xscale=4 spacing=-3>IIIIIIIIIIIIIIIIIIIII</font>"
+ coords_l: 759
+ coords_r: 973
+ coords_t: 509
+ coords_b: 446
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.turbo_bar_2 {
+ vertical: false
+ min_size: 54
+ max_size: 216
+ min_value: 0
+ max_value: &3f266666
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 yscale=stretch xscale=stretch>\r\n<ret><align hstyle=right><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.7216796875 right=0.7451171875 top=0.9765625 bottom=0.994140625 yscale=stretch width=50></align>"
+ coords_l: 745
+ coords_r: 961
+ coords_t: 509
+ coords_b: 446
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1130
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.oil_temp_tip {
+ vertical: false
+ min_size: 54
+ max_size: 216
+ min_value: &41d5999a
+ max_value: &4314e666
+ text: "<color value=ff6fc383><font face=/font/db_onramp.font yscale=6 xscale=4 spacing=-3>IIIIIIIIIIIIIIII</font>\r\n<offset hshift=-2.5><color value=ff3232bf><font face=/font/db_onramp.font yscale=6 xscale=4 spacing=-3>IIIII</font>"
+ coords_l: 759
+ coords_r: 973
+ coords_t: 410
+ coords_b: 347
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.oil_temp_gr {
+ vertical: false
+ min_size: 54
+ max_size: 216
+ min_value: &41d5999a
+ max_value: &4314e666
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5537109375 right=0.5634765625 top=0.130859375 bottom=0.150390625 yscale=stretch xscale=stretch>\r\n<ret><align hstyle=right><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.7216796875 right=0.7451171875 top=0.9765625 bottom=0.994140625 yscale=stretch width=50></align>"
+ coords_l: 745
+ coords_r: 961
+ coords_t: 410
+ coords_b: 347
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.oil_temp_v_1 {
+ value: "99.9|C"
+ look_template: txt.ford_bronc24.oil_temp
+ text: ""
+ coords_l: 803
+ coords_r: 973
+ coords_t: 397
+ coords_b: 357
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.air_temp_bar {
+ text: "<align hstyle=left><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7216796875 right=0.7451171875 top=0.9765625 bottom=0.994140625 yscale=stretch width=50></align>\r\n<ret><align hstyle=right><color value=ff6fc383><font face=/font/db_onramp.font yscale=6 xscale=5 spacing=-3>I</font></align>"
+ coords_l: 792
+ coords_r: 873
+ coords_t: 309
+ coords_b: 252
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bat_volt_val {
+ text: "<margin right=-14><align vstyle=center hstyle=right><color value=fffaf9f9><font face=/font/corporatesbold.font spacing=-3>12 V</font></align></margin>"
+ coords_l: 803
+ coords_r: 973
+ coords_t: 196
+ coords_b: 156
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bat_volt_bar {
+ text: "<align hstyle=left><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7216796875 right=0.7451171875 top=0.9765625 bottom=0.994140625 yscale=stretch width=50></align>\r\n<ret><align hstyle=right><color value=ff6fc383><font face=/font/db_onramp.font yscale=6 xscale=5 spacing=-3>I</font></align>"
+ coords_l: 813
+ coords_r: 893
+ coords_t: 209
+ coords_b: 153
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.displ4_title
+ my_children[1]: _nameless._.oil_temp_v_2
+ my_children[2]: _nameless._.g_value
+ my_children[3]: _nameless._.g_bcg
+ my_children[4]: _nameless._.g_limits
+ my_children[5]: _nameless._.g_needle
+ my_children[6]: _nameless._.g_green_h
+ my_children[7]: _nameless._.g_green_l
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.displ4_title {
+ text: "<align vstyle=center><color value=ffddc0a8><font face=/font/corporatesbold.font xscale=1.3 yscale=1.3 spacing=-2>Oil<br><offset vshift=-16>Temperature</font></align>"
+ coords_l: 728
+ coords_r: 998
+ coords_t: 588
+ coords_b: 508
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.oil_temp_v_2 {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.8349609375 right=0.99609375 top=0.669921875 bottom=0.9921875 yscale=stretch xscale=stretch>"
+ coords_l: 691
+ coords_r: 1021
+ coords_t: 502
+ coords_b: 172
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.g_value {
+ value: "199|F"
+ look_template: txt.ford_bronc24.g_oil_temp
+ text: ""
+ coords_l: 808
+ coords_r: 902
+ coords_t: 363
+ coords_b: 313
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.g_bcg {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.40234375 right=0.46484375 top=0.162109375 bottom=0.287109375 yscale=stretch xscale=stretch>"
+ coords_l: 728
+ coords_r: 984
+ coords_t: 465
+ coords_b: 209
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.g_limits {
+ text: "<color value=ffddc0a8>\r\n<font face=/font/corporatesbold.font xscale=0.9 yscale=0.9 spacing=-3>100</font>\r\n<ret><align hstyle=right><font face=/font/corporatesbold.font xscale=0.9 yscale=0.9 spacing=-3>350</font></align>\r\n<ret><align hstyle=center><offset vshift=32><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.5 right=0.5625 top=0.875 bottom=1 width=56 height=56></align>"
+ coords_l: 720
+ coords_r: 992
+ coords_t: 201
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui_gauge : _nameless._.g_needle {
+ min: 30
+ max: 330
+ value_min: 37
+ value_max: 177
+ value: 149
+ material: "/material/ui/dashboard/ford_bronco_24/needle.mat"
+ xref_pos: 32
+ yref_pos: -70
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 728
+ coords_r: 984
+ coords_t: 465
+ coords_b: 209
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1340
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui_gauge : _nameless._.g_green_h {
+ min: -25
+ max: 213
+ value_min: 37
+ value_max: 149
+ value: 149
+ material: "/material/ui/dashboard/ford_bronco_24/needle_bcg.mat"
+ xref_pos: 128
+ yref_pos: 0
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 728
+ coords_r: 984
+ coords_t: 465
+ coords_b: 209
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1340
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui_gauge : _nameless._.g_green_l {
+ min: -25
+ max: 90
+ value_min: 37
+ value_max: 149
+ value: 149
+ material: "/material/ui/dashboard/ford_bronco_24/needle_bcg.mat"
+ xref_pos: 128
+ yref_pos: 0
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 728
+ coords_r: 984
+ coords_t: 465
+ coords_b: 209
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1340
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.displ5_title
+ my_children[1]: _nameless._.avg_speed
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 500
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.displ5_title {
+ text: "<align vstyle=center><color value=ffddc0a8><font face=/font/corporatesbold.font xscale=1.3 yscale=1.3 spacing=-2>Average<br><offset vshift=-16>Speed</font></align>"
+ coords_l: 728
+ coords_r: 998
+ coords_t: 588
+ coords_b: 508
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.avg_speed {
+ value: "66|MPH"
+ look_template: txt.ford_bronc24.d5_avg_speed
+ text: ""
+ coords_l: 749
+ coords_r: 979
+ coords_t: 377
+ coords_b: 227
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1400
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.service {
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.body_s
+ my_children[1]: _nameless._.s_wnd
+ my_children[2]: _nameless._.s_wnd_text
+ my_children[3]: _nameless._.s_wnd_icon
+ my_children[4]: _nameless._.spd_frame_s
+ my_children[5]: _nameless._.spd_bar_s
+ my_children[6]: _nameless._.spd_val_3
+ my_children[7]: _nameless._.cruise_3
+ my_children[8]: _nameless._.spd_limit_s
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 900
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.body_s {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.00390625 bottom=0.169921875 width=300 height=170>\r\n<ret><offset vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.16796875 bottom=0.171875 width=300 height=338>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6259765625 right=0.7724609375 top=0.169921875 bottom=0.208984375 width=300 height=40></align>\r\n<ret><offset hshift=24 vshift=17><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.2529296875 color=fffaf9f9 right=0.326171875 top=0.453125 bottom=0.630859375 width=49 height=60>\r\n\r\n\r\n\r\n<ret><offset hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.00390625 bottom=0.169921875 width=380 height=170>\r\n<ret><offset vshift=170 hshift=300><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.16796875 bottom=0.171875 width=380 height=338>\r\n<ret><offset hshift=300><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.169921875 bottom=0.208984375 width=380 height=40></align>\r\n\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.00390625 bottom=0.169921875 width=40 height=170></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.169921875 bottom=0.208984375 width=40 height=40></align>\r\n<ret><align hstyle=right><offset vshift=170><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.7724609375 right=0.7919921875 top=0.16796875 bottom=0.171875 width=40 height=338></align>\r\n\r\n\r\n\r\n<ret><offset hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.00390625 bottom=0.169921875 width=292 height=170>\r\n<ret><align vstyle=bottom><offset hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.169921875 bottom=0.208984375 width=292 height=40></align>\r\n<ret><offset vshift=170 hshift=680><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.771484375 right=0.7734375 top=0.16796875 bottom=0.171875 width=292 height=338>"
+ coords_l: 6
+ coords_r: 1018
+ coords_t: 616
+ coords_b: 68
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.s_wnd {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.4658203125 right=0.5029296875 top=0.158203125 bottom=0.232421875 width=76 height=76>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.4658203125 right=0.5029296875 top=0.23046875 bottom=0.26953125 width=76 height=40></align>\r\n<ret><offset vshift=76><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.4658203125 right=0.5029296875 top=0.2265625 bottom=0.234375 width=76 height=312>\r\n\r\n<ret><offset hshift=76><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5009765625 right=0.5029296875 top=0.158203125 bottom=0.232421875 width=612 height=76>\r\n<ret><offset hshift=76><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5009765625 right=0.5029296875 top=0.23046875 bottom=0.26953125 width=612 height=40></align>\r\n<ret><offset hshift=76 vshift=76><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5009765625 right=0.5029296875 top=0.2265625 bottom=0.23046875 width=612 height=312>"
+ coords_l: 330
+ coords_r: 1018
+ coords_t: 512
+ coords_b: 84
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.s_wnd_text {
+ text: "<align hstyle=center vstyle=center><color value=fff6f3f1><font face=/font/corporatesbold.font xscale=1.2 yscale=1.2>Drive Control Fault<br>Service Required</font></align>\r\n"
+ coords_l: 381
+ coords_r: 711
+ coords_t: 432
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.s_wnd_icon {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.404296875 right=0.529296875 top=0.2890625 bottom=0.435546875 color=ff60b6e7 xscale=stretch yscale=stretch>"
+ coords_l: 739
+ coords_r: 995
+ coords_t: 432
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.spd_frame_s {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.005859375 bottom=0.0625 width=58 height=58>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5068359375 right=0.53515625 top=0.060546875 bottom=0.064453125 width=58 height=127>\r\n\r\n\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.005859375 bottom=0.0625 width=58 height=58></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.0625 bottom=0.119140625 width=58 height=58></align>\r\n<ret><align hstyle=right><offset vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.53515625 right=0.5634765625 top=0.062 bottom=0.0625 width=58 height=127></align>\r\n\r\n<ret><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5341796875 right=0.5361328125 top=0.005859375 bottom=0.0625 width=148 height=58>\r\n<ret><align vstyle=bottom><offset hshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5353 right=0.5353 top=0.0625 bottom=0.119140625 width=148 height=58></align>\r\n<ret><offset hshift=58 vshift=58><img src=/material/ui/dashboard/ford_bronco_24/display.mat color=FFFFFFFF left=0.5322265625 right=0.5380859375 top=0.0546875 bottom=0.06640625 width=148 height=127>"
+ coords_l: 71
+ coords_r: 335
+ coords_t: 346
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui_text_bar : _nameless._.spd_bar_s {
+ vertical: true
+ min_size: 0
+ max_size: 166
+ min_value: 0
+ max_value: 217
+ text: "<align vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.587890625 right=0.59765625 top=0.36328125 bottom=0.625 height=166 width=20 color=ff675339></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.59765625 right=0.587890625 top=0.36328125 bottom=0.625 height=166 width=20 color=ff675339></align>\r\n<ret><align vstyle=bottom><offset hshift=20><img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.6005859375 right=0.6025390625 top=0.36328125 bottom=0.625 height=166 width=151 color=ff675339></align>"
+ coords_l: 107
+ coords_r: 298
+ coords_t: 308
+ coords_b: 142
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1710
+ layer: 13
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text_common : _nameless._.spd_val_3 {
+ value: "288|MPH"
+ look_template: txt.ford_bronc24.speed_s
+ text: ""
+ coords_l: 122
+ coords_r: 292
+ coords_t: 218
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 14
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::group : _nameless._.cruise_3 {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cr_contr_i_s
+ my_children[1]: _nameless._.cr_val_3
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 0
+ area_r: 1024
+ area_t: 620
+ area_b: 0
+ id: 1240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.cr_contr_i_s {
+ text: "<img src=/material/ui/dashboard/ford_bronco_24/display.mat left=0.25 right=0.3125 top=0.875 bottom=1 color=ff4cf984 yscale=stretch xscale=stretch>"
+ coords_l: 124
+ coords_r: 172
+ coords_t: 280
+ coords_b: 232
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 14
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_3
+}
+
+ui::text_common : _nameless._.cr_val_3 {
+ value: 100
+ look_template: txt.ford_bronc24.cruise_val_s
+ text: ""
+ coords_l: 172
+ coords_r: 272
+ coords_t: 277
+ coords_b: 233
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 14
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cruise_3
+}
+
+ui::text_common : _nameless._.spd_limit_s {
+ value: 50
+ look_template: txt.ford_bronc24.spd_limit
+ text: ""
+ coords_l: 251
+ coords_r: 315
+ coords_t: 548
+ coords_b: 484
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless.bettergps.f150info {
+ text: "<img src=/material/ui/bronco_info_startup/marker.mat left=0.002770083102493 right=1 bottom=1 top=0 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1024
+ coords_t: 620
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 100
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+}

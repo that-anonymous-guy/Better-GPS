@@ -1,0 +1,22 @@
+{
+  "triangles": {
+    "0": 556,
+    "1": 128
+  },
+  "materials": 1,
+  "texture_size": [
+    128,
+    16
+  ],
+  "uniform_scale_relative_to_original": 0.625,
+  "camera_head_down_tilt_degrees": 45,
+  "fixed_mount_geometry_preserved": true,
+  "pivot_scs_local_m": [
+    0,
+    0.045,
+    0
+  ],
+  "mount_type": "flat wall plate with straight side tabs to pivots",
+  "uv": "single palette sampling",
+  "source_uv_kit_preserved": true
+}

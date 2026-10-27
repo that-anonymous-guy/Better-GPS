@@ -1,0 +1,4 @@
+map 2d micro_normal.tga
+addr clamp_to_edge clamp_to_edge
+usage tsnormal
+color_space linear

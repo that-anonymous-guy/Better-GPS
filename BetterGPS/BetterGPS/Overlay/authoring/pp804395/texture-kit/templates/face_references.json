@@ -1,0 +1,98 @@
+[
+  {
+    "part": "mount_base",
+    "surface": "DESSUS +Z",
+    "center_px": [
+      2745.06982421875,
+      1544.8160400390625
+    ]
+  },
+  {
+    "part": "mount_base",
+    "surface": "DESSOUS -Z",
+    "center_px": [
+      3229.170166015625,
+      1544.8161010742188
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "AVANT -Y",
+    "center_px": [
+      356.04676818847656,
+      1500.04833984375
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "COTE +X",
+    "center_px": [
+      1000.6333923339844,
+      639.9425048828125
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "DESSUS +Z",
+    "center_px": [
+      1702.6284790039062,
+      1541.94287109375
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "COTE -X",
+    "center_px": [
+      390.0885372161865,
+      639.9423828125
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "ARRIERE +Y",
+    "center_px": [
+      1034.6752471923828,
+      1500.0482788085938
+    ]
+  },
+  {
+    "part": "camera_housing",
+    "surface": "DESSOUS -Z",
+    "center_px": [
+      1702.6284790039062,
+      506.05712890625
+    ]
+  },
+  {
+    "part": "front_face_inset",
+    "surface": "AVANT -Y",
+    "center_px": [
+      381.4396438598633,
+      2607.74853515625
+    ]
+  },
+  {
+    "part": "front_face_inset",
+    "surface": "ARRIERE +Y",
+    "center_px": [
+      897.9418334960938,
+      2607.74853515625
+    ]
+  },
+  {
+    "part": "sun_shield_top",
+    "surface": "DESSUS +Z",
+    "center_px": [
+      2756.27587890625,
+      620.6085205078125
+    ]
+  },
+  {
+    "part": "sun_shield_top",
+    "surface": "DESSOUS -Z",
+    "center_px": [
+      3245.3935546875,
+      620.6085205078125
+    ]
+  }
+]

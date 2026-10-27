@@ -1,0 +1,31 @@
+{
+  "android_tag": "android-4.2.2_r1",
+  "source_folder": "Android-reference/Gallery",
+  "files": [
+    {
+      "file": "src/com/android/gallery3d/app/AlbumPage.java",
+      "sha256": "f8d6db97c5a457844fca0a9c0386240d283b6286b04cb4b1cbf2a5a091704c7d"
+    },
+    {
+      "file": "src/com/android/gallery3d/app/PhotoPage.java",
+      "sha256": "4b2264770926d05a13e3191850689de7a7c9d6d05595a1b451b7333a67d86fbe"
+    },
+    {
+      "file": "src/com/android/gallery3d/ui/PhotoView.java",
+      "sha256": "23006a64a6ff91d184678f863870f0c0f79b080d0eb63695baf41cb8c99a47ed"
+    },
+    {
+      "file": "src/com/android/gallery3d/app/SlideshowPage.java",
+      "sha256": "f1209ac53a7b42a465a8516be8b7dc7580186e1cf54682b3ea23eaf4b3c6dff4"
+    },
+    {
+      "file": "res/mipmap-xhdpi/ic_launcher_gallery.png",
+      "source_sha256": "eaac43d04eb497c6cda9aad19a492ca806f0e76e94f855891877b32bd325b75c",
+      "rgba_size": [
+        96,
+        96
+      ],
+      "dds_sha256": "5fe103bfaa148ecdec34003c77c550354d844725ff3ef70a7f102f0b1f22ba59"
+    }
+  ]
+}

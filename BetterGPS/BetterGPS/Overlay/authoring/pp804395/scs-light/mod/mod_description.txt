@@ -1,0 +1,20 @@
+Pana-Pacific PP804395 rear camera, optional physical accessory.
+Kenworth T680 Next Gen: Day Cab, 52-inch and 76-inch sleepers.
+Individual rear-wall mounting coordinates. Refined rounded housings, recessed protective glass and detailed optics.
+Shared satin normal map, darker sun-specular optics, separate metal hardware and transparent glass.
+Five material draws for front/rear (including non-specular dark cavity), four per side. One exported object per camera.
+One standard front camera for all eight bumpers, $250. The low-bumper option is hidden and retained only as a save-compatible standard-model alias.
+Front camera conflicts with both Oversize Load banners; the bullbar remains compatible with the camera.
+Minor flat/grille intersections on low bumpers are explicitly accepted by the user.
+Each front flat has the same cross-section over its entire length; no reduced necks or insertion tips.
+Hex-socket fixing heads, rounded pivots and rubber-lined cable passages. Thicker front flats and grille-fitting backing bridge.
+Rear camera at 62.5% original size, with a flat wall plate and straight side tabs fitted to each cab.
+Rear head tilted down 45 degrees. Sleeper rear cameras raised 10 cm; Day Cab unchanged.
+Optional PP804396 right side and PP804397 left side cameras below the mirrors, $250 each, reduced to 65% size.
+Optional PP807032 front camera on all eight stock front bumpers, $250, at the left grille beside the plate.
+Front camera is an optional bumper child, using empty slot_0 and accessory_hookup_data like stock light bars and steering knobs.
+Its mounting pose follows each bumper automatically, including short and long hoods. No front chassis/cabin socket or bumper-compatibility wildcard filters.
+Buy or remove the camera at the rear-wall socket in the truck configurator.
+No truck receives a camera by default. Rear: $150; each side: $250; available at level 0.
+This mod adds a physical camera; the NavPlus video page is a separate feature.
+For stock ATS 1.61 cabin geometry. Place above other mods replacing these cabins.

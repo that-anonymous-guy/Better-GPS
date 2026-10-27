@@ -1,0 +1,82 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.map
+ my_children[1]: _nameless._.speedlimit
+ my_children[2]: _nameless._.background
+ coords_l: 0
+ coords_r: 300
+ coords_t: 168
+ coords_b: 0
+ area_l: 0
+ area_r: 300
+ area_t: 168
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.map {
+ text: "<img src=/material/ui/dashboard/bare_map.mat xscale=stretch yscale=stretch left=0.25 right=0.75 bottom=0.3805 top=0.6595>"
+ coords_l: 0
+ coords_r: 300
+ coords_t: 168
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.speedlimit {
+ value: 75
+ look_template: txt.db_navi_spd
+ text: ""
+ coords_l: 256
+ coords_r: 295
+ coords_t: 163
+ coords_b: 125
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/white.mat color=ffe1e1e1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 300
+ coords_t: 168
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+}

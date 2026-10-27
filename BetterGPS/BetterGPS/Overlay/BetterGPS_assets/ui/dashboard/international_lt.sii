@@ -1,0 +1,1627 @@
+SiiNunit
+{
+ui::window : _nameless.01261de50 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 11
+ my_children[0]: _nameless._.bckg_lit
+ my_children[1]: _nameless._.sharedisplay
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display2
+ my_children[5]: _nameless._.display3
+ my_children[6]: _nameless._.display4
+ my_children[7]: _nameless._.display5
+ my_children[8]: _nameless._.display6
+ my_children[9]: _nameless._.display7
+ my_children[10]: _nameless.bgintl_intro
+ coords_l: 0
+ coords_r: 801
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 801
+ area_t: 800
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.bckg_lit {
+ text: "<img src=/material/ui/white.mat color=FF0F0F0F xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 11
+ my_children[0]: _nameless._.gear
+ my_children[1]: _nameless._.odometer
+ my_children[2]: _nameless._.temp
+ my_children[3]: _nameless._.cc
+ my_children[4]: _nameless._.voltage
+ my_children[5]: _nameless._.gear_mode
+ my_children[6]: _nameless._.clock
+ my_children[7]: _nameless._.checkengine
+ my_children[8]: _nameless._.cc_ico
+ my_children[9]: _nameless._.background
+ my_children[10]: _nameless._.fuel_warn_ta.b
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text_common : _nameless._.gear {
+ value: C1
+ look_template: txt.lt.gear
+ text: ""
+ coords_l: 18
+ coords_r: 248
+ coords_t: 74
+ coords_b: 27
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.odometer {
+ value: "1234567|mi"
+ look_template: txt.lt.odo
+ text: ""
+ coords_l: 281
+ coords_r: 521
+ coords_t: 74
+ coords_b: -1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.temp {
+ value: "54|F"
+ look_template: txt.lt.ambient
+ text: ""
+ coords_l: 66
+ coords_r: 156
+ coords_t: 473
+ coords_b: 393
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cc {
+ value: "55|km/h"
+ look_template: txt.lt.cc
+ text: ""
+ coords_l: 559
+ coords_r: 657
+ coords_t: 74
+ coords_b: 20
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.voltage {
+ value: "13.8|@@volt@@"
+ look_template: txt.lt.voltage
+ text: ""
+ coords_l: 608
+ coords_r: 736
+ coords_t: 473
+ coords_b: 393
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1320
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear_mode {
+ value: D
+ look_template: txt.lt.gearm
+ text: ""
+ coords_l: 17
+ coords_r: 247
+ coords_t: 350
+ coords_b: 94
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1380
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.clock {
+ value: "22:05"
+ look_template: txt.lt.clock
+ text: ""
+ coords_l: 338
+ coords_r: 466
+ coords_t: 764
+ coords_b: 732
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.checkengine {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.damage_txt
+ my_children[1]: _nameless._.damage_ico
+ my_children[2]: _nameless._.damage_frm
+ my_children[3]: _nameless._.damage_bcg
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 1190
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.damage_txt {
+ text: "<align hstyle=center><color value=FF3f5fcf><font face=/font/int_bold_alp.font xscale=0.8 yscale=0.8>STOP!<br>CHECK ENGINE</font></align>"
+ coords_l: 125
+ coords_r: 675
+ coords_t: 253
+ coords_b: 115
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.checkengine
+}
+
+ui::text : _nameless._.damage_ico {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch color=FF3f5fcf left=0.58 right=0.83 top=0.23 bottom=0.39>"
+ coords_l: 331
+ coords_r: 470
+ coords_t: 372
+ coords_b: 283
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.checkengine
+}
+
+ui::text : _nameless._.damage_frm {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch left=0.36 top=0.402 bottom=0.7><ret><offset vshift=10 hshift=100><img src=/material/ui/white.mat width=300px height=150px color=FF0F0F0F>"
+ coords_l: 91
+ coords_r: 707
+ coords_t: 389
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.checkengine
+}
+
+ui::text : _nameless._.damage_bcg {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch color=FFFFFFFF top=0.5 bottom=0.882 left=0.0875 right=0.91><ret><img src=/material/ui/white.mat color=FF0F0F0F width=730px height=180px>"
+ coords_l: 70
+ coords_r: 728
+ coords_t: 400
+ coords_b: 95
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.checkengine
+}
+
+ui::text : _nameless._.cc_ico {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch left=0.15 right=0.33 top=0.29 bottom=0.37>\r\n"
+ coords_l: 592
+ coords_r: 715
+ coords_t: 68
+ coords_b: &414ffffc
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.4 color=FFFFFFFF><ret><offset hshift=70><img src=/material/ui/white.mat color=FF0F0F0F width=730px height=257px><ret><img src=/material/ui/dashboard/international_lt/icons.mat width=61 height=59 top=0.326 bottom=0.398 right=0.076 color=FFFFFFFF><ret><align hstyle=right><offset vshift=1><img src=/material/ui/dashboard/international_lt/icons.mat width=58 height=47 top=0.328 bottom=0.387 left=0.928></align><ret><align vstyle=bottom hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat bottom=0.115 left=0.648 width=281px height=95></align><ret><align vstyle=bottom hstyle=left><img src=/material/ui/dashboard/international_lt/icons.mat bottom=0.115 right=0.648 left=1 width=281px height=95></align>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.fuel_warn_ta.b {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.41 bottom=0.58 left=0.69 right=0.77>"
+ coords_l: 724
+ coords_r: 798
+ coords_t: 342
+ coords_b: &4336ffff
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1200
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.temp_block
+ my_children[1]: _nameless._.voltage_blck
+ my_children[2]: _nameless._.bcg01
+ my_children[3]: _nameless._.logo
+ my_children[4]: _nameless._.chk_eng_blk
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.temp_block {
+ text: "<img src=/material/ui/white.mat color=FF0F0F0F xscale=stretch yscale=stretch>"
+ coords_l: &40000040
+ coords_r: 198
+ coords_t: 476
+ coords_b: 394
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.voltage_blck {
+ text: "<img src=/material/ui/white.mat color=FF0F0F0F xscale=stretch yscale=stretch>"
+ coords_l: 604
+ coords_r: 798
+ coords_t: 475
+ coords_b: 392
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.bcg01 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.4 color=FFFFFFFF><ret><offset hshift=70><img src=/material/ui/white.mat color=FF0F0F0F width=730px height=260px><ret><img src=/material/ui/dashboard/international_lt/icons.mat width=61 height=59 top=0.326 bottom=0.398 right=0.076 color=FFFFFFFF><ret><align hstyle=right><offset vshift=1><img src=/material/ui/dashboard/international_lt/icons.mat width=58 height=47 top=0.328 bottom=0.387 left=0.928></align><ret><align vstyle=bottom hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat bottom=0.115 left=0.648 width=281px height=95></align><ret><align vstyle=bottom hstyle=left><img src=/material/ui/dashboard/international_lt/icons.mat bottom=0.115 right=0.648 left=1 width=281px height=95></align>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.logo {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.412 bottom=0.71 left=0.088 right=0.36>"
+ coords_l: 249
+ coords_r: 552
+ coords_t: 440
+ coords_b: 107
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.chk_eng_blk {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF0F0F0F>"
+ coords_l: 235
+ coords_r: 567
+ coords_t: 449
+ coords_b: 321
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1190
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.fuel.bar.bcg
+ my_children[1]: _nameless._.title1
+ my_children[2]: _nameless._.reset1
+ my_children[3]: _nameless._.labels
+ my_children[4]: _nameless._.fuel_inst
+ my_children[5]: _nameless._.fuel_bar_ins
+ my_children[6]: _nameless._.fuel_bar_avg
+ my_children[7]: _nameless._.fuel_icon
+ my_children[8]: _nameless._.fuel_bar
+ my_children[9]: _nameless._.arrow_down
+ my_children[10]: _nameless._.arrow_up
+ my_children[11]: _nameless._.fuel_eco_avg
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.fuel.bar.bcg {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF333333>"
+ coords_l: 272
+ coords_r: 640
+ coords_t: 262
+ coords_b: 236
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.title1 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>FUEL ECONOMY</font></align>"
+ coords_l: 180
+ coords_r: 622
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.reset1 {
+ text: "<color value=FFFFd7a1><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.35 yscale=0.35>HOLD OK TO RESET</font></align>"
+ coords_l: 390
+ coords_r: 790
+ coords_t: 122
+ coords_b: 72
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.labels {
+ text: "<color value=FFFFFFFF><align hstyle=left><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>AVG</font></align><ret><color value=FF0eff02><align hstyle=right><offset vshift=135><font face=/font/int_bold_alp.font xscale=0.35 yscale=0.35>INSTANT</font></align>"
+ coords_l: 494
+ coords_r: 642
+ coords_t: 331
+ coords_b: 155
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel_inst {
+ value: "3.9l|mpg"
+ look_template: txt.lt.ifuelcons
+ text: ""
+ coords_l: -125
+ coords_r: 524
+ coords_t: 207
+ coords_b: 161
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1160
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.fuel_bar_ins {
+ vertical: false
+ min_size: 0
+ max_size: 368
+ min_value: 0
+ max_value: &4106b852
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF0eff02>"
+ coords_l: 272
+ coords_r: 640
+ coords_t: 262
+ coords_b: 236
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui_text_bar : _nameless._.fuel_bar_avg {
+ vertical: false
+ min_size: 0
+ max_size: 371
+ min_value: 0
+ max_value: &4106b852
+ text: "<align hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat left=0.234 right=0.275 top=0.008 bottom=0.037 yscale=stretch width=28></align>"
+ coords_l: 288
+ coords_r: 659
+ coords_t: 293
+ coords_b: 271
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_icon {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.415 bottom=0.56 left=0.51 right=0.65>"
+ coords_l: 154
+ coords_r: 249
+ coords_t: 317
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.fuel_bar {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.153 bottom=0.2 left=0.63 right=1>"
+ coords_l: 264
+ coords_r: 654
+ coords_t: 271
+ coords_b: 221
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.arrow_down {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.24 bottom=0.3 right=0.05>"
+ coords_l: 753
+ coords_r: 787
+ coords_t: 183
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.arrow_up {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch bottom=0.24 top=0.3 left=0.05 right=0>"
+ coords_l: 749
+ coords_r: 783
+ coords_t: 382
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.fuel_eco_avg {
+ value: "2.0|mpg"
+ look_template: txt.lt.afuelcons
+ text: ""
+ coords_l: 250
+ coords_r: 475
+ coords_t: 360
+ coords_b: 40
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.title2
+ my_children[1]: _nameless._.speed
+ my_children[2]: _nameless._.stripes2
+ my_children[3]: _nameless._.arrow_down2
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 300
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.title2 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>SPEEDOMETER</font></align>"
+ coords_l: 200
+ coords_r: 600
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.speed {
+ value: "139|km/h"
+ look_template: txt.lt.bigspeed
+ text: ""
+ coords_l: 200
+ coords_r: 600
+ coords_t: 326
+ coords_b: 97
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.stripes2 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=115px height=18px top=0.235 bottom=0.26 left=0.81 right=0.98><ret><align hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat width=115px height=18px top=0.235 bottom=0.26 right=0.81 left=0.98></align>"
+ coords_l: 226
+ coords_r: 570
+ coords_t: 168
+ coords_b: 147
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.arrow_down2 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.24 bottom=0.3 right=0.05>"
+ coords_l: 753
+ coords_r: 787
+ coords_t: 183
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 8
+ my_children[0]: _nameless._.title3
+ my_children[1]: _nameless._.diesel
+ my_children[2]: _nameless._.to_empty
+ my_children[3]: _nameless._.fuel_dist
+ my_children[4]: _nameless._.stripes3
+ my_children[5]: _nameless._.arrow_down3
+ my_children[6]: _nameless._.arrow_up3
+ my_children[7]: _nameless._.fuel2
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 400
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.title3 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>DISTANCE TO EMPTY</font></align>"
+ coords_l: 150
+ coords_r: 650
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.diesel {
+ text: "<color value=FF6d6a62><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>DIESEL</font>"
+ coords_l: 252
+ coords_r: 752
+ coords_t: 335
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.to_empty {
+ text: "<color value=FF6d6a62><font face=/font/int_bold_alp.font xscale=0.57 yscale=0.57>to empty</font>"
+ coords_l: 432
+ coords_r: 799
+ coords_t: 269
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.fuel_dist {
+ value: "1182|mi"
+ look_template: txt.lt.fuelrange
+ text: ""
+ coords_l: 374
+ coords_r: 596
+ coords_t: 348
+ coords_b: 190
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.stripes3 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=115px height=18px top=0.235 bottom=0.26 left=0.81 right=0.98>"
+ coords_l: 240
+ coords_r: 584
+ coords_t: 260
+ coords_b: 239
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.arrow_down3 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.24 bottom=0.3 right=0.05>"
+ coords_l: 753
+ coords_r: 787
+ coords_t: 183
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.arrow_up3 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch bottom=0.24 top=0.3 left=0.05 right=0>"
+ coords_l: 749
+ coords_r: 783
+ coords_t: 382
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.fuel2 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch color=FF6d6a62 top=0.245 bottom=0.39 left=0.42 right=0.57>"
+ coords_l: 129
+ coords_r: 238
+ coords_t: 306
+ coords_b: 201
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 10
+ my_children[0]: _nameless._.title4
+ my_children[1]: _nameless._.driving
+ my_children[2]: _nameless._.average
+ my_children[3]: _nameless._.trip_dist
+ my_children[4]: _nameless._.reset4
+ my_children[5]: _nameless._.stripes4
+ my_children[6]: _nameless._.arrow_down4
+ my_children[7]: _nameless._.arrow_up4
+ my_children[8]: _nameless._.trip_lgth
+ my_children[9]: _nameless._.fuel_eco_avg._2
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 500
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.title4 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>TRIP </font><font face=/font/int_bold.font xscale=0.6 yscale=0.6>1</font></align>"
+ coords_l: 150
+ coords_r: 650
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.driving {
+ text: "<align hstyle=center><color value=FF6d6a62><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>DRIVING</font></align>"
+ coords_l: 172
+ coords_r: 346
+ coords_t: 359
+ coords_b: 311
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.average {
+ text: "<align hstyle=center><color value=FF6d6a62><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>>AVERAGE</font></align>"
+ coords_l: 428
+ coords_r: 657
+ coords_t: 359
+ coords_b: 310
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.trip_dist {
+ value: "4970|mi"
+ look_template: txt.lt.trip
+ text: ""
+ coords_l: 97
+ coords_r: 412
+ coords_t: 275
+ coords_b: 223
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.reset4 {
+ text: "<color value=FFFFd7a1><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.35 yscale=0.35>HOLD OK TO RESET</font></align>"
+ coords_l: 390
+ coords_r: 790
+ coords_t: 122
+ coords_b: 72
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.stripes4 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=217px height=21px top=0.265 bottom=0.28 left=0.08 right=0.4><ret><align hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat width=217px height=21px top=0.265 bottom=0.28 left=0.08 right=0.4></align>"
+ coords_l: 152
+ coords_r: 653
+ coords_t: 324
+ coords_b: 304
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.arrow_down4 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.24 bottom=0.3 right=0.05>"
+ coords_l: 753
+ coords_r: 787
+ coords_t: 183
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.arrow_up4 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch bottom=0.24 top=0.3 left=0.05 right=0>"
+ coords_l: 749
+ coords_r: 783
+ coords_t: 382
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.trip_lgth {
+ value: "5000:10"
+ look_template: txt.lt.trip_length
+ text: ""
+ coords_l: 72
+ coords_r: 437
+ coords_t: 210
+ coords_b: 158
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.fuel_eco_avg._2 {
+ value: "2.0|mpg"
+ look_template: txt.lt.afuelcons2
+ text: ""
+ coords_l: 415
+ coords_r: 665
+ coords_t: 275
+ coords_b: 155
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.display5 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.eng_hrs_txt
+ my_children[1]: _nameless._.engine_hours
+ my_children[2]: _nameless._.stripes5
+ my_children[3]: _nameless._.arrow_down5
+ my_children[4]: _nameless._.arrow_up5
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 600
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.eng_hrs_txt {
+ text: "<align hstyle=center><color value=FF6d6a62><font face=/font/int_bold_alp.font xscale=0.5 yscale=0.5>Engine Hours</font></align>"
+ coords_l: 200
+ coords_r: 600
+ coords_t: 225
+ coords_b: 175
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text_common : _nameless._.engine_hours {
+ value: 1000
+ look_template: txt.lt.enghours
+ text: ""
+ coords_l: 200
+ coords_r: 600
+ coords_t: 308
+ coords_b: 198
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1280
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.stripes5 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=115px height=18px top=0.235 bottom=0.26 left=0.81 right=0.98><ret><align hstyle=right><img src=/material/ui/dashboard/international_lt/icons.mat width=115px height=18px top=0.235 bottom=0.26 right=0.81 left=0.98></align>"
+ coords_l: &431a0002
+ coords_r: 648
+ coords_t: 217
+ coords_b: 196
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.arrow_down5 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.24 bottom=0.3 right=0.05>"
+ coords_l: 753
+ coords_r: 787
+ coords_t: 183
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::text : _nameless._.arrow_up5 {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch bottom=0.24 top=0.3 left=0.05 right=0>"
+ coords_l: 749
+ coords_r: 783
+ coords_t: 382
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display5
+}
+
+ui::group : _nameless._.display6 {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.title6
+ my_children[1]: _nameless._.gauge_labels
+ my_children[2]: _nameless._.oil_temp
+ my_children[3]: _nameless._.voltage_g
+ my_children[4]: _nameless._.eng_oil_bcg
+ my_children[5]: _nameless._.volt_bcg
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 700
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.title6 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>MY GAUGES</font></align>"
+ coords_l: 150
+ coords_r: 650
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.gauge_labels {
+ text: "<color value=FFFFFFFF><align hstyle=left><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>ENG OIL              VOLTMETER</font></align>"
+ coords_l: 156
+ coords_r: 706
+ coords_t: 138
+ coords_b: 88
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui_gauge : _nameless._.oil_temp {
+ min: -108
+ max: 108
+ value_min: 38
+ value_max: 149
+ value: 38
+ material: "/material/ui/dashboard/international_lt/needle.mat"
+ xref_pos: 90
+ yref_pos: 132
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 174
+ coords_r: 302
+ coords_t: 306
+ coords_b: 178
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1340
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui_gauge : _nameless._.voltage_g {
+ min: -108
+ max: 108
+ value_min: 10
+ value_max: 16
+ value: 0
+ material: "/material/ui/dashboard/international_lt/needle.mat"
+ xref_pos: 90
+ yref_pos: 132
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 498
+ coords_r: 626
+ coords_t: 306
+ coords_b: 178
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1330
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.eng_oil_bcg {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=273px yscale=stretch bottom=0.23 right=0.251>"
+ coords_l: 101
+ coords_r: 380
+ coords_t: 384
+ coords_b: 134
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::text : _nameless._.volt_bcg {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat width=278px yscale=stretch bottom=0.23 left=0.261 right=0.512>"
+ coords_l: 422
+ coords_r: 711
+ coords_t: 385
+ coords_b: 131
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display6
+}
+
+ui::group : _nameless._.display7 {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.title7
+ my_children[1]: _nameless._.trans_ok
+ my_children[2]: _nameless._.frame
+ my_children[3]: _nameless._.low.fuel
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 800
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+
+ui::text : _nameless._.title7 {
+ text: "<color value=FF6d6a62><align hstyle=center><font face=/font/int_bold_alp.font xscale=0.6 yscale=0.6>OIL LEVEL</font></align>"
+ coords_l: 150
+ coords_r: 650
+ coords_t: 457
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display7
+}
+
+ui::text : _nameless._.trans_ok {
+ text: "<align hstyle=center><font face=/font/int_bold_alp.font xscale=0.8 yscale=0.8>TRANSMISSION OIL<br>LEVEL OK</font></align>"
+ coords_l: 125
+ coords_r: 675
+ coords_t: 294
+ coords_b: 158
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display7
+}
+
+ui::text : _nameless._.frame {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch left=0.36 top=0.402 bottom=0.7><ret><offset vshift=10 hshift=100><img src=/material/ui/white.mat width=300px height=150px color=FF0F0F0F>"
+ coords_l: 91
+ coords_r: 707
+ coords_t: 389
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display7
+}
+
+ui::group : _nameless._.low.fuel {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.low_fuel_txt
+ my_children[1]: _nameless._.low_fuel_ico
+ my_children[2]: _nameless._.ok
+ my_children[3]: _nameless._.low_fuel_frm
+ my_children[4]: _nameless._.low_fuel_bcg
+ coords_l: 0
+ coords_r: 800
+ coords_t: 800
+ coords_b: 0
+ area_l: 0
+ area_r: 800
+ area_t: 800
+ area_b: 0
+ id: 1200
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display7
+}
+
+ui::text : _nameless._.low_fuel_txt {
+ text: "<align hstyle=center><color value=FFa8e4e8><font face=/font/int_bold_alp.font xscale=0.8 yscale=0.8>LOW FUEL LEVEL</font></align>"
+ coords_l: 125
+ coords_r: 675
+ coords_t: 221
+ coords_b: 171
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low.fuel
+}
+
+ui::text : _nameless._.low_fuel_ico {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch color=FFa8e4e8 left=0.43 right=0.57 top=0.24 bottom=0.39>"
+ coords_l: 353
+ coords_r: 447
+ coords_t: 362
+ coords_b: 259
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low.fuel
+}
+
+ui::text : _nameless._.ok {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch top=0.31 bottom=0.38 left=0.83 right=0.91>"
+ coords_l: 615
+ coords_r: 688
+ coords_t: 382
+ coords_b: 317
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low.fuel
+}
+
+ui::text : _nameless._.low_fuel_frm {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch left=0.36 top=0.402 bottom=0.7><ret><offset vshift=10 hshift=100><img src=/material/ui/white.mat width=300px height=150px color=FF0F0F0F>"
+ coords_l: 91
+ coords_r: 707
+ coords_t: 389
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low.fuel
+}
+
+ui::text : _nameless._.low_fuel_bcg {
+ text: "<img src=/material/ui/dashboard/international_lt/icons.mat xscale=stretch yscale=stretch color=FFFFFFFF top=0.5 bottom=0.882 left=0.0875><ret><img src=/material/ui/white.mat color=FF0F0F0F width=730px height=180px>"
+ coords_l: 70
+ coords_r: 800
+ coords_t: 400
+ coords_b: 95
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.low.fuel
+}
+
+
+ui::text : _nameless.bgintl_intro {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/international_cluster.mat left=0 right=0.990099009901 top=0 bottom=1 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 800
+ coords_t: 480
+ coords_b: 90
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 127
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.01261de50
+}
+}

@@ -1,0 +1,1961 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.sharedisplay
+ my_children[1]: _nameless._.display1
+ my_children[2]: _nameless._.display2
+ my_children[3]: _nameless._.display3
+ my_children[4]: _nameless._.display4
+ my_children[5]: _nameless._.service
+ my_children[6]: _nameless.bettergps.f150info
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 29
+ my_children[0]: _nameless._.top_bauges
+ my_children[1]: _nameless._.cc_group
+ my_children[2]: _nameless._.diff_lock
+ my_children[3]: _nameless._.f_lvl_low
+ my_children[4]: _nameless._.damage_icons
+ my_children[5]: _nameless._.low_beam
+ my_children[6]: _nameless._.hibeam_ico
+ my_children[7]: _nameless._.dist
+ my_children[8]: _nameless._.gear
+ my_children[9]: _nameless._.compas
+ my_children[10]: _nameless._.amb_tmp
+ my_children[11]: _nameless._.park_brk_ico
+ my_children[12]: _nameless._.spd_lmt
+ my_children[13]: _nameless._.l_blk
+ my_children[14]: _nameless._.r_blk
+ my_children[15]: _nameless._.bckgrnd_blck
+ my_children[16]: _nameless._.blocker
+ my_children[17]: _nameless._.over_stick
+ my_children[18]: _nameless._.rpm_g
+ my_children[19]: _nameless._.rpm_g_c3
+ my_children[20]: _nameless._.rpm_g_c2
+ my_children[21]: _nameless._.rpm_g_c1
+ my_children[22]: _nameless._.rpm_g2
+ my_children[23]: _nameless._.spd_txt
+ my_children[24]: _nameless._.spd_c_g3
+ my_children[25]: _nameless._.spd_c_g2
+ my_children[26]: _nameless._.spd_c_g1
+ my_children[27]: _nameless._.rpm_txt
+ my_children[28]: _nameless._.rpm_sticks
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 950
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::group : _nameless._.top_bauges {
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.w_tmp_blck
+ my_children[1]: _nameless._.w_tmp_g2
+ my_children[2]: _nameless._.w_tmp_l
+ my_children[3]: _nameless._.w_tmp_h
+ my_children[4]: _nameless._.w_tmp_n_s
+ my_children[5]: _nameless._.s_gauges
+ my_children[6]: _nameless._.s_icons
+ my_children[7]: _nameless._.s_lbls
+ my_children[8]: _nameless._.mi_to_e_g
+ my_children[9]: _nameless.2c6.1790
+ my_children[10]: _nameless.2c6.07a0
+ my_children[11]: _nameless.2c6.0be0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.w_tmp_blck {
+ text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.3486328125 right=0.4326171875 top=0.7705078125 bottom=0.8125 width=114 height=55>\r\n<offset hshift=269><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.3486328125 right=0.4326171875 top=0.7705078125 bottom=0.8125 width=114 height=55>\r\n"
+ coords_l: 475
+ coords_r: 980
+ coords_t: 461
+ coords_b: 406
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::text : _nameless._.w_tmp_g2 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.548828125 right=0.5 top=0.625 bottom=0.6875 xscale=stretch color=FFF4D169> "
+ coords_l: 527
+ coords_r: 578
+ coords_t: 519
+ coords_b: 473
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless._.w_tmp_l {
+ min: 15
+ max: 124
+ value_min: 0
+ value_max: 90
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_s.mat"
+ xref_pos: 64
+ yref_pos: 64
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 464
+ coords_r: 592
+ coords_t: 534
+ coords_b: 406
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1460
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless._.w_tmp_h {
+ min: 15
+ max: 220
+ value_min: 0
+ value_max: 120
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_s.mat"
+ xref_pos: 64
+ yref_pos: 64
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 464
+ coords_r: 592
+ coords_t: 534
+ coords_b: 406
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1460
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless._.w_tmp_n_s {
+ min: 71
+ max: 276
+ value_min: 0
+ value_max: 120
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/needle_s.mat"
+ xref_pos: 32
+ yref_pos: 4
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 464
+ coords_r: 592
+ coords_t: 534
+ coords_b: 406
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1460
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::text : _nameless._.s_gauges {
+ text: "<color value=FFF4D169>\r\n<offset hshift=13 vshift=16><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.548828125 top=0.625 bottom=0.6875 width=50>\r\n<ret><offset hshift=63 vshift=16><color value=FF1936FF><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.548828125 right=0.5 top=0.625 bottom=0.6875 width=51> \r\n<ret><offset hshift=103 vshift=59><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4560546875 right=0.4814453125 top=0.9765625 bottom=0.984375 width=8 height=4>\r\n<ret><offset hshift=17 vshift=56><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4560546875 right=0.4814453125 top=0.9765625 bottom=0.984375 width=8 height=4>\r\n<ret><offset hshift=97 vshift=73><color value=FF54A7FF><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.46875 top=0.90625 bottom=0.9375 width=14 height=12>\r\n<ret><offset hshift=14 vshift=71><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.46875 right=0.5 top=0.90625 bottom=0.9375 width=20 height=16>\r\n\r\n<ret><offset hshift=396 vshift=71><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.46875 right=0.5 top=0.90625 bottom=0.9375 width=20 height=16>\r\n<ret><offset hshift=479 vshift=73><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.46875 top=0.90625 bottom=0.9375 width=14 height=12>\r\n<ret><offset hshift=445 vshift=17><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.548828125 right=0.5 top=0.625 bottom=0.6875 width=51> \r\n<ret><offset hshift=395 vshift=17><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.548828125 top=0.625 bottom=0.6875 width=50>\r\n<ret><offset hshift=442 vshift=16><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4853515625 right=0.4970703125 top=0.97265625 bottom=0.9892578125 width=8 height=12>\r\n<ret><offset hshift=406 vshift=34><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.46875 top=0.90625 bottom=0.9375 width=8 height=12>\r\n<ret><offset hshift=477 vshift=34><color value=FFF4D169><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.46875 right=0.5 top=0.90625 bottom=0.9375 width=8 height=12>\r\n"
+ coords_l: 464
+ coords_r: 978
+ coords_t: 535
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::text : _nameless._.s_icons {
+ text: "<ret><offset hshift=35 vshift=34><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.875 right=0.9375 top=0.875 bottom=0.9375 width=55 height=55>\r\n<ret><offset hshift=425 vshift=38><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.75 right=0.8125 top=0.9375 bottom=1 width=49 height=46>\r\n<ret><offset hshift=422 vshift=54><color value=FFFFFFFF><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4375 right=0.4779 top=0.6875 bottom=0.75 width=10 height=14>"
+ coords_l: 464
+ coords_r: 968
+ coords_t: 535
+ coords_b: 429
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::text : _nameless._.s_lbls {
+ text: "<ret><offset hshift=10 vshift=85><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>C</font>\r\n<ret><offset hshift=96 vshift=85><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>H</font>\r\n<ret><offset hshift=395 vshift=85><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>E</font>\r\n<ret><offset hshift=484 vshift=85><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>F</font>"
+ coords_l: 464
+ coords_r: 968
+ coords_t: 534
+ coords_b: 413
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::text_common : _nameless._.mi_to_e_g {
+ value: "152|mi"
+ look_template: txt.frd_f150_23.rem_dis
+ text: ""
+ coords_l: 853
+ coords_r: 966
+ coords_t: 497
+ coords_b: 371
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless.2c6.1790 {
+ min: 15
+ max: 124
+ value_min: 0
+ value_max: 1
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_s.mat"
+ xref_pos: 64
+ yref_pos: 64
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 846
+ coords_r: 974
+ coords_t: 535
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1740
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless.2c6.07a0 {
+ min: 15
+ max: 232
+ value_min: 0
+ value_max: 1
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_s.mat"
+ xref_pos: 64
+ yref_pos: 64
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 846
+ coords_r: 974
+ coords_t: 535
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1740
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui_gauge : _nameless.2c6.0be0 {
+ min: 71
+ max: 289
+ value_min: 0
+ value_max: 1
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/needle_s.mat"
+ xref_pos: 32
+ yref_pos: 4
+ off_x: 0
+ off_y: 0
+ smooth_move: true
+ coords_l: 846
+ coords_r: 974
+ coords_t: 535
+ coords_b: 407
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1740
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.top_bauges
+}
+
+ui::group : _nameless._.cc_group {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.cc_icon_lbl
+ my_children[1]: _nameless.29e.53b0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 1240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.cc_icon_lbl {
+ value: "199|Km/h"
+ look_template: txt.frd_f150_23.cc_spd_ind
+ text: ""
+ coords_l: 976
+ coords_r: 1135
+ coords_t: 73
+ coords_b: 32
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc_group
+}
+
+ui::text : _nameless.29e.53b0 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.625 top=0.625 bottom=0.6875 color=FF1CC64E xscale=stretch yscale=stretch>"
+ coords_l: 1020
+ coords_r: 1054
+ coords_t: 111
+ coords_b: 77
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.cc_group
+}
+
+ui::group : _nameless._.diff_lock {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.4h_diff.0000
+ my_children[1]: _nameless._.4h_diff_bck
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 1490
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.4h_diff.0000 {
+ text: "<align vstyle=bottom hstyle=left><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1><color value=FF14A8F1>4H</align></font>"
+ coords_l: 26
+ coords_r: 70
+ coords_t: 78
+ coords_b: 42
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.diff_lock
+}
+
+ui::text : _nameless._.4h_diff_bck {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.36328125 right=0.3671875 top=0.8447265625 bottom=0.849609375 xscale=stretch yscale=stretch color=FFFFFFFF> "
+ coords_l: 17
+ coords_r: 70
+ coords_t: 78
+ coords_b: 42
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.diff_lock
+}
+
+ui::group : _nameless._.f_lvl_low {
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.low_flw
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 1200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.low_flw {
+ text: "<color value=FF14A8F1>\r\n<offset hshift=41 vshift=45><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.75 right=0.8125 top=0.9375 bottom=1 height=46 width=49>\r\n<ret><offset hshift=22 vshift=41><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.46875 top=0.90625 bottom=0.9375 width=8 height=12>\r\n<ret><offset hshift=58 vshift=23><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4853515625 right=0.4970703125 top=0.97265625 bottom=0.9892578125 width=8 height=12>\r\n<ret><offset hshift=93 vshift=41><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.46875 right=0.5 top=0.90625 bottom=0.9375 width=8 height=12>\r\n<ret><offset hshift=95 vshift=80><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.46875 top=0.90625 bottom=0.9375  width=14 height=12>\r\n<ret><offset hshift=11 vshift=24><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.548828125 top=0.625 bottom=0.6875 width=50 height=63>\r\n<ret><offset hshift=61 vshift=24><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.548828125 right=0.5 top=0.625 bottom=0.6875 width=51 height=65>\r\n<ret><offset hshift=38 vshift=61><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4375 right=0.4779 top=0.6875 bottom=0.75 width=10 height=14>"
+ coords_l: 848
+ coords_r: 976
+ coords_t: 542
+ coords_b: 414
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.f_lvl_low
+}
+
+ui::group : _nameless._.damage_icons {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.ice_chck_ico
+ my_children[1]: _nameless._.batt_ico
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 1190
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.ice_chck_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9375 right=1 top=0.9375 bottom=1 xscale=stretch yscale=stretch color=FF14A8F1 >"
+ coords_l: 8
+ coords_r: 43
+ coords_t: 427
+ coords_b: 390
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage_icons
+}
+
+ui::text : _nameless._.batt_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.625 right=0.6875 top=0.9375 bottom=1  xscale=stretch yscale=stretch color=FF0B0BF4>"
+ coords_l: 1391
+ coords_r: 1427
+ coords_t: 84
+ coords_b: 43
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.damage_icons
+}
+
+ui::text : _nameless._.low_beam {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.8125 right=0.875 top=0.9375 bottom=1  xscale=stretch yscale=stretch color=FF1CC64E>"
+ coords_l: 42
+ coords_r: 80
+ coords_t: 41
+ coords_b: 3
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1470
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.hibeam_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.625 top=0.9375 bottom=1  xscale=stretch yscale=stretch color=FFFF2200>"
+ coords_l: 99
+ coords_r: 140
+ coords_t: 79
+ coords_b: 37
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1590
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.dist {
+ value: "4778.3|mi"
+ look_template: txt.frd_f150_23.odometer
+ text: ""
+ coords_l: 1060
+ coords_r: 1237
+ coords_t: 43
+ coords_b: -1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: D1
+ look_template: txt.frd_f150_23.gear
+ text: ""
+ coords_l: 229
+ coords_r: 328
+ coords_t: 92
+ coords_b: 33
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.compas {
+ value: NW
+ look_template: txt.frd_f150_23.compas
+ text: ""
+ coords_l: 998
+ coords_r: 1083
+ coords_t: 38
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.amb_tmp {
+ value: 64
+ look_template: txt.frd_f150_23.amb_temp
+ text: ""
+ coords_l: 388
+ coords_r: 461
+ coords_t: 42
+ coords_b: 5
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.park_brk_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4375 right=0.5 top=0.8125 bottom=0.875  xscale=stretch yscale=stretch color=FF0B0BF4>"
+ coords_l: 221
+ coords_r: 257
+ coords_t: 124
+ coords_b: 88
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1270
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.spd_lmt {
+ value: "25|"
+ look_template: txt.frd_f150_23.spd_lmt
+ text: ""
+ coords_l: 964
+ coords_r: 1065
+ coords_t: 251
+ coords_b: 177
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.l_blk {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4375 right=0.5 top=0.6875 bottom=0.75 width=37 height=37 color=FF1CC64E>"
+ coords_l: 38
+ coords_r: 84
+ coords_t: 481
+ coords_b: 438
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1570
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.r_blk {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.4375 top=0.6875 bottom=0.75 width=37 height=37 color=FF1CC64E>"
+ coords_l: 1365
+ coords_r: 1411
+ coords_t: 481
+ coords_b: 438
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1580
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.bckgrnd_blck {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.blocker {
+ text: "<color value=FFFFFFFF>\r\n<offset hshift=74 vshift=285><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.29296875 right=0.390625 top=0.611328125 bottom=0.679 width=386 height=252>\r\n<ret><offset hshift=982 vshift=282><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.29396875 right=0.390625 top=0.611328125 bottom=0.6796875 width=390 height=255>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.over_stick {
+ text: "<color value=FF005EFF> \r\n<ret><offset hshift=475 vshift=302><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4765625 right=0.458984375 top=0.939453125 bottom=0.953125 width=19 height=12>\r\n<color value=FFFFFEF8>\r\n<ret><offset hshift=381 vshift=61><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4970703125 right=0.482421875 top=0.955078125 bottom=0.9716796875 width=15 height=18>\r\n<ret><offset hshift=251 vshift=21><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.486328125 right=0.49609375 top=0.97265625 bottom=0.9892578125 width=10 height=17>\r\n<ret><offset hshift=33 vshift=164><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4814453125 right=0.498046875 top=0.9384765625 bottom=0.9541015625 width=17 height=16>\r\n<ret><offset hshift=118 vshift=61><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.482421875 right=0.4970703125 top=0.955078125 bottom=0.9716796875 width=15 height=17>\r\n<ret><offset hshift=462 vshift=163><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.498046875 right=0.4814453125 top=0.9384765625 bottom=0.9541015625 width=17 height=16>\r\n<ret><offset hshift=19 vshift=302><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.458984375 right=0.4765625 top=0.939453125 bottom=0.953125 width=18 height=14>\r\n<ret><offset hshift=1380 vshift=302><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4765625 right=0.458984375 top=0.939453125 bottom=0.953125 width=18 height=14>\r\n<ret><offset hshift=1368 vshift=164><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.498046875 right=0.4814453125 top=0.9384765625 bottom=0.9541015625>\r\n<ret><offset hshift=1285 vshift=61><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4970703125 right=0.482421875 top=0.955078125 bottom=0.9716796875>\r\n<ret><offset hshift=1156 vshift=21><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.486328125 right=0.49609375 top=0.97265625 bottom=0.9892578125 width=10 height=17>\r\n<ret><offset hshift=1023 vshift=61><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.482421875 right=0.4970703125 top=0.955078125 bottom=0.9716796875>\r\n<ret><offset hshift=937 vshift=164><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4814453125 right=0.498046875 top=0.9384765625 bottom=0.9541015625>\r\n<ret><offset hshift=925 vshift=302><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.458984375 right=0.4765625 top=0.939453125 bottom=0.953125>"
+ coords_l: 12
+ coords_r: 1426
+ coords_t: 525
+ coords_b: 13
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_g {
+ text: "<color value=FFB67220>\r\n<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0 right=0.2490234375 top=0.5 bottom=1 width=256 height=518>\r\n<ret><offset hshift=260><color value=FF0044FF><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2490234375 right=0.0003 top=0.5 bottom=1 width=256 height=518>\r\n<ret><offset hshift=905><color value=FFB67220><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.0003 right=0.249023 top=0.5 bottom=1 width=256 height=518>\r\n<ret><offset hshift=1165><color value=FFB67220><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2490234375 right=0.0003 top=0.5 bottom=1 width=256 height=518>\r\n"
+ coords_l: 10
+ coords_r: 1430
+ coords_t: 522
+ coords_b: 10
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.rpm_g_c3 {
+ min: 0
+ max: 235
+ value_min: 0
+ value_max: 6400
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_end.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 12
+ coords_r: 524
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1440
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.rpm_g_c2 {
+ min: 0
+ max: 150
+ value_min: 0
+ value_max: 4400
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 12
+ coords_r: 524
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1440
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.rpm_g_c1 {
+ min: 0
+ max: 60
+ value_min: 0
+ value_max: 2200
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 12
+ coords_r: 524
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1440
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_g2 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2490234375 right=0.0003 top=0.5 bottom=1 xscale=stretch height=518  color=FFB67220>"
+ coords_l: 270
+ coords_r: 526
+ coords_t: 522
+ coords_b: 249
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.spd_txt {
+ value: "120|MPH\r\n"
+ look_template: txt.frd_f150_23.speed
+ text: ""
+ coords_l: 961
+ coords_r: 1385
+ coords_t: 510
+ coords_b: 40
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.spd_c_g3 {
+ min: 0
+ max: 270
+ value_min: 0
+ value_max: 192
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge_end.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 917
+ coords_r: 1429
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1430
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.spd_c_g2 {
+ min: 0
+ max: 180
+ value_min: 0
+ value_max: 128
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 918
+ coords_r: 1430
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1430
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui_gauge : _nameless._.spd_c_g1 {
+ min: 0
+ max: 90
+ value_min: 0
+ value_max: 64
+ value: 0
+ material: "/material/ui/dashboard/ford_f150_23/gauge.mat"
+ xref_pos: 256
+ yref_pos: -128
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 917
+ coords_r: 1429
+ coords_t: 519
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1430
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.rpm_txt {
+ value: 0
+ look_template: txt.frd_f150_23.rpm
+ text: ""
+ coords_l: 59
+ coords_r: 477
+ coords_t: 509
+ coords_b: 39
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1730
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text : _nameless._.rpm_sticks {
+ text: "<offset hshift=60 vshift=391><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.25 right=0.3125 top=0.8125 bottom=0.875>\r\n<ret><color value=FF0044FF><offset hshift=390 vshift=392><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.3125 right=0.25 top=0.8125 bottom=0.875>\r\n<ret><offset hshift=107 vshift=371><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.5>0</font>\r\n<ret><offset hshift=378 vshift=371><color value=FF0044FF><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.5>8</font>\r\n<ret><offset hshift=198 vshift=323><color value=FFC4C4C4><font face=/font/db_ford_f150_2023.font xscale=0.8 yscale=0.9 spacing=-1>1000  X  RPM</font>\r\n<ret><offset hshift=966 vshift=388><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.25 right=0.3125 top=0.8125 bottom=0.875>\r\n<ret><offset hshift=1295 vshift=388><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.3125 right=0.25 top=0.8125 bottom=0.875>\r\n<ret><offset hshift=1017 vshift=364><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.5>0</font>\r\n<ret><offset hshift=1249 vshift=364><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.5>120</font>"
+ coords_l: 10
+ coords_r: 1427
+ coords_t: 522
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.slctd_page
+ my_children[1]: _nameless._.scrn_bar
+ my_children[2]: _nameless._.car_ico
+ my_children[3]: _nameless._.b_bar4
+ my_children[4]: _nameless._.clm_txt_box
+ my_children[5]: _nameless._.bckgrnd1
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.slctd_page {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5947265625 right=0.6103515625 top=0.841796875 bottom=0.87109375 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 900
+ coords_r: 917
+ coords_t: 292
+ coords_b: 263
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.scrn_bar {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6103515625 right=0.62109375 top=0.8125 bottom=0.9375 xscale=stretch height=170 color=FFC4C4C4>"
+ coords_l: 899
+ coords_r: 916
+ coords_t: 294
+ coords_b: 171
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.car_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6484375 right=1 top=0.5185546875 bottom=0.6796875 color=FFFFFFFF>"
+ coords_l: 541
+ coords_r: 898
+ coords_t: 318
+ coords_b: 138
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.b_bar4 {
+ text: "<align hstyle=left><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=351 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 47
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.clm_txt_box {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.5625 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.52734375 right=0.552734375 top=0.8125 bottom=0.875 width=245 height=73 color=FF9D7D3E></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.5 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E></align>\r\n<ret><offset vshift=-7><align vstyle=center hstyle=center><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.4 spacing=0 color=FFFFFEF8>Calm Screen</align></font>"
+ coords_l: 538
+ coords_r: 899
+ coords_t: 408
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::text : _nameless._.bckgrnd1 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.244140625 bottom=0.0009765625 width=518 height=190 color=FFB0460C>  \r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.244140625 bottom=0.0009765625 width=518 height=190 color=FFB0460C></align>\r\n<ret><align vstyle=bottom><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.0009765625 bottom=0.244140625 width=518 height=215 color=FFB0460C></align>\r\n<ret><align hstyle=right vstyle=bottom><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.0009765625 bottom=0.244140625 width=518 height=215 color=FFB0460C></align>"
+ coords_l: 182
+ coords_r: 1218
+ coords_t: 397
+ coords_b: -8
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 11
+ my_children[0]: _nameless._.avg_cons
+ my_children[1]: _nameless._.trp_time
+ my_children[2]: _nameless._.trp_rem_dist
+ my_children[3]: _nameless._.trp_dist
+ my_children[4]: _nameless._.car_ico_h
+ my_children[5]: _nameless._.hld_rst_txt
+ my_children[6]: _nameless._.slctd_pg1
+ my_children[7]: _nameless._.pg_scrn1
+ my_children[8]: _nameless._.top_box
+ my_children[9]: _nameless._.blue_bckgrnd
+ my_children[10]: _nameless._.b_bar
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.avg_cons {
+ value: "9.7|MPG"
+ look_template: txt.frd_f150_23.avg_f_c
+ text: ""
+ coords_l: 571
+ coords_r: 699
+ coords_t: 339
+ coords_b: 211
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.trp_time {
+ value: "51:28:06"
+ look_template: txt.frd_f150_23.trp_time
+ text: ""
+ coords_l: 721
+ coords_r: 885
+ coords_t: 339
+ coords_b: 211
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1390
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.trp_rem_dist {
+ value: "102|"
+ look_template: txt.frd_f150_23.trp_empt_d
+ text: ""
+ coords_l: 721
+ coords_r: 885
+ coords_t: 207
+ coords_b: 79
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.trp_dist {
+ value: "218.7|Miles"
+ look_template: txt.frd_f150_23.trp_dst
+ text: ""
+ coords_l: 571
+ coords_r: 699
+ coords_t: 206
+ coords_b: 78
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.car_ico_h {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2646484375 right=0.4189453125 top=0.6845703125 bottom=0.75 xscale=stretch height=110 color=FFFFFFFF>"
+ coords_l: 591
+ coords_r: 850
+ coords_t: 87
+ coords_b: -1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.hld_rst_txt {
+ text: "<align vstyle=center hstyle=center><font face=/font/db_ford_f150_2023.font xscale=1.1 yscale=1.1 color=FFFFFEF8>Hold OK to Reset</align></font>"
+ coords_l: 574
+ coords_r: 851
+ coords_t: 105
+ coords_b: 44
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.slctd_pg1 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5947265625 right=0.6103515625 top=0.841796875 bottom=0.87109375 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 900
+ coords_r: 917
+ coords_t: 272
+ coords_b: 243
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.pg_scrn1 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6103515625 right=0.62109375 top=0.8125 bottom=0.9375 xscale=stretch height=170 color=FFC4C4C4>"
+ coords_l: 899
+ coords_r: 916
+ coords_t: 294
+ coords_b: 171
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.top_box {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.5625 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.52734375 right=0.552734375 top=0.8125 bottom=0.875 width=245 height=73 color=FF9D7D3E></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.5 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E></align>\r\n<ret><offset vshift=-7><align vstyle=center hstyle=center><font face=/font/db_ford_f150_2023.font xscale=1.2 yscale=1.3 spacing=0 color=FFFFFEF8>Trip 1</align></font>"
+ coords_l: 538
+ coords_r: 899
+ coords_t: 408
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.blue_bckgrnd {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.244140625 bottom=0.0009765625 width=538 height=214 color=FFB0460C>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.244140625 bottom=0.0009765625 width=538 height=214 color=FFB0460C></align>"
+ coords_l: 182
+ coords_r: 1258
+ coords_t: 214
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.b_bar {
+ text: "<align hstyle=left><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=351 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 47
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.display3 {
+ fitting: false
+ my_children: 18
+ my_children[0]: _nameless._.fuel_txt_box
+ my_children[1]: _nameless._.bckgrnd_lb
+ my_children[2]: _nameless._.bckgrnd_rb
+ my_children[3]: _nameless._.bckgrnd_rt
+ my_children[4]: _nameless._.bckgrnd_lt
+ my_children[5]: _nameless._.car_ico_s
+ my_children[6]: _nameless._.scrn_pg
+ my_children[7]: _nameless._.slctd_pg
+ my_children[8]: _nameless._.act_cons_bar
+ my_children[9]: _nameless._.f_bar_bck_r1
+ my_children[10]: _nameless._.f_bar_bckl_1
+ my_children[11]: _nameless._.f_bar_bck_l2
+ my_children[12]: _nameless._.f_bar_bck_r2
+ my_children[13]: _nameless._.avg_cons_txt
+ my_children[14]: _nameless._.avg_cns_lbl
+ my_children[15]: _nameless._.act_cns_txt
+ my_children[16]: _nameless._.avg_cns_bar
+ my_children[17]: _nameless._.b_bar2
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 300
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.fuel_txt_box {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.5625 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.52734375 right=0.552734375 top=0.8125 bottom=0.875 width=245 height=73 color=FF9D7D3E></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.5 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E></align>\r\n<ret><offset vshift=-7><align vstyle=center hstyle=center><font face=/font/db_ford_f150_2023.font xscale=1.3 yscale=1.4 spacing=0 color=FFFFFEF8>Fuel Economy</align></font>"
+ coords_l: 538
+ coords_r: 899
+ coords_t: 408
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bckgrnd_lb {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.0009765625 bottom=0.244140625 xscale=stretch yscale=strech color=FFB0460C>"
+ coords_l: 182
+ coords_r: 720
+ coords_t: 207
+ coords_b: -7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bckgrnd_rb {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.0009765625 bottom=0.244140625 xscale=stretch yscale=strech color=FFB0460C> "
+ coords_l: 720
+ coords_r: 1218
+ coords_t: 207
+ coords_b: -8
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bckgrnd_rt {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.244140625 bottom=0.0009765625 xscale=stretch yscale=stretch color=FFB0460C> "
+ coords_l: 720
+ coords_r: 1219
+ coords_t: 397
+ coords_b: 207
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.bckgrnd_lt {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.244140625 bottom=0.0009765625 xscale=stretch yscale=stretch color=FFB0460C>  "
+ coords_l: 182
+ coords_r: 720
+ coords_t: 397
+ coords_b: 207
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.car_ico_s {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2939453125 right=0.625 top=0.451171875 bottom=0.611328125 color=FFFFFFFF>"
+ coords_l: 551
+ coords_r: 895
+ coords_t: 337
+ coords_b: 201
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.scrn_pg {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6103515625 right=0.62109375 top=0.8125 bottom=0.9375 xscale=stretch height=170 color=FFC4C4C4>"
+ coords_l: 899
+ coords_r: 916
+ coords_t: 294
+ coords_b: 171
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.slctd_pg {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5947265625 right=0.6103515625 top=0.841796875 bottom=0.87109375 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 900
+ coords_r: 917
+ coords_t: 252
+ coords_b: 223
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.act_cons_bar {
+ vertical: false
+ min_size: 0
+ max_size: 308
+ min_value: 0
+ max_value: &41466666
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 xscale=stretch height=30px color=FFFEE9A1>"
+ coords_l: 567
+ coords_r: 875
+ coords_t: 172
+ coords_b: 141
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1350
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.f_bar_bck_r1 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=1 right=0.75 top=0.4375 bottom=0.5 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 721
+ coords_r: 883
+ coords_t: 175
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.f_bar_bckl_1 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.75 right=1 top=0.4375 bottom=0.5 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 559
+ coords_r: 721
+ coords_t: 175
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.f_bar_bck_l2 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.75 right=1 top=0.375 bottom=0.4375 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 559
+ coords_r: 721
+ coords_t: 175
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.f_bar_bck_r2 {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=1 right=0.75 top=0.375 bottom=0.4375 xscale=stretch yscale=stretch color=FFFFFFFF>"
+ coords_l: 720
+ coords_r: 883
+ coords_t: 175
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text_common : _nameless._.avg_cons_txt {
+ value: "14.1|l/100km"
+ look_template: txt.frd_f150_23.avg_f_c_txt
+ text: ""
+ coords_l: 672
+ coords_r: 850
+ coords_t: 203
+ coords_b: 152
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.avg_cns_lbl {
+ text: "<align vstyle=bottom><color value=FFFFFEF8><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1 spacing=-1>Average</align></font>"
+ coords_l: 585
+ coords_r: 692
+ coords_t: 208
+ coords_b: 175
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.act_cns_txt {
+ text: "<align vstyle=bottom><color value=FFFCEEB6><font face=/font/db_ford_f150_2023.font xscale=.8 yscale=.8 spacing=-1>0  MPG</align>\r\n<ret><align vstyle=bottom hstyle=right>30</align><ret><align vstyle=bottom hstyle=center>15</align></font>"
+ coords_l: 553
+ coords_r: 887
+ coords_t: 139
+ coords_b: 106
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui_text_bar : _nameless._.avg_cns_bar {
+ vertical: false
+ min_size: 0
+ max_size: 302
+ min_value: 0
+ max_value: &41466666
+ text: "<align hstyle=right><color value=FFFFFEF8><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4443359375 right=0.4521484375 top=0.9541015625 bottom=0.9873046875 width=6 height=32></align><ret><offset vshift=26 hshift=-2><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4462890625 right=0.4501953125 top=0.9404296875 bottom=0.9501953125 width=300 height=6>"
+ coords_l: 567
+ coords_r: 869
+ coords_t: 172
+ coords_b: 139
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1360
+ layer: 8
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::text : _nameless._.b_bar2 {
+ text: "<align hstyle=left><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=351 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 47
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display3
+}
+
+ui::group : _nameless._.display4 {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.r_bckg
+ my_children[1]: _nameless._.l_bckg
+ my_children[2]: _nameless._.cr_ico
+ my_children[3]: _nameless._.idle_hours
+ my_children[4]: _nameless._.b_bar3
+ my_children[5]: _nameless._.engn_txt_box
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.r_bckg {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.9990234375 right=0.6875 top=0.244140625 bottom=0.0009765625 xscale=stretch yscale=strech color=FFB0460C> "
+ coords_l: 720
+ coords_r: 1258
+ coords_t: 207
+ coords_b: -7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.l_bckg {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.6875 right=0.9990234375 top=0.244140625 bottom=0.0009765625 xscale=stretch yscale=strech color=FFB0460C> "
+ coords_l: 182
+ coords_r: 720
+ coords_t: 207
+ coords_b: -7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.cr_ico {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.2646484375 right=0.4189453125 top=0.6845703125 bottom=0.75 xscale=stretch height=110 color=FFFFFFFF>"
+ coords_l: 591
+ coords_r: 850
+ coords_t: 87
+ coords_b: -1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text_common : _nameless._.idle_hours {
+ value: "183|"
+ look_template: txt.frd_f150_23.eng_hrs
+ text: ""
+ coords_l: 605
+ coords_r: 824
+ coords_t: 325
+ coords_b: 192
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1280
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.b_bar3 {
+ text: "<align hstyle=left><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=351 yscale=stretch color=FFFFFFFF></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.400390625 right=0.423828125 top=0.8125 bottom=0.875 width=541 yscale=stretch color=FFFFFFFF></align>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 47
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::text : _nameless._.engn_txt_box {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5 right=0.5625 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E>\r\n<ret><align hstyle=center><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.52734375 right=0.552734375 top=0.8125 bottom=0.875 width=245 height=73 color=FF9D7D3E></align>\r\n<ret><align hstyle=right><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.5625 right=0.5 top=0.8125 bottom=0.875 width=58 height=73 color=FF9D7D3E></align>\r\n<ret><offset vshift=-7><align vstyle=center hstyle=center><font face=/font/db_ford_f150_2023.font xscale=1.1 yscale=1.3 spacing=0 color=FFFFFEF8>Engine information</align></font>"
+ coords_l: 538
+ coords_r: 899
+ coords_t: 408
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.display4
+}
+
+ui::group : _nameless._.service {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.s_bckgrnd
+ my_children[1]: _nameless._.frame
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 540
+ area_b: 0
+ id: 900
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.s_bckgrnd {
+ text: "<img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 xscale=stretch yscale=stretch color=FF000000>"
+ coords_l: 525
+ coords_r: 916
+ coords_t: 406
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 9
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+ui::text : _nameless._.frame {
+ text: "<color value=FF88EDFC> \r\n<offset hshift=350 vshift=20><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=16 height=11>\r\n<ret><offset hshift=16 vshift=20><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=16 height=11>\r\n<ret><offset hshift=16 vshift=10><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=356 height=10>\r\n<color value=FFFFFEF8>\r\n<ret><offset hshift=15 vshift=269><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=4>\r\n<ret><offset hshift=361 vshift=269><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=4>\r\n<ret><offset hshift=15 vshift=327><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=4>\r\n<ret><offset hshift=361 vshift=327><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=4>\r\n<ret><offset hshift=10 vshift=269><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=62>\r\n<ret><offset hshift=368 vshift=269><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=10 height=62>\r\n\r\n<ret><offset hshift=33 vshift=32><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 color=FF0066A1 width=322 height=218>\r\n<color value=FF00C4FF>\r\n<ret><offset hshift=23 vshift=273><img src=/material/ui/dashboard/ford_f150_23/display.mat left=0.4697265625 right=0.4775390625 top=0.71484375 bottom=0.72265625 width=342 height=54>\r\n<color value=FFFFFEF8>\r\n<ret><offset vshift=261><align hstyle=center vstyle=center><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>OK</font></align>\r\n<ret><offset vshift=-49><align hstyle=center vstyle=center><font face=/font/db_ford_f150_2023.font xscale=1 yscale=1>Drive Control<br>Fault<br>Service Required</font></align>"
+ coords_l: 527
+ coords_r: 915
+ coords_t: 402
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.service
+}
+
+
+ui::text : _nameless.bettergps.f150info {
+ text: "<img src=/material/ui/f150_info_startup/marker.mat left=0.002770083102493 right=1 bottom=1 top=0 xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 540
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 100
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+}

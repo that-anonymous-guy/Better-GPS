@@ -1,0 +1,47 @@
+[
+  {
+    "name": "navplushd_camera_icon.dds",
+    "size": [
+      300,
+      600
+    ],
+    "source_sha256": "a1bd986969dbb52a1132a133e2e55a336995baefc9debf93b05cea4f2e8e86df",
+    "sha256": "64514b0ad1752313ac128abc78d5663dbc23e6dc716ee98f7716424da52603e9"
+  },
+  {
+    "name": "navplushd_camera_bottom_left.dds",
+    "size": [
+      96,
+      119
+    ],
+    "source_sha256": "d062a451a5cf144d6ef89ea313300f0caf64f7361d0f2318bf2486319e004a3f",
+    "sha256": "50d201b9c6e4c8540b1e34f72534ff906d9e943bb289b8195002ec44ca8ee308"
+  },
+  {
+    "name": "navplushd_camera_bottom_right.dds",
+    "size": [
+      96,
+      119
+    ],
+    "source_sha256": "566f3cec94a6f54372fdfa58e69f19c1b3c82b7103dd20fbd641b785ad002bb7",
+    "sha256": "eee80bca279792c2a847ebbbe85d8a082253e375e86a193ad22168bf09a4447e"
+  },
+  {
+    "name": "navplushd_camera_left_active.dds",
+    "size": [
+      101,
+      600
+    ],
+    "source_sha256": "aa00a276aa035da71efb51480cbe2cb3fe7ada3b985c801ecd366957e39ef27c",
+    "sha256": "fbadc72238f367f1fb4857131d205a76c2d4b21cfb1d856dc72c31da8dc57d61"
+  },
+  {
+    "name": "navplushd_camera_reverse_active.dds",
+    "size": [
+      300,
+      128
+    ],
+    "source_sha256": "44a5699e04e2a3515ff4d7c125f53a80010c500261f187a03ba893396745c07a",
+    "sha256": "e139e936dd0343303f2a3e64c8cdcb055cc387a19136619393c1eee3fc450e0e"
+  }
+]

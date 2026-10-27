@@ -1,0 +1,45 @@
+{
+  "source_texture_sha256": "e466fdd86fb9c52aa46b680a53cc98b37378e86887b2118b7a745bdcc1904762",
+  "texture_sha256": "46dc76f701786765cf3d094adb32b6c62dc951e313de97112d85742f0e57a127",
+  "texture_dimensions": [
+    1275,
+    725
+  ],
+  "texture_encoding": "DDS RGBA32 lossless from decoded source",
+  "still_ms": 3000,
+  "live_cluster_fade_ms": 500,
+  "marker_role": 151,
+  "marker_dimensions": [
+    1284,
+    728
+  ],
+  "central_cluster_ui_rect": [
+    0,
+    0,
+    800,
+    454
+  ],
+  "native": {
+    "mack_anthem.sii": {
+      "sha256": "bf9c91010c5e12f9d39756e440aef35e70b9b2384ccf22247a4e749f3087dee1",
+      "original_units": 128,
+      "overlay_parent": "_nameless.1d2.eb10"
+    },
+    "mack_pinnacle.sii": {
+      "sha256": "b19d1710e9aed91ce6d613187719c9eb2dd0af32358e60ee5068048fdad41ac0",
+      "original_units": 128,
+      "overlay_parent": "_nameless.1d2.eb10"
+    }
+  },
+  "gps_guard": {
+    "marker_role": 152,
+    "marker_dimensions": [
+      8,
+      4
+    ],
+    "ui_paths": [
+      "/ui/gmaps_mackanthem_gps.sii",
+      "/ui/gmaps_mackpinnacle_gps.sii"
+    ]
+  }
+}

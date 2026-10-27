@@ -1,0 +1,18 @@
+240 RCDATA "fonts/GoogleSans-Regular.ttf"
+241 RCDATA "fonts/GoogleSans-Medium.ttf"
+242 RCDATA "fonts/Chonburi-Regular.ttf"
+243 RCDATA "fonts/ZenTokyoZoo-Regular.ttf"
+244 RCDATA "fonts/Roboto-Light.ttf"
+#include "generated/PhoneModules.rc"
+254 RCDATA "generated/compass.bgra"
+
+290 RCDATA "generated/settings-vertex.cso"
+291 RCDATA "generated/settings-pixel.cso"
+292 RCDATA "generated/page-transition.cso"
+300 RCDATA "generated/lockscreen_2_background.bgra"
+301 RCDATA "generated/lockscreen_2_toplayer.bgra"
+302 RCDATA "generated/unlock.bgra"
+
+#include "generated/WazeModules.rc"
+
+#include "generated/HorizontalModules.rc"

@@ -1,0 +1,120 @@
+{
+  "version": "0.13.0",
+  "models": [
+    {
+      "model": "pp804395",
+      "lod": 0,
+      "triangles": 5562,
+      "materials": 5,
+      "export_objects": 1
+    },
+    {
+      "model": "pp804395",
+      "lod": 1,
+      "triangles": 2210,
+      "materials": 5,
+      "export_objects": 1
+    },
+    {
+      "model": "pp804396",
+      "lod": 0,
+      "triangles": 7229,
+      "materials": 4,
+      "export_objects": 1
+    },
+    {
+      "model": "pp804396",
+      "lod": 1,
+      "triangles": 1873,
+      "materials": 4,
+      "export_objects": 1
+    },
+    {
+      "model": "pp804397",
+      "lod": 0,
+      "triangles": 7229,
+      "materials": 4,
+      "export_objects": 1
+    },
+    {
+      "model": "pp804397",
+      "lod": 1,
+      "triangles": 1873,
+      "materials": 4,
+      "export_objects": 1
+    },
+    {
+      "model": "pp807032",
+      "lod": 0,
+      "triangles": 4966,
+      "materials": 5,
+      "export_objects": 1
+    },
+    {
+      "model": "pp807032",
+      "lod": 1,
+      "triangles": 2034,
+      "materials": 5,
+      "export_objects": 1
+    },
+    {
+      "model": "pp807032_low",
+      "lod": 0,
+      "triangles": 4966,
+      "materials": 5,
+      "export_objects": 1
+    },
+    {
+      "model": "pp807032_low",
+      "lod": 1,
+      "triangles": 2034,
+      "materials": 5,
+      "export_objects": 1
+    }
+  ],
+  "texture_size": [
+    2048,
+    256
+  ],
+  "shared_textures": true,
+  "native_materials": [
+    "eut2.dif.spec.tsnmap",
+    "eut2.dif.spec",
+    "eut2.glass",
+    "eut2.dif.spec.add.env",
+    "eut2.dif"
+  ],
+  "mounting_origins_and_optical_angles": "preserved",
+  "rear_cable": true,
+  "fixings": {
+    "each_side_flange": 4,
+    "rear_wall_plate": 2,
+    "front": "behind-grille backing bridge with two strap fixings"
+  },
+  "hardware_style": "round low head with recessed hex socket; rounded 32-side pivot washer",
+  "cable_passages": "rear central drilled plate and side flange passages, rubber grommets",
+  "normal_map_gradient_strength": 0.02,
+  "sun_specular_optics": true,
+  "housing_and_optics_environment_reflection": false,
+  "optical_cavity": "separate eut2.dif material, diffuse .5, zero specular, no NM/environment",
+  "front_flats": "constant section through to fixing, full 89 mm length; no necks",
+  "front_mount_profiles": {
+    "standard": {
+      "width": 0.0105,
+      "thickness": 0.0025,
+      "spacing": 0.062
+    },
+    "low": {
+      "width": 0.0055,
+      "thickness": 0.0015,
+      "spacing": 0.062125
+    }
+  },
+  "side_labels_removed": true,
+  "box_housing_closed_optical_pocket": true,
+  "front_bridge_bearing_feet": "Z=.0264-.09*X-.005*Y in approved local SCS metres",
+  "front_bridge_rear_bar": "Z=.0435-.125*X-.005*Y; two bearing levels for thin and deep grilles",
+  "IR_layout": "two staggered rectangular banks, 18 diodes",
+  "uv": "padded swatches, local box projection; no unique complex unwrap",
+  "dimension_source": "existing approved reconstruction; not OEM drawings"
+}

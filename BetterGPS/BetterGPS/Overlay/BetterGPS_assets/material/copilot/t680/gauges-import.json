@@ -1,0 +1,75 @@
+[
+  {
+    "name": "navplushd_gauges_background.dds",
+    "size": [
+      1324,
+      800
+    ],
+    "source_sha256": "57b1a877fc5c04160f41b12b17429654810f919d5da9a047d19aebfed0943261",
+    "sha256": "65d3369b049ea30d4439a01ec2e137ca4d75c94d47410fd26e80a5cbdc459476"
+  },
+  {
+    "name": "navplushd_gauge_oiltemp.dds",
+    "size": [
+      329,
+      286
+    ],
+    "source_sha256": "cc3852351411a5cf19f2dd0bbae26df3da1be7b884f49fda970724915cff0277",
+    "sha256": "6196ca8100db54733b7eb955e0acbf3d0df6f207bfcedf71a0c3c0dcab40fdc4"
+  },
+  {
+    "name": "navplushd_gauge_trans.dds",
+    "size": [
+      329,
+      286
+    ],
+    "source_sha256": "b528b3b2d129b1d4705f85fe0d69f8e39f12d72fc53cf0db883429d836867b68",
+    "sha256": "ca5cc7c7b102e39756155c200aefec88d6fe7b743fb8b3ed60bdc652cd68fcf0"
+  },
+  {
+    "name": "navplushd_gauge_boost.dds",
+    "size": [
+      329,
+      286
+    ],
+    "source_sha256": "fd87e3bde01b6e1821f5154868596cac75475ba2238f91dd0fde77aa1a671ea2",
+    "sha256": "d2dcaee09648a1623ee9b882887be9857e760235f712aa79a8ca42d0b7fbbc39"
+  },
+  {
+    "name": "navplushd_gauge_dpf.dds",
+    "size": [
+      329,
+      286
+    ],
+    "source_sha256": "4f358102ae612376198eb6784d4cffc3524327a583e69f61dc8e557f07c486d1",
+    "sha256": "7a2b7e5eb4b22473dcba4a9b78b9f7069abf488a2f0f76b261d4a21990682546"
+  },
+  {
+    "name": "navplushd_gauge_mpg.dds",
+    "size": [
+      325,
+      284
+    ],
+    "source_sha256": "d0e439fee6957689d0dc1f4065b22a3cd350657a1ba70f5198f68273b9e89686",
+    "sha256": "de2bd972d6a5fe6e77d394016a63ad555e912f33eef06ba8f8f45015268b66d4",
+    "source_note": "User replacement from installed material directory; original BC7 DDS retained in repair evidence"
+  },
+  {
+    "name": "navplushd_gauge_torque.dds",
+    "size": [
+      329,
+      286
+    ],
+    "source_sha256": "b9ae5ea81a3e9e73c28e78f18eb2b0f0d9ec8e68e1d6727511cba1f1e9f639f5",
+    "sha256": "73cb2bf144a05b809091bbf33cd4cd908a8e64009479457b098daa07fcef0737"
+  },
+  {
+    "name": "navplushd_needle.dds",
+    "size": [
+      163,
+      75
+    ],
+    "source_sha256": "ac0742c3fe1286a8b1ffd2211ec69dd2589e254689d9aec66f6a3cfc04b065d4",
+    "sha256": "bcff5a91164daecc2526a567944f8b49471e6d6a5ac132e01038b8752da2b44c"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "navplushd_top_5by3.dds",
+    "size": [
+      1324,
+      92
+    ],
+    "source_sha256": "b7270327adf038a54ea13226fb59c19b8257beca953c6a28a25c2ddaae6ef2c4",
+    "sha256": "2d762aeb3fd2522a85f0152770ead8abb6aa6b7753d26c46ab27f8fd9131545d"
+  },
+  {
+    "name": "navplushd_bottom_5by3.dds",
+    "size": [
+      1324,
+      90
+    ],
+    "source_sha256": "fd976a273e1781bbae743407ac1cbb4bcded43ba2998d53fd3fe1c5a41c4284b",
+    "sha256": "50a2c0e6de26aeafea02cb276b4160b3ce321bbd291eaee440714c2169f84250"
+  },
+  {
+    "name": "navplushd_homescreen_5by3.dds",
+    "size": [
+      1324,
+      800
+    ],
+    "source_sha256": "bc4014816024e7870d245138e7b037bd4431083cba1e47daedb556d73ba5b798",
+    "sha256": "e2f79f6e27c0a93377746950ea1c82fe223ce974f0484893a4d53fb42de16da7"
+  },
+  {
+    "name": "copilot_v9_zoom.dds",
+    "size": [
+      1276,
+      60
+    ],
+    "source_sha256": "6cb1de44c0000438edb557c557df7832fa8a4aeb8adf9a9fdfd434a922096b5d",
+    "sha256": "bb261a94e6d4a27b0175c2a0a7dc202f341b34181bd1ed1b025581aef2df8aa4"
+  },
+  {
+    "name": "copilot_v9_belowfooter.dds",
+    "size": [
+      1324,
+      152
+    ],
+    "source_sha256": "f71dcfc8061e0342173fe42e8625e52002fc39d4b34517934e8ff191c2fb7992",
+    "sha256": "051121621e9ec8348c7bc404a046a401a7aa6c2c2225595a81de6e8f8ca2bb0c"
+  },
+  {
+    "name": "copilot_v9_notrip.dds",
+    "size": [
+      167,
+      82
+    ],
+    "source_sha256": "edf5ffe6609bfcfa574fd2cf3d56ed55e97dccc2f963436dafff94bbd5fd5230",
+    "sha256": "fff25670e1c382b35ab920615fa19945f60c981a670e850bd9144be9879c827c"
+  }
+]

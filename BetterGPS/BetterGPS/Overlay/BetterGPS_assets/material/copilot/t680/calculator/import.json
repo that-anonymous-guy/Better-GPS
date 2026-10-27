@@ -1,0 +1,11 @@
+{
+  "android_tag": "android-4.2.2_r1",
+  "source": "res/drawable-xhdpi/calc_clear_symbol.png",
+  "source_sha256": "ffe6376cb72b2097f247c7356258dd4db499c016ddf91b9dc7727468dc698b17",
+  "size": [
+    60,
+    52
+  ],
+  "file": "calc_clear_symbol.dds",
+  "sha256": "534675883f74bcb94d9217589fd673b4cdbde14153b6b55b535672d9f4c7ab6c"
+}

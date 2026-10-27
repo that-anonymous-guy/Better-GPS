@@ -1,0 +1,31 @@
+[
+  {
+    "name": "navplushd_icon_copilot.dds",
+    "size": [
+      47,
+      46
+    ],
+    "source_sha256": "ea65b08b39903e1921cf3d305d6c5ccc6635d631cfd331fc3557e17a5a51763b",
+    "sha256": "2cd9fd7cadbbf7ee97b5e1a95e1383f47fecbdb6436126de425f5920ae4f26e2"
+  },
+  {
+    "name": "navplushd_top_5by3.dds",
+    "size": [
+      1324,
+      92
+    ],
+    "source_sha256": "3842c8e94ad3cae4470a4f3c99a5e320e538b845ac36aebefa81ab5417160382",
+    "sha256": "3842c8e94ad3cae4470a4f3c99a5e320e538b845ac36aebefa81ab5417160382",
+    "preserved_owner_asset": true
+  },
+  {
+    "name": "copilot_v9_logo.dds",
+    "size": [
+      285,
+      285
+    ],
+    "source_sha256": "ae747b848b640398fd0e1fe9d18e5476bd0ce88eb15784cdfa4d3c0456b6603f",
+    "sha256": "ae747b848b640398fd0e1fe9d18e5476bd0ce88eb15784cdfa4d3c0456b6603f",
+    "preserved_owner_asset": true
+  }
+]

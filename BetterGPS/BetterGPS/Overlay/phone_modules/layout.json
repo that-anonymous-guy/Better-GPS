@@ -1,0 +1,116 @@
+[
+  {
+    "file": "above_light.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      0,
+      1
+    ]
+  },
+  {
+    "file": "above_green.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      2
+    ]
+  },
+  {
+    "file": "above_dark.dds",
+    "x": 0,
+    "y": 0,
+    "states": [
+      3
+    ]
+  },
+  {
+    "file": "navmode/nav_instructions.dds",
+    "x": 0,
+    "y": 27,
+    "states": [
+      0,
+      2
+    ]
+  },
+  {
+    "file": "navmode/nav_buttons_light.dds",
+    "x": 230,
+    "y": 377,
+    "states": [
+      0
+    ]
+  },
+  {
+    "file": "navmode/nav_buttons_dark.dds",
+    "x": 230,
+    "y": 377,
+    "states": [
+      2
+    ]
+  },
+  {
+    "file": "navmode/nav_below_light.dds",
+    "x": 0,
+    "y": 647,
+    "states": [
+      0
+    ]
+  },
+  {
+    "file": "navmode/nav_below_dark.dds",
+    "x": 0,
+    "y": 648,
+    "states": [
+      2
+    ]
+  },
+  {
+    "file": "notripmode/notrip_search_and_buttons_light.dds",
+    "x": 0,
+    "y": 39,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "notripmode/notrip_search_and_buttons_dark.dds",
+    "x": 0,
+    "y": 39,
+    "states": [
+      3
+    ]
+  },
+  {
+    "file": "notripmode/notrip_buttons_below_light.dds",
+    "x": 299,
+    "y": 567,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "notripmode/notrip_buttons_below_dark.dds",
+    "x": 299,
+    "y": 567,
+    "states": [
+      3
+    ]
+  },
+  {
+    "file": "notripmode/notrip_below_light.dds",
+    "x": 0,
+    "y": 688,
+    "states": [
+      1
+    ]
+  },
+  {
+    "file": "notripmode/notrip_below_dark.dds",
+    "x": 0,
+    "y": 688,
+    "states": [
+      3
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 3.6.23 (hash: e467db79ca8c), SCS Blender Tools: 2.4.aeadde03"
+    Type: "Model"
+    Name: "hook_fixture"
+}
+Global {
+    VertexCount: 24
+    TriangleCount: 12
+    MaterialCount: 1
+    PieceCount: 1
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 1
+    Skeleton: "hook_fixture.pis"
+    PieceSkinCount: 0
+}
+Material {
+    Index: 0
+    Alias: "pp804395_palette"
+    Effect: "eut2.dif.spec"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 24
+    TriangleCount: 12
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &bba3d70a  &3ba3d709  &3ba3d70b )
+        1    ( &bba3d70a  &bba3d709  &bba3d70b )
+        2    ( &bba3d70a  &bba3d70b  &3ba3d709 )
+        3    ( &bba3d70a  &3ba3d70b  &bba3d709 )
+        4    ( &3ba3d70a  &bba3d709  &bba3d70b )
+        5    ( &bba3d70a  &bba3d709  &bba3d70b )
+        6    ( &3ba3d70a  &3ba3d70b  &bba3d709 )
+        7    ( &3ba3d70a  &bba3d70b  &3ba3d709 )
+        8    ( &3ba3d70a  &bba3d709  &bba3d70b )
+        9    ( &3ba3d70a  &3ba3d709  &3ba3d70b )
+        10   ( &bba3d70a  &bba3d70b  &3ba3d709 )
+        11   ( &3ba3d70a  &bba3d70b  &3ba3d709 )
+        12   ( &3ba3d70a  &bba3d709  &bba3d70b )
+        13   ( &bba3d70a  &bba3d70b  &3ba3d709 )
+        14   ( &bba3d70a  &bba3d709  &bba3d70b )
+        15   ( &bba3d70a  &3ba3d70b  &bba3d709 )
+        16   ( &3ba3d70a  &3ba3d709  &3ba3d70b )
+        17   ( &3ba3d70a  &3ba3d70b  &bba3d709 )
+        18   ( &bba3d70a  &3ba3d70b  &bba3d709 )
+        19   ( &3ba3d70a  &3ba3d70b  &bba3d709 )
+        20   ( &3ba3d70a  &3ba3d709  &3ba3d70b )
+        21   ( &bba3d70a  &3ba3d709  &3ba3d70b )
+        22   ( &3ba3d70a  &bba3d70b  &3ba3d709 )
+        23   ( &bba3d70a  &3ba3d709  &3ba3d70b )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &bf800000  &00000000  &00000000 )
+        1    ( &bf800000  &00000000  &00000000 )
+        2    ( &bf800000  &00000000  &00000000 )
+        3    ( &00000000  &33a22169  &bf800000 )
+        4    ( &00000000  &33a22169  &bf800000 )
+        5    ( &00000000  &33a22169  &bf800000 )
+        6    ( &3f800000  &00000000  &00000000 )
+        7    ( &3f800000  &00000000  &00000000 )
+        8    ( &3f800000  &00000000  &00000000 )
+        9    ( &00000000  &b3a22169  &3f800000 )
+        10   ( &00000000  &b3a22169  &3f800000 )
+        11   ( &00000000  &b3a22169  &3f800000 )
+        12   ( &00000000  &bf800000  &b3a22169 )
+        13   ( &00000000  &bf800000  &b3a22169 )
+        14   ( &00000000  &bf800000  &b3a22169 )
+        15   ( &00000000  &3f800000  &33a22169 )
+        16   ( &00000000  &3f800000  &33a22169 )
+        17   ( &00000000  &3f800000  &33a22169 )
+        18   ( &bf800000  &00000000  &00000000 )
+        19   ( &00000000  &33a22169  &bf800000 )
+        20   ( &3f800000  &00000000  &00000000 )
+        21   ( &00000000  &b3a22169  &3f800000 )
+        22   ( &00000000  &bf800000  &b3a22169 )
+        23   ( &00000000  &3f800000  &33a22169 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &3d800000  &3f000000 )
+        1    ( &3d800000  &3f000000 )
+        2    ( &3d800000  &3f000000 )
+        3    ( &3d800000  &3f000000 )
+        4    ( &3d800000  &3f000000 )
+        5    ( &3d800000  &3f000000 )
+        6    ( &3d800000  &3f000000 )
+        7    ( &3d800000  &3f000000 )
+        8    ( &3d800000  &3f000000 )
+        9    ( &3d800000  &3f000000 )
+        10   ( &3d800000  &3f000000 )
+        11   ( &3d800000  &3f000000 )
+        12   ( &3d800000  &3f000000 )
+        13   ( &3d800000  &3f000000 )
+        14   ( &3d800000  &3f000000 )
+        15   ( &3d800000  &3f000000 )
+        16   ( &3d800000  &3f000000 )
+        17   ( &3d800000  &3f000000 )
+        18   ( &3d800000  &3f000000 )
+        19   ( &3d800000  &3f000000 )
+        20   ( &3d800000  &3f000000 )
+        21   ( &3d800000  &3f000000 )
+        22   ( &3d800000  &3f000000 )
+        23   ( &3d800000  &3f000000 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        1    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        2    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        3    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        4    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        5    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        6    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        7    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        8    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        9    ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        10   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        11   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        12   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        13   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        14   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        15   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        16   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        17   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        18   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        19   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        20   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        21   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        22   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+        23   ( &3f7ffd5c  &3f7ffd5a  &3f7ffd54  &3f7ffd59 )
+    }
+    Triangles {
+        0    ( 2     1     0     )
+        1    ( 5     4     3     )
+        2    ( 8     7     6     )
+        3    ( 11    10    9     )
+        4    ( 14    13    12    )
+        5    ( 17    16    15    )
+        6    ( 1     18    0     )
+        7    ( 4     19    3     )
+        8    ( 7     20    6     )
+        9    ( 10    21    9     )
+        10   ( 13    22    12    )
+        11   ( 16    23    15    )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 1
+    LocatorCount: 1
+    Pieces: 0
+    Locators: 0
+}
+Locator {
+    Name: "bgps_cam"
+    Hookup: "lod_model.bgpscam"
+    Index: 0
+    Position: ( &3dcccccd  &3e4ccccb  &3e99999b )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+

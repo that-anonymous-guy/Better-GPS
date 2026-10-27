@@ -1,0 +1,20 @@
+{
+  "source_sha256": "47a65d72159ca04a0f842ebfbdbb8498d06757d1a6fda6ca55b9f5de4afa8217",
+  "source_size": [
+    256,
+    256
+  ],
+  "output_size": [
+    256,
+    64
+  ],
+  "artwork_tile": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "format": "RGBA8 DDS, native UI TOBJ, ui.rfx",
+  "dds_roundtrip_pixels_identical": true,
+  "source_preserved": true
+}

@@ -1,0 +1,254 @@
+SiiNunit
+{
+ui::window : _nameless.wnd {
+ window_handler: null
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.map
+ my_children[1]: _nameless._.speedlimit
+ my_children[2]: _nameless._.clock
+ my_children[3]: _nameless._.background
+ my_children[4]: _nameless._.phoneovrl
+ my_children[5]: _nameless._.phoneeta
+ my_children[6]: _nameless._.phonecmpss
+ my_children[7]: _nameless._.navdist
+ my_children[8]: _nameless._.navtime
+ my_children[9]: _nameless._.navclock
+ my_children[10]: _nameless._.navspeed
+ my_children[11]: _nameless._.navmaneuver
+ coords_l: 0
+ coords_r: 360
+ coords_t: 740
+ coords_b: 0
+ area_l: 0
+ area_r: 360
+ area_t: 740
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless._.map {
+ text: "<img src=/material/ui/dashboard/bare_map.mat xscale=stretch yscale=stretch left=0.375 right=0.625 bottom=0.25 top=0.75>"
+ coords_l: 0
+ coords_r: 360
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.speedlimit {
+ value: 75
+ look_template: txt.gglphnspdl
+ text: ""
+ coords_l: -1000
+ coords_r: -900
+ coords_t: -1000
+ coords_b: -900
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.clock {
+ value: "23:55"
+ look_template: txt.gglphnclk
+ text: ""
+ coords_l: -1000
+ coords_r: -900
+ coords_t: -1000
+ coords_b: -970
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.background {
+ text: "<img src=/material/ui/dashboard/phone_map_background.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 360
+ coords_t: 720
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.phoneovrl {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/phone_layout_marker.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 360
+ coords_t: 740
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.phoneeta {
+ value: "22:59"
+ look_template: txt.gglphneta
+ text: ""
+ coords_l: -1000
+ coords_r: -900
+ coords_t: -1000
+ coords_b: -970
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1530
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text_common : _nameless._.phonecmpss {
+ value: N
+ look_template: txt.gglphncmpss
+ text: ""
+ coords_l: -1000
+ coords_r: -900
+ coords_t: -1000
+ coords_b: -935
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+
+ui::text : _nameless._.navmaneuver {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/navmaneuver.mat xscale=stretch yscale=stretch>"
+ coords_l: 20
+ coords_r: 340
+ coords_t: 700
+ coords_b: 540
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.navdist {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/navdist.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 251
+ coords_t: 54
+ coords_b: 18
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.navtime {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/navtime.mat xscale=stretch yscale=stretch>"
+ coords_l: 0
+ coords_r: 200
+ coords_t: 77
+ coords_b: 47
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.navclock {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/clkmark.mat xscale=stretch yscale=stretch>"
+ coords_l: 14
+ coords_r: 94
+ coords_t: 738
+ coords_b: 712
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+ui::text : _nameless._.navspeed {
+ text: "<img src=/material/ui/dashboard/bettergps_overlaynew/spdmark.mat xscale=stretch yscale=stretch>"
+ coords_l: 18
+ coords_r: 90
+ coords_t: 220
+ coords_b: 100
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.wnd
+}
+
+
+
+
+}

@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : pp804395.kenworth.t680_2022.bgps_cam
+{
+    name: "Pana-Pacific PP804395 - Rear Camera"
+    price: 150
+    unlock: 0
+    icon: "bettergps/pp804395"
+    part_type: aftermarket
+    exterior_model: "/vehicle/truck/upgrade/bettergps/pp804395/pp804395_lod0.pmd"
+    suitable_for[]: "*.kenworth.t680_2022.cabin"
+}
+}

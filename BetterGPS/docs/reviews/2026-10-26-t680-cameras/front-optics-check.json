@@ -1,0 +1,96 @@
+{
+  "horizontalFov": 100,
+  "bumperCount": 8,
+  "chassisCombinations": 64,
+  "physicalBumperRayTests": [
+    {
+      "bumper": "low_chrome_fog",
+      "originBumper": [
+        -0.3416999876499176,
+        -0.15602487325668335,
+        -0.01005518063902855
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "low_chrome_fog_aero",
+      "originBumper": [
+        -0.3416999876499176,
+        -0.15602487325668335,
+        -0.01005518063902855
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "low_paint_fog",
+      "originBumper": [
+        -0.3416999876499176,
+        -0.15602487325668335,
+        -0.01005518063902855
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "low_paint_fog_aero",
+      "originBumper": [
+        -0.3416999876499176,
+        -0.15602487325668335,
+        -0.01005518063902855
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "standard_paint_fog",
+      "originBumper": [
+        -0.36149999499320984,
+        -0.1516248732805252,
+        -0.005815993528813124
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "standard_paint_fog_aero",
+      "originBumper": [
+        -0.36149999499320984,
+        -0.1516248732805252,
+        -0.005815993528813124
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "standard_plastic_fog",
+      "originBumper": [
+        -0.36149999499320984,
+        -0.1516248732805252,
+        -0.005815993528813124
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    },
+    {
+      "bumper": "standard_plastic_fog_aero",
+      "originBumper": [
+        -0.36149999499320984,
+        -0.1516248732805252,
+        -0.005815993528813124
+      ],
+      "rays": 589,
+      "blockedRays": 0,
+      "axisClear": true
+    }
+  ],
+  "liveNativeVerification": "pending"
+}

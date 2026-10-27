@@ -1,0 +1,805 @@
+{
+  "retainedSvgCount": 133,
+  "symbols": [
+    {
+      "original": "Maps\\default\\24\\local_gas_station.svg",
+      "sha256": "047BDF56866E4707917B26ABC7C552DDCEB06BA07D012C01CBB98110056C882C",
+      "role": "places",
+      "name": "local_gas_station"
+    },
+    {
+      "original": "Maps\\default\\24\\rest_area.svg",
+      "sha256": "4D0EFAA5B77D9772B1ED5879972BB268B341377A173CFB53AFAA89A111A55072",
+      "role": "places",
+      "name": "rest_area"
+    },
+    {
+      "original": "Maps\\default\\24\\local_parking.svg",
+      "sha256": "F7ABF2530AF05E3FD023BF690A3950AB6E69C0D119E18EDFCEBBD2753FACCA9B",
+      "role": "places",
+      "name": "local_parking"
+    },
+    {
+      "original": "Transit\\default\\24\\parking_sign.svg",
+      "sha256": "64053C527907D4578E744749300EE682BF4237221A4A0AB9911AA80DE9328E29",
+      "role": "places",
+      "name": "parking_sign"
+    },
+    {
+      "original": "Travel\\default\\24\\car_repair.svg",
+      "sha256": "A70ADC4D2110F972C706613F72B778545AC29B033279D0EE9CA3EE0A2916270F",
+      "role": "places",
+      "name": "car_repair"
+    },
+    {
+      "original": "Transit\\default\\24\\tire_repair.svg",
+      "sha256": "1ED7AF138A83EF5FBB4602A55462F84DACA14D17A7A8E28B0F2B8EE376AF8D04",
+      "role": "places",
+      "name": "tire_repair"
+    },
+    {
+      "original": "Maps\\default\\24\\handyman.svg",
+      "sha256": "A5F13697B893D395C8C7CD6FFCCBD54BAE9B71104B2D614A317F7DF51D565077",
+      "role": "places",
+      "name": "handyman"
+    },
+    {
+      "original": "Transit\\default\\24\\local_shipping.svg",
+      "sha256": "227E73796AFED6BA0C03AA8F2A95845AA18DCA7029FA5881D8B4EAD3EFB8FD2E",
+      "role": "places",
+      "name": "local_shipping"
+    },
+    {
+      "original": "Maps\\default\\24\\warehouse.svg",
+      "sha256": "DA4D27EE0BDE14281DC936775A17773EBC879C374E56512A9E83E2EE8DCDE69C",
+      "role": "places",
+      "name": "warehouse"
+    },
+    {
+      "original": "Maps\\default\\24\\factory.svg",
+      "sha256": "F1EFC0C555A08827225D824601D9B86C2921F8577C496EED6682D4EBA7910638",
+      "role": "places",
+      "name": "factory"
+    },
+    {
+      "original": "Maps\\default\\24\\local_police.svg",
+      "sha256": "EFA842090F9D77ACFDAA343617C534F01F6A9A2E1ECFF8E56A50B75809EC3F4E",
+      "role": "places",
+      "name": "local_police"
+    },
+    {
+      "original": "Maps\\default\\24\\local_hospital.svg",
+      "sha256": "CEDCCFC03572D941444E66F23E595A67A3BB001446F6B2A1A83F1565F8C9F7BD",
+      "role": "places",
+      "name": "local_hospital"
+    },
+    {
+      "original": "Maps\\default\\24\\medical_services.svg",
+      "sha256": "1EE391DDA63ABC74D8214F803B843A028FC334F9E899B9F841809E0036B2222D",
+      "role": "places",
+      "name": "medical_services"
+    },
+    {
+      "original": "Maps\\default\\24\\restaurant.svg",
+      "sha256": "45CB5F6DB38CE6D7E8755F211A3FA0B6F5CF6CB54F7A66C78AE42235496F9B8B",
+      "role": "places",
+      "name": "restaurant"
+    },
+    {
+      "original": "Travel\\default\\24\\local_dining.svg",
+      "sha256": "8D278DA4BA0934EAE7B5C143365ACDB37F465CC696C82EEBE62D4D237D937965",
+      "role": "places",
+      "name": "local_dining"
+    },
+    {
+      "original": "Travel\\default\\24\\local_cafe.svg",
+      "sha256": "6E3DE28FDE425E3D6AF2937672A7B2CE51ADD67E5F2F2D4BFD6DCD66405F8B68",
+      "role": "places",
+      "name": "local_cafe"
+    },
+    {
+      "original": "Maps\\default\\24\\fastfood.svg",
+      "sha256": "EE7651FC6310DE2C59F4A1DEB6BC86046B8DFE574D56108C68EB701854ABFC22",
+      "role": "places",
+      "name": "fastfood"
+    },
+    {
+      "original": "Travel\\default\\24\\hotel.svg",
+      "sha256": "85C2E61EDA0FDE8051CE5A61F7BDF70AEC5BEA734B6F47012227922A804667EB",
+      "role": "places",
+      "name": "hotel"
+    },
+    {
+      "original": "Maps\\default\\24\\local_convenience_store.svg",
+      "sha256": "BFC7331252EC3C46602DA10B310E09E111E2D358624A3DBE74C8AA4347AA2931",
+      "role": "places",
+      "name": "local_convenience_store"
+    },
+    {
+      "original": "Maps\\default\\24\\local_atm.svg",
+      "sha256": "D247105E585A72E47823886134FE9F3E719EAB7975A785F05F6BFFD15C36DD82",
+      "role": "places",
+      "name": "local_atm"
+    },
+    {
+      "original": "Transit\\default\\24\\directions_boat.svg",
+      "sha256": "98E28C3D29193AB1CDC27DCDDC79789E8131DE0D1F20AAA0323B2E744D9BFA05",
+      "role": "places",
+      "name": "directions_boat"
+    },
+    {
+      "original": "Transit\\default\\24\\directions_railway.svg",
+      "sha256": "AE0CA442E5014D980D4C38B5ED360D61B0BE3831C72AB9674DE368AEFCBA051B",
+      "role": "places",
+      "name": "directions_railway"
+    },
+    {
+      "original": "Business\\default\\24\\toll.svg",
+      "sha256": "19E00DA3C5E4B3FBF8C8C8209C2CF9D33381D7057E4CAD58295BA7CEA4D26E4C",
+      "role": "places",
+      "name": "toll"
+    },
+    {
+      "original": "Maps\\default\\24\\traffic.svg",
+      "sha256": "8D4DF19932F4BE513A2902F4204B77023DA8BF209252725E096F7FC6A346BCD6",
+      "role": "places",
+      "name": "traffic"
+    },
+    {
+      "original": "Transit\\default\\24\\traffic_jam.svg",
+      "sha256": "738CC2CEF5437A9A92E609A3B97795C398682FC0D22DE51B383E4F1358C2411A",
+      "role": "places",
+      "name": "traffic_jam"
+    },
+    {
+      "original": "Transit\\default\\24\\speed_camera.svg",
+      "sha256": "78B0879A205367F0A90E5708FF63D2EA3A169DFAE4815BAC02B4DCE30F888D65",
+      "role": "places",
+      "name": "speed_camera"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_left.svg",
+      "sha256": "C2CB61058C3C8DFCF8091E48DA97BE263D28199185564F862C7FB872C5D27788",
+      "role": "navigation",
+      "name": "turn_left"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_right.svg",
+      "sha256": "9A6EA0D113ECEF6E8EA17A88C0A1C4C56B5A316F1AA479E1086B89B099669C74",
+      "role": "navigation",
+      "name": "turn_right"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_sharp_left.svg",
+      "sha256": "ABD3FC30E1C49C0508E3F0BDECE6860412C8539C483A5D1F44A4EC5F7B235A51",
+      "role": "navigation",
+      "name": "turn_sharp_left"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_sharp_right.svg",
+      "sha256": "00D528335C6F92359635CF91A0F5EBB11F26E43C2FC36947449FFCC8D5D7CCD5",
+      "role": "navigation",
+      "name": "turn_sharp_right"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_slight_left.svg",
+      "sha256": "ED829B14A110BE956CA9AC79A28477DCA7F3438BCA3019C837985BD0711A1B54",
+      "role": "navigation",
+      "name": "turn_slight_left"
+    },
+    {
+      "original": "Transit\\default\\24\\turn_slight_right.svg",
+      "sha256": "B7DD5D2AE7A3771E8D106DB8AA8621EFE4105A4D3D0A2B68D2EA68F129EBB011",
+      "role": "navigation",
+      "name": "turn_slight_right"
+    },
+    {
+      "original": "Transit\\default\\24\\u_turn_left.svg",
+      "sha256": "DB785896DC62A30ACC26BD8AED543727F71D269A6ADB7409C1F4ECE0980A84BB",
+      "role": "navigation",
+      "name": "u_turn_left"
+    },
+    {
+      "original": "Transit\\default\\24\\u_turn_right.svg",
+      "sha256": "9A8C4D89199D387E693EF874AA8701FF76D433798F06E4A0EB993FA36C668A9E",
+      "role": "navigation",
+      "name": "u_turn_right"
+    },
+    {
+      "original": "Transit\\default\\24\\fork_left.svg",
+      "sha256": "D3D3A5F506F5842D5F6A287388B0229442F2361562E8F22164B1F5A8E1F87F3A",
+      "role": "navigation",
+      "name": "fork_left"
+    },
+    {
+      "original": "Transit\\default\\24\\fork_right.svg",
+      "sha256": "1F0B3428CA660B659937AE853CDBA0C992E591BA753B9EF38ED2227ACBAEF364",
+      "role": "navigation",
+      "name": "fork_right"
+    },
+    {
+      "original": "Hardware\\default\\24\\merge.svg",
+      "sha256": "4DC3A142D215A583DB362938B3FA4C487F8D9F50D4DDC5FCD23FEE5FBE81838A",
+      "role": "navigation",
+      "name": "merge"
+    },
+    {
+      "original": "Hardware\\default\\24\\ramp_left.svg",
+      "sha256": "BE0870B3B1B7A7F79D66679AF92325DB1FD926CA608BE7BC8DBE886CF2405041",
+      "role": "navigation",
+      "name": "ramp_left"
+    },
+    {
+      "original": "Hardware\\default\\24\\ramp_right.svg",
+      "sha256": "D4032905B30124AAC67D44830E718020EAB39CDD976D977D6C133B23C2FA8364",
+      "role": "navigation",
+      "name": "ramp_right"
+    },
+    {
+      "original": "Hardware\\default\\24\\straight.svg",
+      "sha256": "67FE61AADFA0E9B2FE40F842907DD5A1D6CA9621C035CA443FEC247667BE1EFD",
+      "role": "navigation",
+      "name": "straight"
+    },
+    {
+      "original": "Hardware\\default\\24\\roundabout_left.svg",
+      "sha256": "792C0FE9B00D11B63577F8ADC098E213DCC01F9699A6D7937043AF17BA720C12",
+      "role": "navigation",
+      "name": "roundabout_left"
+    },
+    {
+      "original": "Hardware\\default\\24\\roundabout_right.svg",
+      "sha256": "B1C2C9CFD79FF4349D82DDD2495E58B5B5D5B92B27B362CA856308838BECD54F",
+      "role": "navigation",
+      "name": "roundabout_right"
+    },
+    {
+      "original": "Hardware\\default\\24\\route.svg",
+      "sha256": "F18E13D3715BFBAF8B8D57D650C8E7BC1E91E6F32F95451F48E3B61F8B561AD1",
+      "role": "navigation",
+      "name": "route"
+    },
+    {
+      "original": "Maps\\default\\24\\alt_route.svg",
+      "sha256": "E641AAAF0D778B10B9922CC761A885E1D21B5D0266071A109940DDDB0889462A",
+      "role": "navigation",
+      "name": "alt_route"
+    },
+    {
+      "original": "Maps\\default\\24\\directions.svg",
+      "sha256": "E8736429A51EE9DB6498858D1B7F88AE7F24E2F6AA1A93C7EAF72EAC074889C2",
+      "role": "navigation",
+      "name": "directions"
+    },
+    {
+      "original": "Maps\\default\\24\\navigation.svg",
+      "sha256": "9E51D1FE2A2DCF658DA8A07F00536AA800867BFCC367F49C59B82070A76F7C71",
+      "role": "navigation",
+      "name": "navigation"
+    },
+    {
+      "original": "Maps\\default\\24\\signpost.svg",
+      "sha256": "94A9E97055AD04F8C6E8C9E5852CB01CC21DC7215971A566CF514422A186FC08",
+      "role": "navigation",
+      "name": "signpost"
+    },
+    {
+      "original": "Transit\\default\\24\\road.svg",
+      "sha256": "22C6A7FD286B88CD1CFB1ED0856D0B51F0722836CB28B3D746B3E495501C1D70",
+      "role": "navigation",
+      "name": "road"
+    },
+    {
+      "original": "Transit\\default\\24\\unpaved_road.svg",
+      "sha256": "E089CA1A1A391F88CE1B5AA029F6F315BEFEB052720A6B9DB48C1CDCCF4A5101",
+      "role": "navigation",
+      "name": "unpaved_road"
+    },
+    {
+      "original": "Maps\\default\\24\\pin_road.svg",
+      "sha256": "6CB35EC3BA70F02F77A672626E5A146A4B1BD27DD62C343BE2C9295B105FDD5B",
+      "role": "navigation",
+      "name": "pin_road"
+    },
+    {
+      "original": "Maps\\default\\24\\multiple_stop.svg",
+      "sha256": "F9C1D2AD775ADF14D52E5733D0A20D941F7119A9FD17FF1D6FA613BACDB77A89",
+      "role": "navigation",
+      "name": "multiple_stop"
+    },
+    {
+      "original": "Maps\\default\\24\\trip_origin.svg",
+      "sha256": "96C6455A039C45B48B1F3C4A88A12936A56F42688F568BB9EB55D89C4FFC9A03",
+      "role": "navigation",
+      "name": "trip_origin"
+    },
+    {
+      "original": "Maps\\default\\24\\flag.svg",
+      "sha256": "E74DC20F968A42D8121F4DF417DE9E129D215ADF47EF57BDE7EA70131CD86700",
+      "role": "navigation",
+      "name": "flag"
+    },
+    {
+      "original": "Maps\\default\\24\\flag_check.svg",
+      "sha256": "2040C097A1CA7F29BCC664FD40C7FE71E077A5645BE6CD28698241CFC62B321C",
+      "role": "navigation",
+      "name": "flag_check"
+    },
+    {
+      "original": "Maps\\default\\24\\north.svg",
+      "sha256": "2F73C43C64E9C2089619B9DAB987B2868CDEFA1EF00292CE175B915584729CA9",
+      "role": "navigation",
+      "name": "north"
+    },
+    {
+      "original": "Maps\\default\\24\\south.svg",
+      "sha256": "A28F61A4719794894D3DEB9A9B41054B0D314B6B9348BF8AB5C9B1B3B816FD31",
+      "role": "navigation",
+      "name": "south"
+    },
+    {
+      "original": "Maps\\default\\24\\east.svg",
+      "sha256": "8AC573405DBF2926FE710B3F8E9353115D258BA2484EA66C61674A3F04DAD053",
+      "role": "navigation",
+      "name": "east"
+    },
+    {
+      "original": "Maps\\default\\24\\west.svg",
+      "sha256": "576889E795058C72AF41A76B08E89DC1322251B45FBC454A993A9000A26DE649",
+      "role": "navigation",
+      "name": "west"
+    },
+    {
+      "original": "Maps\\default\\24\\north_east.svg",
+      "sha256": "CC1BF7CEF8167639587F0FEA7CD6A03D0AFECF322F0AA0E8CF33743DD4C9C90C",
+      "role": "navigation",
+      "name": "north_east"
+    },
+    {
+      "original": "Maps\\default\\24\\north_west.svg",
+      "sha256": "9E0DA3E3964E18C55BA3C91E59A43BB88C961FB5B6DE80EFC063584B092D9C7D",
+      "role": "navigation",
+      "name": "north_west"
+    },
+    {
+      "original": "Maps\\default\\24\\south_east.svg",
+      "sha256": "3B640388AB895B3A59843C43BF87ACCF44B57228BA6D59ABD42AEEDBF7DA1F7E",
+      "role": "navigation",
+      "name": "south_east"
+    },
+    {
+      "original": "Maps\\default\\24\\south_west.svg",
+      "sha256": "DED40FEE193027C17C40F3782636BC2B2C96D05CFFBFB707D8036BC354775547",
+      "role": "navigation",
+      "name": "south_west"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\mic.svg",
+      "sha256": "5697FE9FA4C3C98C2025FF941DC29767B75041B1693F19366F7812421EF600B7",
+      "role": "controls",
+      "name": "mic"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\mic_off.svg",
+      "sha256": "03A3C360D44F033C98520EC5D10043510FEC0005298C125E39449497130C0706",
+      "role": "controls",
+      "name": "mic_off"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\volume_up.svg",
+      "sha256": "0F4B215717E8153C0BD9D84F10FA3313453FD74895DA8E7C474383D841079DF6",
+      "role": "controls",
+      "name": "volume_up"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\volume_off.svg",
+      "sha256": "CCC59FC647E858A917D87BAAB01BEB2737A1B4E61D9C466E68B212E9D6430A72",
+      "role": "controls",
+      "name": "volume_off"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\volume_down.svg",
+      "sha256": "2BA63C8A592E4A86D140252E44BC2AD72F42B2C9979DD2F5ABFF3821EB4FE8B3",
+      "role": "controls",
+      "name": "volume_down"
+    },
+    {
+      "original": "UI actions\\default\\24\\search.svg",
+      "sha256": "8D12AC6BA27A23CCF0E57794C28481CE9C978EFCB2F80BA6D2979CCDF238C993",
+      "role": "controls",
+      "name": "search"
+    },
+    {
+      "original": "UI actions\\default\\24\\close.svg",
+      "sha256": "FABC7E16160E93ED11D6D72B87F5C67092D04ABFCC1FC2410FAB1ABE075CD8FC",
+      "role": "controls",
+      "name": "close"
+    },
+    {
+      "original": "UI actions\\default\\24\\arrow_back.svg",
+      "sha256": "B9B58D54E13E0E3693A10D997C1001EC270C12EAA935F993CEE1D8C916236CEB",
+      "role": "controls",
+      "name": "arrow_back"
+    },
+    {
+      "original": "UI actions\\default\\24\\arrow_forward.svg",
+      "sha256": "8C22701BD8E563E8F8BF6B89F0FC87FBE0A38C503BFCBA196D2BA26D5644A7C5",
+      "role": "controls",
+      "name": "arrow_forward"
+    },
+    {
+      "original": "UI actions\\default\\24\\menu.svg",
+      "sha256": "440BF7BD76D77DDBD704F6FB9F5B6022ACB25C5FA6DE1E4D8A224EA25E1B5B3C",
+      "role": "controls",
+      "name": "menu"
+    },
+    {
+      "original": "UI actions\\default\\24\\more_vert.svg",
+      "sha256": "F3959916D17E6EC783267C2753BDDDFE4B3F4B12B835C875231DBBBA792F070B",
+      "role": "controls",
+      "name": "more_vert"
+    },
+    {
+      "original": "UI actions\\default\\24\\settings.svg",
+      "sha256": "6CD47DE90647ECE6B00922F497F8C4EA9C1649548CF15828D1DF9D78D5BDF30D",
+      "role": "controls",
+      "name": "settings"
+    },
+    {
+      "original": "Images\\default\\24\\tune.svg",
+      "sha256": "0AC6C5142A8B3625605295C980A2538D3685EAFA4ACDC10D3C139D8E1FAAB849",
+      "role": "controls",
+      "name": "tune"
+    },
+    {
+      "original": "Maps\\default\\24\\layers.svg",
+      "sha256": "60D86C9818101A3E8B971CFE0267DE8E125292A9897C56290A11E2A927310915",
+      "role": "controls",
+      "name": "layers"
+    },
+    {
+      "original": "Maps\\default\\24\\map.svg",
+      "sha256": "7FDCCAB6FE79C538A2EFC2A96C9EE74CD0983C88FC16D0C5D0C333EDE9AF3ADC",
+      "role": "controls",
+      "name": "map"
+    },
+    {
+      "original": "UI actions\\default\\24\\zoom_in.svg",
+      "sha256": "C8F39CD2264D80CC38C56B414F01B729EF3045B290427A652A86AEA6FF5E4AFA",
+      "role": "controls",
+      "name": "zoom_in"
+    },
+    {
+      "original": "UI actions\\default\\24\\zoom_out.svg",
+      "sha256": "42B0A29E45BFED5156E3213285D1BF3E3B4AC570635F398C5065D5AB1C402FFF",
+      "role": "controls",
+      "name": "zoom_out"
+    },
+    {
+      "original": "Maps\\default\\24\\zoom_in_map.svg",
+      "sha256": "A529846C8B652A2001F7E07F7554B6AF503B940B5967600D710BB551FBE176A5",
+      "role": "controls",
+      "name": "zoom_in_map"
+    },
+    {
+      "original": "Maps\\default\\24\\zoom_out_map.svg",
+      "sha256": "88E547D3FFAF09FC06E49B7D72B5A6E9D6EE53C2C60086A435C9A60D1FAE65E7",
+      "role": "controls",
+      "name": "zoom_out_map"
+    },
+    {
+      "original": "UI actions\\default\\24\\fullscreen.svg",
+      "sha256": "EAFD8D1B8E373D566AB5C8F57D3B2E7902DA3D5BD91B1F6A3248AF61A542A460",
+      "role": "controls",
+      "name": "fullscreen"
+    },
+    {
+      "original": "UI actions\\default\\24\\fullscreen_exit.svg",
+      "sha256": "FB0C685DCD5CE38390FB3AAD94996ED041DD6C5E885A6EA1412456FF760F0C1A",
+      "role": "controls",
+      "name": "fullscreen_exit"
+    },
+    {
+      "original": "UI actions\\default\\24\\refresh.svg",
+      "sha256": "9287665CB15B61441487CB2D579BA5630F9B249DBCAA5991E7028AA6F925EDF8",
+      "role": "controls",
+      "name": "refresh"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\replay.svg",
+      "sha256": "1D83A955B2C44904CF50E8D54C4247075C8FE81666144BD30E2EC0DF33E0B7D9",
+      "role": "controls",
+      "name": "replay"
+    },
+    {
+      "original": "UI actions\\default\\24\\restart_alt.svg",
+      "sha256": "0483E946D948CDBD0C01F316D362A14998AC5D81D029CE8BDCA3DEF36A737080",
+      "role": "controls",
+      "name": "restart_alt"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\stop.svg",
+      "sha256": "034375FD36F6401768D36FACB1660E8E81982922C48439FA77581FD620E31A95",
+      "role": "controls",
+      "name": "stop"
+    },
+    {
+      "original": "UI actions\\default\\24\\exit_to_app.svg",
+      "sha256": "F0618E12AB7CFC5233388676DF9104222B03D7A480961F49AC386B318C748C36",
+      "role": "controls",
+      "name": "exit_to_app"
+    },
+    {
+      "original": "Hardware\\default\\24\\keyboard_arrow_left.svg",
+      "sha256": "B621E8D21B9068AB30EF742DA8CAD826766B05C37EFD079A40E87C30B3AD4BE0",
+      "role": "controls",
+      "name": "keyboard_arrow_left"
+    },
+    {
+      "original": "Hardware\\default\\24\\keyboard_arrow_right.svg",
+      "sha256": "8CB67AC33F0E21E96A13B2274F21D27E96312097FEA0C5260BF979FFEA396140",
+      "role": "controls",
+      "name": "keyboard_arrow_right"
+    },
+    {
+      "original": "Android\\default\\24\\dark_mode.svg",
+      "sha256": "9B3A702EEDB8F161BA69032ECEDC8CA510771F29301176BA5499F2F8E80376E2",
+      "role": "controls",
+      "name": "dark_mode"
+    },
+    {
+      "original": "Android\\default\\24\\light_mode.svg",
+      "sha256": "C1BCB295822EFD790BF7AB38DB1ADF2D86BD12AA057D68517DF3C795EBCB1398",
+      "role": "controls",
+      "name": "light_mode"
+    },
+    {
+      "original": "Actions\\default\\24\\language.svg",
+      "sha256": "71B28A5C798BA00C4B3B331835A24C80DBFCA40036AD90183BCA759F19EE0862",
+      "role": "controls",
+      "name": "language"
+    },
+    {
+      "original": "UI actions\\default\\24\\download.svg",
+      "sha256": "93215119B09A9D51898B722EAECF71D2FDD0173A2BA36F7C7D59E806476A2BB9",
+      "role": "controls",
+      "name": "download"
+    },
+    {
+      "original": "Social\\default\\24\\share.svg",
+      "sha256": "E9E1C5403291029F683791E125C821F291925EA2BE8A565FE235C2FC4D9C356B",
+      "role": "controls",
+      "name": "share"
+    },
+    {
+      "original": "Actions\\default\\24\\bookmark.svg",
+      "sha256": "E3F352AAC96464D5338787782AAAA83F92C480A9EEFF86FA5FF8DADFA5CEA4BA",
+      "role": "controls",
+      "name": "bookmark"
+    },
+    {
+      "original": "UI actions\\default\\24\\star.svg",
+      "sha256": "C0BFA8BB656FA17290B2292100B07E1D9FF12FE7A6DBEE8BAC4B8E84ED08384C",
+      "role": "controls",
+      "name": "star"
+    },
+    {
+      "original": "UI actions\\default\\24\\favorite.svg",
+      "sha256": "94F313E198E92CF1B049540E66990139040C70EADC37BF8A5A32D12A311ACAC9",
+      "role": "controls",
+      "name": "favorite"
+    },
+    {
+      "original": "UI actions\\default\\24\\home.svg",
+      "sha256": "B29E5DEB4467A06EC02AC358516FD8E5955C0D704FBA8776F055B638CFBAB607",
+      "role": "controls",
+      "name": "home"
+    },
+    {
+      "original": "Actions\\default\\24\\history.svg",
+      "sha256": "98A0AACD0F8DE1393B7FD627F3A4958986C33009192D59F022269505DF6DBE51",
+      "role": "controls",
+      "name": "history"
+    },
+    {
+      "original": "UI actions\\default\\24\\delete.svg",
+      "sha256": "23C44049FC52EEB04334D3CCD3580A4304DF724DDA3B5B1017AB76F01A260049",
+      "role": "controls",
+      "name": "delete"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\speed.svg",
+      "sha256": "517C58EC87C6E3770C5DB9A6C4E121D7313A16B3B650870E7D27CBBC12E20F8F",
+      "role": "status",
+      "name": "speed"
+    },
+    {
+      "original": "Images\\default\\24\\timer.svg",
+      "sha256": "978252A8B7D6C37C52850BD4E7BFDDE113DCA88255D7D4E55B86682EB7593E76",
+      "role": "status",
+      "name": "timer"
+    },
+    {
+      "original": "Actions\\default\\24\\schedule.svg",
+      "sha256": "A0521EBC40EAFB5A1C02DC3C966D8F342688FAE78062B46ADE248AF94A161B28",
+      "role": "status",
+      "name": "schedule"
+    },
+    {
+      "original": "Actions\\default\\24\\update.svg",
+      "sha256": "6B17F0BFEFEFC3E196DA5E43669DF96938763E2BC51EDA099F490E80FA68AFA7",
+      "role": "status",
+      "name": "update"
+    },
+    {
+      "original": "UI actions\\default\\24\\sync.svg",
+      "sha256": "4E76B510662A3D4317205BFAC9CB8BE32178DC7EE7D89447144BF9A1D38CA7A1",
+      "role": "status",
+      "name": "sync"
+    },
+    {
+      "original": "UI actions\\default\\24\\sync_problem.svg",
+      "sha256": "EB6BBB6D6648E17B87890DAB5D6321A665CEAED26EFEC17D49E3667F776D1D32",
+      "role": "status",
+      "name": "sync_problem"
+    },
+    {
+      "original": "Android\\default\\24\\wifi.svg",
+      "sha256": "53CE93E78BA3CF702B6C13B2D57A1E9FDE9DFB12228AE401FC983CF2011DE64E",
+      "role": "status",
+      "name": "wifi"
+    },
+    {
+      "original": "Android\\default\\24\\wifi_off.svg",
+      "sha256": "F3F580A6060248AEE50857C273A34E27D1E50BB6CEF9CAA09711C659550C42B3",
+      "role": "status",
+      "name": "wifi_off"
+    },
+    {
+      "original": "Android\\default\\24\\signal_cellular_alt.svg",
+      "sha256": "3392DDDBD1A72792E2DBE91F1B77A79D44D6AA34E83CBC39339FC2FD70D97A0B",
+      "role": "status",
+      "name": "signal_cellular_alt"
+    },
+    {
+      "original": "Android\\default\\24\\signal_cellular_off.svg",
+      "sha256": "17B7C764AC7F6FD79899A101EBBA8F5FB24A4069EB165166FF708293FA7528A9",
+      "role": "status",
+      "name": "signal_cellular_off"
+    },
+    {
+      "original": "Android\\default\\24\\battery_full.svg",
+      "sha256": "AE2F6FBEF5098BF19695ACE7FD8B7405C601D1ED8346F6400E6DE45D306DA003",
+      "role": "status",
+      "name": "battery_full"
+    },
+    {
+      "original": "Android\\default\\24\\battery_alert.svg",
+      "sha256": "E4A241FF4B3B5AEC94BC222D1338928A8C9E02335540C862B1FB3677749E635B",
+      "role": "status",
+      "name": "battery_alert"
+    },
+    {
+      "original": "Android\\default\\24\\battery_charging_full.svg",
+      "sha256": "2F73014AE0B3CA718B83BCEF4F39E4ED791B82D23F9329AE8DA950709773B75B",
+      "role": "status",
+      "name": "battery_charging_full"
+    },
+    {
+      "original": "Maps\\default\\24\\location_on.svg",
+      "sha256": "594B3F4B79EF6F6D3503B38E0713459790F49805617AF85C55843C8E07276CE1",
+      "role": "status",
+      "name": "location_on"
+    },
+    {
+      "original": "Maps\\default\\24\\location_off.svg",
+      "sha256": "CE715439EA97349E73DC2D498B0958EAF3101D7360C9FE2AD18101F564FA30A9",
+      "role": "status",
+      "name": "location_off"
+    },
+    {
+      "original": "Maps\\default\\24\\location_disabled.svg",
+      "sha256": "2E7B15F65F5B66E8FA6C76EFF09797CA1A5DCC98183E121D414DD83F8F0F70A6",
+      "role": "status",
+      "name": "location_disabled"
+    },
+    {
+      "original": "Maps\\default\\24\\location_searching.svg",
+      "sha256": "8C31714A0909B15E582FBD9D2F797E3332E565B7E8CE2252339D3705F4122313",
+      "role": "status",
+      "name": "location_searching"
+    },
+    {
+      "original": "Maps\\default\\24\\my_location.svg",
+      "sha256": "636772FDB20B66556317E42C6CBB59E4CEEABB5DF0B0629F79EBF55EA62A2CF8",
+      "role": "status",
+      "name": "my_location"
+    },
+    {
+      "original": "Maps\\default\\24\\near_me.svg",
+      "sha256": "E8CCD0AB8DE2427C6ED9CEB09FA03A34B1977320EA63A150D85F7BA4042950EC",
+      "role": "status",
+      "name": "near_me"
+    },
+    {
+      "original": "Actions\\default\\24\\warning.svg",
+      "sha256": "95BF5E1BA98A9882B91453C6B084E97C66F04372FA0D3E24B81B75EC336D8EB8",
+      "role": "status",
+      "name": "warning"
+    },
+    {
+      "original": "Actions\\default\\24\\error.svg",
+      "sha256": "8FC6FEDC6C5B5BD187415134EC72950AC6E8FA658A24D0F98309E0B6C588533E",
+      "role": "status",
+      "name": "error"
+    },
+    {
+      "original": "Actions\\default\\24\\info.svg",
+      "sha256": "9ED82EEC5BC113B414DE4B30F5375E9AD38A1E7811A596CFD8671DC70536E0D8",
+      "role": "status",
+      "name": "info"
+    },
+    {
+      "original": "Actions\\default\\24\\help.svg",
+      "sha256": "0A8F9571520DC2522BE7C8C43C95E83CD50105C6212E6E1318406F4B3E1F2854",
+      "role": "status",
+      "name": "help"
+    },
+    {
+      "original": "UI actions\\default\\24\\check_circle.svg",
+      "sha256": "5C90D9AAA77EACF87ED8A5CEDB6F9A1B7EBA6EF41E6FBF7C9A1EB221AD59D2C9",
+      "role": "status",
+      "name": "check_circle"
+    },
+    {
+      "original": "UI actions\\default\\24\\cancel.svg",
+      "sha256": "B0478BDB7783DE3ECF66E19C7D4458C5A1FE92F2402AE083BE00C212CB7E947D",
+      "role": "status",
+      "name": "cancel"
+    },
+    {
+      "original": "UI actions\\default\\24\\do_not_disturb_on.svg",
+      "sha256": "60BA22A1864AF3AD135F97451C0A935911E044064BC1482024EF4507F8441B24",
+      "role": "status",
+      "name": "do_not_disturb_on"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\pause.svg",
+      "sha256": "EE1BC5589F9FF261AC504D38ED40CFAA9721188DA5878076C7FD6172CC941106",
+      "role": "status",
+      "name": "pause"
+    },
+    {
+      "original": "Audio&Video\\default\\24\\play_arrow.svg",
+      "sha256": "226815E34BC8589E63A3641FCF6B0FDAC06FC87DD9D9FEDA539F133C514878CC",
+      "role": "status",
+      "name": "play_arrow"
+    },
+    {
+      "original": "Communicate\\default\\24\\notifications.svg",
+      "sha256": "02392C5F1F11A3095E8B91FD3B7A5D3C4E26CAD986F1CF59AC285337BD61E95F",
+      "role": "status",
+      "name": "notifications"
+    },
+    {
+      "original": "Communicate\\default\\24\\notifications_off.svg",
+      "sha256": "6F45AD705EAC3E7D9F23741F469359CB7E4916E2FD16E1B024F44B5AD91B4E0B",
+      "role": "status",
+      "name": "notifications_off"
+    },
+    {
+      "original": "Privacy\\default\\24\\report.svg",
+      "sha256": "82D2EB4C9E0C338B864F020F006A9AAF7A4DF260250142C1C02D247105027E1B",
+      "role": "status",
+      "name": "report"
+    },
+    {
+      "original": "Maps\\default\\24\\crisis_alert.svg",
+      "sha256": "23F7FAE8575DC35D00ED9ABAF0568977BF4993E8BFA29A71B4EEB343FB61E7A7",
+      "role": "status",
+      "name": "crisis_alert"
+    }
+  ],
+  "removedSvgCount": 3796,
+  "originalSvgCount": 3929
+}

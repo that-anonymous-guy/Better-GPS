@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "version": "0.13.0",
+  "native_effects": [
+    "eut2.dif.spec.tsnmap.rfx",
+    "eut2.dif.spec.rfx",
+    "eut2.glass.rfx",
+    "eut2.dif.spec.add.env.rfx",
+    "eut2.dif.rfx"
+  ],
+  "exterior_material_count": 4,
+  "box_material_count": 5,
+  "cavity_zero_specular": true,
+  "cavity_normal_map": false,
+  "cavity_environment_reflection": false,
+  "housing_and_optics_environment_reflection": false,
+  "additional_ambient": 0,
+  "emissive_materials": 0,
+  "normal_map_dimensions": [
+    2048,
+    256
+  ],
+  "normal_red_stddev": 2.109584380283852,
+  "mipmaps": true,
+  "diffuse_swatches_rgb": [
+    [
+      26.44,
+      27.59,
+      29.06
+    ],
+    [
+      8,
+      8.0,
+      10
+    ],
+    [
+      63,
+      69,
+      74
+    ],
+    [
+      10.0,
+      22,
+      27
+    ],
+    [
+      2,
+      2,
+      5
+    ],
+    [
+      10.16,
+      13.6,
+      11.29
+    ],
+    [
+      76,
+      78,
+      74
+    ],
+    [
+      13.0,
+      15.98,
+      17.98
+    ]
+  ],
+  "runtime_texture_bytes": 1399117,
+  "preview_note": "Principled studio preview is not a faithful ATS renderer; final appearance requires in-game verification"
+}
