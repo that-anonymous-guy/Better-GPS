@@ -50,8 +50,6 @@ All the rest has been made by me.
 
 You can take anything you want. All PSDs will be in the assets. 
 
-Please do not make any money off this- 
-
 Tho you could fork this and code it properly if you know what you're doing. And/or just re-use any of my assets, which is precisely why I uploaded this.
 
 Some more of my work:
