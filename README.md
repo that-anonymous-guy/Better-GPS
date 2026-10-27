@@ -25,13 +25,13 @@ Code has been taken from:
     ETS2LA
     Truckermudgeon
 
-Google maps theme by predator
+Google maps theme by predator (maps were re used but not the overlays)
 https://steamcommunity.com/sharedfiles/filedetails/?id=3620096846
 
-Waze maps theme by StonesRP99
+Waze maps theme by StonesRP99 (maps were re used but not the overlays)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2941313000
 
-Garmin themes by BOBmat4
+Garmin themes by BOBmat4 (maps were re used but not the overlays)
 https://steamcommunity.com/sharedfiles/filedetails/?id=3630342905
 
 
